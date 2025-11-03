@@ -55,7 +55,6 @@
         class="modal-card-image"
         (load)="onModalImageFullyDisplayed()"
         [class.visible]="modalImageFullyDisplayed">
-      </img>
       <!-- Loading spinner -->
       <div 
         *ngIf="!modalImageLoaded || !modalImageFullyDisplayed" 
