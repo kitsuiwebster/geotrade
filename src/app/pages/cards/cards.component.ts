@@ -29,7 +29,7 @@ export class CardsComponent implements OnInit, AfterViewInit {
   searchTerm: string = '';
   
   // Infinite scroll properties
-  private cardsPerLoad = 30;
+  private cardsPerLoad = 15;
   private currentIndex = 0;
   isLoadingMore = false;
   private containerElement?: HTMLElement;

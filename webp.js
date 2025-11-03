@@ -30,11 +30,11 @@ function optimizeImages(dir) {
       const finalOutputPath = path.join(path.dirname(outputPath), outputName);
       
       sharp(fullPath)
-        .resize(300, 200, { 
+        .resize(120, 80, { 
           fit: 'cover',
           withoutEnlargement: true 
         })
-        .webp({ quality: 60 })
+        .webp({ quality: 30, effort: 6 })
         .toFile(finalOutputPath)
         .then(() => {
           console.log(`✓ Optimized: ${relativeFile} -> ${path.relative('.', finalOutputPath)}`);
@@ -46,6 +46,6 @@ function optimizeImages(dir) {
   });
 }
 
-console.log('🔄 Starting image optimization...');
+console.log('🔄 Starting ultra-fast image optimization...');
 optimizeImages(inputDir);
-console.log('✅ Image optimization completed!');
+console.log('✅ Ultra-fast optimization completed!');
