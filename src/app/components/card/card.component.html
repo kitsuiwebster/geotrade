@@ -48,14 +48,17 @@
         [class.hidden]="modalImageLoaded">
       </div>
       <!-- Image HD -->
-      <div 
+      <img 
         *ngIf="modalImageLoaded"
+        [src]="modalImageSrc"
+        [alt]="card.nom"
         class="modal-card-image"
-        [style.background-image]="'url(' + modalImageSrc + ')'">
-      </div>
+        (load)="onModalImageFullyDisplayed()"
+        [class.visible]="modalImageFullyDisplayed">
+      </img>
       <!-- Loading spinner -->
       <div 
-        *ngIf="!modalImageLoaded" 
+        *ngIf="!modalImageLoaded || !modalImageFullyDisplayed" 
         class="modal-loading-spinner">
         <div class="modal-spinner"></div>
       </div>

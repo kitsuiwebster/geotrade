@@ -17,6 +17,7 @@ export class CardComponent implements OnInit, OnDestroy {
   imageLoaded = false;
   thumbnailLoaded = false;
   modalImageLoaded = false;
+  modalImageFullyDisplayed = false;
   modalImageSrc = '';
   private useFallback = false;
   private observer?: IntersectionObserver;
@@ -62,6 +63,7 @@ export class CardComponent implements OnInit, OnDestroy {
   openModal() {
     this.isModalOpen = true;
     this.modalImageLoaded = false;
+    this.modalImageFullyDisplayed = false;
     document.body.style.overflow = 'hidden';
     
     const img = new Image();
@@ -82,6 +84,10 @@ export class CardComponent implements OnInit, OnDestroy {
         this.modalImageLoaded = true;
       }
     }, 1500);
+  }
+
+  onModalImageFullyDisplayed() {
+    this.modalImageFullyDisplayed = true;
   }
 
   onThumbnailLoad() {
