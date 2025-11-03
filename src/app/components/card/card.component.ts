@@ -62,6 +62,22 @@ export class CardComponent implements OnInit, OnDestroy {
     this.isModalOpen = true;
     this.modalImageLoaded = false;
     document.body.style.overflow = 'hidden';
+    
+    // Précharger l'image HD et gérer le chargement
+    const img = new Image();
+    img.onload = () => {
+      this.modalImageLoaded = true;
+    };
+    img.onerror = () => {
+      // Si l'image échoue, l'afficher quand même
+      this.modalImageLoaded = true;
+    };
+    img.src = this.getFullImageUrl();
+    
+    // Timeout de sécurité au cas où
+    setTimeout(() => {
+      this.modalImageLoaded = true;
+    }, 3000);
   }
 
   onThumbnailLoad() {
