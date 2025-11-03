@@ -5,11 +5,18 @@
       *ngIf="imageLoaded" 
       [src]="getSmallImageUrl()" 
       [alt]="card.nom" 
-      class="card-image">
+      class="card-image"
+      (load)="onThumbnailLoad()"
+      (error)="onThumbnailError($event)">
     <div 
       *ngIf="!imageLoaded" 
       class="card-image-placeholder">
       <div class="placeholder-content">📸</div>
+    </div>
+    <div 
+      *ngIf="imageLoaded && !thumbnailLoaded" 
+      class="image-loading-spinner">
+      <div class="spinner"></div>
     </div>
   </div>
   <div class="card-content">
@@ -34,7 +41,24 @@
     <button class="modal-close" (click)="closeModal()">&times;</button>
     <div class="modal-card-type-indicator"></div>
     <div class="modal-card-image-container">
-      <img [src]="getFullImageUrl()" [alt]="card.nom" class="modal-card-image">
+      <img 
+        *ngIf="modalImageLoaded"
+        [src]="getFullImageUrl()" 
+        [alt]="card.nom" 
+        class="modal-card-image"
+        (load)="onModalImageLoad()">
+      <img 
+        *ngIf="!modalImageLoaded"
+        [src]="getFullImageUrl()" 
+        [alt]="card.nom" 
+        class="modal-card-image hidden"
+        (load)="onModalImageLoad()">
+      <div 
+        *ngIf="!modalImageLoaded" 
+        class="modal-loading-spinner">
+        <div class="modal-spinner"></div>
+        <div class="loading-text">Loading HD image...</div>
+      </div>
     </div>
     <div class="modal-card-content">
       <h3 class="modal-card-name" [class.long-name]="card.nom === 'St-Christophe-et-Niévès' || card.nom === 'St-Vincent-et-les-Grenadines' || card.nom === 'République centrafricaine' || card.nom === 'Îles Vierges américaines' || card.nom === 'Îles Vierges britanniques' || card.nom === 'Saint-Pierre-et-Miquelon' || card.nom === 'Îles Turques-et-Caïques' || card.nom === 'Nouvelle-Calédonie' || card.nom === 'Polynésie française' || card.nom === 'Saint-Barthélemy'">

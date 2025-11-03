@@ -15,6 +15,9 @@ export class CardComponent implements OnInit, OnDestroy {
   
   isModalOpen = false;
   imageLoaded = false;
+  thumbnailLoaded = false;
+  modalImageLoaded = false;
+  private useFallback = false;
   private observer?: IntersectionObserver;
 
   constructor(private elementRef: ElementRef) {}
@@ -40,8 +43,8 @@ export class CardComponent implements OnInit, OnDestroy {
         });
       },
       {
-        rootMargin: '50px',
-        threshold: 0.01
+        rootMargin: '100px',
+        threshold: 0.1
       }
     );
 
@@ -57,7 +60,22 @@ export class CardComponent implements OnInit, OnDestroy {
 
   openModal() {
     this.isModalOpen = true;
+    this.modalImageLoaded = false;
     document.body.style.overflow = 'hidden';
+  }
+
+  onThumbnailLoad() {
+    this.thumbnailLoaded = true;
+  }
+
+  onThumbnailError(event: any) {
+    // Si la thumbnail échoue, utiliser l'image originale
+    this.useFallback = true;
+    event.target.src = this.card.image;
+  }
+
+  onModalImageLoad() {
+    this.modalImageLoaded = true;
   }
 
   closeModal() {
@@ -140,8 +158,8 @@ export class CardComponent implements OnInit, OnDestroy {
   }
 
   getSmallImageUrl(): string {
-    // Utiliser les thumbnails WebP pour les cartes de la liste
-    return this.generateThumbnailUrl(this.card.image);
+    // Utiliser les thumbnails WebP pour les cartes de la liste, fallback vers l'originale
+    return this.useFallback ? this.card.image : this.generateThumbnailUrl(this.card.image);
   }
 
   getFullImageUrl(): string {
