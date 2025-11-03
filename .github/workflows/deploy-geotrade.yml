@@ -19,10 +19,10 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: yarn install
 
       - name: Install Angular CLI globally
-        run: npm install -g @angular/cli
+        run: yarn global add @angular/cli
 
       - name: Build Angular app
         run: ng build --output-path=dist/geotrade/
