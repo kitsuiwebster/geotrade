@@ -486,10 +486,10 @@
       z-index: 2;
       
       .modal-spinner {
-        width: 25px;
-        height: 25px;
-        border: 3px solid rgba(0, 201, 167, 0.3);
-        border-top: 3px solid #00c9a7;
+        width: 16px;
+        height: 16px;
+        border: 2px solid rgba(0, 201, 167, 0.3);
+        border-top: 2px solid #00c9a7;
         border-radius: 50%;
         animation: spin 1s linear infinite;
       }
