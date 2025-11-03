@@ -140,13 +140,31 @@ export class CardComponent implements OnInit, OnDestroy {
   }
 
   getSmallImageUrl(): string {
-    // Pour l'instant, utiliser l'image originale (on peut optimiser plus tard)
-    return this.card.image;
+    // Utiliser les thumbnails WebP pour les cartes de la liste
+    return this.generateThumbnailUrl(this.card.image);
   }
 
   getFullImageUrl(): string {
-    // Retourner l'image en taille originale
+    // Retourner l'image en taille originale pour le modal
     return this.card.image;
+  }
+
+  private generateThumbnailUrl(originalUrl: string): string {
+    // Pour les images locales, utiliser la version thumbnail si elle existe
+    if (originalUrl.includes('assets/images/cards/')) {
+      // Remplacer l'extension par .webp et ajouter le dossier thumbnails
+      const pathParts = originalUrl.split('/');
+      const filename = pathParts[pathParts.length - 1];
+      const nameWithoutExt = filename.split('.')[0];
+      const directory = pathParts.slice(0, -1).join('/');
+      
+      // Créer le chemin vers la thumbnail
+      const thumbnailPath = directory.replace('/cards/', '/cards/thumbnails/') + '/' + nameWithoutExt + '.webp';
+      
+      // Vérifier si la thumbnail existe (pour l'instant, on assume qu'elle existe)
+      return thumbnailPath;
+    }
+    return originalUrl;
   }
 
   getFlagUrl(): string | null {
