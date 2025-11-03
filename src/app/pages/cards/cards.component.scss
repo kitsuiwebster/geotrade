@@ -30,6 +30,15 @@
             align-items: center;
         }
 
+        .card-count {
+            color: #00c9a7;
+            font-family: "Courier New", monospace;
+            font-size: 14px;
+            font-weight: 600;
+            margin-right: 15px;
+            text-shadow: 0 0 10px rgba(0, 201, 167, 0.3);
+        }
+
         .download-btn, .filter-btn {
             background: linear-gradient(135deg, #00c9a7 0%, #20b2aa 100%);
             color: #fff;
@@ -272,6 +281,11 @@
                 justify-content: center;
                 flex-wrap: wrap;
                 gap: 10px;
+            }
+
+            .card-count {
+                font-size: 12px;
+                margin-right: 10px;
             }
             
             .download-btn, .filter-btn {
