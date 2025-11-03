@@ -17,6 +17,7 @@ export class CardComponent implements OnInit, OnDestroy {
   imageLoaded = false;
   thumbnailLoaded = false;
   modalImageLoaded = false;
+  modalImageSrc = '';
   private useFallback = false;
   private observer?: IntersectionObserver;
 
@@ -63,21 +64,25 @@ export class CardComponent implements OnInit, OnDestroy {
     this.modalImageLoaded = false;
     document.body.style.overflow = 'hidden';
     
-    // Précharger l'image HD et gérer le chargement
+    // Précharger l'image HD complètement avant de l'afficher
     const img = new Image();
     img.onload = () => {
+      // Une fois complètement chargée, on l'affiche
+      this.modalImageSrc = this.getFullImageUrl();
       this.modalImageLoaded = true;
     };
     img.onerror = () => {
-      // Si l'image échoue, l'afficher quand même
+      // Si l'image échoue, utiliser l'originale quand même
+      this.modalImageSrc = this.getFullImageUrl();
       this.modalImageLoaded = true;
     };
     img.src = this.getFullImageUrl();
     
-    // Timeout de sécurité au cas où
+    // Timeout de sécurité
     setTimeout(() => {
+      this.modalImageSrc = this.getFullImageUrl();
       this.modalImageLoaded = true;
-    }, 3000);
+    }, 5000);
   }
 
   onThumbnailLoad() {

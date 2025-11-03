@@ -43,21 +43,13 @@
     <div class="modal-card-image-container">
       <img 
         *ngIf="modalImageLoaded"
-        [src]="getFullImageUrl()" 
+        [src]="modalImageSrc" 
         [alt]="card.nom" 
-        class="modal-card-image"
-        (load)="onModalImageLoad()">
-      <img 
-        *ngIf="!modalImageLoaded"
-        [src]="getFullImageUrl()" 
-        [alt]="card.nom" 
-        class="modal-card-image hidden"
-        (load)="onModalImageLoad()">
+        class="modal-card-image">
       <div 
         *ngIf="!modalImageLoaded" 
         class="modal-loading-spinner">
         <div class="modal-spinner"></div>
-        <div class="loading-text">Loading HD image...</div>
       </div>
     </div>
     <div class="modal-card-content">
