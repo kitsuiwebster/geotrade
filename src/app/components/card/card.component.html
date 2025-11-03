@@ -41,11 +41,11 @@
     <button class="modal-close" (click)="closeModal()">&times;</button>
     <div class="modal-card-type-indicator"></div>
     <div class="modal-card-image-container">
-      <img 
+      <div 
         *ngIf="modalImageLoaded"
-        [src]="modalImageSrc" 
-        [alt]="card.nom" 
-        class="modal-card-image">
+        class="modal-card-image"
+        [style.background-image]="'url(' + modalImageSrc + ')'">
+      </div>
       <div 
         *ngIf="!modalImageLoaded" 
         class="modal-loading-spinner">
