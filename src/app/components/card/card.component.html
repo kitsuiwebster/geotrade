@@ -1,0 +1,54 @@
+<div class="card" [id]="id" [attr.data-type]="card.type" (click)="openModal()">
+  <div class="card-type-indicator"></div>
+  <div class="card-image-container">
+    <img 
+      *ngIf="imageLoaded" 
+      [src]="getSmallImageUrl()" 
+      [alt]="card.nom" 
+      class="card-image">
+    <div 
+      *ngIf="!imageLoaded" 
+      class="card-image-placeholder">
+      <div class="placeholder-content">📸</div>
+    </div>
+  </div>
+  <div class="card-content">
+    <h3 class="card-name" [class.long-name]="card.nom === 'St-Christophe-et-Niévès' || card.nom === 'St-Vincent-et-les-Grenadines' || card.nom === 'République centrafricaine' || card.nom === 'Îles Vierges américaines' || card.nom === 'Îles Vierges britanniques' || card.nom === 'Saint-Pierre-et-Miquelon' || card.nom === 'Îles Turques-et-Caïques' || card.nom === 'Nouvelle-Calédonie' || card.nom === 'Polynésie française' || card.nom === 'Saint-Barthélemy'">
+      <span>{{ card.nom }}</span>
+      <div class="card-flag-inline" *ngIf="getFlagUrl() && imageLoaded">
+        <img [src]="getFlagUrl()" [alt]="card.nom + ' flag'" class="flag-image">
+      </div>
+    </h3>
+    <p class="card-location">{{ card.localisation }}</p>
+    <div class="card-info-container" *ngIf="getCardInfoLabel()">
+      <span class="card-info-label">{{ getCardInfoLabel() }}</span>
+      <span class="card-info-value">{{ getCardInfoValue() }}</span>
+    </div>
+    <p class="card-type">{{ card.type }}</p>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal-overlay" [class.active]="isModalOpen" (click)="closeModal()">
+  <div class="modal-card" [attr.data-type]="card.type" (click)="$event.stopPropagation()">
+    <button class="modal-close" (click)="closeModal()">&times;</button>
+    <div class="modal-card-type-indicator"></div>
+    <div class="modal-card-image-container">
+      <img [src]="getFullImageUrl()" [alt]="card.nom" class="modal-card-image">
+    </div>
+    <div class="modal-card-content">
+      <h3 class="modal-card-name" [class.long-name]="card.nom === 'St-Christophe-et-Niévès' || card.nom === 'St-Vincent-et-les-Grenadines' || card.nom === 'République centrafricaine' || card.nom === 'Îles Vierges américaines' || card.nom === 'Îles Vierges britanniques' || card.nom === 'Saint-Pierre-et-Miquelon' || card.nom === 'Îles Turques-et-Caïques' || card.nom === 'Nouvelle-Calédonie' || card.nom === 'Polynésie française' || card.nom === 'Saint-Barthélemy'">
+        <span>{{ card.nom }}</span>
+        <div class="modal-card-flag-inline" *ngIf="getFlagUrl()">
+          <img [src]="getFlagUrl()" [alt]="card.nom + ' flag'" class="flag-image">
+        </div>
+      </h3>
+      <p class="modal-card-location">{{ card.localisation }}</p>
+      <div class="modal-card-info-container" *ngIf="getCardInfoLabel()">
+        <span class="modal-card-info-label">{{ getCardInfoLabel() }}</span>
+        <span class="modal-card-info-value">{{ getCardInfoValue() }}</span>
+      </div>
+      <p class="modal-card-type">{{ card.type }}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+import { Card } from '../../interfaces/card.interface';
+
+export const dominiqueCitiesData: Card[] = [
+  {
+    type: "City",
+    image: "assets/images/cards/city/roseau.jpg",
+    nom: "Roseau",
+    localisation: "Dominica",
+    continent: "Central America",
+    population: "15 K",
+    agglomeration: "15 K"
+  }
+];

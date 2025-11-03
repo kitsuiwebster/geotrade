@@ -1,0 +1,99 @@
+CORRECTIONS SUGGÉRÉES POUR LES INCOHÉRENCES POPULATION/AGGLOMÉRATION
+
+=== CORRECTIONS URGENTES ===
+
+1. FICHIER: india.data.ts
+   VILLE: Delhi
+   PROBLÈME: Population incorrecte (295 K au lieu de ~11.7 M)
+   
+   AVANT:
+   population: "295 K",
+   agglomeration: "32.9 M"
+   
+   APRÈS:
+   population: "11.7 M",
+   agglomeration: "32.9 M"
+
+=== CORRECTIONS RECOMMANDÉES ===
+
+2. FICHIER: australia.data.ts
+   VILLE: Sydney
+   PROBLÈME: Agglomération devrait être légèrement plus grande
+   
+   AVANT:
+   population: "5.31 M",
+   agglomeration: "5.31 M"
+   
+   APRÈS:
+   population: "5.31 M",
+   agglomeration: "5.4 M"
+
+=== À VÉRIFIER (RECHERCHE RECOMMANDÉE) ===
+
+3. FICHIER: vietnam.data.ts (supposé)
+   VILLE: Hanoi
+   DONNÉES ACTUELLES: 8.2 M (pop = agglo)
+   SUGGESTION: Vérifier si l'agglomération du Grand Hanoi est plus large
+
+4. FICHIER: saudi-arabia.data.ts (supposé)
+   VILLE: Riyadh
+   DONNÉES ACTUELLES: 7.7 M (pop = agglo)
+   SUGGESTION: Vérifier la région métropolitaine de Riyadh
+
+5. FICHIER: iraq.data.ts (supposé)
+   VILLE: Baghdad
+   DONNÉES ACTUELLES: 7.7 M (pop = agglo)
+   SUGGESTION: Vérifier la région métropolitaine de Baghdad
+
+=== CAS SPÉCIAUX (PROBABLEMENT CORRECTS) ===
+
+6. FICHIER: singapore.data.ts
+   VILLE: Singapore
+   DONNÉES: 6.0 M (pop = agglo)
+   STATUT: ✅ CORRECT (cité-État)
+
+7. FICHIER: australia.data.ts
+   VILLE: Canberra
+   DONNÉES: 0.46 M (pop = agglo)
+   STATUT: ✅ CORRECT (ville administrative planifiée)
+
+=== RÉFÉRENCES POUR CORRECTIONS ===
+
+Agglomérations mondiales de référence:
+- Tokyo: 37.4 M (Greater Tokyo Area)
+- Delhi: 32.9 M (National Capital Territory)
+- Shanghai: ~28 M
+- São Paulo: ~22.4 M
+- Mexico City: 22.5 M (Valle de México)
+- Cairo: ~20.9 M
+- Mumbai: ~20.4 M
+- Beijing: 21.89 M
+- Osaka: ~19.2 M
+- New York: ~20.1 M
+- London: 15.80 M (Greater London)
+- Istanbul: ~15.8 M
+- Buenos Aires: ~15.2 M
+- Lagos: ~15.3 M
+- Manila: ~13.9 M
+- Rio de Janeiro: ~12.7 M
+- Paris: 12.27 M (Île-de-France)
+- Kinshasa: ~15 M
+- Moscow: ~12.5 M
+- Bangkok: ~10.5 M
+- Jakarta: ~10.6 M
+
+=== MÉTHODOLOGIE DE CORRECTION ===
+
+1. Population = Limite administrative de la ville/municipalité
+2. Agglomération = Zone métropolitaine/urbaine étendue
+3. Sources recommandées:
+   - ONU World Urbanization Prospects
+   - Banque Mondiale
+   - Instituts nationaux de statistiques
+   - Eurostat (pour l'Europe)
+
+=== PRIORITÉS ===
+
+URGENT: Delhi (erreur de saisie évidente)
+IMPORTANT: Sydney (grande métropole connue)
+À VÉRIFIER: Hanoi, Riyadh, Baghdad (grandes villes qui pourraient avoir des agglomérations plus larges)

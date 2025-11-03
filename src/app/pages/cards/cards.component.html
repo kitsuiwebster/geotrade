@@ -1,0 +1,84 @@
+<div class='all-cards-container'>
+  <div class='header'>
+    <h1 class='header-title'>GeoTrade</h1>
+    <div class='buttons-container'>
+      <div *ngIf="isLoading" class="loading" style="color: white; text-align: center; font-size: 16px; margin-right: 10px;">
+        Preparing download... {{ Math.round(progress) }}%
+      </div>
+      <button class='download-btn' (click)="downloadAllCards()" [disabled]="isLoading">
+        <span class="btn-icon">📥</span>
+        <span class="btn-text">Download</span>
+      </button>
+      <button class='filter-btn' (click)="toggleFilters()">
+        <span class="btn-icon">🔧</span>
+        <span class="btn-text">Filters</span>
+        <span class="btn-arrow">{{ showFilters ? '▲' : '▼' }}</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Search Bar - Always Visible -->
+  <div class='search-section'>
+    <div class='search-container'>
+      <input 
+        type="text" 
+        class='search-input'
+        placeholder="Search a card (name, place, type, continent...)"
+        [(ngModel)]="searchTerm" 
+        (input)="applyFilters()"
+      />
+      <span class='search-icon'>🔍</span>
+    </div>
+  </div>
+  
+  <div class='filters-container' *ngIf="showFilters">
+    <div class='filters-section'>
+      <h3>Card Types</h3>
+      <div class='filter-group'>
+        <label *ngFor="let filter of typeFilters" class='filter-item'>
+          <input 
+            type="checkbox" 
+            [(ngModel)]="filter.checked" 
+            (change)="applyFilters()"
+          />
+          <span>{{ filter.label }}</span>
+        </label>
+      </div>
+    </div>
+    
+    <div class='filters-section'>
+      <h3>Continents</h3>
+      <div class='filter-group'>
+        <label *ngFor="let filter of continentFilters" class='filter-item'>
+          <input 
+            type="checkbox" 
+            [(ngModel)]="filter.checked" 
+            (change)="applyFilters()"
+          />
+          <span>{{ filter.label }}</span>
+        </label>
+      </div>
+    </div>
+    
+    <div class='filters-actions'>
+      <button class='clear-filters-btn' (click)="clearAllFilters()">
+        Clear all filters
+      </button>
+    </div>
+  </div>
+  
+  <div class='cards-grid'>
+    <app-card 
+      *ngFor="let card of displayedCards" 
+      [card]="card" 
+      [id]="'card-' + card.nom"
+      class="card-box">
+    </app-card>
+  </div>
+  
+  <!-- Loading indicator -->
+  <div *ngIf="isLoadingMore" class="loading-more">
+    <div class="loading-spinner">⏳</div>
+    <p>Loading more cards...</p>
+  </div>
+</div>

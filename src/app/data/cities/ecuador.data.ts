@@ -1,0 +1,13 @@
+import { Card } from '../../interfaces/card.interface';
+
+export const equateurCitiesData: Card[] = [
+  {
+    type: "City",
+    image: "assets/images/cards/city/quito.jpg",
+    nom: "Quito",
+    localisation: "Ecuador",
+    continent: "South America",
+    population: "2.0 M",
+    agglomeration: "2.8 M"
+  }
+];

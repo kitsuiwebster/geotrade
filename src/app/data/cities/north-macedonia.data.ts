@@ -1,0 +1,13 @@
+import { Card } from '../../interfaces/card.interface';
+
+export const northMacedoniaCitiesData: Card[] = [
+  {
+    type: "City",
+    image: "assets/images/cards/city/skopje.png",
+    nom: "Skopje",
+    localisation: "North Macedonia",
+    continent: "Europe",
+    population: "544 K",
+    agglomeration: "544 K"
+  }
+];
