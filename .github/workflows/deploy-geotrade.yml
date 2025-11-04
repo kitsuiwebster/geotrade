@@ -24,6 +24,9 @@ jobs:
       - name: Install Angular CLI globally
         run: yarn global add @angular/cli
 
+      - name: Generate WebP thumbnails
+        run: node webp.js
+
       - name: Build Angular app
         run: ng build --output-path=dist/geotrade/
         
