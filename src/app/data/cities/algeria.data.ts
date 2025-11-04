@@ -44,7 +44,7 @@ export const algerieCitiesData: Card[] = [
     localisation: "Algeria",
     continent: "Africa",
     population: "0.29 M",
-    agglomeration: "0.29 M"
+    agglomeration: "0.39 M"
   },
   {
     type: "City",
@@ -53,7 +53,7 @@ export const algerieCitiesData: Card[] = [
     localisation: "Algeria",
     continent: "Africa",
     population: "0.33 M",
-    agglomeration: "0.33 M"
+    agglomeration: "0.55 M"
   },
   {
     type: "City",
@@ -62,7 +62,7 @@ export const algerieCitiesData: Card[] = [
     localisation: "Algeria",
     continent: "Africa",
     population: "0.29 M",
-    agglomeration: "0.29 M"
+    agglomeration: "0.41 M"
   },
   {
     type: "City",
@@ -71,7 +71,7 @@ export const algerieCitiesData: Card[] = [
     localisation: "Algeria",
     continent: "Africa",
     population: "0.27 M",
-    agglomeration: "0.27 M"
+    agglomeration: "0.35 M"
   },
   {
     type: "City",
@@ -80,7 +80,7 @@ export const algerieCitiesData: Card[] = [
     localisation: "Algeria",
     continent: "Africa",
     population: "0.21 M",
-    agglomeration: "0.21 M"
+    agglomeration: "0.28 M"
   },
   {
     type: "City",
@@ -89,7 +89,7 @@ export const algerieCitiesData: Card[] = [
     localisation: "Algeria",
     continent: "Africa",
     population: "0.20 M",
-    agglomeration: "0.20 M"
+    agglomeration: "0.31 M"
   },
   {
     type: "City",
@@ -98,6 +98,6 @@ export const algerieCitiesData: Card[] = [
     localisation: "Algeria",
     continent: "Africa",
     population: "0.19 M",
-    agglomeration: "0.19 M"
+    agglomeration: "0.25 M"
   }
 ];
