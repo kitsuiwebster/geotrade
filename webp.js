@@ -30,10 +30,12 @@ function optimizeImages(dir) {
       const finalOutputPath = path.join(path.dirname(outputPath), outputName);
       
       // Skip if webp already exists
+      console.log(`🔍 Checking: ${finalOutputPath}`);
       if (fs.existsSync(finalOutputPath)) {
         console.log(`⏭️ Skipped (already exists): ${relativeFile}`);
         return;
       }
+      console.log(`🆕 Will create: ${relativeFile}`);
       
       sharp(fullPath)
         .resize(240, 160, { 
