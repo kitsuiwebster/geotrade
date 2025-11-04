@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const canadaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/ottawa.webp",
+    image: "assets/images/cards/city/canada/ottawa.webp",
     nom: "Ottawa",
     localisation: "Canada",
     continent: "North America",

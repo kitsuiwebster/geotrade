@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const rwandaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/kigali.webp",
+    image: "assets/images/cards/city/rwanda/kigali.webp",
     nom: "Kigali",
     localisation: "Rwanda",
     continent: "Africa",

@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const estoniaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/tallinn.jpg",
+    image: "assets/images/cards/city/estonia/tallinn.jpg",
     nom: "Tallinn",
     localisation: "Estonia",
     continent: "Europe",

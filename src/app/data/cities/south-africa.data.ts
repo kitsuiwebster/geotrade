@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const afriqueDuSudCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/cape-town.jpg",
+    image: "assets/images/cards/city/south-africa/cape-town.jpg",
     nom: "Cape Town",
     localisation: "South Africa",
     continent: "Africa",
@@ -12,7 +12,7 @@ export const afriqueDuSudCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/johannesburg.avif",
+    image: "assets/images/cards/city/south-africa/johannesburg.avif",
     nom: "Johannesburg",
     localisation: "South Africa",
     continent: "Africa",

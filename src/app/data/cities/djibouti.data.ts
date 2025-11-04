@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const djiboutiCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/djibouti.webp",
+    image: "assets/images/cards/city/djibouti/djibouti.webp",
     nom: "Djibouti",
     localisation: "Djibouti",
     continent: "Africa",

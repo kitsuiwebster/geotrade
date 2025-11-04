@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const bruneiCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/bandar-seri-begawan.webp",
+    image: "assets/images/cards/city/brunei/bandar-seri-begawan.webp",
     nom: "Bandar Seri Begawan",
     localisation: "Brunei",
     continent: "Asia",

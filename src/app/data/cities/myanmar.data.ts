@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const myanmarCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/naypyidaw.jpg",
+    image: "assets/images/cards/city/myanmar/naypyidaw.jpg",
     nom: "Naypyidaw",
     localisation: "Myanmar",
     continent: "Asia",

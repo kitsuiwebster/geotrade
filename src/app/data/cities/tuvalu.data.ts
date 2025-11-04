@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const tuvaluCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/funafuti.jpg",
+    image: "assets/images/cards/city/tuvalu/funafuti.jpg",
     nom: "Funafuti",
     localisation: "Tuvalu",
     continent: "Oceania",

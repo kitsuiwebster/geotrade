@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const tanzanieCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/dodoma.png",
+    image: "assets/images/cards/city/tanzania/dodoma.png",
     nom: "Dodoma",
     localisation: "Tanzania",
     continent: "Africa",

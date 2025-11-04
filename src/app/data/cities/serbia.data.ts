@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const serbiaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/belgrade.avif",
+    image: "assets/images/cards/city/serbia/belgrade.avif",
     nom: "Belgrade",
     localisation: "Serbia",
     continent: "Europe",

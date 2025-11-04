@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const nepalCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/kathmandu.webp",
+    image: "assets/images/cards/city/nepal/kathmandu.webp",
     nom: "Kathmandu",
     localisation: "Nepal",
     continent: "Asia",

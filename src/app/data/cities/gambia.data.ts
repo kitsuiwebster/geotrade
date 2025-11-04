@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const gambieCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/banjul.jpg",
+    image: "assets/images/cards/city/gambia/banjul.jpg",
     nom: "Banjul",
     localisation: "Gambia",
     continent: "Africa",

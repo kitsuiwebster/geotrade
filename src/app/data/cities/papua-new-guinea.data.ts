@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const papouasienouvelleguineeCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/port-moresby.jpg",
+    image: "assets/images/cards/city/papua-new-guinea/port-moresby.jpg",
     nom: "Port Moresby",
     localisation: "Papua New Guinea",
     continent: "Oceania",

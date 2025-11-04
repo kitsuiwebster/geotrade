@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const comoresCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/moroni.jpg",
+    image: "assets/images/cards/city/comoros/moroni.jpg",
     nom: "Moroni",
     localisation: "Comoros",
     continent: "Africa",

@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const burundiCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/gitega.jpg",
+    image: "assets/images/cards/city/burundi/gitega.jpg",
     nom: "Gitega",
     localisation: "Burundi",
     continent: "Africa",

@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const chineCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/beijing.jpg",
+    image: "assets/images/cards/city/china/beijing.jpg",
     nom: "Beijing",
     localisation: "China",
     continent: "Asia",

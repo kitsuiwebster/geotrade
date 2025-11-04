@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const portugalCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/lisbonne.jpg",
+    image: "assets/images/cards/city/portugal/lisbonne.jpg",
     nom: "Lisbon",
     localisation: "Portugal",
     continent: "Europe",

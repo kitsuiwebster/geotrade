@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const croatiaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/zagreb.avif",
+    image: "assets/images/cards/city/croatia/zagreb.avif",
     nom: "Zagreb",
     localisation: "Croatia",
     continent: "Europe",

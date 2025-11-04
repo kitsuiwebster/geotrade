@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const maliCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/bamako.jpg",
+    image: "assets/images/cards/city/mali/bamako.jpg",
     nom: "Bamako",
     localisation: "Mali",
     continent: "Africa",

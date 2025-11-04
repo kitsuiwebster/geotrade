@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const ouzbekistanCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/tashkent.jpg",
+    image: "assets/images/cards/city/uzbekistan/tashkent.jpg",
     nom: "Tashkent",
     localisation: "Uzbekistan",
     continent: "Asia",

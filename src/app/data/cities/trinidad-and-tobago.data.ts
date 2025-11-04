@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const triniteettobagoCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/port-of-spain.jpg",
+    image: "assets/images/cards/city/trinidad-and-tobago/port-of-spain.jpg",
     nom: "Port of Spain",
     localisation: "Trinidad and Tobago",
     continent: "Central America",

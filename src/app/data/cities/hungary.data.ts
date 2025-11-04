@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const hungaryCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/budapest.jpg",
+    image: "assets/images/cards/city/hungary/budapest.jpg",
     nom: "Budapest",
     localisation: "Hungary",
     continent: "Europe",

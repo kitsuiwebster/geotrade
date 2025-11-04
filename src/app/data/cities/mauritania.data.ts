@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const mauritanieCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/nouakchott.jpg",
+    image: "assets/images/cards/city/mauritania/nouakchott.jpg",
     nom: "Nouakchott",
     localisation: "Mauritania",
     continent: "Africa",

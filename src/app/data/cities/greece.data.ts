@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const greeceCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/athenes.jpg",
+    image: "assets/images/cards/city/greece/athenes.jpg",
     nom: "Athens",
     localisation: "Greece",
     continent: "Europe",

@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const bolivieCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/sucre.webp",
+    image: "assets/images/cards/city/bolivia/sucre.webp",
     nom: "Sucre",
     localisation: "Bolivia",
     continent: "South America",
@@ -12,7 +12,7 @@ export const bolivieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/la-paz.jpg",
+    image: "assets/images/cards/city/bolivia/la-paz.jpg",
     nom: "La Paz",
     localisation: "Bolivia",
     continent: "South America",

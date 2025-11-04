@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const tadjikistanCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/dushanbe.jpg",
+    image: "assets/images/cards/city/tajikistan/dushanbe.jpg",
     nom: "Dushanbe",
     localisation: "Tajikistan",
     continent: "Asia",

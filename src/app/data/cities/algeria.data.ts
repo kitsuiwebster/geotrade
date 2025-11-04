@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const algerieCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/algiers.webp",
+    image: "assets/images/cards/city/algeria/algiers.webp",
     nom: "Algiers",
     localisation: "Algeria",
     continent: "Africa",
@@ -12,7 +12,7 @@ export const algerieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/oran.jpg",
+    image: "assets/images/cards/city/algeria/oran.jpg",
     nom: "Oran",
     localisation: "Algeria",
     continent: "Africa",
@@ -21,7 +21,7 @@ export const algerieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/constantine.jpg",
+    image: "assets/images/cards/city/algeria/constantine.jpg",
     nom: "Constantine",
     localisation: "Algeria",
     continent: "Africa",
@@ -30,7 +30,7 @@ export const algerieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/annaba.jpg",
+    image: "assets/images/cards/city/algeria/annaba.jpg",
     nom: "Annaba",
     localisation: "Algeria",
     continent: "Africa",
@@ -39,7 +39,7 @@ export const algerieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/batna.jpg",
+    image: "assets/images/cards/city/algeria/batna.jpg",
     nom: "Batna",
     localisation: "Algeria",
     continent: "Africa",
@@ -48,7 +48,7 @@ export const algerieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/blida.jpg",
+    image: "assets/images/cards/city/algeria/blida.jpg",
     nom: "Blida",
     localisation: "Algeria",
     continent: "Africa",
@@ -57,7 +57,7 @@ export const algerieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/setif.jpg",
+    image: "assets/images/cards/city/algeria/setif.jpg",
     nom: "Setif",
     localisation: "Algeria",
     continent: "Africa",
@@ -66,7 +66,7 @@ export const algerieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/djelfa.avif",
+    image: "assets/images/cards/city/algeria/djelfa.avif",
     nom: "Djelfa",
     localisation: "Algeria",
     continent: "Africa",
@@ -75,7 +75,7 @@ export const algerieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/sidi-bel-abbes.jpg",
+    image: "assets/images/cards/city/algeria/sidi-bel-abbes.jpg",
     nom: "Sidi Bel Abbes",
     localisation: "Algeria",
     continent: "Africa",
@@ -84,7 +84,7 @@ export const algerieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/biskra.jpg",
+    image: "assets/images/cards/city/algeria/biskra.jpg",
     nom: "Biskra",
     localisation: "Algeria",
     continent: "Africa",
@@ -93,7 +93,7 @@ export const algerieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/tebessa.jpg",
+    image: "assets/images/cards/city/algeria/tebessa.jpg",
     nom: "Tebessa",
     localisation: "Algeria",
     continent: "Africa",

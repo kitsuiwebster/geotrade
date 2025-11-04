@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const iranCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/tehran.jpg",
+    image: "assets/images/cards/city/iran/tehran.jpg",
     nom: "Tehran",
     localisation: "Iran",
     continent: "Asia",

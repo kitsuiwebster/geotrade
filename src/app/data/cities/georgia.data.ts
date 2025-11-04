@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const georgiaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/tbilissi.jpeg",
+    image: "assets/images/cards/city/georgia/tbilissi.jpeg",
     nom: "Tbilisi",
     localisation: "Georgia",
     continent: "Europe",

@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const azerbaidjanCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/baku.jpg",
+    image: "assets/images/cards/city/azerbaijan/baku.jpg",
     nom: "Baku",
     localisation: "Azerbaijan",
     continent: "Asia",

@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const botswanaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/gaborone.webp",
+    image: "assets/images/cards/city/botswana/gaborone.webp",
     nom: "Gaborone",
     localisation: "Botswana",
     continent: "Africa",

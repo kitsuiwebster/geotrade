@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const burkinafasoCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/ouagadougou.png",
+    image: "assets/images/cards/city/burkina-faso/ouagadougou.png",
     nom: "Ouagadougou",
     localisation: "Burkina Faso",
     continent: "Africa",

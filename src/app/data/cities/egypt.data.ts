@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const egypteCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/le-caire.jpg",
+    image: "assets/images/cards/city/egypt/le-caire.jpg",
     nom: "Cairo",
     localisation: "Egypt",
     continent: "Africa",
@@ -12,7 +12,7 @@ export const egypteCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/alexandrie.jpg",
+    image: "assets/images/cards/city/egypt/alexandrie.jpg",
     nom: "Alexandria",
     localisation: "Egypt",
     continent: "Africa",

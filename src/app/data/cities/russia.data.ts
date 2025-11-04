@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const russiaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/moscow.jpg",
+    image: "assets/images/cards/city/russia/moscow.jpg",
     nom: "Moscow",
     localisation: "Russia",
     continent: "Europe",

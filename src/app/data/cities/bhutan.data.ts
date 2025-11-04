@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const bhoutanCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/thimphu.jpg",
+    image: "assets/images/cards/city/bhutan/thimphu.jpg",
     nom: "Thimphu",
     localisation: "Bhutan",
     continent: "Asia",

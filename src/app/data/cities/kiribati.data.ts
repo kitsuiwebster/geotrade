@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const kiribatiCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/south-tarawa.jpg",
+    image: "assets/images/cards/city/kiribati/south-tarawa.jpg",
     nom: "South Tarawa",
     localisation: "Kiribati",
     continent: "Oceania",

@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const mozambiqueCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/maputo.webp",
+    image: "assets/images/cards/city/mozambique/maputo.webp",
     nom: "Maputo",
     localisation: "Mozambique",
     continent: "Africa",

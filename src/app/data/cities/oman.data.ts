@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const omanCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/muscat.avif",
+    image: "assets/images/cards/city/oman/muscat.avif",
     nom: "Muscat",
     localisation: "Oman",
     continent: "Asia",

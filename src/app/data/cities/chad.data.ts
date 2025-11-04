@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const tchadCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/ndjamena.jpg",
+    image: "assets/images/cards/city/chad/ndjamena.jpg",
     nom: "N'Djamena",
     localisation: "Chad",
     continent: "Africa",

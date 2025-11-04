@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const arabiesaouditeCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/riyadh.webp",
+    image: "assets/images/cards/city/saudi-arabia/riyadh.webp",
     nom: "Riyadh",
     localisation: "Saudi Arabia",
     continent: "Asia",

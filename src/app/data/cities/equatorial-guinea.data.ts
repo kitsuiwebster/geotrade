@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const guineeequatorialeCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/malabo.jpg",
+    image: "assets/images/cards/city/equatorial-guinea/malabo.jpg",
     nom: "Malabo",
     localisation: "Equatorial Guinea",
     continent: "Africa",

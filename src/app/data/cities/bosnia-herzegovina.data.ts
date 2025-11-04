@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const bosniaHerzegovinaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/sarajevo.jpg",
+    image: "assets/images/cards/city/bosnia-herzegovina/sarajevo.jpg",
     nom: "Sarajevo",
     localisation: "Bosnia and Herzegovina",
     continent: "Europe",

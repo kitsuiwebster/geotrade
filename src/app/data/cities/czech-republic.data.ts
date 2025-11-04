@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const czechRepublicCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/prague.jpg",
+    image: "assets/images/cards/city/czech-republic/prague.jpg",
     nom: "Prague",
     localisation: "Czech Republic",
     continent: "Europe",

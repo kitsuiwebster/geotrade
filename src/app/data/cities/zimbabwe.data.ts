@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const zimbabweCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/harare.webp",
+    image: "assets/images/cards/city/zimbabwe/harare.webp",
     nom: "Harare",
     localisation: "Zimbabwe",
     continent: "Africa",

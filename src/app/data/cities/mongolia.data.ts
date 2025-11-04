@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const mongolieCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/ulaanbaatar.jpeg",
+    image: "assets/images/cards/city/mongolia/ulaanbaatar.jpeg",
     nom: "Ulaanbaatar",
     localisation: "Mongolia",
     continent: "Asia",

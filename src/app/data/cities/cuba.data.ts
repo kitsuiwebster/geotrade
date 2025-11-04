@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const cubaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/havana.jpg",
+    image: "assets/images/cards/city/cuba/havana.jpg",
     nom: "Havana",
     localisation: "Cuba",
     continent: "Central America",

@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const koweitCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/kuwait-city.jpg",
+    image: "assets/images/cards/city/kuwait/kuwait-city.jpg",
     nom: "Kuwait City",
     localisation: "Kuwait",
     continent: "Asia",

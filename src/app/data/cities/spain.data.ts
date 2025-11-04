@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const spainCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/madrid.jpg",
+    image: "assets/images/cards/city/spain/madrid.jpg",
     nom: "Madrid",
     localisation: "Spain",
     continent: "Europe",

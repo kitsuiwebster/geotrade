@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const bahamasCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/nassau.jpg",
+    image: "assets/images/cards/city/bahamas/nassau.jpg",
     nom: "Nassau",
     localisation: "Bahamas",
     continent: "Central America",

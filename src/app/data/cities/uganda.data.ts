@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const ougandaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/kampala.webp",
+    image: "assets/images/cards/city/uganda/kampala.webp",
     nom: "Kampala",
     localisation: "Uganda",
     continent: "Africa",

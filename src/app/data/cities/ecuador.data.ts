@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const equateurCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/quito.jpg",
+    image: "assets/images/cards/city/ecuador/quito.jpg",
     nom: "Quito",
     localisation: "Ecuador",
     continent: "South America",

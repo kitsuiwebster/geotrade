@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const timororientalCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/dili.webp",
+    image: "assets/images/cards/city/east-timor/dili.webp",
     nom: "Dili",
     localisation: "East Timor",
     continent: "Asia",

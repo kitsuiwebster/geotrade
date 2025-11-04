@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const venezuelaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/caracas.webp",
+    image: "assets/images/cards/city/venezuela/caracas.webp",
     nom: "Caracas",
     localisation: "Venezuela",
     continent: "South America",

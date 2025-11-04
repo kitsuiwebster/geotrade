@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const armenieCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/yerevan.webp",
+    image: "assets/images/cards/city/armenia/yerevan.webp",
     nom: "Yerevan",
     localisation: "Armenia",
     continent: "Asia",

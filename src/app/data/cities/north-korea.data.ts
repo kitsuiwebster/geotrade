@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const coreedunordCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/pyongyang.jpg",
+    image: "assets/images/cards/city/north-korea/pyongyang.jpg",
     nom: "Pyongyang",
     localisation: "North Korea",
     continent: "Asia",

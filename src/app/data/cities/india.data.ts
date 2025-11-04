@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const indeCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/delhi.webp",
+    image: "assets/images/cards/city/india/delhi.webp",
     nom: "Delhi",
     localisation: "India",
     continent: "Asia",

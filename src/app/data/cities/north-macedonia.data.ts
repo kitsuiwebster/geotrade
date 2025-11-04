@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const northMacedoniaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/skopje.png",
+    image: "assets/images/cards/city/north-macedonia/skopje.png",
     nom: "Skopje",
     localisation: "North Macedonia",
     continent: "Europe",

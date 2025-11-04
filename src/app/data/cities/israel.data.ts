@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const israelCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/jerusalem.jpg",
+    image: "assets/images/cards/city/israel/jerusalem.jpg",
     nom: "Jerusalem",
     localisation: "Israel",
     continent: "Asia",

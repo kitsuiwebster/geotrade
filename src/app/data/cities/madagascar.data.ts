@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const madagascarCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/antananarivo.jpg",
+    image: "assets/images/cards/city/madagascar/antananarivo.jpg",
     nom: "Antananarivo",
     localisation: "Madagascar",
     continent: "Africa",

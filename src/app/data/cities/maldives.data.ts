@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const maldivesCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/male.jpg",
+    image: "assets/images/cards/city/maldives/male.jpg",
     nom: "Male",
     localisation: "Maldives",
     continent: "Asia",

@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const norwayCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/oslo.jpg",
+    image: "assets/images/cards/city/norway/oslo.jpg",
     nom: "Oslo",
     localisation: "Norway",
     continent: "Europe",

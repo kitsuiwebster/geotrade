@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const etatsUnisCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/washington-dc.jpg",
+    image: "assets/images/cards/city/united-states/washington-dc.jpg",
     nom: "Washington D.C.",
     localisation: "United States",
     continent: "North America",

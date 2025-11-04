@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const costaricaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/san-jose.jpg",
+    image: "assets/images/cards/city/costa-rica/san-jose.jpg",
     nom: "San José",
     localisation: "Costa Rica",
     continent: "Central America",

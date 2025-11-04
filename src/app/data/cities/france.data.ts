@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const franceCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/paris.jpg",
+    image: "assets/images/cards/city/france/paris.jpg",
     nom: "Paris",
     localisation: "France",
     continent: "Europe",
@@ -12,7 +12,7 @@ export const franceCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/marseille.jpg",
+    image: "assets/images/cards/city/france/marseille.jpg",
     nom: "Marseille",
     localisation: "France",
     continent: "Europe",
@@ -21,7 +21,7 @@ export const franceCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/lyon.jpg",
+    image: "assets/images/cards/city/france/lyon.jpg",
     nom: "Lyon",
     localisation: "France",
     continent: "Europe",
@@ -30,7 +30,7 @@ export const franceCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/toulouse.jpg",
+    image: "assets/images/cards/city/france/toulouse.jpg",
     nom: "Toulouse",
     localisation: "France",
     continent: "Europe",
@@ -39,7 +39,7 @@ export const franceCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/nice.jpg",
+    image: "assets/images/cards/city/france/nice.jpg",
     nom: "Nice",
     localisation: "France",
     continent: "Europe",
@@ -48,7 +48,7 @@ export const franceCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/nantes.png",
+    image: "assets/images/cards/city/france/nantes.png",
     nom: "Nantes",
     localisation: "France",
     continent: "Europe",
@@ -57,7 +57,7 @@ export const franceCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/montpellier.jpeg",
+    image: "assets/images/cards/city/france/montpellier.jpeg",
     nom: "Montpellier",
     localisation: "France",
     continent: "Europe",
@@ -66,7 +66,7 @@ export const franceCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/strasbourg.webp",
+    image: "assets/images/cards/city/france/strasbourg.webp",
     nom: "Strasbourg",
     localisation: "France",
     continent: "Europe",
@@ -75,7 +75,7 @@ export const franceCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/bordeaux.jpg",
+    image: "assets/images/cards/city/france/bordeaux.jpg",
     nom: "Bordeaux",
     localisation: "France",
     continent: "Europe",
@@ -84,7 +84,7 @@ export const franceCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/lille.webp",
+    image: "assets/images/cards/city/france/lille.webp",
     nom: "Lille",
     localisation: "France",
     continent: "Europe",

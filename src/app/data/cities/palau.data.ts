@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const palaosCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/ngerulmud.webp",
+    image: "assets/images/cards/city/palau/ngerulmud.webp",
     nom: "Ngerulmud",
     localisation: "Palau",
     continent: "Oceania",

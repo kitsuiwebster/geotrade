@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const vietnamCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/hanoi.avif",
+    image: "assets/images/cards/city/vietnam/hanoi.avif",
     nom: "Hanoi",
     localisation: "Vietnam",
     continent: "Asia",

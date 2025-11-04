@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const nigeriaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/abuja.avif",
+    image: "assets/images/cards/city/nigeria/abuja.avif",
     nom: "Abuja",
     localisation: "Nigeria",
     continent: "Africa",

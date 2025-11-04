@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const bahreinCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/manama.jpg",
+    image: "assets/images/cards/city/bahrain/manama.jpg",
     nom: "Manama",
     localisation: "Bahrain",
     continent: "Asia",

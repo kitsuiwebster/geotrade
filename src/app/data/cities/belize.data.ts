@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const belizeCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/belmopan.jpg",
+    image: "assets/images/cards/city/belize/belmopan.jpg",
     nom: "Belmopan",
     localisation: "Belize",
     continent: "Central America",

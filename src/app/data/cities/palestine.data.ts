@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const palestineCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/ramallah.avif",
+    image: "assets/images/cards/city/palestine/ramallah.avif",
     nom: "Ramallah",
     localisation: "Palestine",
     continent: "Asia",
@@ -12,7 +12,7 @@ export const palestineCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/jerusalem.webp",
+    image: "assets/images/cards/city/palestine/al-quds.webp",
     nom: "Al-Quds",
     localisation: "Palestine",
     continent: "Asia",

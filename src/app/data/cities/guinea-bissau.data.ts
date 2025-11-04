@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const guineebissauCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/bissau.jpg",
+    image: "assets/images/cards/city/guinea-bissau/bissau.jpg",
     nom: "Bissau",
     localisation: "Guinea-Bissau",
     continent: "Africa",

@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const icelandCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/reykjavik.webp",
+    image: "assets/images/cards/city/iceland/reykjavik.webp",
     nom: "Reykjavik",
     localisation: "Iceland",
     continent: "Europe",

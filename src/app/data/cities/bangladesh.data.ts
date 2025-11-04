@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const bangladeshCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/dhaka.webp",
+    image: "assets/images/cards/city/bangladesh/dhaka.webp",
     nom: "Dhaka",
     localisation: "Bangladesh",
     continent: "Asia",

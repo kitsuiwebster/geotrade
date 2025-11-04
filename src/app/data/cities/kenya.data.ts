@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const kenyaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/nairobi.jpg",
+    image: "assets/images/cards/city/kenya/nairobi.jpg",
     nom: "Nairobi",
     localisation: "Kenya",
     continent: "Africa",

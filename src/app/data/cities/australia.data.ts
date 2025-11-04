@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const australieCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/canberra.jpg",
+    image: "assets/images/cards/city/australia/canberra.jpg",
     nom: "Canberra",
     localisation: "Australia",
     continent: "Oceania",
@@ -12,7 +12,7 @@ export const australieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/city/sydney.jpeg",
+    image: "assets/images/cards/city/australia/sydney.jpeg",
     nom: "Sydney",
     localisation: "Australia",
     continent: "Oceania",

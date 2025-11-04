@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const guyanaCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/georgetown.jpg",
+    image: "assets/images/cards/city/guyana/georgetown.jpg",
     nom: "Georgetown",
     localisation: "Guyana",
     continent: "South America",

@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const chiliCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/santiago.jpg",
+    image: "assets/images/cards/city/chile/santiago.jpg",
     nom: "Santiago",
     localisation: "Chile",
     continent: "South America",

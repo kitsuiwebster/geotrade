@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const perouCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/lima.jpg",
+    image: "assets/images/cards/city/peru/lima.jpg",
     nom: "Lima",
     localisation: "Peru",
     continent: "South America",

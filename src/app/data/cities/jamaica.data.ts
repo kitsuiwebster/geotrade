@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const jamaiqueCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/kingston.jpg",
+    image: "assets/images/cards/city/jamaica/kingston.jpg",
     nom: "Kingston",
     localisation: "Jamaica",
     continent: "Central America",

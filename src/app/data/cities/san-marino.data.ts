@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const sanMarinoCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/saint-marin.jpg",
+    image: "assets/images/cards/city/san-marino/saint-marin.jpg",
     nom: "San Marino",
     localisation: "San Marino",
     continent: "Europe",

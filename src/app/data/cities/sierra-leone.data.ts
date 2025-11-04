@@ -3,7 +3,7 @@ import { Card } from '../../interfaces/card.interface';
 export const sierraleoneCitiesData: Card[] = [
   {
     type: "City",
-    image: "assets/images/cards/city/freetown.jpg",
+    image: "assets/images/cards/city/sierra-leone/freetown.jpg",
     nom: "Freetown",
     localisation: "Sierra Leone",
     continent: "Africa",
