@@ -29,12 +29,18 @@ function optimizeImages(dir) {
       const outputName = path.parse(outputPath).name + '.webp';
       const finalOutputPath = path.join(path.dirname(outputPath), outputName);
       
+      // Skip if webp already exists
+      if (fs.existsSync(finalOutputPath)) {
+        console.log(`⏭️ Skipped (already exists): ${relativeFile}`);
+        return;
+      }
+      
       sharp(fullPath)
-        .resize(120, 80, { 
+        .resize(240, 160, { 
           fit: 'cover',
           withoutEnlargement: true 
         })
-        .webp({ quality: 30, effort: 6 })
+        .webp({ quality: 75, effort: 6 })
         .toFile(finalOutputPath)
         .then(() => {
           console.log(`✓ Optimized: ${relativeFile} -> ${path.relative('.', finalOutputPath)}`);
