@@ -59,7 +59,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/red-sea.jpg",
     nom: "Red Sea",
     localisation: "Africa and Asia",
     continent: "Africa",
@@ -67,7 +67,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/north-sea.jpg",
     nom: "North Sea",
     localisation: "Europe",
     continent: "Europe",
@@ -75,7 +75,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/coral-sea.avif",
     nom: "Coral Sea",
     localisation: "Oceania",
     continent: "Oceania",
@@ -83,7 +83,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/barents-sea.webp",
     nom: "Barents Sea",
     localisation: "Europe and Asia",
     continent: "Europe",
@@ -91,7 +91,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/norwegian-sea.jpeg",
     nom: "Norwegian Sea",
     localisation: "Europe",
     continent: "Europe",
@@ -99,7 +99,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/persian-gulf.jpg",
     nom: "Persian Gulf",
     localisation: "Asia",
     continent: "Asia",
@@ -107,7 +107,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/gulf-of-mexico.webp",
     nom: "Gulf of Mexico",
     localisation: "North America",
     continent: "North America",
@@ -115,7 +115,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/bay-of-bengal.avif",
     nom: "Bay of Bengal",
     localisation: "Asia",
     continent: "Asia",
@@ -123,7 +123,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/gulf-of-guinea.webp",
     nom: "Gulf of Guinea",
     localisation: "Africa",
     continent: "Africa",
@@ -131,7 +131,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/adriatic-sea.jpg",
     nom: "Adriatic Sea",
     localisation: "Europe",
     continent: "Europe",
@@ -139,7 +139,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/aegean-sea.webp",
     nom: "Aegean Sea",
     localisation: "Europe",
     continent: "Europe",
@@ -147,7 +147,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/sea-of-japan.webp",
     nom: "Sea of Japan",
     localisation: "Asia",
     continent: "Asia",
@@ -155,7 +155,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/tasman-sea.jpg",
     nom: "Tasman Sea",
     localisation: "Oceania",
     continent: "Oceania",
@@ -163,7 +163,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/andaman-sea.jpg",
     nom: "Andaman Sea",
     localisation: "Asia",
     continent: "Asia",
@@ -171,7 +171,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/white-sea.webp",
     nom: "White Sea",
     localisation: "Europe",
     continent: "Europe",
@@ -179,7 +179,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/irish-sea.jpg",
     nom: "Irish Sea",
     localisation: "Europe",
     continent: "Europe",
@@ -187,7 +187,7 @@ export const seasData: Card[] = [
   },
   {
     type: "Sea",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/sea/tyrrhenian-sea.jpg",
     nom: "Tyrrhenian Sea",
     localisation: "Europe",
     continent: "Europe",
