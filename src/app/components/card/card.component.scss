@@ -24,19 +24,19 @@
   }
   
   &[data-type="Mountain"] {
-    box-shadow: 0 4px 12px rgba(160, 82, 45, 0.3);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
     &:hover {
-      box-shadow: 0 8px 20px rgba(160, 82, 45, 0.5);
+      box-shadow: 0 8px 20px rgba(255, 255, 255, 0.5);
     }
     .card-type-indicator {
-      background-color: #A0522D;
+      background-color: #FFFFFF;
     }
     .card-type {
-      color: #A0522D !important;
+      color: #FFFFFF !important;
       font-weight: bold !important;
     }
     .card-info-value {
-      color: #A0522D !important;
+      color: #FFFFFF !important;
     }
   }
   
@@ -58,19 +58,19 @@
   }
   
   &[data-type="City"] {
-    box-shadow: 0 4px 12px rgba(255, 165, 0, 0.3);
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
     &:hover {
-      box-shadow: 0 8px 20px rgba(255, 165, 0, 0.5);
+      box-shadow: 0 8px 20px rgba(255, 215, 0, 0.5);
     }
     .card-type-indicator {
-      background-color: #FFA500;
+      background-color: #FFD700;
     }
     .card-type {
-      color: #FFA500 !important;
+      color: #FFD700 !important;
       font-weight: bold !important;
     }
     .card-info-value {
-      color: #FFA500 !important;
+      color: #FFD700 !important;
     }
   }
   
@@ -92,19 +92,19 @@
   }
   
   &[data-type="Sea"] {
-    box-shadow: 0 4px 12px rgba(32, 178, 170, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 206, 209, 0.3);
     &:hover {
-      box-shadow: 0 8px 20px rgba(32, 178, 170, 0.5);
+      box-shadow: 0 8px 20px rgba(0, 206, 209, 0.5);
     }
     .card-type-indicator {
-      background-color: #20B2AA;
+      background-color: #00CED1;
     }
     .card-type {
-      color: #20B2AA !important;
+      color: #00CED1 !important;
       font-weight: bold !important;
     }
     .card-info-value {
-      color: #20B2AA !important;
+      color: #00CED1 !important;
     }
   }
   
@@ -126,19 +126,19 @@
   }
   
   &[data-type="River"] {
-    box-shadow: 0 4px 12px rgba(95, 158, 160, 0.3);
+    box-shadow: 0 4px 12px rgba(119, 136, 153, 0.3);
     &:hover {
-      box-shadow: 0 8px 20px rgba(95, 158, 160, 0.5);
+      box-shadow: 0 8px 20px rgba(119, 136, 153, 0.5);
     }
     .card-type-indicator {
-      background-color: #5F9EA0;
+      background-color: #778899;
     }
     .card-type {
-      color: #5F9EA0 !important;
+      color: #778899 !important;
       font-weight: bold !important;
     }
     .card-info-value {
-      color: #5F9EA0 !important;
+      color: #778899 !important;
     }
   }
   
@@ -648,16 +648,16 @@
 
   // Type-specific modal styles with same colors as cards
   &[data-type="Mountain"] {
-    box-shadow: 0 20px 60px rgba(160, 82, 45, 0.3);
+    box-shadow: 0 20px 60px rgba(255, 255, 255, 0.3);
     .modal-card-type-indicator {
-      background-color: #A0522D;
+      background-color: #FFFFFF;
     }
     .modal-card-type {
-      color: #A0522D !important;
+      color: #FFFFFF !important;
       font-weight: bold !important;
     }
     .modal-card-info-value {
-      color: #A0522D !important;
+      color: #FFFFFF !important;
     }
   }
 
@@ -676,16 +676,16 @@
   }
 
   &[data-type="City"] {
-    box-shadow: 0 20px 60px rgba(255, 165, 0, 0.3);
+    box-shadow: 0 20px 60px rgba(255, 215, 0, 0.3);
     .modal-card-type-indicator {
-      background-color: #FFA500;
+      background-color: #FFD700;
     }
     .modal-card-type {
-      color: #FFA500 !important;
+      color: #FFD700 !important;
       font-weight: bold !important;
     }
     .modal-card-info-value {
-      color: #FFA500 !important;
+      color: #FFD700 !important;
     }
   }
 
@@ -704,16 +704,16 @@
   }
 
   &[data-type="Sea"] {
-    box-shadow: 0 20px 60px rgba(32, 178, 170, 0.3);
+    box-shadow: 0 20px 60px rgba(0, 206, 209, 0.3);
     .modal-card-type-indicator {
-      background-color: #20B2AA;
+      background-color: #00CED1;
     }
     .modal-card-type {
-      color: #20B2AA !important;
+      color: #00CED1 !important;
       font-weight: bold !important;
     }
     .modal-card-info-value {
-      color: #20B2AA !important;
+      color: #00CED1 !important;
     }
   }
 
@@ -732,16 +732,16 @@
   }
 
   &[data-type="River"] {
-    box-shadow: 0 20px 60px rgba(95, 158, 160, 0.3);
+    box-shadow: 0 20px 60px rgba(119, 136, 153, 0.3);
     .modal-card-type-indicator {
-      background-color: #5F9EA0;
+      background-color: #778899;
     }
     .modal-card-type {
-      color: #5F9EA0 !important;
+      color: #778899 !important;
       font-weight: bold !important;
     }
     .modal-card-info-value {
-      color: #5F9EA0 !important;
+      color: #778899 !important;
     }
   }
 
