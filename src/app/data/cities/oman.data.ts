@@ -8,6 +8,6 @@ export const omanCitiesData: Card[] = [
     localisation: "Oman",
     continent: "Asia",
     population: "1.6 M",
-    agglomeration: "1.6 M"
+    agglomeration: "2.1 M"
   }
 ];

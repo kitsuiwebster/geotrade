@@ -8,6 +8,6 @@ export const northMacedoniaCitiesData: Card[] = [
     localisation: "North Macedonia",
     continent: "Europe",
     population: "544 K",
-    agglomeration: "544 K"
+    agglomeration: "650 K"
   }
 ];

@@ -8,6 +8,6 @@ export const cyprusCitiesData: Card[] = [
     localisation: "Cyprus",
     continent: "Europe",
     population: "330 K",
-    agglomeration: "330 K"
+    agglomeration: "400 K"
   }
 ];

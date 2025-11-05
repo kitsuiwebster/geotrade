@@ -8,6 +8,6 @@ export const guineebissauCitiesData: Card[] = [
     localisation: "Guinea-Bissau",
     continent: "Africa",
     population: "579 K",
-    agglomeration: "579 K"
+    agglomeration: "690 K"
   }
 ];

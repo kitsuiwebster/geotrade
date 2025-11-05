@@ -8,6 +8,6 @@ export const finlandCitiesData: Card[] = [
     localisation: "Finland",
     continent: "Europe",
     population: "658 K",
-    agglomeration: "1.3 M"
+    agglomeration: "1.7 M"
   }
 ];

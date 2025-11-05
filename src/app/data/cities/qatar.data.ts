@@ -8,6 +8,6 @@ export const qatarCitiesData: Card[] = [
     localisation: "Qatar",
     continent: "Asia",
     population: "956 K",
-    agglomeration: "2.8 M"
+    agglomeration: "3.8 M"
   }
 ];

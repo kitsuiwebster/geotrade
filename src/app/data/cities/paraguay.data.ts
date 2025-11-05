@@ -8,6 +8,6 @@ export const paraguayCitiesData: Card[] = [
     localisation: "Paraguay",
     continent: "South America",
     population: "2.1 M",
-    agglomeration: "3.3 M"
+    agglomeration: "4.2 M"
   }
 ];

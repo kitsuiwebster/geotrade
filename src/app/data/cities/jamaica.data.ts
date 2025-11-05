@@ -8,6 +8,6 @@ export const jamaiqueCitiesData: Card[] = [
     localisation: "Jamaica",
     continent: "Central America",
     population: "1.2 M",
-    agglomeration: "1.2 M"
+    agglomeration: "1.5 M"
   }
 ];

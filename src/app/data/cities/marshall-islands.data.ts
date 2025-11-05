@@ -8,6 +8,6 @@ export const ilesmarshallCitiesData: Card[] = [
     localisation: "Marshall Islands",
     continent: "Oceania",
     population: "28 K",
-    agglomeration: "28 K"
+    agglomeration: "35 K"
   }
 ];

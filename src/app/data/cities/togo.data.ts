@@ -8,6 +8,6 @@ export const togoCitiesData: Card[] = [
     localisation: "Togo",
     continent: "Africa",
     population: "1.8 M",
-    agglomeration: "1.8 M"
+    agglomeration: "2.4 M"
   }
 ];

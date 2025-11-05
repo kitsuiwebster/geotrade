@@ -8,6 +8,6 @@ export const georgiaCitiesData: Card[] = [
     localisation: "Georgia",
     continent: "Europe",
     population: "1.1 M",
-    agglomeration: "1.3 M"
+    agglomeration: "1.7 M"
   }
 ];

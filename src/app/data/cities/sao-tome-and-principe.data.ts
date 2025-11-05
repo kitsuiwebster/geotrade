@@ -8,6 +8,6 @@ export const sãotomeetpríncipeCitiesData: Card[] = [
     localisation: "São Tomé and Príncipe",
     continent: "Africa",
     population: "80 K",
-    agglomeration: "80 K"
+    agglomeration: "110 K"
   }
 ];

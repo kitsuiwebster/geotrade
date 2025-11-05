@@ -8,6 +8,6 @@ export const antiguaetbarbudaCitiesData: Card[] = [
     localisation: "Antigua and Barbuda",
     continent: "Central America",
     population: "22 K",
-    agglomeration: "22 K"
+    agglomeration: "30 K"
   }
 ];

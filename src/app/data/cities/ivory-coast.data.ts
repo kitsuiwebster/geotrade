@@ -8,7 +8,7 @@ export const cotedivoireCitiesData: Card[] = [
     localisation: "Ivory Coast",
     continent: "Africa",
     population: "355 K",
-    agglomeration: "355 K"
+    agglomeration: "420 K"
   },
   {
     type: "City",

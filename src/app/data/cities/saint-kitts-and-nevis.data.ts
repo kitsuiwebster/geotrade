@@ -8,6 +8,6 @@ export const stchristopheetnievesCitiesData: Card[] = [
     localisation: "Saint Kitts and Nevis",
     continent: "Central America",
     population: "14 K",
-    agglomeration: "14 K"
+    agglomeration: "18 K"
   }
 ];

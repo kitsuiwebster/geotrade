@@ -8,6 +8,6 @@ export const lesothoCitiesData: Card[] = [
     localisation: "Lesotho",
     continent: "Africa",
     population: "330 K",
-    agglomeration: "330 K"
+    agglomeration: "400 K"
   }
 ];

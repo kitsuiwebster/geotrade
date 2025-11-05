@@ -8,6 +8,6 @@ export const stvincentetlesgrenadinesCitiesData: Card[] = [
     localisation: "Saint Vincent and the Grenadines",
     continent: "Central America",
     population: "25 K",
-    agglomeration: "25 K"
+    agglomeration: "35 K"
   }
 ];

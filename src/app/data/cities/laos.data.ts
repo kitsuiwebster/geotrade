@@ -8,6 +8,6 @@ export const laosCitiesData: Card[] = [
     localisation: "Laos",
     continent: "Asia",
     population: "948 K",
-    agglomeration: "948 K"
+    agglomeration: "1.1 M"
   }
 ];

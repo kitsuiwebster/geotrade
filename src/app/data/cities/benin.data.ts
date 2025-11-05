@@ -8,6 +8,6 @@ export const beninCitiesData: Card[] = [
     localisation: "Benin",
     continent: "Africa",
     population: "264 K",
-    agglomeration: "264 K"
+    agglomeration: "320 K"
   }
 ];

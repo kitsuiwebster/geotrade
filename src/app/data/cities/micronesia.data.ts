@@ -8,6 +8,6 @@ export const micronesieCitiesData: Card[] = [
     localisation: "Micronesia",
     continent: "Oceania",
     population: "5 K",
-    agglomeration: "5 K"
+    agglomeration: "6 K"
   }
 ];

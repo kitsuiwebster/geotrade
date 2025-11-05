@@ -8,6 +8,6 @@ export const somalieCitiesData: Card[] = [
     localisation: "Somalia",
     continent: "Africa",
     population: "2.6 M",
-    agglomeration: "2.6 M"
+    agglomeration: "3.4 M"
   }
 ];

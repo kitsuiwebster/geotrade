@@ -8,6 +8,6 @@ export const hungaryCitiesData: Card[] = [
     localisation: "Hungary",
     continent: "Europe",
     population: "1.7 M",
-    agglomeration: "3.3 M"
+    agglomeration: "4.2 M"
   }
 ];

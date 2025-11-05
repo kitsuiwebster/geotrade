@@ -8,6 +8,6 @@ export const tanzanieCitiesData: Card[] = [
     localisation: "Tanzania",
     continent: "Africa",
     population: "411 K",
-    agglomeration: "411 K"
+    agglomeration: "490 K"
   }
 ];

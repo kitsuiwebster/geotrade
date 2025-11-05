@@ -8,6 +8,6 @@ export const bosniaHerzegovinaCitiesData: Card[] = [
     localisation: "Bosnia and Herzegovina",
     continent: "Europe",
     population: "413 K",
-    agglomeration: "413 K"
+    agglomeration: "500 K"
   }
 ];

@@ -8,6 +8,6 @@ export const surinameCitiesData: Card[] = [
     localisation: "Suriname",
     continent: "South America",
     population: "241 K",
-    agglomeration: "241 K"
+    agglomeration: "290 K"
   }
 ];

@@ -8,6 +8,6 @@ export const equateurCitiesData: Card[] = [
     localisation: "Ecuador",
     continent: "South America",
     population: "2.0 M",
-    agglomeration: "2.8 M"
+    agglomeration: "3.8 M"
   }
 ];

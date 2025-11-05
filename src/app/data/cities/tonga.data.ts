@@ -8,6 +8,6 @@ export const tongaCitiesData: Card[] = [
     localisation: "Tonga",
     continent: "Oceania",
     population: "25 K",
-    agglomeration: "25 K"
+    agglomeration: "35 K"
   }
 ];

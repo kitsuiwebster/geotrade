@@ -8,6 +8,6 @@ export const bhoutanCitiesData: Card[] = [
     localisation: "Bhutan",
     continent: "Asia",
     population: "203 K",
-    agglomeration: "203 K"
+    agglomeration: "250 K"
   }
 ];

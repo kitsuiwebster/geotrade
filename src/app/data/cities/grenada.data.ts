@@ -8,6 +8,6 @@ export const grenadeCitiesData: Card[] = [
     localisation: "Grenada",
     continent: "Central America",
     population: "39 K",
-    agglomeration: "39 K"
+    agglomeration: "55 K"
   }
 ];

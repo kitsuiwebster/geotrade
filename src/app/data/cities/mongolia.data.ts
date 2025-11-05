@@ -8,6 +8,6 @@ export const mongolieCitiesData: Card[] = [
     localisation: "Mongolia",
     continent: "Asia",
     population: "1.6 M",
-    agglomeration: "1.6 M"
+    agglomeration: "2.1 M"
   }
 ];

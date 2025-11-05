@@ -8,6 +8,6 @@ export const yemenCitiesData: Card[] = [
     localisation: "Yemen",
     continent: "Asia",
     population: "3.9 M",
-    agglomeration: "3.9 M"
+    agglomeration: "5.1 M"
   }
 ];

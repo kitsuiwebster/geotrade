@@ -8,6 +8,6 @@ export const emiratsarabesunisCitiesData: Card[] = [
     localisation: "United Arab Emirates",
     continent: "Asia",
     population: "1.5 M",
-    agglomeration: "1.5 M"
+    agglomeration: "1.9 M"
   }
 ];

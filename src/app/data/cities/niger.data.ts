@@ -8,6 +8,6 @@ export const nigerCitiesData: Card[] = [
     localisation: "Niger",
     continent: "Africa",
     population: "1.3 M",
-    agglomeration: "1.3 M"
+    agglomeration: "1.7 M"
   }
 ];

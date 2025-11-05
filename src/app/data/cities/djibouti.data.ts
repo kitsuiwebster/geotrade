@@ -8,6 +8,6 @@ export const djiboutiCitiesData: Card[] = [
     localisation: "Djibouti",
     continent: "Africa",
     population: "600 K",
-    agglomeration: "600 K"
+    agglomeration: "720 K"
   }
 ];

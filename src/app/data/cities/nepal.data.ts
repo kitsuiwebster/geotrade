@@ -8,6 +8,6 @@ export const nepalCitiesData: Card[] = [
     localisation: "Nepal",
     continent: "Asia",
     population: "975 K",
-    agglomeration: "1.5 M"
+    agglomeration: "1.9 M"
   }
 ];

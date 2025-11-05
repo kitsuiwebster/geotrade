@@ -8,6 +8,6 @@ export const mauritanieCitiesData: Card[] = [
     localisation: "Mauritania",
     continent: "Africa",
     population: "1.4 M",
-    agglomeration: "1.4 M"
+    agglomeration: "1.8 M"
   }
 ];

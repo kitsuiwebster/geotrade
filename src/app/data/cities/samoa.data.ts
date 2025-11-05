@@ -8,6 +8,6 @@ export const samoaCitiesData: Card[] = [
     localisation: "Samoa",
     continent: "Oceania",
     population: "36 K",
-    agglomeration: "36 K"
+    agglomeration: "50 K"
   }
 ];

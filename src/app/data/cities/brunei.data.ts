@@ -8,6 +8,6 @@ export const bruneiCitiesData: Card[] = [
     localisation: "Brunei",
     continent: "Asia",
     population: "100 K",
-    agglomeration: "100 K"
+    agglomeration: "180 K"
   }
 ];

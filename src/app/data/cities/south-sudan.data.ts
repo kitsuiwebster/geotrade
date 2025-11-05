@@ -8,6 +8,6 @@ export const soudandusudCitiesData: Card[] = [
     localisation: "South Sudan",
     continent: "Africa",
     population: "525 K",
-    agglomeration: "525 K"
+    agglomeration: "630 K"
   }
 ];

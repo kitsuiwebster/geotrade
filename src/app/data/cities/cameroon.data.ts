@@ -8,6 +8,6 @@ export const camerounCitiesData: Card[] = [
     localisation: "Cameroon",
     continent: "Africa",
     population: "4.3 M",
-    agglomeration: "4.3 M"
+    agglomeration: "5.8 M"
   }
 ];

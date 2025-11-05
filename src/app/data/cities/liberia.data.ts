@@ -8,6 +8,6 @@ export const liberiaCitiesData: Card[] = [
     localisation: "Liberia",
     continent: "Africa",
     population: "1.8 M",
-    agglomeration: "1.8 M"
+    agglomeration: "2.4 M"
   }
 ];

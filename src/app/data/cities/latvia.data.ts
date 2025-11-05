@@ -8,6 +8,6 @@ export const latviaCitiesData: Card[] = [
     localisation: "Latvia",
     continent: "Europe",
     population: "605 K",
-    agglomeration: "1.0 M"
+    agglomeration: "1.3 M"
   }
 ];

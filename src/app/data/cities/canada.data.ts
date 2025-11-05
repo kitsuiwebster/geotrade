@@ -8,6 +8,6 @@ export const canadaCitiesData: Card[] = [
     localisation: "Canada",
     continent: "North America",
     population: "1.0 M",
-    agglomeration: "1.5 M"
+    agglomeration: "1.9 M"
   }
 ];

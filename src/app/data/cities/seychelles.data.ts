@@ -8,6 +8,6 @@ export const seychellesCitiesData: Card[] = [
     localisation: "Seychelles",
     continent: "Africa",
     population: "26 K",
-    agglomeration: "26 K"
+    agglomeration: "35 K"
   }
 ];

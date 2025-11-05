@@ -8,6 +8,6 @@ export const denmarkCitiesData: Card[] = [
     localisation: "Denmark",
     continent: "Europe",
     population: "660 K",
-    agglomeration: "2.1 M"
+    agglomeration: "2.8 M"
   }
 ];

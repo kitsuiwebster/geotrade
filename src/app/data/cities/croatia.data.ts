@@ -8,6 +8,6 @@ export const croatiaCitiesData: Card[] = [
     localisation: "Croatia",
     continent: "Europe",
     population: "767 K",
-    agglomeration: "1.1 M"
+    agglomeration: "1.4 M"
   }
 ];

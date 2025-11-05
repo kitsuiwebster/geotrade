@@ -8,6 +8,6 @@ export const nauruCitiesData: Card[] = [
     localisation: "Nauru",
     continent: "Oceania",
     population: "1.1 K",
-    agglomeration: "1.1 K"
+    agglomeration: "10 K"
   }
 ];

@@ -8,6 +8,6 @@ export const eswatiniCitiesData: Card[] = [
     localisation: "Eswatini",
     continent: "Africa",
     population: "95 K",
-    agglomeration: "95 K"
+    agglomeration: "140 K"
   }
 ];
