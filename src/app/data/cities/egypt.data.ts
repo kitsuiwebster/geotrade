@@ -18,5 +18,14 @@ export const egypteCitiesData: Card[] = [
     continent: "Africa",
     population: "5.20 M",
     agglomeration: "5.48 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/default.jpg",
+    nom: "Giza",
+    localisation: "Egypt",
+    continent: "Africa",
+    population: "4.4 M",
+    agglomeration: "4.7 M"
   }
 ];

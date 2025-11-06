@@ -9,5 +9,14 @@ export const kazakhstanCitiesData: Card[] = [
     continent: "Asia",
     population: "1.2 M",
     agglomeration: "1.5 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/default.jpg",
+    nom: "Almaty",
+    localisation: "Kazakhstan",
+    continent: "Asia",
+    population: "2.0 M",
+    agglomeration: "2.2 M"
   }
 ];

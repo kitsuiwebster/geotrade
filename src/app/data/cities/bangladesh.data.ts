@@ -9,5 +9,14 @@ export const bangladeshCitiesData: Card[] = [
     continent: "Asia",
     population: "9.5 M",
     agglomeration: "22.5 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/default.jpg",
+    nom: "Chittagong",
+    localisation: "Bangladesh",
+    continent: "Asia",
+    population: "2.6 M",
+    agglomeration: "5.3 M"
   }
 ];

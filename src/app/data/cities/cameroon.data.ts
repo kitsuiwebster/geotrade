@@ -9,5 +9,14 @@ export const camerounCitiesData: Card[] = [
     continent: "Africa",
     population: "4.3 M",
     agglomeration: "5.8 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/default.jpg",
+    nom: "Douala",
+    localisation: "Cameroon",
+    continent: "Africa",
+    population: "3.7 M",
+    agglomeration: "4.2 M"
   }
 ];

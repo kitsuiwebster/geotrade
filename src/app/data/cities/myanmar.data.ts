@@ -9,5 +9,14 @@ export const myanmarCitiesData: Card[] = [
     continent: "Asia",
     population: "1.2 M",
     agglomeration: "1.5 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/default.jpg",
+    nom: "Yangon",
+    localisation: "Myanmar",
+    continent: "Asia",
+    population: "5.2 M",
+    agglomeration: "5.5 M"
   }
 ];

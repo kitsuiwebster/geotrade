@@ -90,5 +90,14 @@ export const franceCitiesData: Card[] = [
     continent: "Europe",
     population: "0.23 M",
     agglomeration: "1.18 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/city/france/valleiry.jpg",
+    nom: "Valleiry",
+    localisation: "France",
+    continent: "Europe",
+    population: "4 K",
+    agglomeration: "4 K"
   }
 ];

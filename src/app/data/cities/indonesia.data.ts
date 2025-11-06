@@ -9,5 +9,59 @@ export const indonesieCitiesData: Card[] = [
     continent: "Asia",
     population: "10.6 M",
     agglomeration: "35.4 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/default.jpg",
+    nom: "Nusantara",
+    localisation: "Indonesia",
+    continent: "Asia",
+    population: "0.05 M",
+    agglomeration: "2.0 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/default.jpg",
+    nom: "Surabaya",
+    localisation: "Indonesia",
+    continent: "Asia",
+    population: "2.9 M",
+    agglomeration: "10.0 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/default.jpg",
+    nom: "Bandung",
+    localisation: "Indonesia",
+    continent: "Asia",
+    population: "2.4 M",
+    agglomeration: "7.5 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/default.jpg",
+    nom: "Medan",
+    localisation: "Indonesia",
+    continent: "Asia",
+    population: "2.4 M",
+    agglomeration: "4.0 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/default.jpg",
+    nom: "Makassar",
+    localisation: "Indonesia",
+    continent: "Asia",
+    population: "1.4 M",
+    agglomeration: "2.8 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/default.jpg",
+    nom: "Palembang",
+    localisation: "Indonesia",
+    continent: "Asia",
+    population: "1.7 M",
+    agglomeration: "2.5 M"
   }
 ];

@@ -9,5 +9,14 @@ export const soudanCitiesData: Card[] = [
     continent: "Africa",
     population: "1.41 M",
     agglomeration: "6.34 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/default.jpg",
+    nom: "Omdurman",
+    localisation: "Sudan",
+    continent: "Africa",
+    population: "2.4 M",
+    agglomeration: "2.4 M"
   }
 ];

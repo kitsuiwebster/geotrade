@@ -9,5 +9,23 @@ export const argentineCitiesData: Card[] = [
     continent: "South America",
     population: "3.1 M",
     agglomeration: "15.6 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/default.jpg",
+    nom: "Mendoza",
+    localisation: "Argentina",
+    continent: "South America",
+    population: "1.0 M",
+    agglomeration: "1.3 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/default.jpg",
+    nom: "Córdoba",
+    localisation: "Argentina",
+    continent: "South America",
+    population: "1.4 M",
+    agglomeration: "1.8 M"
   }
 ];
