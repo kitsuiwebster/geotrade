@@ -75,19 +75,19 @@
   }
   
   &[data-type="Country"] {
-    box-shadow: 0 4px 12px rgba(34, 139, 34, 0.3);
+    box-shadow: 0 4px 12px rgba(138, 43, 226, 0.3);
     &:hover {
-      box-shadow: 0 8px 20px rgba(34, 139, 34, 0.5);
+      box-shadow: 0 8px 20px rgba(138, 43, 226, 0.5);
     }
     .card-type-indicator {
-      background-color: #228B22;
+      background-color: #8A2BE2;
     }
     .card-type {
-      color: #228B22 !important;
+      color: #8A2BE2 !important;
       font-weight: bold !important;
     }
     .card-info-value {
-      color: #228B22 !important;
+      color: #8A2BE2 !important;
     }
   }
   
@@ -160,36 +160,53 @@
   }
   
   &[data-type="Island"] {
-    box-shadow: 0 4px 12px rgba(60, 179, 113, 0.3);
+    box-shadow: 0 4px 12px rgba(34, 139, 34, 0.3);
     &:hover {
-      box-shadow: 0 8px 20px rgba(60, 179, 113, 0.5);
+      box-shadow: 0 8px 20px rgba(34, 139, 34, 0.5);
     }
     .card-type-indicator {
-      background-color: #3CB371;
+      background-color: #228B22;
     }
     .card-type {
-      color: #3CB371 !important;
+      color: #228B22 !important;
       font-weight: bold !important;
     }
     .card-info-value {
-      color: #3CB371 !important;
+      color: #228B22 !important;
     }
   }
   
   &[data-type="Territory"] {
-    box-shadow: 0 4px 12px rgba(138, 43, 226, 0.3);
+    box-shadow: 0 4px 12px rgba(220, 20, 60, 0.3);
     &:hover {
-      box-shadow: 0 8px 20px rgba(138, 43, 226, 0.5);
+      box-shadow: 0 8px 20px rgba(220, 20, 60, 0.5);
     }
     .card-type-indicator {
-      background-color: #8A2BE2;
+      background-color: #DC143C;
     }
     .card-type {
-      color: #8A2BE2 !important;
+      color: #DC143C !important;
       font-weight: bold !important;
     }
     .card-info-value {
-      color: #8A2BE2 !important;
+      color: #DC143C !important;
+    }
+  }
+
+  &[data-type="Archipelago"] {
+    box-shadow: 0 4px 12px rgba(0, 255, 127, 0.3);
+    &:hover {
+      box-shadow: 0 8px 20px rgba(0, 255, 127, 0.5);
+    }
+    .card-type-indicator {
+      background-color: #00FF7F;
+    }
+    .card-type {
+      color: #00FF7F !important;
+      font-weight: bold !important;
+    }
+    .card-info-value {
+      color: #00FF7F !important;
     }
   }
   
@@ -690,16 +707,16 @@
   }
 
   &[data-type="Country"] {
-    box-shadow: 0 20px 60px rgba(34, 139, 34, 0.3);
+    box-shadow: 0 20px 60px rgba(138, 43, 226, 0.3);
     .modal-card-type-indicator {
-      background-color: #228B22;
+      background-color: #8A2BE2;
     }
     .modal-card-type {
-      color: #228B22 !important;
+      color: #8A2BE2 !important;
       font-weight: bold !important;
     }
     .modal-card-info-value {
-      color: #228B22 !important;
+      color: #8A2BE2 !important;
     }
   }
 
@@ -760,30 +777,44 @@
   }
 
   &[data-type="Island"] {
-    box-shadow: 0 20px 60px rgba(60, 179, 113, 0.3);
+    box-shadow: 0 20px 60px rgba(34, 139, 34, 0.3);
     .modal-card-type-indicator {
-      background-color: #3CB371;
+      background-color: #228B22;
     }
     .modal-card-type {
-      color: #3CB371 !important;
+      color: #228B22 !important;
       font-weight: bold !important;
     }
     .modal-card-info-value {
-      color: #3CB371 !important;
+      color: #228B22 !important;
     }
   }
 
   &[data-type="Territory"] {
-    box-shadow: 0 20px 60px rgba(138, 43, 226, 0.3);
+    box-shadow: 0 20px 60px rgba(220, 20, 60, 0.3);
     .modal-card-type-indicator {
-      background-color: #8A2BE2;
+      background-color: #DC143C;
     }
     .modal-card-type {
-      color: #8A2BE2 !important;
+      color: #DC143C !important;
       font-weight: bold !important;
     }
     .modal-card-info-value {
-      color: #8A2BE2 !important;
+      color: #DC143C !important;
+    }
+  }
+
+  &[data-type="Archipelago"] {
+    box-shadow: 0 20px 60px rgba(0, 255, 127, 0.3);
+    .modal-card-type-indicator {
+      background-color: #00FF7F;
+    }
+    .modal-card-type {
+      color: #00FF7F !important;
+      font-weight: bold !important;
+    }
+    .modal-card-info-value {
+      color: #00FF7F !important;
     }
   }
 }

@@ -107,18 +107,378 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/island/galapagos.jpg",
-    nom: "Galápagos",
-    localisation: "Ecuador",
-    continent: "South America",
-    area: "8,010 km²"
-  },
-  {
-    type: "Island",
     image: "assets/images/cards/island/majorca.jpg",
     nom: "Majorca",
     localisation: "Spain",
     continent: "Europe",
     area: "3,640 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Madagascar",
+    localisation: "Madagascar",
+    continent: "Africa",
+    area: "587,041 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Great Britain",
+    localisation: "United Kingdom",
+    continent: "Europe",
+    area: "209,331 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Honshu",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "227,960 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Victoria Island",
+    localisation: "Canada",
+    continent: "North America",
+    area: "217,291 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Ellesmere Island",
+    localisation: "Canada",
+    continent: "North America",
+    area: "196,236 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Sulawesi",
+    localisation: "Indonesia",
+    continent: "Asia",
+    area: "174,600 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Baffin Island",
+    localisation: "Canada",
+    continent: "North America",
+    area: "507,451 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Luzon",
+    localisation: "Philippines",
+    continent: "Asia",
+    area: "109,965 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Mindanao",
+    localisation: "Philippines",
+    continent: "Asia",
+    area: "97,530 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Ireland",
+    localisation: "Ireland and United Kingdom",
+    continent: "Europe",
+    area: "84,421 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Hokkaido",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "83,424 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Sakhalin",
+    localisation: "Russia",
+    continent: "Asia",
+    area: "72,493 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Hispaniola",
+    localisation: "Haiti and Dominican Republic",
+    continent: "North America",
+    area: "76,192 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Banks Island",
+    localisation: "Canada",
+    continent: "North America",
+    area: "70,028 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Tasmania",
+    localisation: "Australia",
+    continent: "Oceania",
+    area: "68,401 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Sri Lanka",
+    localisation: "Sri Lanka",
+    continent: "Asia",
+    area: "65,610 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Devon Island",
+    localisation: "Canada",
+    continent: "North America",
+    area: "55,247 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Novaya Zemlya",
+    localisation: "Russia",
+    continent: "Europe",
+    area: "90,650 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Cuba",
+    localisation: "Cuba",
+    continent: "North America",
+    area: "105,806 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Newfoundland",
+    localisation: "Canada",
+    continent: "North America",
+    area: "108,860 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Iceland",
+    localisation: "Iceland",
+    continent: "Europe",
+    area: "103,000 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Kyushu",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "37,000 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Shikoku",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "18,800 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Cyprus",
+    localisation: "Cyprus",
+    continent: "Europe",
+    area: "9,251 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Corsica",
+    localisation: "France",
+    continent: "Europe",
+    area: "8,680 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Sardinia",
+    localisation: "Italy",
+    continent: "Europe",
+    area: "24,090 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Jamaica",
+    localisation: "Jamaica",
+    continent: "North America",
+    area: "10,991 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Puerto Rico",
+    localisation: "United States",
+    continent: "North America",
+    area: "8,870 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Socotra",
+    localisation: "Yemen",
+    continent: "Asia",
+    area: "3,796 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Malta",
+    localisation: "Malta",
+    continent: "Europe",
+    area: "316 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Maldives",
+    localisation: "Maldives",
+    continent: "Asia",
+    area: "298 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Taiwan",
+    localisation: "Taiwan",
+    continent: "Asia",
+    area: "35,808 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Vancouver Island",
+    localisation: "Canada",
+    continent: "North America",
+    area: "31,285 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Timor",
+    localisation: "Indonesia and East Timor",
+    continent: "Asia",
+    area: "28,418 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Zanzibar",
+    localisation: "Tanzania",
+    continent: "Africa",
+    area: "1,666 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Mauritius",
+    localisation: "Mauritius",
+    continent: "Africa",
+    area: "2,040 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Reunion",
+    localisation: "France",
+    continent: "Africa",
+    area: "2,511 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Singapore",
+    localisation: "Singapore",
+    continent: "Asia",
+    area: "721 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Manhattan",
+    localisation: "United States",
+    continent: "North America",
+    area: "60 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Sentosa",
+    localisation: "Singapore",
+    continent: "Asia",
+    area: "5 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Okinawa",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "1,207 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Sado",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "855 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Awaji",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "593 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Tsushima",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "708 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Iki",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "138 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Rishiri",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "183 km²"
   }
 ];

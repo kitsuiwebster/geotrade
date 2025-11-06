@@ -8,6 +8,7 @@ export { oceansData } from './oceans.data';
 export { riversData } from './rivers.data';
 export { desertsData } from './deserts.data';
 export { islandsData } from './islands.data';
+export { archipelagosData } from './archipelagos.data';
 
 import { Card } from '../interfaces/card.interface';
 import { mountainsData } from './mountains.data';
@@ -20,6 +21,7 @@ import { oceansData } from './oceans.data';
 import { riversData } from './rivers.data';
 import { desertsData } from './deserts.data';
 import { islandsData } from './islands.data';
+import { archipelagosData } from './archipelagos.data';
 
 export const allCardsData: Card[] = [
   ...mountainsData,
@@ -31,5 +33,6 @@ export const allCardsData: Card[] = [
   ...oceansData,
   ...riversData,
   ...desertsData,
-  ...islandsData
+  ...islandsData,
+  ...archipelagosData
 ];

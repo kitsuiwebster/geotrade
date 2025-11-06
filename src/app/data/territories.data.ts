@@ -12,6 +12,15 @@ export const territoriesData: Card[] = [
   },
   {
     type: "Territory",
+    image: "assets/images/cards/island/greenland.jpg",
+    nom: "Greenland",
+    localisation: "North Atlantic",
+    continent: "Europe",
+    population: "56 K",
+    area: "2,166,086 km²"
+  },
+  {
+    type: "Territory",
     image: "assets/images/cards/territory/gibraltar.webp",
     nom: "Gibraltar",
     localisation: "Southern Europe",

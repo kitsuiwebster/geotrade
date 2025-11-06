@@ -36,16 +36,17 @@ export class CardsComponent implements OnInit, AfterViewInit {
   
   // Type filters
   typeFilters = [
-    { value: 'Mountain', label: 'Mountains', checked: false },
-    { value: 'Lake', label: 'Lakes', checked: false },
-    { value: 'City', label: 'Cities', checked: false },
     { value: 'Country', label: 'Countries', checked: false },
     { value: 'Territory', label: 'Territories', checked: false },
-    { value: 'Sea', label: 'Seas', checked: false },
-    { value: 'Ocean', label: 'Oceans', checked: false },
-    { value: 'River', label: 'Rivers', checked: false },
+    { value: 'City', label: 'Cities', checked: false },
+    { value: 'Mountain', label: 'Mountains', checked: false },
     { value: 'Desert', label: 'Deserts', checked: false },
-    { value: 'Island', label: 'Islands', checked: false }
+    { value: 'Ocean', label: 'Oceans', checked: false },
+    { value: 'Sea', label: 'Seas', checked: false },
+    { value: 'Lake', label: 'Lakes', checked: false },
+    { value: 'River', label: 'Rivers', checked: false },
+    { value: 'Island', label: 'Islands', checked: false },
+    { value: 'Archipelago', label: 'Archipelagos', checked: false }
   ];
   
   // Continent filters

@@ -1,0 +1,87 @@
+{
+  "cardTypes": {
+    "Mountain": {
+      "primary": "#FFFFFF",
+      "rgba": "255, 255, 255",
+      "name": "White"
+    },
+    "Lake": {
+      "primary": "#4169E1",
+      "rgba": "65, 105, 225",
+      "name": "Royal Blue"
+    },
+    "City": {
+      "primary": "#FFD700",
+      "rgba": "255, 215, 0",
+      "name": "Gold"
+    },
+    "Country": {
+      "primary": "#8A2BE2",
+      "rgba": "138, 43, 226",
+      "name": "Blue Violet"
+    },
+    "Territory": {
+      "primary": "#DC143C",
+      "rgba": "220, 20, 60",
+      "name": "Crimson"
+    },
+    "Sea": {
+      "primary": "#00CED1",
+      "rgba": "0, 206, 209",
+      "name": "Dark Turquoise"
+    },
+    "Ocean": {
+      "primary": "#4682B4",
+      "rgba": "70, 130, 180",
+      "name": "Steel Blue"
+    },
+    "River": {
+      "primary": "#778899",
+      "rgba": "119, 136, 153",
+      "name": "Light Slate Gray"
+    },
+    "Desert": {
+      "primary": "#D2691E",
+      "rgba": "210, 105, 30",
+      "name": "Chocolate"
+    },
+    "Island": {
+      "primary": "#228B22",
+      "rgba": "34, 139, 34",
+      "name": "Forest Green"
+    },
+    "Archipelago": {
+      "primary": "#00FF7F",
+      "rgba": "0, 255, 127",
+      "name": "Spring Green"
+    }
+  },
+  "theme": {
+    "primaryAccent": {
+      "primary": "#00C9A7",
+      "rgba": "0, 201, 167",
+      "name": "Teal"
+    },
+    "secondaryAccent": {
+      "primary": "#20B2AA",
+      "rgba": "32, 178, 170",
+      "name": "Light Sea Green"
+    },
+    "backgroundGradient": {
+      "start": "#0A1A1A",
+      "middle": "#0D2626", 
+      "end": "#134E4A"
+    },
+    "backgrounds": {
+      "dark": "#1E1E1E",
+      "medium": "#2A2A2A",
+      "light": "#333333"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#E0E0E0",
+      "muted": "#B0B0B0",
+      "disabled": "#888888"
+    }
+  }
+}
