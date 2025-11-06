@@ -115,7 +115,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/madagascar.jpg",
     nom: "Madagascar",
     localisation: "Madagascar",
     continent: "Africa",
@@ -123,7 +123,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/great-britain.jpg",
     nom: "Great Britain",
     localisation: "United Kingdom",
     continent: "Europe",
@@ -131,7 +131,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/honshu.jpg",
     nom: "Honshu",
     localisation: "Japan",
     continent: "Asia",
@@ -139,7 +139,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/victoria-island.jpg",
     nom: "Victoria Island",
     localisation: "Canada",
     continent: "North America",
@@ -147,7 +147,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/ellesmere-island.jpg",
     nom: "Ellesmere Island",
     localisation: "Canada",
     continent: "North America",
@@ -155,7 +155,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/sulawesi.jpg",
     nom: "Sulawesi",
     localisation: "Indonesia",
     continent: "Asia",
@@ -163,7 +163,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/baffin-island.jpg",
     nom: "Baffin Island",
     localisation: "Canada",
     continent: "North America",
@@ -171,7 +171,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/luzon.jpg",
     nom: "Luzon",
     localisation: "Philippines",
     continent: "Asia",
@@ -179,7 +179,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/mindanao.jpg",
     nom: "Mindanao",
     localisation: "Philippines",
     continent: "Asia",
@@ -187,7 +187,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/ireland.jpg",
     nom: "Ireland",
     localisation: "Ireland and United Kingdom",
     continent: "Europe",
@@ -195,7 +195,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/hokkaido.jpg",
     nom: "Hokkaido",
     localisation: "Japan",
     continent: "Asia",
@@ -203,7 +203,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/sakhalin.jpg",
     nom: "Sakhalin",
     localisation: "Russia",
     continent: "Asia",
@@ -211,7 +211,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/hispaniola.jpg",
     nom: "Hispaniola",
     localisation: "Haiti and Dominican Republic",
     continent: "North America",
@@ -219,7 +219,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/banks-island.jpg",
     nom: "Banks Island",
     localisation: "Canada",
     continent: "North America",
@@ -227,7 +227,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/tasmania.webp",
     nom: "Tasmania",
     localisation: "Australia",
     continent: "Oceania",
@@ -235,7 +235,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/sri-lanka.jpg",
     nom: "Sri Lanka",
     localisation: "Sri Lanka",
     continent: "Asia",
@@ -243,7 +243,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/devon-island.jpg",
     nom: "Devon Island",
     localisation: "Canada",
     continent: "North America",
@@ -251,7 +251,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/novaya-zemlya.jpg",
     nom: "Novaya Zemlya",
     localisation: "Russia",
     continent: "Europe",
@@ -259,7 +259,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/cuba.jpg",
     nom: "Cuba",
     localisation: "Cuba",
     continent: "North America",
@@ -267,7 +267,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/newfoundland.jpg",
     nom: "Newfoundland",
     localisation: "Canada",
     continent: "North America",
@@ -275,7 +275,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/iceland.jpg",
     nom: "Iceland",
     localisation: "Iceland",
     continent: "Europe",
@@ -283,7 +283,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/kyushu.jpg",
     nom: "Kyushu",
     localisation: "Japan",
     continent: "Asia",
@@ -291,7 +291,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/shikoku.jpg",
     nom: "Shikoku",
     localisation: "Japan",
     continent: "Asia",
@@ -299,7 +299,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/cyprus.jpg",
     nom: "Cyprus",
     localisation: "Cyprus",
     continent: "Europe",
@@ -307,7 +307,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/corsica.jpg",
     nom: "Corsica",
     localisation: "France",
     continent: "Europe",
@@ -315,7 +315,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/sardinia.jpg",
     nom: "Sardinia",
     localisation: "Italy",
     continent: "Europe",
@@ -323,7 +323,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/jamaica.jpg",
     nom: "Jamaica",
     localisation: "Jamaica",
     continent: "North America",
@@ -331,7 +331,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/puerto-rico.jpg",
     nom: "Puerto Rico",
     localisation: "United States",
     continent: "North America",
@@ -339,7 +339,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/socotra.jpg",
     nom: "Socotra",
     localisation: "Yemen",
     continent: "Asia",
@@ -347,7 +347,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/malta.jpg",
     nom: "Malta",
     localisation: "Malta",
     continent: "Europe",
@@ -355,15 +355,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
-    nom: "Maldives",
-    localisation: "Maldives",
-    continent: "Asia",
-    area: "298 km²"
-  },
-  {
-    type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/taiwan.jpg",
     nom: "Taiwan",
     localisation: "Taiwan",
     continent: "Asia",
@@ -371,7 +363,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/vancouver-island.jpg",
     nom: "Vancouver Island",
     localisation: "Canada",
     continent: "North America",
@@ -379,7 +371,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/timor.jpg",
     nom: "Timor",
     localisation: "Indonesia and East Timor",
     continent: "Asia",
@@ -387,7 +379,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/zanzibar.jpg",
     nom: "Zanzibar",
     localisation: "Tanzania",
     continent: "Africa",
@@ -395,7 +387,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/mauritius.jpg",
     nom: "Mauritius",
     localisation: "Mauritius",
     continent: "Africa",
@@ -403,7 +395,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/reunion.jpg",
     nom: "Reunion",
     localisation: "France",
     continent: "Africa",
@@ -411,7 +403,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/singapore.jpg",
     nom: "Singapore",
     localisation: "Singapore",
     continent: "Asia",
@@ -419,7 +411,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/manhattan.jpg",
     nom: "Manhattan",
     localisation: "United States",
     continent: "North America",
@@ -427,7 +419,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/sentosa.jpg",
     nom: "Sentosa",
     localisation: "Singapore",
     continent: "Asia",
@@ -435,7 +427,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/okinawa.jpg",
     nom: "Okinawa",
     localisation: "Japan",
     continent: "Asia",
@@ -443,7 +435,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/sado.jpg",
     nom: "Sado",
     localisation: "Japan",
     continent: "Asia",
@@ -451,7 +443,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/awaji.jpg",
     nom: "Awaji",
     localisation: "Japan",
     continent: "Asia",
@@ -459,7 +451,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/tsushima.jpeg",
     nom: "Tsushima",
     localisation: "Japan",
     continent: "Asia",
@@ -467,7 +459,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/iki.jpg",
     nom: "Iki",
     localisation: "Japan",
     continent: "Asia",
@@ -475,7 +467,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/rishiri.jpg",
     nom: "Rishiri",
     localisation: "Japan",
     continent: "Asia",
