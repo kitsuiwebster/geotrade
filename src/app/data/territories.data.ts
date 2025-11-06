@@ -12,7 +12,7 @@ export const territoriesData: Card[] = [
   },
   {
     type: "Territory",
-    image: "assets/images/cards/island/greenland.jpg",
+    image: "assets/images/cards/territory/greenland.avif",
     nom: "Greenland",
     localisation: "North Atlantic",
     continent: "Europe",
