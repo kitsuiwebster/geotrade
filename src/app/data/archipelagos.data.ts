@@ -11,7 +11,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/canary-islands.jpg",
     nom: "Canary Islands",
     localisation: "Spain",
     continent: "Africa",
@@ -19,7 +19,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/faroe-islands.jpg",
     nom: "Faroe Islands",
     localisation: "Denmark",
     continent: "Europe",
@@ -27,7 +27,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/seychelles.jpg",
     nom: "Seychelles",
     localisation: "Seychelles",
     continent: "Africa",
@@ -35,7 +35,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/maldives.jpg",
     nom: "Maldives",
     localisation: "Maldives",
     continent: "Asia",
@@ -43,7 +43,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/philippines.jpg",
     nom: "Philippines",
     localisation: "Philippines",
     continent: "Asia",
@@ -51,7 +51,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/bahamas.jpg",
     nom: "Bahamas",
     localisation: "Bahamas",
     continent: "North America",
@@ -59,7 +59,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/greek-islands.jpg",
     nom: "Greek Islands",
     localisation: "Greece",
     continent: "Europe",
@@ -67,15 +67,15 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
-    nom: "Indonesian Archipelago",
+    image: "assets/images/cards/archipelago/indonesia.jpg",
+    nom: "Indonesia",
     localisation: "Indonesia",
     continent: "Asia",
     area: "1,904,569 km²"
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/caribbean-islands.jpg",
     nom: "Caribbean Islands",
     localisation: "Caribbean",
     continent: "North America",
@@ -83,7 +83,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/azores.jpg",
     nom: "Azores",
     localisation: "Portugal",
     continent: "Europe",
@@ -91,7 +91,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/balearic-islands.jpg",
     nom: "Balearic Islands",
     localisation: "Spain",
     continent: "Europe",
@@ -99,15 +99,15 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
-    nom: "Japanese Archipelago",
+    image: "assets/images/cards/archipelago/japan.jpg",
+    nom: "Japan",
     localisation: "Japan",
     continent: "Asia",
     area: "377,975 km²"
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/british-isles.jpg",
     nom: "British Isles",
     localisation: "United Kingdom and Ireland",
     continent: "Europe",
@@ -115,7 +115,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/lofoten-islands.jpg",
     nom: "Lofoten Islands",
     localisation: "Norway",
     continent: "Europe",
@@ -123,7 +123,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/fiji.jpg",
     nom: "Fiji",
     localisation: "Fiji",
     continent: "Oceania",
