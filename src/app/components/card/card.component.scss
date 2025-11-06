@@ -177,19 +177,19 @@
   }
   
   &[data-type="Territory"] {
-    box-shadow: 0 4px 12px rgba(220, 20, 60, 0.3);
+    box-shadow: 0 4px 12px rgba(221, 160, 221, 0.3);
     &:hover {
-      box-shadow: 0 8px 20px rgba(220, 20, 60, 0.5);
+      box-shadow: 0 8px 20px rgba(221, 160, 221, 0.5);
     }
     .card-type-indicator {
-      background-color: #DC143C;
+      background-color: #DDA0DD;
     }
     .card-type {
-      color: #DC143C !important;
+      color: #DDA0DD !important;
       font-weight: bold !important;
     }
     .card-info-value {
-      color: #DC143C !important;
+      color: #DDA0DD !important;
     }
   }
 
@@ -791,16 +791,16 @@
   }
 
   &[data-type="Territory"] {
-    box-shadow: 0 20px 60px rgba(220, 20, 60, 0.3);
+    box-shadow: 0 20px 60px rgba(221, 160, 221, 0.3);
     .modal-card-type-indicator {
-      background-color: #DC143C;
+      background-color: #DDA0DD;
     }
     .modal-card-type {
-      color: #DC143C !important;
+      color: #DDA0DD !important;
       font-weight: bold !important;
     }
     .modal-card-info-value {
-      color: #DC143C !important;
+      color: #DDA0DD !important;
     }
   }
 
