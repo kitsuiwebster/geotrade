@@ -69,7 +69,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/crete.jpg",
     nom: "Crete",
-    localisation: "Greece",
+    localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "8,336 km²"
   },
@@ -101,7 +101,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/majorca.jpg",
     nom: "Majorca",
-    localisation: "Spain",
+    localisation: "Balearic Islands, Spain",
     continent: "Europe",
     area: "3,640 km²"
   },
@@ -117,7 +117,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/great-britain.jpg",
     nom: "Great Britain",
-    localisation: "United Kingdom",
+    localisation: "British Isles, United Kingdom",
     continent: "Europe",
     area: "209,331 km²"
   },
@@ -181,7 +181,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/ireland.jpg",
     nom: "Ireland",
-    localisation: "Ireland and United Kingdom",
+    localisation: "British Isles, Ireland and United Kingdom",
     continent: "Europe",
     area: "84,421 km²"
   },
@@ -205,7 +205,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/hispaniola.jpg",
     nom: "Hispaniola",
-    localisation: "Haiti and Dominican Republic",
+    localisation: "Caribbean Islands, Haiti and Dominican Republic",
     continent: "North America",
     area: "76,192 km²"
   },
@@ -253,7 +253,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/cuba.jpg",
     nom: "Cuba",
-    localisation: "Cuba",
+    localisation: "Caribbean Islands, Cuba",
     continent: "North America",
     area: "105,806 km²"
   },
@@ -317,7 +317,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/jamaica.jpg",
     nom: "Jamaica",
-    localisation: "Jamaica",
+    localisation: "Caribbean Islands, Jamaica",
     continent: "North America",
     area: "10,991 km²"
   },
@@ -325,7 +325,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/puerto-rico.jpg",
     nom: "Puerto Rico",
-    localisation: "United States",
+    localisation: "Caribbean Islands, United States",
     continent: "North America",
     area: "8,870 km²"
   },
@@ -368,14 +368,6 @@ export const islandsData: Card[] = [
     localisation: "Indonesia and East Timor",
     continent: "Asia",
     area: "28,418 km²"
-  },
-  {
-    type: "Island",
-    image: "assets/images/cards/island/zanzibar.jpg",
-    nom: "Zanzibar",
-    localisation: "Tanzania",
-    continent: "Africa",
-    area: "1,666 km²"
   },
   {
     type: "Island",
@@ -469,7 +461,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/default.jpg",
     nom: "Oahu",
-    localisation: "United States",
+    localisation: "Hawaii, United States",
     continent: "North America",
     area: "1,545 km²"
   },
@@ -477,7 +469,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/default.jpg",
     nom: "Maui",
-    localisation: "United States",
+    localisation: "Hawaii, United States",
     continent: "North America",
     area: "1,884 km²"
   },
@@ -485,7 +477,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/default.jpg",
     nom: "Big Island",
-    localisation: "United States",
+    localisation: "Hawaii, United States",
     continent: "North America",
     area: "10,433 km²"
   },
@@ -493,7 +485,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/default.jpg",
     nom: "Kauai",
-    localisation: "United States",
+    localisation: "Hawaii, United States",
     continent: "North America",
     area: "1,446 km²"
   },
@@ -501,7 +493,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/default.jpg",
     nom: "Molokai",
-    localisation: "United States",
+    localisation: "Hawaii, United States",
     continent: "North America",
     area: "673 km²"
   },
@@ -509,7 +501,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/default.jpg",
     nom: "Lanai",
-    localisation: "United States",
+    localisation: "Hawaii, United States",
     continent: "North America",
     area: "364 km²"
   },
@@ -517,7 +509,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/default.jpg",
     nom: "Rhodes",
-    localisation: "Greece",
+    localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "1,401 km²"
   },
@@ -525,7 +517,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/default.jpg",
     nom: "Lesbos",
-    localisation: "Greece",
+    localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "1,633 km²"
   },
@@ -533,7 +525,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/default.jpg",
     nom: "Chios",
-    localisation: "Greece",
+    localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "842 km²"
   },
@@ -541,7 +533,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/default.jpg",
     nom: "Samos",
-    localisation: "Greece",
+    localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "477 km²"
   },
@@ -549,7 +541,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/default.jpg",
     nom: "Naxos",
-    localisation: "Greece",
+    localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "430 km²"
   },
@@ -557,7 +549,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/default.jpg",
     nom: "Corfu",
-    localisation: "Greece",
+    localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "593 km²"
   },
@@ -696,5 +688,37 @@ export const islandsData: Card[] = [
     localisation: "Russia",
     continent: "Europe",
     area: "16,134 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Santorini",
+    localisation: "Greek Islands, Greece",
+    continent: "Europe",
+    area: "96 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Mykonos",
+    localisation: "Greek Islands, Greece",
+    continent: "Europe",
+    area: "86 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Ibiza",
+    localisation: "Balearic Islands, Spain",
+    continent: "Europe",
+    area: "572 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Minorca",
+    localisation: "Balearic Islands, Spain",
+    continent: "Europe",
+    area: "696 km²"
   }
 ];

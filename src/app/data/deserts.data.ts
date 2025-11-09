@@ -56,5 +56,77 @@ export const desertsData: Card[] = [
     localisation: "America",
     continent: "South America",
     area: "105,000 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/default.jpg",
+    nom: "Antarctic Desert",
+    localisation: "Antarctica",
+    continent: "Antarctica",
+    area: "14,200,000 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/default.jpg",
+    nom: "Arctic Desert",
+    localisation: "Arctic",
+    continent: "Arctic",
+    area: "13,985,000 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/default.jpg",
+    nom: "Patagonian Desert",
+    localisation: "South America",
+    continent: "South America",
+    area: "673,000 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/default.jpg",
+    nom: "Great Victoria Desert",
+    localisation: "Australia",
+    continent: "Oceania",
+    area: "348,750 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/default.jpg",
+    nom: "Thar Desert",
+    localisation: "Asia",
+    continent: "Asia",
+    area: "200,000 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/default.jpg",
+    nom: "Chihuahuan Desert",
+    localisation: "North America",
+    continent: "North America",
+    area: "362,600 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/default.jpg",
+    nom: "Mojave Desert",
+    localisation: "North America",
+    continent: "North America",
+    area: "124,000 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/default.jpg",
+    nom: "Namib Desert",
+    localisation: "Africa",
+    continent: "Africa",
+    area: "81,000 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/default.jpg",
+    nom: "Taklamakan Desert",
+    localisation: "Asia",
+    continent: "Asia",
+    area: "337,000 km²"
   }
 ];

@@ -136,5 +136,157 @@ export const archipelagosData: Card[] = [
     localisation: "United States",
     continent: "North America",
     area: "16,635 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Zanzibar",
+    localisation: "Tanzania",
+    continent: "Africa",
+    area: "2,461 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Svalbard",
+    localisation: "Norway",
+    continent: "Europe",
+    area: "61,022 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Micronesia",
+    localisation: "Micronesia",
+    continent: "Oceania",
+    area: "702 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Tonga",
+    localisation: "Tonga",
+    continent: "Oceania",
+    area: "747 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Vanuatu",
+    localisation: "Vanuatu",
+    continent: "Oceania",
+    area: "12,189 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Tuvalu",
+    localisation: "Tuvalu",
+    continent: "Oceania",
+    area: "26 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "São Tomé and Príncipe",
+    localisation: "São Tomé and Príncipe",
+    continent: "Africa",
+    area: "964 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Virgin Islands",
+    localisation: "United States and United Kingdom",
+    continent: "North America",
+    area: "497 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Falkland Islands",
+    localisation: "United Kingdom",
+    continent: "South America",
+    area: "12,173 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Samoa",
+    localisation: "Samoa",
+    continent: "Oceania",
+    area: "2,842 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Solomon Islands",
+    localisation: "Solomon Islands",
+    continent: "Oceania",
+    area: "28,896 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Marshall Islands",
+    localisation: "Marshall Islands",
+    continent: "Oceania",
+    area: "181 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "French Polynesia",
+    localisation: "France",
+    continent: "Oceania",
+    area: "4,167 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Palau",
+    localisation: "Palau",
+    continent: "Oceania",
+    area: "459 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Comoros",
+    localisation: "Comoros",
+    continent: "Africa",
+    area: "2,235 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Cabo Verde",
+    localisation: "Cabo Verde",
+    continent: "Africa",
+    area: "4,033 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Kerguelen Islands",
+    localisation: "France",
+    continent: "Antarctica",
+    area: "7,215 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "Crozet Islands",
+    localisation: "France",
+    continent: "Antarctica",
+    area: "352 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/default.jpg",
+    nom: "New Zealand",
+    localisation: "New Zealand",
+    continent: "Oceania",
+    area: "268,021 km²"
   }
 ];
