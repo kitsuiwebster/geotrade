@@ -413,6 +413,7 @@
   visibility: hidden;
   transition: all 0.3s ease;
   backdrop-filter: blur(5px);
+  overflow: auto;
 
   &.active {
     opacity: 1;
@@ -821,6 +822,24 @@
 }
 
 // Responsive design - keep same scale on all devices
+@media (max-height: 900px) and (min-width: 769px) {
+  .modal-overlay.active .modal-card {
+    transform: scale(2.2) !important;
+  }
+}
+
+@media (max-height: 800px) and (min-width: 769px) {
+  .modal-overlay.active .modal-card {
+    transform: scale(2) !important;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .modal-overlay.active .modal-card {
+    transform: scale(2.5) !important;
+  }
+}
+
 @media (max-width: 768px) {
   .modal-overlay.active .modal-card {
     transform: scale(2.5) !important;
