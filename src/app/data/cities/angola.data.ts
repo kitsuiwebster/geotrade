@@ -25,7 +25,7 @@ export const angolaCitiesData: Card[] = [
     nom: "Benguela",
     localisation: "Angola",
     continent: "Africa",
-    population: "777 K",
+    population: "540 K",
     agglomeration: "777 K"
   }
 ];
