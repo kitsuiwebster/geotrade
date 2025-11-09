@@ -18,5 +18,14 @@ export const palestineCitiesData: Card[] = [
     continent: "Asia",
     population: "966 K",
     agglomeration: "1.25 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/city/palestine/gaza.jpg",
+    nom: "Gaza",
+    localisation: "Palestine",
+    continent: "Asia",
+    population: "590 K",
+    agglomeration: "2.1 M"
   }
 ];

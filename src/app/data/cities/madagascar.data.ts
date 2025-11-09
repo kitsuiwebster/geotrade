@@ -12,7 +12,7 @@ export const madagascarCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/madagascar/antsirabe.jpg",
     nom: "Antsirabe",
     localisation: "Madagascar",
     continent: "Africa",

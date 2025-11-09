@@ -21,7 +21,7 @@ export const australieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/australia/brisbane.jpg",
     nom: "Brisbane",
     localisation: "Australia",
     continent: "Oceania",
@@ -30,7 +30,7 @@ export const australieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/australia/perth.jpg",
     nom: "Perth",
     localisation: "Australia",
     continent: "Oceania",

@@ -128,5 +128,13 @@ export const archipelagosData: Card[] = [
     localisation: "Fiji",
     continent: "Oceania",
     area: "18,333 km²"
+  },
+  {
+    type: "Archipelago",
+    image: "assets/images/cards/island/hawaii.jpg",
+    nom: "Hawaii",
+    localisation: "United States",
+    continent: "North America",
+    area: "16,635 km²"
   }
 ];

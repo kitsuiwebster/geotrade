@@ -12,7 +12,7 @@ export const camerounCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/cameroon/douala.jpg",
     nom: "Douala",
     localisation: "Cameroon",
     continent: "Africa",

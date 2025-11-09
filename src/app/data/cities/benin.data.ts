@@ -9,5 +9,14 @@ export const beninCitiesData: Card[] = [
     continent: "Africa",
     population: "264 K",
     agglomeration: "320 K"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/city/benin/cotonou.jpg",
+    nom: "Cotonou",
+    localisation: "Benin",
+    continent: "Africa",
+    population: "738 K",
+    agglomeration: "2.4 M"
   }
 ];

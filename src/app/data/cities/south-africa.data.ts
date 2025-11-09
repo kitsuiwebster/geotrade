@@ -18,5 +18,32 @@ export const afriqueDuSudCitiesData: Card[] = [
     continent: "Africa",
     population: "0.96 M",
     agglomeration: "5.93 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/city/south-africa/durban.jpg",
+    nom: "Durban",
+    localisation: "South Africa",
+    continent: "Africa",
+    population: "595 K",
+    agglomeration: "3.26 M"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/city/south-africa/east-london.jpg",
+    nom: "East London",
+    localisation: "South Africa",
+    continent: "Africa",
+    population: "267 K",
+    agglomeration: "755 K"
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/city/south-africa/gqeberha.jpg",
+    nom: "Gqeberha",
+    localisation: "South Africa",
+    continent: "Africa",
+    population: "312 K",
+    agglomeration: "1.26 M"
   }
 ];

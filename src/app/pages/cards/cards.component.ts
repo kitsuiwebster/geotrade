@@ -27,6 +27,7 @@ export class CardsComponent implements OnInit, AfterViewInit {
   
   showFilters: boolean = false;
   searchTerm: string = '';
+  isRealMode: boolean = false;
   
   // Infinite scroll properties
   private cardsPerLoad = 30;
@@ -177,6 +178,15 @@ export class CardsComponent implements OnInit, AfterViewInit {
     this.showFilters = !this.showFilters;
   }
 
+  toggleDisplayMode() {
+    this.isRealMode = !this.isRealMode;
+    if (this.isRealMode) {
+      document.body.classList.add('export-mode');
+    } else {
+      document.body.classList.remove('export-mode');
+    }
+  }
+
   applyFilters() {
     this.updateUrl();
     this.shuffleAndFilter();
@@ -321,6 +331,12 @@ export class CardsComponent implements OnInit, AfterViewInit {
     const zip = new JSZip();
     const totalCards = this.shuffledCards.length;
     
+    // Ajouter la classe export-mode pour les bordures colorées
+    document.body.classList.add('export-mode');
+    
+    // Attendre que les styles soient appliqués
+    await new Promise(resolve => setTimeout(resolve, 100));
+    
     try {
       for (const [index, card] of this.shuffledCards.entries()) {
         const cardElement = document.getElementById(`card-${card.nom}`);
@@ -383,6 +399,8 @@ export class CardsComponent implements OnInit, AfterViewInit {
       console.error('Error during zip generation:', error);
       alert('Download error. Please try again.');
     } finally {
+      // Retirer la classe export-mode
+      document.body.classList.remove('export-mode');
       this.isLoading = false;
     }
   }

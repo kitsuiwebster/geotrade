@@ -326,7 +326,7 @@
       }
       
       &.long-name {
-        font-size: 8px !important;
+        font-size: 7px !important;
       }
     }
     
@@ -597,7 +597,7 @@
       }
       
       &.long-name {
-        font-size: 8px !important;
+        font-size: 7px !important;
       }
     }
     
@@ -844,4 +844,51 @@
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+// Export-only styles with colored borders
+::ng-deep body.export-mode .card {
+  &[data-type="Mountain"] {
+    border: 6px solid #FFFFFF !important;
+  }
+  
+  &[data-type="Lake"] {
+    border: 6px solid #4169E1 !important;
+  }
+  
+  &[data-type="City"] {
+    border: 6px solid #FFD700 !important;
+  }
+  
+  &[data-type="Country"] {
+    border: 6px solid #8A2BE2 !important;
+  }
+  
+  &[data-type="Sea"] {
+    border: 6px solid #00CED1 !important;
+  }
+  
+  &[data-type="Ocean"] {
+    border: 6px solid #4682B4 !important;
+  }
+  
+  &[data-type="River"] {
+    border: 6px solid #778899 !important;
+  }
+  
+  &[data-type="Desert"] {
+    border: 6px solid #D2691E !important;
+  }
+  
+  &[data-type="Island"] {
+    border: 6px solid #228B22 !important;
+  }
+  
+  &[data-type="Territory"] {
+    border: 6px solid #DDA0DD !important;
+  }
+  
+  &[data-type="Archipelago"] {
+    border: 6px solid #00FF7F !important;
+  }
 }

@@ -10,6 +10,10 @@
         <span class="btn-icon">📥</span>
         <span class="btn-text">Download</span>
       </button>
+      <button class='toggle-mode-btn' (click)="toggleDisplayMode()" [class.active]="isRealMode">
+        <span class="btn-icon">{{ isRealMode ? '🖼️' : '🌐' }}</span>
+        <span class="btn-text">{{ isRealMode ? 'Real Mode' : 'Web Mode' }}</span>
+      </button>
       <button class='filter-btn' (click)="toggleFilters()">
         <span class="btn-icon">🔧</span>
         <span class="btn-text">Filters</span>

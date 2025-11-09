@@ -39,7 +39,7 @@
             text-shadow: 0 0 10px rgba(0, 201, 167, 0.3);
         }
 
-        .download-btn, .filter-btn {
+        .download-btn, .filter-btn, .toggle-mode-btn {
             background: linear-gradient(135deg, #00c9a7 0%, #20b2aa 100%);
             color: #fff;
             border: none;
@@ -91,6 +91,18 @@
                     background: linear-gradient(135deg, #00c9a7 0%, #20b2aa 100%);
                     transform: none;
                     box-shadow: 0 4px 15px rgba(0, 201, 167, 0.4);
+                }
+            }
+        }
+        
+        .toggle-mode-btn {
+            &.active {
+                background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%) !important;
+                box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4) !important;
+                
+                &:hover {
+                    background: linear-gradient(135deg, #e55a2b 0%, #de851a 100%) !important;
+                    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.6) !important;
                 }
             }
         }

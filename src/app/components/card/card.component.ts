@@ -865,7 +865,32 @@ export class CardComponent implements OnInit, OnDestroy {
         'Tucson': 'us',
         'Tulsa': 'us',
         'Virginia Beach': 'us',
-        'Wichita': 'us'
+        'Wichita': 'us',
+        // Newly added cities only
+        'Cotonou': 'bj',
+        'Sfax': 'tn',
+        'Sousse': 'tn',
+        'Kumasi': 'gh',
+        'Kananga': 'cd',
+        'Kisangani': 'cd',
+        'Butembo': 'cd',
+        'Nakuru': 'ke',
+        'Eldoret': 'ke',
+        'Kisumu': 'ke',
+        'Mbeya': 'tz',
+        'Quelimane': 'mz',
+        'Nampula': 'mz',
+        'Beira': 'mz',
+        'Bulawayo': 'zw',
+        'Lubango': 'ao',
+        'Benguela': 'ao',
+        'Durban': 'za',
+        'East London': 'za',
+        'Gqeberha': 'za',
+        'Gaza': 'ps',
+        'Fez': 'ma',
+        'Marrakech': 'ma',
+        'Tangier': 'ma'
       };
       
       const countryCode = countryMapping[this.card.nom];

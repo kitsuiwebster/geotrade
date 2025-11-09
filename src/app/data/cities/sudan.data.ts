@@ -12,7 +12,7 @@ export const soudanCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/sudan/omdurman.jpg",
     nom: "Omdurman",
     localisation: "Sudan",
     continent: "Africa",

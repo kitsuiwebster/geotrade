@@ -12,7 +12,7 @@ export const nigeriaCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/nigeria/lagos.jpg",
     nom: "Lagos",
     localisation: "Nigeria",
     continent: "Africa",
@@ -21,7 +21,7 @@ export const nigeriaCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/nigeria/kano.jpg",
     nom: "Kano",
     localisation: "Nigeria",
     continent: "Africa",
@@ -30,7 +30,7 @@ export const nigeriaCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/nigeria/ibadan.jpg",
     nom: "Ibadan",
     localisation: "Nigeria",
     continent: "Africa",
@@ -39,7 +39,7 @@ export const nigeriaCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/nigeria/port-harcourt.jpg",
     nom: "Port Harcourt",
     localisation: "Nigeria",
     continent: "Africa",
@@ -48,7 +48,7 @@ export const nigeriaCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/nigeria/maiduguri.jpg",
     nom: "Maiduguri",
     localisation: "Nigeria",
     continent: "Africa",

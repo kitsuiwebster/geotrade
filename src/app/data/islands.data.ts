@@ -27,14 +27,6 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/island/hawaii.jpg",
-    nom: "Hawaii",
-    localisation: "United States",
-    continent: "North America",
-    area: "16,635 km²"
-  },
-  {
-    type: "Island",
     image: "assets/images/cards/island/sicily.jpg",
     nom: "Sicily",
     localisation: "Italy",
@@ -472,5 +464,237 @@ export const islandsData: Card[] = [
     localisation: "Japan",
     continent: "Asia",
     area: "183 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Oahu",
+    localisation: "United States",
+    continent: "North America",
+    area: "1,545 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Maui",
+    localisation: "United States",
+    continent: "North America",
+    area: "1,884 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Big Island",
+    localisation: "United States",
+    continent: "North America",
+    area: "10,433 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Kauai",
+    localisation: "United States",
+    continent: "North America",
+    area: "1,446 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Molokai",
+    localisation: "United States",
+    continent: "North America",
+    area: "673 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Lanai",
+    localisation: "United States",
+    continent: "North America",
+    area: "364 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Rhodes",
+    localisation: "Greece",
+    continent: "Europe",
+    area: "1,401 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Lesbos",
+    localisation: "Greece",
+    continent: "Europe",
+    area: "1,633 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Chios",
+    localisation: "Greece",
+    continent: "Europe",
+    area: "842 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Samos",
+    localisation: "Greece",
+    continent: "Europe",
+    area: "477 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Naxos",
+    localisation: "Greece",
+    continent: "Europe",
+    area: "430 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Corfu",
+    localisation: "Greece",
+    continent: "Europe",
+    area: "593 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Palawan",
+    localisation: "Philippines",
+    continent: "Asia",
+    area: "14,649 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Samar",
+    localisation: "Philippines",
+    continent: "Asia",
+    area: "13,429 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Negros",
+    localisation: "Philippines",
+    continent: "Asia",
+    area: "13,309 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Panay",
+    localisation: "Philippines",
+    continent: "Asia",
+    area: "12,300 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Cebu",
+    localisation: "Philippines",
+    continent: "Asia",
+    area: "4,468 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Flores",
+    localisation: "Indonesia",
+    continent: "Asia",
+    area: "13,540 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Seram",
+    localisation: "Indonesia",
+    continent: "Asia",
+    area: "17,100 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Lombok",
+    localisation: "Indonesia",
+    continent: "Asia",
+    area: "4,725 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Sumbawa",
+    localisation: "Indonesia",
+    continent: "Asia",
+    area: "15,448 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Halmahera",
+    localisation: "Indonesia",
+    continent: "Asia",
+    area: "17,780 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Vesteralen",
+    localisation: "Norway",
+    continent: "Europe",
+    area: "2,511 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Senja",
+    localisation: "Norway",
+    continent: "Europe",
+    area: "1,590 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Kvaloya",
+    localisation: "Norway",
+    continent: "Europe",
+    area: "737 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Wrangel Island",
+    localisation: "Russia",
+    continent: "Asia",
+    area: "7,608 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Bennett Island",
+    localisation: "Russia",
+    continent: "Asia",
+    area: "150 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Kotelny Island",
+    localisation: "Russia",
+    continent: "Asia",
+    area: "23,200 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Franz Josef Land",
+    localisation: "Russia",
+    continent: "Europe",
+    area: "16,134 km²"
   }
 ];
