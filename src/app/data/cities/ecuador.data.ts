@@ -12,7 +12,7 @@ export const equateurCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/ecuador/guayaquil.jpg",
     nom: "Guayaquil",
     localisation: "Ecuador",
     continent: "South America",

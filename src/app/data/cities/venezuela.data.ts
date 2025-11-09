@@ -12,7 +12,7 @@ export const venezuelaCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/venezuela/maracaibo.jpg",
     nom: "Maracaibo",
     localisation: "Venezuela",
     continent: "South America",
@@ -21,7 +21,7 @@ export const venezuelaCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/venezuela/barquisimeto.jpg",
     nom: "Barquisimeto",
     localisation: "Venezuela",
     continent: "South America",

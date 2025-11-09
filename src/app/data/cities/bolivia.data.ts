@@ -21,7 +21,7 @@ export const bolivieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/bolivia/santa-cruz.jpg",
     nom: "Santa Cruz",
     localisation: "Bolivia",
     continent: "South America",

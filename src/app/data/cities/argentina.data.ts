@@ -12,7 +12,7 @@ export const argentineCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/argentina/mendoza.jpg",
     nom: "Mendoza",
     localisation: "Argentina",
     continent: "South America",
@@ -21,7 +21,7 @@ export const argentineCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/argentina/cordoba.jpg",
     nom: "Córdoba",
     localisation: "Argentina",
     continent: "South America",

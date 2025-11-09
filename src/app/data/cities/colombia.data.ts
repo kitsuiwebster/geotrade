@@ -12,7 +12,7 @@ export const colombieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/colombia/medellin.jpg",
     nom: "Medellín",
     localisation: "Colombia",
     continent: "South America",
@@ -21,7 +21,7 @@ export const colombieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/colombia/cali.jpg",
     nom: "Cali",
     localisation: "Colombia",
     continent: "South America",

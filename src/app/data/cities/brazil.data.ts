@@ -12,7 +12,7 @@ export const bresilCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/brazil/sao-paulo.jpg",
     nom: "São Paulo",
     localisation: "Brazil",
     continent: "South America",
@@ -21,7 +21,7 @@ export const bresilCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/brazil/rio-de-janeiro.jpg",
     nom: "Rio de Janeiro",
     localisation: "Brazil",
     continent: "South America",
@@ -30,7 +30,7 @@ export const bresilCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/brazil/belo-horizonte.jpg",
     nom: "Belo Horizonte",
     localisation: "Brazil",
     continent: "South America",
@@ -39,7 +39,7 @@ export const bresilCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/brazil/salvador.jpg",
     nom: "Salvador",
     localisation: "Brazil",
     continent: "South America",
@@ -48,7 +48,7 @@ export const bresilCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/brazil/fortaleza.jpg",
     nom: "Fortaleza",
     localisation: "Brazil",
     continent: "South America",
@@ -57,7 +57,7 @@ export const bresilCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/brazil/manaus.jpg",
     nom: "Manaus",
     localisation: "Brazil",
     continent: "South America",
@@ -66,7 +66,7 @@ export const bresilCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/brazil/curitiba.jpg",
     nom: "Curitiba",
     localisation: "Brazil",
     continent: "South America",
@@ -75,7 +75,7 @@ export const bresilCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/brazil/recife.jpg",
     nom: "Recife",
     localisation: "Brazil",
     continent: "South America",
@@ -84,7 +84,7 @@ export const bresilCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/brazil/porto-alegre.jpg",
     nom: "Porto Alegre",
     localisation: "Brazil",
     continent: "South America",
