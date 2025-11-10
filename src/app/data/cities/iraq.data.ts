@@ -12,8 +12,8 @@ export const irakCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
-    nom: "Basrah",
+    image: "assets/images/cards/city/iraq/basrah.jpg",
+    nom: "Basra",
     localisation: "Iraq",
     continent: "Asia",
     population: "1.4 M",
@@ -21,8 +21,8 @@ export const irakCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
-    nom: "Irbil",
+    image: "assets/images/cards/city/iraq/erbil.jpg",
+    nom: "Erbil",
     localisation: "Iraq",
     continent: "Asia",
     population: "846 K",

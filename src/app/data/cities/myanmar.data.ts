@@ -12,7 +12,7 @@ export const myanmarCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/myanmar/yangon.jpg",
     nom: "Yangon",
     localisation: "Myanmar",
     continent: "Asia",

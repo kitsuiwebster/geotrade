@@ -12,7 +12,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/kolkata.jpg",
     nom: "Kolkata",
     localisation: "India",
     continent: "Asia",
@@ -21,8 +21,8 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
-    nom: "Bengaluru",
+    image: "assets/images/cards/city/india/bangalore.jpg",
+    nom: "Bangalore",
     localisation: "India",
     continent: "Asia",
     population: "8.4 M",
@@ -30,7 +30,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/chennai.jpg",
     nom: "Chennai",
     localisation: "India",
     continent: "Asia",
@@ -39,7 +39,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/hyderabad.jpg",
     nom: "Hyderabad",
     localisation: "India",
     continent: "Asia",
@@ -48,7 +48,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/ahmedabad.jpg",
     nom: "Ahmedabad",
     localisation: "India",
     continent: "Asia",
@@ -57,7 +57,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/surat.jpg",
     nom: "Surat",
     localisation: "India",
     continent: "Asia",
@@ -66,7 +66,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/pune.jpg",
     nom: "Pune",
     localisation: "India",
     continent: "Asia",
@@ -75,7 +75,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/jaipur.jpg",
     nom: "Jaipur",
     localisation: "India",
     continent: "Asia",
@@ -84,7 +84,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/kanpur.jpg",
     nom: "Kanpur",
     localisation: "India",
     continent: "Asia",
@@ -93,7 +93,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/nagpur.jpg",
     nom: "Nagpur",
     localisation: "India",
     continent: "Asia",
@@ -102,7 +102,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/bhopal.jpg",
     nom: "Bhopal",
     localisation: "India",
     continent: "Asia",
@@ -111,7 +111,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/pimpri-chinchwad.jpg",
     nom: "Pimpri Chinchwad",
     localisation: "India",
     continent: "Asia",
@@ -120,7 +120,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/vadodara.jpg",
     nom: "Vadodara",
     localisation: "India",
     continent: "Asia",
@@ -129,7 +129,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/patna.jpg",
     nom: "Patna",
     localisation: "India",
     continent: "Asia",
@@ -138,7 +138,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/ludhiana.jpg",
     nom: "Ludhiana",
     localisation: "India",
     continent: "Asia",
@@ -147,7 +147,7 @@ export const indeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/india/agra.jpg",
     nom: "Agra",
     localisation: "India",
     continent: "Asia",

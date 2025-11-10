@@ -12,7 +12,7 @@ export const syrieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/syria/aleppo.jpg",
     nom: "Aleppo",
     localisation: "Syria",
     continent: "Asia",

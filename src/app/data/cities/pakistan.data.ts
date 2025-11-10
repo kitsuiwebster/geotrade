@@ -12,7 +12,7 @@ export const pakistanCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/pakistan/karachi.jpg",
     nom: "Karachi",
     localisation: "Pakistan",
     continent: "Asia",
@@ -21,7 +21,7 @@ export const pakistanCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/pakistan/lahore.jpg",
     nom: "Lahore",
     localisation: "Pakistan",
     continent: "Asia",
@@ -30,7 +30,7 @@ export const pakistanCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/pakistan/faisalabad.jpg",
     nom: "Faisalabad",
     localisation: "Pakistan",
     continent: "Asia",
@@ -39,7 +39,7 @@ export const pakistanCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/pakistan/rawalpindi.jpg",
     nom: "Rawalpindi",
     localisation: "Pakistan",
     continent: "Asia",
@@ -48,7 +48,7 @@ export const pakistanCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/pakistan/gujranwala.jpg",
     nom: "Gujranwala",
     localisation: "Pakistan",
     continent: "Asia",
@@ -57,7 +57,7 @@ export const pakistanCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/pakistan/multan.jpg",
     nom: "Multan",
     localisation: "Pakistan",
     continent: "Asia",

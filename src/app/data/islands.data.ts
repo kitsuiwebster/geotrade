@@ -720,5 +720,13 @@ export const islandsData: Card[] = [
     localisation: "Balearic Islands, Spain",
     continent: "Europe",
     area: "696 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/default.jpg",
+    nom: "Papua",
+    localisation: "Indonesia and Papua New Guinea",
+    continent: "Asia and Oceania",
+    area: "785,753 km²"
   }
 ];

@@ -12,7 +12,7 @@ export const kazakhstanCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/kazakhstan/almaty.jpg",
     nom: "Almaty",
     localisation: "Kazakhstan",
     continent: "Asia",

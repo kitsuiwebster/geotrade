@@ -12,7 +12,7 @@ export const arabiesaouditeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/saudi-arabia/jeddah.jpg",
     nom: "Jeddah",
     localisation: "Saudi Arabia",
     continent: "Asia",
@@ -21,7 +21,7 @@ export const arabiesaouditeCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/saudi-arabia/mecca.jpg",
     nom: "Mecca",
     localisation: "Saudi Arabia",
     continent: "Asia",

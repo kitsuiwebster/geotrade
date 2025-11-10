@@ -12,7 +12,7 @@ export const japonCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/japan/osaka.jpg",
     nom: "Osaka",
     localisation: "Japan",
     continent: "Asia",
@@ -21,7 +21,7 @@ export const japonCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/japan/kyoto.jpg",
     nom: "Kyoto",
     localisation: "Japan",
     continent: "Asia",
@@ -30,7 +30,7 @@ export const japonCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/japan/sapporo.jpg",
     nom: "Sapporo",
     localisation: "Japan",
     continent: "Asia",
@@ -39,7 +39,7 @@ export const japonCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/japan/nagoya.jpg",
     nom: "Nagoya",
     localisation: "Japan",
     continent: "Asia",
@@ -48,7 +48,7 @@ export const japonCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/japan/fukuoka.jpg",
     nom: "Fukuoka",
     localisation: "Japan",
     continent: "Asia",
@@ -57,7 +57,7 @@ export const japonCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/japan/yokohama.jpg",
     nom: "Yokohama",
     localisation: "Japan",
     continent: "Asia",

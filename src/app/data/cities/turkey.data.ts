@@ -21,7 +21,7 @@ export const turquieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/turkey/izmir.jpg",
     nom: "Izmir",
     localisation: "Turkey",
     continent: "Asia",
@@ -30,7 +30,7 @@ export const turquieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/turkey/bursa.jpg",
     nom: "Bursa",
     localisation: "Turkey",
     continent: "Asia",
@@ -39,7 +39,7 @@ export const turquieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/turkey/adana.jpg",
     nom: "Adana",
     localisation: "Turkey",
     continent: "Asia",

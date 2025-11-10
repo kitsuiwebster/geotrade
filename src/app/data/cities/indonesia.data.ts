@@ -12,7 +12,7 @@ export const indonesieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/indonesia/nusantara.jpg",
     nom: "Nusantara",
     localisation: "Indonesia",
     continent: "Asia",
@@ -21,7 +21,7 @@ export const indonesieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/indonesia/surabaya.jpg",
     nom: "Surabaya",
     localisation: "Indonesia",
     continent: "Asia",
@@ -30,7 +30,7 @@ export const indonesieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/indonesia/bandung.jpg",
     nom: "Bandung",
     localisation: "Indonesia",
     continent: "Asia",
@@ -39,7 +39,7 @@ export const indonesieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/indonesia/medan.jpg",
     nom: "Medan",
     localisation: "Indonesia",
     continent: "Asia",
@@ -48,7 +48,7 @@ export const indonesieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/indonesia/makassar.jpg",
     nom: "Makassar",
     localisation: "Indonesia",
     continent: "Asia",
@@ -57,7 +57,7 @@ export const indonesieCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/indonesia/palembang.jpg",
     nom: "Palembang",
     localisation: "Indonesia",
     continent: "Asia",

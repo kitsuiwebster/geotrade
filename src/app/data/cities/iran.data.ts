@@ -12,7 +12,7 @@ export const iranCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/iran/mashhad.jpg",
     nom: "Mashhad",
     localisation: "Iran",
     continent: "Asia",
@@ -21,7 +21,7 @@ export const iranCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/iran/isfahan.jpg",
     nom: "Isfahan",
     localisation: "Iran",
     continent: "Asia",
@@ -30,7 +30,7 @@ export const iranCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/iran/tabriz.jpg",
     nom: "Tabriz",
     localisation: "Iran",
     continent: "Asia",

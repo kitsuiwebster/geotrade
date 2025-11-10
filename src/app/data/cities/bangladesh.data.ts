@@ -12,7 +12,7 @@ export const bangladeshCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/bangladesh/chittagong.jpg",
     nom: "Chittagong",
     localisation: "Bangladesh",
     continent: "Asia",

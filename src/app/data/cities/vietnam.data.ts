@@ -12,7 +12,7 @@ export const vietnamCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/vietnam/ho-chi-minh-city.jpg",
     nom: "Ho Chi Minh City",
     localisation: "Vietnam",
     continent: "Asia",
@@ -21,7 +21,7 @@ export const vietnamCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/vietnam/da-nang.jpg",
     nom: "Da Nang",
     localisation: "Vietnam",
     continent: "Asia",
@@ -30,7 +30,7 @@ export const vietnamCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/vietnam/haiphong.jpg",
     nom: "Haiphong",
     localisation: "Vietnam",
     continent: "Asia",

@@ -12,7 +12,7 @@ export const coreedusudCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/south-korea/busan.jpg",
     nom: "Busan",
     localisation: "South Korea",
     continent: "Asia",
@@ -21,7 +21,7 @@ export const coreedusudCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/south-korea/incheon.jpg",
     nom: "Incheon",
     localisation: "South Korea",
     continent: "Asia",
@@ -30,7 +30,7 @@ export const coreedusudCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/south-korea/daegu.jpg",
     nom: "Daegu",
     localisation: "South Korea",
     continent: "Asia",
