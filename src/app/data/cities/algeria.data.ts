@@ -16,7 +16,7 @@ export const algerieCitiesData: Card[] = [
     nom: "Oran",
     localisation: "Algeria",
     continent: "Africa",
-    population: "0.80 M",
+    population: "800 K",
     agglomeration: "1.45 M"
   },
   {
@@ -25,8 +25,8 @@ export const algerieCitiesData: Card[] = [
     nom: "Constantine",
     localisation: "Algeria",
     continent: "Africa",
-    population: "0.45 M",
-    agglomeration: "0.94 M"
+    population: "450 K",
+    agglomeration: "940 K"
   },
   {
     type: "City",
@@ -34,8 +34,8 @@ export const algerieCitiesData: Card[] = [
     nom: "Annaba",
     localisation: "Algeria",
     continent: "Africa",
-    population: "0.26 M",
-    agglomeration: "0.46 M"
+    population: "260 K",
+    agglomeration: "460 K"
   },
   {
     type: "City",
@@ -43,8 +43,8 @@ export const algerieCitiesData: Card[] = [
     nom: "Batna",
     localisation: "Algeria",
     continent: "Africa",
-    population: "0.29 M",
-    agglomeration: "0.39 M"
+    population: "290 K",
+    agglomeration: "390 K"
   },
   {
     type: "City",
@@ -52,8 +52,8 @@ export const algerieCitiesData: Card[] = [
     nom: "Blida",
     localisation: "Algeria",
     continent: "Africa",
-    population: "0.33 M",
-    agglomeration: "0.55 M"
+    population: "330 K",
+    agglomeration: "550 K"
   },
   {
     type: "City",
@@ -61,8 +61,8 @@ export const algerieCitiesData: Card[] = [
     nom: "Setif",
     localisation: "Algeria",
     continent: "Africa",
-    population: "0.29 M",
-    agglomeration: "0.41 M"
+    population: "290 K",
+    agglomeration: "410 K"
   },
   {
     type: "City",
@@ -70,8 +70,8 @@ export const algerieCitiesData: Card[] = [
     nom: "Djelfa",
     localisation: "Algeria",
     continent: "Africa",
-    population: "0.27 M",
-    agglomeration: "0.35 M"
+    population: "270 K",
+    agglomeration: "350 K"
   },
   {
     type: "City",
@@ -79,8 +79,8 @@ export const algerieCitiesData: Card[] = [
     nom: "Sidi Bel Abbes",
     localisation: "Algeria",
     continent: "Africa",
-    population: "0.21 M",
-    agglomeration: "0.28 M"
+    population: "210 K",
+    agglomeration: "280 K"
   },
   {
     type: "City",
@@ -88,8 +88,8 @@ export const algerieCitiesData: Card[] = [
     nom: "Biskra",
     localisation: "Algeria",
     continent: "Africa",
-    population: "0.20 M",
-    agglomeration: "0.31 M"
+    population: "200 K",
+    agglomeration: "310 K"
   },
   {
     type: "City",
@@ -97,7 +97,7 @@ export const algerieCitiesData: Card[] = [
     nom: "Tebessa",
     localisation: "Algeria",
     continent: "Africa",
-    population: "0.19 M",
-    agglomeration: "0.25 M"
+    population: "190 K",
+    agglomeration: "250 K"
   }
 ];

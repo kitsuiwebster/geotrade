@@ -43,7 +43,7 @@ export const germanyCitiesData: Card[] = [
     nom: "Frankfurt",
     localisation: "Germany",
     continent: "Europe",
-    population: "0.76 M",
+    population: "760 K",
     agglomeration: "2.3 M"
   },
   {
@@ -52,7 +52,7 @@ export const germanyCitiesData: Card[] = [
     nom: "Stuttgart",
     localisation: "Germany",
     continent: "Europe",
-    population: "0.63 M",
+    population: "630 K",
     agglomeration: "2.8 M"
   },
   {
@@ -61,7 +61,7 @@ export const germanyCitiesData: Card[] = [
     nom: "Düsseldorf",
     localisation: "Germany",
     continent: "Europe",
-    population: "0.62 M",
+    population: "620 K",
     agglomeration: "1.3 M"
   },
   {
@@ -70,7 +70,7 @@ export const germanyCitiesData: Card[] = [
     nom: "Dortmund",
     localisation: "Germany",
     continent: "Europe",
-    population: "0.59 M",
+    population: "590 K",
     agglomeration: "5.1 M"
   },
   {
@@ -79,7 +79,7 @@ export const germanyCitiesData: Card[] = [
     nom: "Essen",
     localisation: "Germany",
     continent: "Europe",
-    population: "0.57 M",
+    population: "570 K",
     agglomeration: "5.1 M"
   },
   {
@@ -88,7 +88,7 @@ export const germanyCitiesData: Card[] = [
     nom: "Leipzig",
     localisation: "Germany",
     continent: "Europe",
-    population: "0.60 M",
+    population: "600 K",
     agglomeration: "1.2 M"
   }
 ];

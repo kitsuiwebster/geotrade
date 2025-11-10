@@ -7,7 +7,7 @@ export const tadjikistanCitiesData: Card[] = [
     nom: "Dushanbe",
     localisation: "Tajikistan",
     continent: "Asia",
-    population: "0.95 M",
+    population: "950 K",
     agglomeration: "1.4 M"
   }
 ];

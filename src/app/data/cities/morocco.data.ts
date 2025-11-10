@@ -16,7 +16,7 @@ export const marocCitiesData: Card[] = [
     nom: "Rabat",
     localisation: "Morocco",
     continent: "Africa",
-    population: "0.58 M",
+    population: "580 K",
     agglomeration: "1.97 M"
   },
   {

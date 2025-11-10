@@ -16,7 +16,7 @@ export const franceCitiesData: Card[] = [
     nom: "Marseille",
     localisation: "France",
     continent: "Europe",
-    population: "0.87 M",
+    population: "870 K",
     agglomeration: "1.76 M"
   },
   {
@@ -25,7 +25,7 @@ export const franceCitiesData: Card[] = [
     nom: "Lyon",
     localisation: "France",
     continent: "Europe",
-    population: "0.52 M",
+    population: "520 K",
     agglomeration: "2.31 M"
   },
   {
@@ -34,7 +34,7 @@ export const franceCitiesData: Card[] = [
     nom: "Toulouse",
     localisation: "France",
     continent: "Europe",
-    population: "0.48 M",
+    population: "480 K",
     agglomeration: "1.36 M"
   },
   {
@@ -43,7 +43,7 @@ export const franceCitiesData: Card[] = [
     nom: "Nice",
     localisation: "France",
     continent: "Europe",
-    population: "0.34 M",
+    population: "340 K",
     agglomeration: "1.01 M"
   },
   {
@@ -52,8 +52,8 @@ export const franceCitiesData: Card[] = [
     nom: "Nantes",
     localisation: "France",
     continent: "Europe",
-    population: "0.31 M",
-    agglomeration: "0.97 M"
+    population: "310 K",
+    agglomeration: "970 K"
   },
   {
     type: "City",
@@ -61,8 +61,8 @@ export const franceCitiesData: Card[] = [
     nom: "Montpellier",
     localisation: "France",
     continent: "Europe",
-    population: "0.30 M",
-    agglomeration: "0.61 M"
+    population: "300 K",
+    agglomeration: "610 K"
   },
   {
     type: "City",
@@ -70,8 +70,8 @@ export const franceCitiesData: Card[] = [
     nom: "Strasbourg",
     localisation: "France",
     continent: "Europe",
-    population: "0.28 M",
-    agglomeration: "0.79 M"
+    population: "280 K",
+    agglomeration: "790 K"
   },
   {
     type: "City",
@@ -79,7 +79,7 @@ export const franceCitiesData: Card[] = [
     nom: "Bordeaux",
     localisation: "France",
     continent: "Europe",
-    population: "0.26 M",
+    population: "260 K",
     agglomeration: "1.36 M"
   },
   {
@@ -88,7 +88,7 @@ export const franceCitiesData: Card[] = [
     nom: "Lille",
     localisation: "France",
     continent: "Europe",
-    population: "0.23 M",
+    population: "230 K",
     agglomeration: "1.18 M"
   },
   {

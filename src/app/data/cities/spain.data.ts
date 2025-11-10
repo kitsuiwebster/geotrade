@@ -25,7 +25,7 @@ export const spainCitiesData: Card[] = [
     nom: "Valencia",
     localisation: "Spain",
     continent: "Europe",
-    population: "0.80 M",
+    population: "800 K",
     agglomeration: "2.5 M"
   },
   {
@@ -34,7 +34,7 @@ export const spainCitiesData: Card[] = [
     nom: "Seville",
     localisation: "Spain",
     continent: "Europe",
-    population: "0.69 M",
+    population: "690 K",
     agglomeration: "1.5 M"
   },
   {
@@ -43,8 +43,8 @@ export const spainCitiesData: Card[] = [
     nom: "Zaragoza",
     localisation: "Spain",
     continent: "Europe",
-    population: "0.68 M",
-    agglomeration: "0.76 M"
+    population: "680 K",
+    agglomeration: "760 K"
   },
   {
     type: "City",
@@ -52,7 +52,7 @@ export const spainCitiesData: Card[] = [
     nom: "Málaga",
     localisation: "Spain",
     continent: "Europe",
-    population: "0.58 M",
+    population: "580 K",
     agglomeration: "1.65 M"
   },
   {
@@ -61,8 +61,8 @@ export const spainCitiesData: Card[] = [
     nom: "Murcia",
     localisation: "Spain",
     continent: "Europe",
-    population: "0.46 M",
-    agglomeration: "0.67 M"
+    population: "460 K",
+    agglomeration: "670 K"
   },
   {
     type: "City",
@@ -70,8 +70,8 @@ export const spainCitiesData: Card[] = [
     nom: "Palma",
     localisation: "Spain",
     continent: "Europe",
-    population: "0.42 M",
-    agglomeration: "0.56 M"
+    population: "420 K",
+    agglomeration: "560 K"
   },
   {
     type: "City",
@@ -79,7 +79,7 @@ export const spainCitiesData: Card[] = [
     nom: "Bilbao",
     localisation: "Spain",
     continent: "Europe",
-    population: "0.35 M",
+    population: "350 K",
     agglomeration: "1.04 M"
   },
   {
@@ -88,7 +88,7 @@ export const spainCitiesData: Card[] = [
     nom: "Alicante",
     localisation: "Spain",
     continent: "Europe",
-    population: "0.33 M",
-    agglomeration: "0.76 M"
+    population: "330 K",
+    agglomeration: "760 K"
   }
 ];

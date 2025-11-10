@@ -25,7 +25,7 @@ export const italyCitiesData: Card[] = [
     nom: "Naples",
     localisation: "Italy",
     continent: "Europe",
-    population: "0.91 M",
+    population: "910 K",
     agglomeration: "2.20 M"
   },
   {
@@ -34,7 +34,7 @@ export const italyCitiesData: Card[] = [
     nom: "Turin",
     localisation: "Italy",
     continent: "Europe",
-    population: "0.87 M",
+    population: "870 K",
     agglomeration: "1.70 M"
   },
   {
@@ -43,7 +43,7 @@ export const italyCitiesData: Card[] = [
     nom: "Palermo",
     localisation: "Italy",
     continent: "Europe",
-    population: "0.66 M",
+    population: "660 K",
     agglomeration: "1.3 M"
   },
   {
@@ -52,8 +52,8 @@ export const italyCitiesData: Card[] = [
     nom: "Genoa",
     localisation: "Italy",
     continent: "Europe",
-    population: "0.56 M",
-    agglomeration: "0.85 M"
+    population: "560 K",
+    agglomeration: "850 K"
   },
   {
     type: "City",
@@ -61,7 +61,7 @@ export const italyCitiesData: Card[] = [
     nom: "Bologna",
     localisation: "Italy",
     continent: "Europe",
-    population: "0.39 M",
+    population: "390 K",
     agglomeration: "1.0 M"
   },
   {
@@ -70,7 +70,7 @@ export const italyCitiesData: Card[] = [
     nom: "Florence",
     localisation: "Italy",
     continent: "Europe",
-    population: "0.38 M",
+    population: "380 K",
     agglomeration: "1.0 M"
   },
   {
@@ -79,8 +79,8 @@ export const italyCitiesData: Card[] = [
     nom: "Bari",
     localisation: "Italy",
     continent: "Europe",
-    population: "0.32 M",
-    agglomeration: "0.75 M"
+    population: "320 K",
+    agglomeration: "750 K"
   },
   {
     type: "City",
@@ -88,7 +88,7 @@ export const italyCitiesData: Card[] = [
     nom: "Catania",
     localisation: "Italy",
     continent: "Europe",
-    population: "0.31 M",
-    agglomeration: "0.76 M"
+    population: "310 K",
+    agglomeration: "760 K"
   }
 ];

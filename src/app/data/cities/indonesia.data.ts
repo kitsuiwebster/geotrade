@@ -16,7 +16,7 @@ export const indonesieCitiesData: Card[] = [
     nom: "Nusantara",
     localisation: "Indonesia",
     continent: "Asia",
-    population: "0.05 M",
+    population: "50 K",
     agglomeration: "2.0 M"
   },
   {

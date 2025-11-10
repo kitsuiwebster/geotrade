@@ -7,7 +7,7 @@ export const afriqueDuSudCitiesData: Card[] = [
     nom: "Cape Town",
     localisation: "South Africa",
     continent: "Africa",
-    population: "0.43 M",
+    population: "430 K",
     agglomeration: "4.00 M"
   },
   {
@@ -16,7 +16,7 @@ export const afriqueDuSudCitiesData: Card[] = [
     nom: "Johannesburg",
     localisation: "South Africa",
     continent: "Africa",
-    population: "0.96 M",
+    population: "960 K",
     agglomeration: "5.93 M"
   },
   {

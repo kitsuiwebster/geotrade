@@ -7,7 +7,7 @@ export const tunisieCitiesData: Card[] = [
     nom: "Tunis",
     localisation: "Tunisie",
     continent: "Africa",
-    population: "0.69 M",
+    population: "690 K",
     agglomeration: "2.37 M"
   },
   {

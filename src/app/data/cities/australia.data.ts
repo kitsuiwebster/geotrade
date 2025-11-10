@@ -7,8 +7,8 @@ export const australieCitiesData: Card[] = [
     nom: "Canberra",
     localisation: "Australia",
     continent: "Oceania",
-    population: "0.46 M",
-    agglomeration: "0.48 M"
+    population: "460 K",
+    agglomeration: "480 K"
   },
   {
     type: "City",

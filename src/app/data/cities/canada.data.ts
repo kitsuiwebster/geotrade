@@ -34,7 +34,7 @@ export const canadaCitiesData: Card[] = [
     nom: "Vancouver",
     localisation: "British Columbia, Canada",
     continent: "North America",
-    population: "0.67 M",
+    population: "670 K",
     agglomeration: "2.6 M"
   }
 ];
