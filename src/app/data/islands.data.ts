@@ -77,7 +77,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/long-island.jpg",
     nom: "Long Island",
-    localisation: "United States",
+    localisation: "New York, United States",
     continent: "North America",
     area: "3,629 km²"
   },
@@ -133,7 +133,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/victoria-island.jpg",
     nom: "Victoria Island",
-    localisation: "Canada",
+    localisation: "Northwest Territories, Canada",
     continent: "North America",
     area: "217,291 km²"
   },
@@ -141,7 +141,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/ellesmere-island.jpg",
     nom: "Ellesmere Island",
-    localisation: "Canada",
+    localisation: "Nunavut, Canada",
     continent: "North America",
     area: "196,236 km²"
   },
@@ -157,7 +157,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/baffin-island.jpg",
     nom: "Baffin Island",
-    localisation: "Canada",
+    localisation: "Nunavut, Canada",
     continent: "North America",
     area: "507,451 km²"
   },
@@ -213,7 +213,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/banks-island.jpg",
     nom: "Banks Island",
-    localisation: "Canada",
+    localisation: "Northwest Territories, Canada",
     continent: "North America",
     area: "70,028 km²"
   },
@@ -237,7 +237,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/devon-island.jpg",
     nom: "Devon Island",
-    localisation: "Canada",
+    localisation: "Nunavut, Canada",
     continent: "North America",
     area: "55,247 km²"
   },
@@ -261,7 +261,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/newfoundland.jpg",
     nom: "Newfoundland",
-    localisation: "Canada",
+    localisation: "Newfoundland and Labrador, Canada",
     continent: "North America",
     area: "108,860 km²"
   },
@@ -357,7 +357,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/vancouver-island.jpg",
     nom: "Vancouver Island",
-    localisation: "Canada",
+    localisation: "British Columbia, Canada",
     continent: "North America",
     area: "31,285 km²"
   },
@@ -397,7 +397,7 @@ export const islandsData: Card[] = [
     type: "Island",
     image: "assets/images/cards/island/manhattan.jpg",
     nom: "Manhattan",
-    localisation: "United States",
+    localisation: "New York, United States",
     continent: "North America",
     area: "60 km²"
   },

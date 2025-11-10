@@ -5,7 +5,7 @@ export const canadaCitiesData: Card[] = [
     type: "City",
     image: "assets/images/cards/city/canada/ottawa.webp",
     nom: "Ottawa",
-    localisation: "Canada",
+    localisation: "Ontario, Canada",
     continent: "North America",
     population: "1.0 M",
     agglomeration: "1.9 M"
@@ -14,7 +14,7 @@ export const canadaCitiesData: Card[] = [
     type: "City",
     image: "assets/images/cards/city/canada/toronto.jpg",
     nom: "Toronto",
-    localisation: "Canada",
+    localisation: "Ontario, Canada",
     continent: "North America",
     population: "2.8 M",
     agglomeration: "6.5 M"
@@ -23,7 +23,7 @@ export const canadaCitiesData: Card[] = [
     type: "City",
     image: "assets/images/cards/city/canada/montreal.jpg",
     nom: "Montreal",
-    localisation: "Canada",
+    localisation: "Quebec, Canada",
     continent: "North America",
     population: "1.8 M",
     agglomeration: "4.3 M"
@@ -32,7 +32,7 @@ export const canadaCitiesData: Card[] = [
     type: "City",
     image: "assets/images/cards/city/canada/vancouver.jpg",
     nom: "Vancouver",
-    localisation: "Canada",
+    localisation: "British Columbia, Canada",
     continent: "North America",
     population: "0.67 M",
     agglomeration: "2.6 M"
