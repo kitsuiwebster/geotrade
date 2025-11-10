@@ -1,27 +1,48 @@
-# Geotrade
+# GeoTrade
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+A modern platform for trading geographical cards.
 
-## Development server
+🌐 **Live Platform**: [https://geotrade.cards](https://geotrade.cards) *(under construction)*
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Overview
 
-## Code scaffolding
+GeoTrade is a comprehensive trading platform featuring an extensive collection of geographical cards including cities, mountains, deserts, islands, and archipelagos from around the world. Built with Angular and designed for collectors and geography enthusiasts.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+- **Extensive Card Collection**: 1000+ geographical cards covering cities, mountains, deserts, islands, and archipelagos
+- **Interactive Trading**: Modern card trading platform interface
+- **Global Coverage**: Cards from every continent with detailed information
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Card Categories
 
-## Running unit tests
+- **Cities**: Major urban centers worldwide with population and agglomeration data from every country
+- **Countries**: Complete collection of world nations with capitals, flags, and territorial information
+- **Mountains**: Highest peaks globally including all 14 peaks over 8000m and top 100 summits
+- **Deserts**: Major desert regions from all continents including Antarctic and Arctic deserts
+- **Islands**: Individual islands with detailed archipelago classifications and geographical data
+- **Archipelagos**: Island groups and chains worldwide from Pacific atolls to Arctic territories
+- **Oceans**: All major ocean basins and oceanic regions with depth and area data
+- **Seas**: Regional seas, marginal seas, and enclosed water bodies worldwide
+- **Lakes**: Largest freshwater and saltwater lakes across all continents
+- **Rivers**: Major waterways and river systems across all continents
+- **Territories**: Special administrative regions, dependencies, and autonomous territories
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Project Status
 
-## Running end-to-end tests
+🚧 **Under Active Development** - Platform is currently in construction phase.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Development Commands
 
-## Further help
+- `ng serve` - Start development server at `http://localhost:4200/`
+- `ng build` - Build the project for production
+- `ng test` - Run unit tests via Karma
+- `ng generate component component-name` - Generate new components
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## License
+
+All geographical data is sourced from public databases and properly attributed.
+
+---
+
+*Building the future of geographical card trading.*
