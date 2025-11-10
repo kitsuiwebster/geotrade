@@ -12,7 +12,7 @@ export const canadaCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/canada/toronto.jpg",
     nom: "Toronto",
     localisation: "Canada",
     continent: "North America",
@@ -21,7 +21,7 @@ export const canadaCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/canada/montreal.jpg",
     nom: "Montreal",
     localisation: "Canada",
     continent: "North America",
@@ -30,7 +30,7 @@ export const canadaCitiesData: Card[] = [
   },
   {
     type: "City",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/city/canada/vancouver.jpg",
     nom: "Vancouver",
     localisation: "Canada",
     continent: "North America",

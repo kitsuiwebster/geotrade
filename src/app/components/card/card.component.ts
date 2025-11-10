@@ -890,7 +890,8 @@ export class CardComponent implements OnInit, OnDestroy {
         'Gaza': 'ps',
         'Fez': 'ma',
         'Marrakech': 'ma',
-        'Tangier': 'ma'
+        'Tangier': 'ma',
+        'Monterrey': 'mx'
       };
       
       const countryCode = countryMapping[this.card.nom];
