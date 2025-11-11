@@ -613,7 +613,7 @@ export const mountainsData: Card[] = [
     type: "Mountain",
     image: "assets/images/cards/mountain/mont-blanc.jpg",
     nom: "Mont Blanc",
-    localisation: "France, Italy and Switzerland",
+    localisation: "France and Italy",
     continent: "Europe",
     height: "4,809 m"
   },
@@ -792,5 +792,21 @@ export const mountainsData: Card[] = [
     localisation: "South Korea",
     continent: "Asia",
     height: "1,947 m"
+  },
+  {
+    type: "Mountain",
+    image: "assets/images/cards/mountain/matterhorn.webp",
+    nom: "Matterhorn",
+    localisation: "Switzerland and Italy",
+    continent: "Europe",
+    height: "4,478 m"
+  },
+  {
+    type: "Mountain",
+    image: "assets/images/cards/mountain/ama-dablam.webp",
+    nom: "Ama Dablam",
+    localisation: "Nepal",
+    continent: "Asia",
+    height: "6,812 m"
   }
 ];
