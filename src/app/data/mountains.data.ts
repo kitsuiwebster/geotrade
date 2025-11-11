@@ -115,7 +115,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/mountain/annapurna-i.jpg",
+    image: "assets/images/cards/mountain/annapurna.jpg",
     nom: "Annapurna I",
     localisation: "Nepal",
     continent: "Asia",
@@ -123,7 +123,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/mountain/gasherbrum-i.jpg",
+    image: "assets/images/cards/mountain/gasherbrum.jpg",
     nom: "Gasherbrum I",
     localisation: "Pakistan and China",
     continent: "Asia",
@@ -136,14 +136,6 @@ export const mountainsData: Card[] = [
     localisation: "Pakistan and China",
     continent: "Asia",
     height: "8,051 m"
-  },
-  {
-    type: "Mountain",
-    image: "assets/images/cards/mountain/gasherbrum-ii.jpg",
-    nom: "Gasherbrum II",
-    localisation: "Pakistan and China",
-    continent: "Asia",
-    height: "8,034 m"
   },
   {
     type: "Mountain",
@@ -275,14 +267,6 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/mountain/dhaulagiri-ii.jpg",
-    nom: "Dhaulagiri II",
-    localisation: "Nepal",
-    continent: "Asia",
-    height: "7,751 m"
-  },
-  {
-    type: "Mountain",
     image: "assets/images/cards/mountain/saltoro-kangri.jpg",
     nom: "Saltoro Kangri",
     localisation: "Pakistan and India",
@@ -355,14 +339,6 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/mountain/dhaulagiri-v.jpg",
-    nom: "Dhaulagiri V",
-    localisation: "Nepal",
-    continent: "Asia",
-    height: "7,618 m"
-  },
-  {
-    type: "Mountain",
     image: "assets/images/cards/mountain/shispare.jpg",
     nom: "Shispare",
     localisation: "Pakistan",
@@ -416,14 +392,6 @@ export const mountainsData: Card[] = [
     localisation: "India",
     continent: "Asia",
     height: "7,516 m"
-  },
-  {
-    type: "Mountain",
-    image: "assets/images/cards/mountain/saser-kangri-ii.jpg",
-    nom: "Saser Kangri II",
-    localisation: "India",
-    continent: "Asia",
-    height: "7,513 m"
   },
   {
     type: "Mountain",
@@ -635,14 +603,6 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/mountain/janga.jpg",
-    nom: "Janga",
-    localisation: "Russia and Georgia",
-    continent: "Europe",
-    height: "5,059 m"
-  },
-  {
-    type: "Mountain",
     image: "assets/images/cards/mountain/kazbek.jpg",
     nom: "Kazbek",
     localisation: "Georgia",
@@ -699,8 +659,8 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/mountain/ras-dejen.jpg",
-    nom: "Ras Dejen",
+    image: "assets/images/cards/mountain/ras-dashen.jpg",
+    nom: "Ras Dashen",
     localisation: "Ethiopia",
     continent: "Africa",
     height: "4,550 m"
@@ -803,7 +763,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/mountain/belukha.jpg",
+    image: "assets/images/cards/mountain/belukha.webp",
     nom: "Belukha",
     localisation: "Russia",
     continent: "Asia",
