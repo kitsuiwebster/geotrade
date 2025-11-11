@@ -44,7 +44,7 @@ export const mountainsData: Card[] = [
   {
     type: "Mountain",
     image: "assets/images/cards/mountain/vinson.jpg",
-    nom: "Vinson Massif",
+    nom: "Mount Vinson",
     localisation: "Antarctica",
     continent: "Antarctica",
     height: "4,892 m"
@@ -59,7 +59,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/kangchenjunga.jpg",
     nom: "Kangchenjunga",
     localisation: "Nepal and India",
     continent: "Asia",
@@ -67,7 +67,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/lhotse.jpg",
     nom: "Lhotse",
     localisation: "Nepal and Tibet",
     continent: "Asia",
@@ -75,7 +75,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/makalu.jpg",
     nom: "Makalu",
     localisation: "Nepal and Tibet",
     continent: "Asia",
@@ -83,7 +83,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/cho-oyu.jpg",
     nom: "Cho Oyu",
     localisation: "Nepal and Tibet",
     continent: "Asia",
@@ -91,15 +91,15 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
-    nom: "Dhaulagiri",
+    image: "assets/images/cards/mountain/dhaulagiri.jpg",
+    nom: "Dhaulagiri I",
     localisation: "Nepal",
     continent: "Asia",
     height: "8,167 m"
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/manaslu.jpg",
     nom: "Manaslu",
     localisation: "Nepal",
     continent: "Asia",
@@ -107,7 +107,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/nanga-parbat.jpg",
     nom: "Nanga Parbat",
     localisation: "Pakistan",
     continent: "Asia",
@@ -115,7 +115,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/annapurna-i.jpg",
     nom: "Annapurna I",
     localisation: "Nepal",
     continent: "Asia",
@@ -123,7 +123,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/gasherbrum-i.jpg",
     nom: "Gasherbrum I",
     localisation: "Pakistan and China",
     continent: "Asia",
@@ -131,7 +131,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/broad-peak.jpg",
     nom: "Broad Peak",
     localisation: "Pakistan and China",
     continent: "Asia",
@@ -139,7 +139,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/gasherbrum-ii.jpg",
     nom: "Gasherbrum II",
     localisation: "Pakistan and China",
     continent: "Asia",
@@ -147,7 +147,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/shishapangma.jpg",
     nom: "Shishapangma",
     localisation: "Tibet",
     continent: "Asia",
@@ -155,7 +155,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/gyachung-kang.jpg",
     nom: "Gyachung Kang",
     localisation: "Nepal and Tibet",
     continent: "Asia",
@@ -163,7 +163,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/annapurna-ii.jpg",
     nom: "Annapurna II",
     localisation: "Nepal",
     continent: "Asia",
@@ -171,7 +171,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/gasherbrum-iv.jpg",
     nom: "Gasherbrum IV",
     localisation: "Pakistan and China",
     continent: "Asia",
@@ -179,7 +179,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/himalchuli.jpg",
     nom: "Himalchuli",
     localisation: "Nepal",
     continent: "Asia",
@@ -187,7 +187,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/distaghil-sar.jpg",
     nom: "Distaghil Sar",
     localisation: "Pakistan",
     continent: "Asia",
@@ -195,7 +195,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/ngadi-chuli.jpg",
     nom: "Ngadi Chuli",
     localisation: "Nepal",
     continent: "Asia",
@@ -203,7 +203,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/nuptse.jpg",
     nom: "Nuptse",
     localisation: "Nepal",
     continent: "Asia",
@@ -211,7 +211,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/khunyang-chhish.jpg",
     nom: "Khunyang Chhish",
     localisation: "Pakistan",
     continent: "Asia",
@@ -219,7 +219,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/masherbrum.jpg",
     nom: "Masherbrum",
     localisation: "Pakistan",
     continent: "Asia",
@@ -227,7 +227,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/nanda-devi.jpg",
     nom: "Nanda Devi",
     localisation: "India",
     continent: "Asia",
@@ -235,7 +235,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/chomo-lonzo.jpg",
     nom: "Chomo Lonzo",
     localisation: "Tibet",
     continent: "Asia",
@@ -243,7 +243,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/batura-sar.jpg",
     nom: "Batura Sar",
     localisation: "Pakistan",
     continent: "Asia",
@@ -251,7 +251,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/rakaposhi.jpg",
     nom: "Rakaposhi",
     localisation: "Pakistan",
     continent: "Asia",
@@ -259,7 +259,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/namcha-barwa.jpg",
     nom: "Namcha Barwa",
     localisation: "Tibet",
     continent: "Asia",
@@ -267,7 +267,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/kamet.jpg",
     nom: "Kamet",
     localisation: "India",
     continent: "Asia",
@@ -275,7 +275,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/dhaulagiri-ii.jpg",
     nom: "Dhaulagiri II",
     localisation: "Nepal",
     continent: "Asia",
@@ -283,7 +283,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/saltoro-kangri.jpg",
     nom: "Saltoro Kangri",
     localisation: "Pakistan and India",
     continent: "Asia",
@@ -291,7 +291,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/jannu.jpg",
     nom: "Jannu",
     localisation: "Nepal",
     continent: "Asia",
@@ -299,7 +299,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/tirich-mir.jpg",
     nom: "Tirich Mir",
     localisation: "Pakistan",
     continent: "Asia",
@@ -307,7 +307,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/molamenqing.jpg",
     nom: "Molamenqing",
     localisation: "Tibet",
     continent: "Asia",
@@ -315,7 +315,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/gurla-mandhata.jpg",
     nom: "Gurla Mandhata",
     localisation: "Tibet",
     continent: "Asia",
@@ -323,15 +323,15 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
-    nom: "Saser Kangri",
+    image: "assets/images/cards/mountain/saser-kangri.jpg",
+    nom: "Saser Kangri I",
     localisation: "India",
     continent: "Asia",
     height: "7,672 m"
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/chogolisa.jpg",
     nom: "Chogolisa",
     localisation: "Pakistan",
     continent: "Asia",
@@ -339,7 +339,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/dhaulagiri-iv.jpg",
     nom: "Dhaulagiri IV",
     localisation: "Nepal",
     continent: "Asia",
@@ -347,7 +347,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/kongur.jpg",
     nom: "Kongur",
     localisation: "China",
     continent: "Asia",
@@ -355,7 +355,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/dhaulagiri-v.jpg",
     nom: "Dhaulagiri V",
     localisation: "Nepal",
     continent: "Asia",
@@ -363,7 +363,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/shispare.jpg",
     nom: "Shispare",
     localisation: "Pakistan",
     continent: "Asia",
@@ -371,7 +371,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/trivor.jpg",
     nom: "Trivor",
     localisation: "Pakistan",
     continent: "Asia",
@@ -379,7 +379,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/gangkhar-puensum.jpg",
     nom: "Gangkhar Puensum",
     localisation: "Bhutan",
     continent: "Asia",
@@ -387,7 +387,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/annapurna-iii.jpg",
     nom: "Annapurna III",
     localisation: "Nepal",
     continent: "Asia",
@@ -395,7 +395,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/kanjut-sar.jpg",
     nom: "Kanjut Sar",
     localisation: "Pakistan",
     continent: "Asia",
@@ -403,7 +403,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/skyang-kangri.jpg",
     nom: "Skyang Kangri",
     localisation: "Pakistan and China",
     continent: "Asia",
@@ -411,7 +411,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mamostong-kangri.jpg",
     nom: "Mamostong Kangri",
     localisation: "India",
     continent: "Asia",
@@ -419,7 +419,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/saser-kangri-ii.jpg",
     nom: "Saser Kangri II",
     localisation: "India",
     continent: "Asia",
@@ -427,7 +427,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/ismoil-somoni-peak.jpg",
     nom: "Ismoil Somoni Peak",
     localisation: "Tajikistan",
     continent: "Asia",
@@ -435,7 +435,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/jengish-chokusu.jpg",
     nom: "Jengish Chokusu",
     localisation: "Kyrgyzstan and China",
     continent: "Asia",
@@ -443,7 +443,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/k12.jpg",
     nom: "K12",
     localisation: "Pakistan",
     continent: "Asia",
@@ -451,7 +451,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/yangra.jpg",
     nom: "Yangra",
     localisation: "Nepal",
     continent: "Asia",
@@ -459,7 +459,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-logan.jpg",
     nom: "Mount Logan",
     localisation: "Canada",
     continent: "North America",
@@ -467,7 +467,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/pico-de-orizaba.jpg",
     nom: "Pico de Orizaba",
     localisation: "Mexico",
     continent: "North America",
@@ -475,7 +475,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-saint-elias.jpg",
     nom: "Mount Saint Elias",
     localisation: "United States and Canada",
     continent: "North America",
@@ -483,7 +483,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/popocatepetl.jpg",
     nom: "Popocatépetl",
     localisation: "Mexico",
     continent: "North America",
@@ -491,7 +491,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-foraker.jpg",
     nom: "Mount Foraker",
     localisation: "United States",
     continent: "North America",
@@ -499,7 +499,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/iztaccihuatl.jpg",
     nom: "Iztaccíhuatl",
     localisation: "Mexico",
     continent: "North America",
@@ -507,7 +507,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-lucania.jpg",
     nom: "Mount Lucania",
     localisation: "Canada",
     continent: "North America",
@@ -515,7 +515,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-whitney.jpg",
     nom: "Mount Whitney",
     localisation: "United States",
     continent: "North America",
@@ -523,7 +523,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-rainier.jpg",
     nom: "Mount Rainier",
     localisation: "United States",
     continent: "North America",
@@ -531,7 +531,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/ojos-del-salado.jpg",
     nom: "Ojos del Salado",
     localisation: "Chile and Argentina",
     continent: "South America",
@@ -539,7 +539,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/monte-pissis.jpg",
     nom: "Monte Pissis",
     localisation: "Argentina",
     continent: "South America",
@@ -547,7 +547,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/huascaran.jpg",
     nom: "Huascarán",
     localisation: "Peru",
     continent: "South America",
@@ -555,7 +555,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/llullaillaco.jpg",
     nom: "Llullaillaco",
     localisation: "Chile and Argentina",
     continent: "South America",
@@ -563,7 +563,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/nevado-sajama.jpg",
     nom: "Nevado Sajama",
     localisation: "Bolivia",
     continent: "South America",
@@ -571,7 +571,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/yerupaja.jpg",
     nom: "Yerupajá",
     localisation: "Peru",
     continent: "South America",
@@ -579,7 +579,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/coropuna.jpg",
     nom: "Coropuna",
     localisation: "Peru",
     continent: "South America",
@@ -587,7 +587,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/chimborazo.jpg",
     nom: "Chimborazo",
     localisation: "Ecuador",
     continent: "South America",
@@ -595,7 +595,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/pico-cristobal-colon.jpg",
     nom: "Pico Cristóbal Colón",
     localisation: "Colombia",
     continent: "South America",
@@ -603,7 +603,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/cotopaxi.jpg",
     nom: "Cotopaxi",
     localisation: "Ecuador",
     continent: "South America",
@@ -611,7 +611,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/dykh-tau.jpg",
     nom: "Dykh-Tau",
     localisation: "Russia",
     continent: "Europe",
@@ -619,7 +619,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/shkhara.jpg",
     nom: "Shkhara",
     localisation: "Georgia",
     continent: "Europe",
@@ -627,7 +627,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/koshtan-tau.jpg",
     nom: "Koshtan-Tau",
     localisation: "Russia",
     continent: "Europe",
@@ -635,7 +635,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/janga.jpg",
     nom: "Janga",
     localisation: "Russia and Georgia",
     continent: "Europe",
@@ -643,7 +643,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/kazbek.jpg",
     nom: "Kazbek",
     localisation: "Georgia",
     continent: "Europe",
@@ -651,7 +651,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mont-blanc.jpg",
     nom: "Mont Blanc",
     localisation: "France, Italy and Switzerland",
     continent: "Europe",
@@ -659,7 +659,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/dufourspitze.jpg",
     nom: "Dufourspitze",
     localisation: "Switzerland",
     continent: "Europe",
@@ -667,7 +667,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-kenya.jpg",
     nom: "Mount Kenya",
     localisation: "Kenya",
     continent: "Africa",
@@ -675,7 +675,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-stanley.jpg",
     nom: "Mount Stanley",
     localisation: "Uganda and Democratic Republic of Congo",
     continent: "Africa",
@@ -683,7 +683,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-speke.jpg",
     nom: "Mount Speke",
     localisation: "Uganda",
     continent: "Africa",
@@ -691,7 +691,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-baker.jpg",
     nom: "Mount Baker",
     localisation: "Uganda",
     continent: "Africa",
@@ -699,7 +699,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/ras-dejen.jpg",
     nom: "Ras Dejen",
     localisation: "Ethiopia",
     continent: "Africa",
@@ -707,7 +707,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-meru.jpg",
     nom: "Mount Meru",
     localisation: "Tanzania",
     continent: "Africa",
@@ -715,7 +715,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-elgon.jpg",
     nom: "Mount Elgon",
     localisation: "Uganda and Kenya",
     continent: "Africa",
@@ -723,7 +723,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/toubkal.jpg",
     nom: "Toubkal",
     localisation: "Morocco",
     continent: "Africa",
@@ -731,7 +731,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-cameroon.jpg",
     nom: "Mount Cameroon",
     localisation: "Cameroon",
     continent: "Africa",
@@ -739,7 +739,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/puncak-jaya.jpg",
     nom: "Puncak Jaya",
     localisation: "Indonesia",
     continent: "Oceania",
@@ -747,7 +747,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-wilhelm.jpg",
     nom: "Mount Wilhelm",
     localisation: "Papua New Guinea",
     continent: "Oceania",
@@ -755,7 +755,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-cook.jpg",
     nom: "Mount Cook",
     localisation: "New Zealand",
     continent: "Oceania",
@@ -763,7 +763,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-kosciuszko.jpg",
     nom: "Mount Kosciuszko",
     localisation: "Australia",
     continent: "Oceania",
@@ -771,7 +771,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mauna-kea.jpg",
     nom: "Mauna Kea",
     localisation: "United States (Hawaii)",
     continent: "Oceania",
@@ -779,7 +779,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/haleakala.jpg",
     nom: "Haleakalā",
     localisation: "United States (Hawaii)",
     continent: "Oceania",
@@ -787,7 +787,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-damavand.jpg",
     nom: "Mount Damavand",
     localisation: "Iran",
     continent: "Asia",
@@ -795,7 +795,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-ararat.jpg",
     nom: "Mount Ararat",
     localisation: "Turkey",
     continent: "Asia",
@@ -803,7 +803,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/belukha.jpg",
     nom: "Belukha",
     localisation: "Russia",
     continent: "Asia",
@@ -811,7 +811,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-kinabalu.jpg",
     nom: "Mount Kinabalu",
     localisation: "Malaysia",
     continent: "Asia",
@@ -819,7 +819,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/mount-fuji.jpg",
     nom: "Mount Fuji",
     localisation: "Japan",
     continent: "Asia",
@@ -827,7 +827,7 @@ export const mountainsData: Card[] = [
   },
   {
     type: "Mountain",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/mountain/hallasan.jpg",
     nom: "Hallasan",
     localisation: "South Korea",
     continent: "Asia",
