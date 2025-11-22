@@ -37,7 +37,7 @@ export const desertsData: Card[] = [
     type: "Desert",
     image: "assets/images/cards/desert/great-basin.jpg",
     nom: "Great Basin",
-    localisation: "America",
+    localisation: "North America",
     continent: "North America",
     area: "492,000 km²"
   },
@@ -45,7 +45,7 @@ export const desertsData: Card[] = [
     type: "Desert",
     image: "assets/images/cards/desert/sonoran.jpg",
     nom: "Sonoran Desert",
-    localisation: "America",
+    localisation: "North America",
     continent: "North America",
     area: "260,000 km²"
   },
@@ -53,13 +53,13 @@ export const desertsData: Card[] = [
     type: "Desert",
     image: "assets/images/cards/desert/atacama.jpg",
     nom: "Atacama Desert",
-    localisation: "America",
+    localisation: "North America",
     continent: "South America",
     area: "105,000 km²"
   },
   {
     type: "Desert",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/desert/antarctic-desert.jpg",
     nom: "Antarctic Desert",
     localisation: "Antarctica",
     continent: "Antarctica",
@@ -67,15 +67,7 @@ export const desertsData: Card[] = [
   },
   {
     type: "Desert",
-    image: "assets/images/cards/default.jpg",
-    nom: "Arctic Desert",
-    localisation: "Arctic",
-    continent: "Arctic",
-    area: "13,985,000 km²"
-  },
-  {
-    type: "Desert",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/desert/patagonian-desert.jpg",
     nom: "Patagonian Desert",
     localisation: "South America",
     continent: "South America",
@@ -83,7 +75,7 @@ export const desertsData: Card[] = [
   },
   {
     type: "Desert",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/desert/great-victoria-desert.jpg",
     nom: "Great Victoria Desert",
     localisation: "Australia",
     continent: "Oceania",
@@ -91,7 +83,7 @@ export const desertsData: Card[] = [
   },
   {
     type: "Desert",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/desert/thar-desert.jpg",
     nom: "Thar Desert",
     localisation: "Asia",
     continent: "Asia",
@@ -99,7 +91,7 @@ export const desertsData: Card[] = [
   },
   {
     type: "Desert",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/desert/chihuahuan-desert.jpg",
     nom: "Chihuahuan Desert",
     localisation: "North America",
     continent: "North America",
@@ -107,7 +99,7 @@ export const desertsData: Card[] = [
   },
   {
     type: "Desert",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/desert/mojave-desert.jpg",
     nom: "Mojave Desert",
     localisation: "North America",
     continent: "North America",
@@ -115,7 +107,7 @@ export const desertsData: Card[] = [
   },
   {
     type: "Desert",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/desert/namib-desert.jpg",
     nom: "Namib Desert",
     localisation: "Africa",
     continent: "Africa",
@@ -123,10 +115,74 @@ export const desertsData: Card[] = [
   },
   {
     type: "Desert",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/desert/taklamakan-desert.jpg",
     nom: "Taklamakan Desert",
     localisation: "Asia",
     continent: "Asia",
     area: "337,000 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/desert/rub-al-khali.jpg",
+    nom: "Rub' al Khali",
+    localisation: "Arabia",
+    continent: "Asia",
+    area: "650,000 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/desert/karakum-desert.jpg",
+    nom: "Karakum Desert",
+    localisation: "Turkmenistan",
+    continent: "Asia",
+    area: "350,000 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/desert/kyzylkum-desert.jpg",
+    nom: "Kyzylkum Desert",
+    localisation: "Kazakhstan and Uzbekistan",
+    continent: "Asia",
+    area: "298,000 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/desert/tanami-desert.jpg",
+    nom: "Tanami Desert",
+    localisation: "Australia",
+    continent: "Oceania",
+    area: "184,500 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/desert/gibson-desert.jpg",
+    nom: "Gibson Desert",
+    localisation: "Australia",
+    continent: "Oceania",
+    area: "156,000 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/desert/kavir-desert.jpg",
+    nom: "Kavir Desert",
+    localisation: "Iran",
+    continent: "Asia",
+    area: "77,000 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/desert/lut-desert.jpg",
+    nom: "Lut Desert",
+    localisation: "Iran",
+    continent: "Asia",
+    area: "51,800 km²"
+  },
+  {
+    type: "Desert",
+    image: "assets/images/cards/desert/negev-desert.jpg",
+    nom: "Negev Desert",
+    localisation: "Israel and Palestine",
+    continent: "Asia",
+    area: "13,000 km²"
   }
 ];
