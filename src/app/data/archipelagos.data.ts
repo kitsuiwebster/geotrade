@@ -139,7 +139,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/zanzibar.jpg",
     nom: "Zanzibar",
     localisation: "Tanzania",
     continent: "Africa",
@@ -147,7 +147,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/svalbard.jpg",
     nom: "Svalbard",
     localisation: "Norway",
     continent: "Europe",
@@ -155,7 +155,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/micronesia.jpg",
     nom: "Micronesia",
     localisation: "Micronesia",
     continent: "Oceania",
@@ -163,7 +163,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/tonga.jpg",
     nom: "Tonga",
     localisation: "Tonga",
     continent: "Oceania",
@@ -171,7 +171,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/vanuatu.jpg",
     nom: "Vanuatu",
     localisation: "Vanuatu",
     continent: "Oceania",
@@ -179,7 +179,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/tuvalu.jpg",
     nom: "Tuvalu",
     localisation: "Tuvalu",
     continent: "Oceania",
@@ -187,15 +187,15 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
-    nom: "São Tomé and Príncipe",
-    localisation: "São Tomé and Príncipe",
+    image: "assets/images/cards/archipelago/sao-tome-and-principe.jpg",
+    nom: "Sao Tome and Principe",
+    localisation: "Sao Tome and Principe",
     continent: "Africa",
     area: "964 km²"
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/virgin-islands.jpg",
     nom: "Virgin Islands",
     localisation: "United States and United Kingdom",
     continent: "North America",
@@ -203,7 +203,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/falkland-islands.jpg",
     nom: "Falkland Islands",
     localisation: "United Kingdom",
     continent: "South America",
@@ -211,7 +211,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/samoa.jpg",
     nom: "Samoa",
     localisation: "Samoa",
     continent: "Oceania",
@@ -219,7 +219,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/solomon-islands.jpg",
     nom: "Solomon Islands",
     localisation: "Solomon Islands",
     continent: "Oceania",
@@ -227,7 +227,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/marshall-islands.jpg",
     nom: "Marshall Islands",
     localisation: "Marshall Islands",
     continent: "Oceania",
@@ -235,7 +235,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/french-polynesia.jpg",
     nom: "French Polynesia",
     localisation: "France",
     continent: "Oceania",
@@ -243,7 +243,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/palau.jpg",
     nom: "Palau",
     localisation: "Palau",
     continent: "Oceania",
@@ -251,7 +251,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/comoros.jpg",
     nom: "Comoros",
     localisation: "Comoros",
     continent: "Africa",
@@ -259,15 +259,15 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
-    nom: "Cabo Verde",
-    localisation: "Cabo Verde",
+    image: "assets/images/cards/archipelago/cape-verde.jpg",
+    nom: "Cape Verde",
+    localisation: "Cape Verde",
     continent: "Africa",
     area: "4,033 km²"
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/kerguelen-islands.jpg",
     nom: "Kerguelen Islands",
     localisation: "France",
     continent: "Antarctica",
@@ -275,7 +275,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/crozet-islands.jpg",
     nom: "Crozet Islands",
     localisation: "France",
     continent: "Antarctica",
@@ -283,7 +283,7 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/archipelago/new-zealand.jpg",
     nom: "New Zealand",
     localisation: "New Zealand",
     continent: "Oceania",
