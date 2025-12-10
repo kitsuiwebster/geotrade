@@ -123,6 +123,14 @@ export const archipelagosData: Card[] = [
   },
   {
     type: "Archipelago",
+    image: "assets/images/cards/archipelago/vesteralen-islands.jpeg",
+    nom: "Vesteralen Islands",
+    localisation: "Norway",
+    continent: "Europe",
+    area: "2,511 km²"
+  },
+  {
+    type: "Archipelago",
     image: "assets/images/cards/archipelago/fiji.jpg",
     nom: "Fiji",
     localisation: "Fiji",

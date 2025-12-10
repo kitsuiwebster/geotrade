@@ -459,7 +459,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/oahu.jpg",
     nom: "Oahu",
     localisation: "Hawaii, United States",
     continent: "North America",
@@ -467,7 +467,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/maui.jpg",
     nom: "Maui",
     localisation: "Hawaii, United States",
     continent: "North America",
@@ -475,7 +475,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/big-island.jpg",
     nom: "Big Island",
     localisation: "Hawaii, United States",
     continent: "North America",
@@ -483,7 +483,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/kauai.jpg",
     nom: "Kauai",
     localisation: "Hawaii, United States",
     continent: "North America",
@@ -491,7 +491,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/molokai.jpg",
     nom: "Molokai",
     localisation: "Hawaii, United States",
     continent: "North America",
@@ -499,7 +499,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/lanai.jpg",
     nom: "Lanai",
     localisation: "Hawaii, United States",
     continent: "North America",
@@ -507,7 +507,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/rhodes.jpg",
     nom: "Rhodes",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
@@ -515,7 +515,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/lesbos.jpg",
     nom: "Lesbos",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
@@ -523,7 +523,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/chios.jpg",
     nom: "Chios",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
@@ -531,7 +531,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/samos.jpg",
     nom: "Samos",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
@@ -539,7 +539,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/naxos.jpg",
     nom: "Naxos",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
@@ -547,7 +547,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/corfu.jpg",
     nom: "Corfu",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
@@ -555,7 +555,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/palawan.jpg",
     nom: "Palawan",
     localisation: "Philippines",
     continent: "Asia",
@@ -563,7 +563,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/samar.jpg",
     nom: "Samar",
     localisation: "Philippines",
     continent: "Asia",
@@ -571,7 +571,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/negros.jpg",
     nom: "Negros",
     localisation: "Philippines",
     continent: "Asia",
@@ -579,7 +579,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/panay.jpg",
     nom: "Panay",
     localisation: "Philippines",
     continent: "Asia",
@@ -587,7 +587,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/cebu.jpg",
     nom: "Cebu",
     localisation: "Philippines",
     continent: "Asia",
@@ -595,7 +595,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/flores.jpg",
     nom: "Flores",
     localisation: "Indonesia",
     continent: "Asia",
@@ -603,7 +603,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/seram.jpg",
     nom: "Seram",
     localisation: "Indonesia",
     continent: "Asia",
@@ -611,7 +611,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/lombok.jpg",
     nom: "Lombok",
     localisation: "Indonesia",
     continent: "Asia",
@@ -619,7 +619,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/sumbawa.jpg",
     nom: "Sumbawa",
     localisation: "Indonesia",
     continent: "Asia",
@@ -627,7 +627,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/halmahera.jpg",
     nom: "Halmahera",
     localisation: "Indonesia",
     continent: "Asia",
@@ -635,15 +635,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
-    nom: "Vesteralen",
-    localisation: "Norway",
-    continent: "Europe",
-    area: "2,511 km²"
-  },
-  {
-    type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/senja.jpg",
     nom: "Senja",
     localisation: "Norway",
     continent: "Europe",
@@ -651,7 +643,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/kvaloya.jpg",
     nom: "Kvaloya",
     localisation: "Norway",
     continent: "Europe",
@@ -659,7 +651,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/wrangel-island.jpg",
     nom: "Wrangel Island",
     localisation: "Russia",
     continent: "Asia",
@@ -667,7 +659,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/bennett-island.jpg",
     nom: "Bennett Island",
     localisation: "Russia",
     continent: "Asia",
@@ -675,7 +667,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/kotelny-island.jpg",
     nom: "Kotelny Island",
     localisation: "Russia",
     continent: "Asia",
@@ -683,7 +675,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/franz-josef-land.jpg",
     nom: "Franz Josef Land",
     localisation: "Russia",
     continent: "Europe",
@@ -691,7 +683,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/santorini.jpg",
     nom: "Santorini",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
@@ -699,7 +691,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/mykonos.jpg",
     nom: "Mykonos",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
@@ -707,7 +699,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/ibiza.jpg",
     nom: "Ibiza",
     localisation: "Balearic Islands, Spain",
     continent: "Europe",
@@ -715,7 +707,7 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/minorca.jpg",
     nom: "Minorca",
     localisation: "Balearic Islands, Spain",
     continent: "Europe",
@@ -723,10 +715,74 @@ export const islandsData: Card[] = [
   },
   {
     type: "Island",
-    image: "assets/images/cards/default.jpg",
+    image: "assets/images/cards/island/papua.jpg",
     nom: "Papua",
     localisation: "Indonesia and Papua New Guinea",
     continent: "Asia and Oceania",
     area: "785,753 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/island/gotland.jpg",
+    nom: "Gotland",
+    localisation: "Sweden",
+    continent: "Europe",
+    area: "2,994 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/island/jersey.jpg",
+    nom: "Jersey",
+    localisation: "United Kingdom",
+    continent: "Europe",
+    area: "118 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/island/guernsey.jpg",
+    nom: "Guernsey",
+    localisation: "United Kingdom",
+    continent: "Europe",
+    area: "78 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/island/saaremaa.jpg",
+    nom: "Saaremaa",
+    localisation: "Estonia",
+    continent: "Europe",
+    area: "2,673 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/island/bornholm.jpg",
+    nom: "Bornholm",
+    localisation: "Denmark",
+    continent: "Europe",
+    area: "588 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/island/madagascar.jpg",
+    nom: "Madagascar",
+    localisation: "Madagascar",
+    continent: "Africa",
+    area: "587,041 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/island/zealand.jpg",
+    nom: "Zealand",
+    localisation: "Denmark",
+    continent: "Europe",
+    area: "7,031 km²"
+  },
+  {
+    type: "Island",
+    image: "assets/images/cards/island/funen.jpg",
+    nom: "Funen",
+    localisation: "Denmark",
+    continent: "Europe",
+    area: "2,985 km²"
   }
 ];
