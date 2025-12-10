@@ -8,6 +8,7 @@ export const moldovaCitiesData: Card[] = [
     localisation: "Moldova",
     continent: "Europe",
     population: "532 K",
-    agglomeration: "700 K"
+    agglomeration: "700 K",
+    quizCategory: ["Moldova", "City", "Europe", "General"]
   }
 ];

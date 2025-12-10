@@ -8,6 +8,7 @@ export const mauriceCitiesData: Card[] = [
     localisation: "Mauritius",
     continent: "Africa",
     population: "148 K",
-    agglomeration: "149 K"
+    agglomeration: "149 K",
+    quizCategory: ["Mauritius", "City", "Africa", "General"]
   }
 ];

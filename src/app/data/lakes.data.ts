@@ -8,7 +8,8 @@ export const lakesData: Card[] = [
     localisation: "Russia",
     continent: "Asia",
     area: "31,500 km²",
-    depth: "1,642 m"
+    depth: "1,642 m",
+    quizCategory: ["Russia", "Lake", "Asia", "General"]
   },
   {
     type: "Lake",
@@ -17,7 +18,8 @@ export const lakesData: Card[] = [
     localisation: "United States and Canada",
     continent: "North America",
     area: "82,100 km²",
-    depth: "406 m"
+    depth: "406 m",
+    quizCategory: ["United States", "Canada", "Lake", "North America", "General"]
   },
   {
     type: "Lake",
@@ -26,7 +28,8 @@ export const lakesData: Card[] = [
     localisation: "Tanzania, Uganda and Kenya",
     continent: "Africa",
     area: "68,800 km²",
-    depth: "84 m"
+    depth: "84 m",
+    quizCategory: ["Kenya", "Tanzania", "Uganda", "Lake", "Africa", "General"]
   },
   {
     type: "Lake",
@@ -35,7 +38,8 @@ export const lakesData: Card[] = [
     localisation: "United States and Canada",
     continent: "North America",
     area: "59,600 km²",
-    depth: "229 m"
+    depth: "229 m",
+    quizCategory: ["United States", "Canada", "Lake", "North America", "General"]
   },
   {
     type: "Lake",
@@ -44,7 +48,8 @@ export const lakesData: Card[] = [
     localisation: "United States",
     continent: "North America",
     area: "58,000 km²",
-    depth: "281 m"
+    depth: "281 m",
+    quizCategory: ["United States", "Lake", "North America", "General"]
   },
   {
     type: "Lake",
@@ -53,7 +58,8 @@ export const lakesData: Card[] = [
     localisation: "Burundi, D.R.C, Tanzania and Zambia",
     continent: "Africa",
     area: "32,900 km²",
-    depth: "1,470 m"
+    depth: "1,470 m",
+    quizCategory: ["Tanzania", "Burundi", "Zambia", "Lake", "Africa", "General"]
   },
   {
     type: "Lake",
@@ -62,7 +68,8 @@ export const lakesData: Card[] = [
     localisation: "Peru and Bolivia",
     continent: "South America",
     area: "8,372 km²",
-    depth: "281 m"
+    depth: "281 m",
+    quizCategory: ["Peru", "Bolivia", "Lake", "South America", "General"]
   },
   {
     type: "Lake",
@@ -71,7 +78,8 @@ export const lakesData: Card[] = [
     localisation: "Malawi, Mozambique and Tanzania",
     continent: "Africa",
     area: "29,600 km²",
-    depth: "706 m"
+    depth: "706 m",
+    quizCategory: ["Tanzania", "Mozambique", "Malawi", "Lake", "Africa", "General"]
   },
   {
     type: "Lake",
@@ -80,7 +88,8 @@ export const lakesData: Card[] = [
     localisation: "Canada",
     continent: "North America",
     area: "27,200 km²",
-    depth: "614 m"
+    depth: "614 m",
+    quizCategory: ["Canada", "Lake", "North America", "General"]
   },
   {
     type: "Lake",
@@ -89,7 +98,8 @@ export const lakesData: Card[] = [
     localisation: "Switzerland and France",
     continent: "Europe",
     area: "580 km²",
-    depth: "310 m"
+    depth: "310 m",
+    quizCategory: ["France", "Switzerland", "Lake", "Europe", "General"]
   },
   {
     type: "Lake",
@@ -98,7 +108,8 @@ export const lakesData: Card[] = [
     localisation: "Tanzania",
     continent: "Africa",
     area: "1,040 km²",
-    depth: "3 m"
+    depth: "3 m",
+    quizCategory: ["Tanzania", "Lake", "Africa", "General"]
   },
   {
     type: "Lake",
@@ -107,7 +118,8 @@ export const lakesData: Card[] = [
     localisation: "Kazakhstan",
     continent: "Asia",
     area: "1.82 km²",
-    depth: "40 m"
+    depth: "40 m",
+    quizCategory: ["Kazakhstan", "Lake", "Asia", "General"]
   },
   {
     type: "Lake",
@@ -116,7 +128,8 @@ export const lakesData: Card[] = [
     localisation: "United States and Canada",
     continent: "North America",
     area: "25,700 km²",
-    depth: "64 m"
+    depth: "64 m",
+    quizCategory: ["United States", "Canada", "Lake", "North America", "General"]
   },
   {
     type: "Lake",
@@ -125,7 +138,8 @@ export const lakesData: Card[] = [
     localisation: "United States and Canada",
     continent: "North America",
     area: "18,960 km²",
-    depth: "244 m"
+    depth: "244 m",
+    quizCategory: ["United States", "Canada", "Lake", "North America", "General"]
   },
   {
     type: "Lake",
@@ -134,7 +148,8 @@ export const lakesData: Card[] = [
     localisation: "Canada",
     continent: "North America",
     area: "31,080 km²",
-    depth: "446 m"
+    depth: "446 m",
+    quizCategory: ["Canada", "Lake", "North America", "General"]
   },
   {
     type: "Lake",
@@ -143,7 +158,8 @@ export const lakesData: Card[] = [
     localisation: "Zimbabwe and Zambia",
     continent: "Africa",
     area: "5,580 km²",
-    depth: "97 m"
+    depth: "97 m",
+    quizCategory: ["Zambia", "Zimbabwe", "Lake", "Africa", "General"]
   },
   {
     type: "Lake",
@@ -152,7 +168,8 @@ export const lakesData: Card[] = [
     localisation: "Kyrgyzstan",
     continent: "Asia",
     area: "6,236 km²",
-    depth: "668 m"
+    depth: "668 m",
+    quizCategory: ["Kyrgyzstan", "Lake", "Asia", "General"]
   },
   {
     type: "Lake",
@@ -161,6 +178,7 @@ export const lakesData: Card[] = [
     localisation: "Iran, Russia, Kazakhstan, Turkmenistan and Azerbaijan",
     continent: "Asia",
     area: "371,000 km²",
-    depth: "1,025 m"
+    depth: "1,025 m",
+    quizCategory: ["Russia", "Iran", "Kazakhstan", "Turkmenistan", "Azerbaijan", "Lake", "Asia", "General"]
   }
 ];

@@ -8,7 +8,8 @@ export const iranCitiesData: Card[] = [
     localisation: "Iran",
     continent: "Asia",
     population: "9.1 M",
-    agglomeration: "15.2 M"
+    agglomeration: "15.2 M",
+    quizCategory: ["Iran", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const iranCitiesData: Card[] = [
     localisation: "Iran",
     continent: "Asia",
     population: "3.3 M",
-    agglomeration: "3.5 M"
+    agglomeration: "3.5 M",
+    quizCategory: ["Iran", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const iranCitiesData: Card[] = [
     localisation: "Iran",
     continent: "Asia",
     population: "2.2 M",
-    agglomeration: "2.6 M"
+    agglomeration: "2.6 M",
+    quizCategory: ["Iran", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -35,6 +38,7 @@ export const iranCitiesData: Card[] = [
     localisation: "Iran",
     continent: "Asia",
     population: "1.7 M",
-    agglomeration: "2.0 M"
+    agglomeration: "2.0 M",
+    quizCategory: ["Iran", "City", "Asia", "General"]
   }
 ];

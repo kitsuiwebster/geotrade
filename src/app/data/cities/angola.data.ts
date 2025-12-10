@@ -8,7 +8,8 @@ export const angolaCitiesData: Card[] = [
     localisation: "Angola",
     continent: "Africa",
     population: "2.57 M",
-    agglomeration: "8.95 M"
+    agglomeration: "8.95 M",
+    quizCategory: ["Angola", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const angolaCitiesData: Card[] = [
     localisation: "Angola",
     continent: "Africa",
     population: "914 K",
-    agglomeration: "914 K"
+    agglomeration: "914 K",
+    quizCategory: ["Angola", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -26,6 +28,7 @@ export const angolaCitiesData: Card[] = [
     localisation: "Angola",
     continent: "Africa",
     population: "540 K",
-    agglomeration: "777 K"
+    agglomeration: "777 K",
+    quizCategory: ["Angola", "City", "Africa", "General"]
   }
 ];

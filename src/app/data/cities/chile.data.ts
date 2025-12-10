@@ -8,6 +8,7 @@ export const chiliCitiesData: Card[] = [
     localisation: "Chile",
     continent: "South America",
     population: "5.6 M",
-    agglomeration: "8.1 M"
+    agglomeration: "8.1 M",
+    quizCategory: ["Chile", "City", "South America", "General"]
   }
 ];

@@ -8,6 +8,7 @@ export const mongolieCitiesData: Card[] = [
     localisation: "Mongolia",
     continent: "Asia",
     population: "1.6 M",
-    agglomeration: "2.1 M"
+    agglomeration: "2.1 M",
+    quizCategory: ["Mongolia", "City", "Asia", "General"]
   }
 ];

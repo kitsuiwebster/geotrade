@@ -8,7 +8,8 @@ export const taiwanCitiesData: Card[] = [
     localisation: "Taiwan",
     continent: "Asia",
     population: "2.6 M",
-    agglomeration: "7.0 M"
+    agglomeration: "7.0 M",
+    quizCategory: ["Taiwan", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const taiwanCitiesData: Card[] = [
     localisation: "Taiwan",
     continent: "Asia",
     population: "2.8 M",
-    agglomeration: "2.8 M"
+    agglomeration: "2.8 M",
+    quizCategory: ["Taiwan", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -26,6 +28,7 @@ export const taiwanCitiesData: Card[] = [
     localisation: "Taiwan",
     continent: "Asia",
     population: "2.8 M",
-    agglomeration: "2.8 M"
+    agglomeration: "2.8 M",
+    quizCategory: ["Taiwan", "City", "Asia", "General"]
   }
 ];

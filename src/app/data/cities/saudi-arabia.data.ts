@@ -8,7 +8,8 @@ export const arabiesaouditeCitiesData: Card[] = [
     localisation: "Saudi Arabia",
     continent: "Asia",
     population: "7.7 M",
-    agglomeration: "8.5 M"
+    agglomeration: "8.5 M",
+    quizCategory: ["Saudi Arabia", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const arabiesaouditeCitiesData: Card[] = [
     localisation: "Saudi Arabia",
     continent: "Asia",
     population: "3.4 M",
-    agglomeration: "4.7 M"
+    agglomeration: "4.7 M",
+    quizCategory: ["Saudi Arabia", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -26,6 +28,7 @@ export const arabiesaouditeCitiesData: Card[] = [
     localisation: "Saudi Arabia",
     continent: "Asia",
     population: "1.6 M",
-    agglomeration: "2.0 M"
+    agglomeration: "2.0 M",
+    quizCategory: ["Saudi Arabia", "City", "Asia", "General"]
   }
 ];

@@ -8,7 +8,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "11.7 M",
-    agglomeration: "32.9 M"
+    agglomeration: "32.9 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "4.5 M",
-    agglomeration: "15.0 M"
+    agglomeration: "15.0 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "8.4 M",
-    agglomeration: "13.2 M"
+    agglomeration: "13.2 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -35,7 +38,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "4.7 M",
-    agglomeration: "11.5 M"
+    agglomeration: "11.5 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -44,7 +48,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "6.9 M",
-    agglomeration: "10.0 M"
+    agglomeration: "10.0 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -53,7 +58,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "5.6 M",
-    agglomeration: "8.3 M"
+    agglomeration: "8.3 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -62,7 +68,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "4.5 M",
-    agglomeration: "7.8 M"
+    agglomeration: "7.8 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -71,7 +78,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "3.1 M",
-    agglomeration: "7.4 M"
+    agglomeration: "7.4 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -80,7 +88,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "3.1 M",
-    agglomeration: "6.6 M"
+    agglomeration: "6.6 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -89,7 +98,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "2.8 M",
-    agglomeration: "5.8 M"
+    agglomeration: "5.8 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -98,7 +108,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "2.4 M",
-    agglomeration: "3.3 M"
+    agglomeration: "3.3 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -107,7 +118,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "1.9 M",
-    agglomeration: "2.4 M"
+    agglomeration: "2.4 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -116,7 +128,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "1.7 M",
-    agglomeration: "7.4 M"
+    agglomeration: "7.4 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -125,7 +138,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "1.7 M",
-    agglomeration: "2.1 M"
+    agglomeration: "2.1 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -134,7 +148,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "1.7 M",
-    agglomeration: "3.1 M"
+    agglomeration: "3.1 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -143,7 +158,8 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "1.6 M",
-    agglomeration: "2.0 M"
+    agglomeration: "2.0 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -152,6 +168,7 @@ export const indeCitiesData: Card[] = [
     localisation: "India",
     continent: "Asia",
     population: "1.6 M",
-    agglomeration: "1.9 M"
+    agglomeration: "1.9 M",
+    quizCategory: ["India", "City", "Asia", "General"]
   }
 ];

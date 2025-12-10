@@ -8,7 +8,8 @@ export const venezuelaCitiesData: Card[] = [
     localisation: "Venezuela",
     continent: "South America",
     population: "2.9 M",
-    agglomeration: "5.2 M"
+    agglomeration: "5.2 M",
+    quizCategory: ["Venezuela", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const venezuelaCitiesData: Card[] = [
     localisation: "Venezuela",
     continent: "South America",
     population: "1.6 M",
-    agglomeration: "2.4 M"
+    agglomeration: "2.4 M",
+    quizCategory: ["Venezuela", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -26,6 +28,7 @@ export const venezuelaCitiesData: Card[] = [
     localisation: "Venezuela",
     continent: "South America",
     population: "1.0 M",
-    agglomeration: "1.4 M"
+    agglomeration: "1.4 M",
+    quizCategory: ["Venezuela", "City", "South America", "General"]
   }
 ];

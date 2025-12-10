@@ -8,6 +8,7 @@ export const gambieCitiesData: Card[] = [
     localisation: "Gambia",
     continent: "Africa",
     population: "34 K",
-    agglomeration: "437 K"
+    agglomeration: "437 K",
+    quizCategory: ["City", "Africa", "General"]
   }
 ];

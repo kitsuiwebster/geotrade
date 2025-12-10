@@ -8,6 +8,7 @@ export const capvertCitiesData: Card[] = [
     localisation: "Cape Verde",
     continent: "Africa",
     population: "168 K",
-    agglomeration: "200 K"
+    agglomeration: "200 K",
+    quizCategory: ["City", "Africa", "General"]
   }
 ];

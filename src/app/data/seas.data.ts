@@ -7,7 +7,8 @@ export const seasData: Card[] = [
     nom: "Mediterranean Sea",
     localisation: "Europe, Africa and Asia",
     continent: "Europe",
-    depth: "5,267 m"
+    depth: "5,267 m",
+    quizCategory: ["Sea", "Europe", "General"]
   },
   {
     type: "Sea",
@@ -15,7 +16,8 @@ export const seasData: Card[] = [
     nom: "Caribbean Sea",
     localisation: "America",
     continent: "Central America",
-    depth: "7,686 m"
+    depth: "7,686 m",
+    quizCategory: ["Sea", "Central America", "General"]
   },
   {
     type: "Sea",
@@ -23,7 +25,8 @@ export const seasData: Card[] = [
     nom: "Baltic Sea",
     localisation: "Europe",
     continent: "Europe",
-    depth: "459 m"
+    depth: "459 m",
+    quizCategory: ["Sea", "Europe", "General"]
   },
   {
     type: "Sea",
@@ -31,7 +34,8 @@ export const seasData: Card[] = [
     nom: "Arabian Sea",
     localisation: "Asia",
     continent: "Asia",
-    depth: "4,652 m"
+    depth: "4,652 m",
+    quizCategory: ["Sea", "Asia", "General"]
   },
   {
     type: "Sea",
@@ -39,7 +43,8 @@ export const seasData: Card[] = [
     nom: "Bering Sea",
     localisation: "America and Asia",
     continent: "Asia",
-    depth: "4,097 m"
+    depth: "4,097 m",
+    quizCategory: ["Sea", "Asia", "General"]
   },
   {
     type: "Sea",
@@ -47,7 +52,8 @@ export const seasData: Card[] = [
     nom: "South China Sea",
     localisation: "Asia",
     continent: "Asia",
-    depth: "5,016 m"
+    depth: "5,016 m",
+    quizCategory: ["Sea", "Asia", "General"]
   },
   {
     type: "Sea",
@@ -55,7 +61,8 @@ export const seasData: Card[] = [
     nom: "Black Sea",
     localisation: "Europe and Asia",
     continent: "Europe",
-    depth: "2,212 m"
+    depth: "2,212 m",
+    quizCategory: ["Sea", "Europe", "General"]
   },
   {
     type: "Sea",
@@ -63,7 +70,8 @@ export const seasData: Card[] = [
     nom: "Red Sea",
     localisation: "Africa and Asia",
     continent: "Africa",
-    depth: "3,040 m"
+    depth: "3,040 m",
+    quizCategory: ["Sea", "Africa", "General"]
   },
   {
     type: "Sea",
@@ -71,7 +79,8 @@ export const seasData: Card[] = [
     nom: "North Sea",
     localisation: "Europe",
     continent: "Europe",
-    depth: "700 m"
+    depth: "700 m",
+    quizCategory: ["Sea", "Europe", "General"]
   },
   {
     type: "Sea",
@@ -79,7 +88,8 @@ export const seasData: Card[] = [
     nom: "Coral Sea",
     localisation: "Oceania",
     continent: "Oceania",
-    depth: "9,140 m"
+    depth: "9,140 m",
+    quizCategory: ["Sea", "Oceania", "General"]
   },
   {
     type: "Sea",
@@ -87,7 +97,8 @@ export const seasData: Card[] = [
     nom: "Barents Sea",
     localisation: "Europe and Asia",
     continent: "Europe",
-    depth: "600 m"
+    depth: "600 m",
+    quizCategory: ["Sea", "Europe", "General"]
   },
   {
     type: "Sea",
@@ -95,7 +106,8 @@ export const seasData: Card[] = [
     nom: "Norwegian Sea",
     localisation: "Europe",
     continent: "Europe",
-    depth: "3,970 m"
+    depth: "3,970 m",
+    quizCategory: ["Sea", "Europe", "General"]
   },
   {
     type: "Sea",
@@ -103,7 +115,8 @@ export const seasData: Card[] = [
     nom: "Persian Gulf",
     localisation: "Asia",
     continent: "Asia",
-    depth: "90 m"
+    depth: "90 m",
+    quizCategory: ["Sea", "Asia", "General"]
   },
   {
     type: "Sea",
@@ -111,7 +124,8 @@ export const seasData: Card[] = [
     nom: "Gulf of Mexico",
     localisation: "North America",
     continent: "North America",
-    depth: "4,384 m"
+    depth: "4,384 m",
+    quizCategory: ["Sea", "North America", "General"]
   },
   {
     type: "Sea",
@@ -119,7 +133,8 @@ export const seasData: Card[] = [
     nom: "Bay of Bengal",
     localisation: "Asia",
     continent: "Asia",
-    depth: "4,694 m"
+    depth: "4,694 m",
+    quizCategory: ["Sea", "Asia", "General"]
   },
   {
     type: "Sea",
@@ -127,7 +142,8 @@ export const seasData: Card[] = [
     nom: "Gulf of Guinea",
     localisation: "Africa",
     continent: "Africa",
-    depth: "6,363 m"
+    depth: "6,363 m",
+    quizCategory: ["Sea", "Africa", "General"]
   },
   {
     type: "Sea",
@@ -135,7 +151,8 @@ export const seasData: Card[] = [
     nom: "Adriatic Sea",
     localisation: "Europe",
     continent: "Europe",
-    depth: "1,233 m"
+    depth: "1,233 m",
+    quizCategory: ["Sea", "Europe", "General"]
   },
   {
     type: "Sea",
@@ -143,7 +160,8 @@ export const seasData: Card[] = [
     nom: "Aegean Sea",
     localisation: "Europe",
     continent: "Europe",
-    depth: "3,544 m"
+    depth: "3,544 m",
+    quizCategory: ["Sea", "Europe", "General"]
   },
   {
     type: "Sea",
@@ -151,7 +169,8 @@ export const seasData: Card[] = [
     nom: "Sea of Japan",
     localisation: "Asia",
     continent: "Asia",
-    depth: "3,742 m"
+    depth: "3,742 m",
+    quizCategory: ["Sea", "Asia", "General"]
   },
   {
     type: "Sea",
@@ -159,7 +178,8 @@ export const seasData: Card[] = [
     nom: "Tasman Sea",
     localisation: "Oceania",
     continent: "Oceania",
-    depth: "5,943 m"
+    depth: "5,943 m",
+    quizCategory: ["Sea", "Oceania", "General"]
   },
   {
     type: "Sea",
@@ -167,7 +187,8 @@ export const seasData: Card[] = [
     nom: "Andaman Sea",
     localisation: "Asia",
     continent: "Asia",
-    depth: "4,198 m"
+    depth: "4,198 m",
+    quizCategory: ["Sea", "Asia", "General"]
   },
   {
     type: "Sea",
@@ -175,7 +196,8 @@ export const seasData: Card[] = [
     nom: "White Sea",
     localisation: "Europe",
     continent: "Europe",
-    depth: "340 m"
+    depth: "340 m",
+    quizCategory: ["Sea", "Europe", "General"]
   },
   {
     type: "Sea",
@@ -183,7 +205,8 @@ export const seasData: Card[] = [
     nom: "Irish Sea",
     localisation: "Europe",
     continent: "Europe",
-    depth: "175 m"
+    depth: "175 m",
+    quizCategory: ["Sea", "Europe", "General"]
   },
   {
     type: "Sea",
@@ -191,6 +214,7 @@ export const seasData: Card[] = [
     nom: "Tyrrhenian Sea",
     localisation: "Europe",
     continent: "Europe",
-    depth: "3,785 m"
+    depth: "3,785 m",
+    quizCategory: ["Sea", "Europe", "General"]
   }
 ];

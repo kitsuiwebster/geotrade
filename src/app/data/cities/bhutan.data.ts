@@ -8,6 +8,7 @@ export const bhoutanCitiesData: Card[] = [
     localisation: "Bhutan",
     continent: "Asia",
     population: "203 K",
-    agglomeration: "250 K"
+    agglomeration: "250 K",
+    quizCategory: ["Bhutan", "City", "Asia", "General"]
   }
 ];

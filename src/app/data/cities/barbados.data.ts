@@ -8,6 +8,7 @@ export const barbadeCitiesData: Card[] = [
     localisation: "Barbados",
     continent: "Central America",
     population: "110 K",
-    agglomeration: "180 K"
+    agglomeration: "180 K",
+    quizCategory: ["Barbados", "City", "Central America", "General"]
   }
 ];

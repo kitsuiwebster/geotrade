@@ -8,6 +8,7 @@ export const northMacedoniaCitiesData: Card[] = [
     localisation: "North Macedonia",
     continent: "Europe",
     population: "544 K",
-    agglomeration: "650 K"
+    agglomeration: "650 K",
+    quizCategory: ["North Macedonia", "City", "Europe", "General"]
   }
 ];

@@ -8,7 +8,8 @@ export const irakCitiesData: Card[] = [
     localisation: "Iraq",
     continent: "Asia",
     population: "7.7 M",
-    agglomeration: "9.0 M"
+    agglomeration: "9.0 M",
+    quizCategory: ["Iraq", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const irakCitiesData: Card[] = [
     localisation: "Iraq",
     continent: "Asia",
     population: "1.4 M",
-    agglomeration: "2.1 M"
+    agglomeration: "2.1 M",
+    quizCategory: ["Iraq", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -26,6 +28,7 @@ export const irakCitiesData: Card[] = [
     localisation: "Iraq",
     continent: "Asia",
     population: "846 K",
-    agglomeration: "1.6 M"
+    agglomeration: "1.6 M",
+    quizCategory: ["Iraq", "City", "Asia", "General"]
   }
 ];

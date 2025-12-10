@@ -8,6 +8,7 @@ export const guyanaCitiesData: Card[] = [
     localisation: "Guyana",
     continent: "South America",
     population: "235 K",
-    agglomeration: "280 K"
+    agglomeration: "280 K",
+    quizCategory: ["Guyana", "City", "South America", "General"]
   }
 ];

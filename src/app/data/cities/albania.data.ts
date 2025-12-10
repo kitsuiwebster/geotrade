@@ -8,6 +8,7 @@ export const albaniaCitiesData: Card[] = [
     localisation: "Albania",
     continent: "Europe",
     population: "418 K",
-    agglomeration: "557 K"
+    agglomeration: "557 K",
+    quizCategory: ["Albania", "City", "Europe", "General"]
   }
 ];

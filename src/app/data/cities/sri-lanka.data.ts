@@ -8,6 +8,7 @@ export const srilankaCitiesData: Card[] = [
     localisation: "Sri Lanka",
     continent: "Asia",
     population: "120 K",
-    agglomeration: "3.1 M"
+    agglomeration: "3.1 M",
+    quizCategory: ["Sri Lanka", "City", "Asia", "General"]
   }
 ];

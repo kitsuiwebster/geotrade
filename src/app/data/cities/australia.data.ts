@@ -8,7 +8,8 @@ export const australieCitiesData: Card[] = [
     localisation: "Australia",
     continent: "Oceania",
     population: "460 K",
-    agglomeration: "480 K"
+    agglomeration: "480 K",
+    quizCategory: ["Australia", "City", "Oceania", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const australieCitiesData: Card[] = [
     localisation: "Australia",
     continent: "Oceania",
     population: "5.31 M",
-    agglomeration: "5.75 M"
+    agglomeration: "5.75 M",
+    quizCategory: ["Australia", "City", "Oceania", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const australieCitiesData: Card[] = [
     localisation: "Australia",
     continent: "Oceania",
     population: "2.6 M",
-    agglomeration: "2.7 M"
+    agglomeration: "2.7 M",
+    quizCategory: ["Australia", "City", "Oceania", "General"]
   },
   {
     type: "City",
@@ -35,6 +38,7 @@ export const australieCitiesData: Card[] = [
     localisation: "Australia",
     continent: "Oceania",
     population: "2.1 M",
-    agglomeration: "2.2 M"
+    agglomeration: "2.2 M",
+    quizCategory: ["Australia", "City", "Oceania", "General"]
   }
 ];

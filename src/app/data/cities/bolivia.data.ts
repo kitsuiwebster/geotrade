@@ -8,7 +8,8 @@ export const bolivieCitiesData: Card[] = [
     localisation: "Bolivia",
     continent: "South America",
     population: "281 K",
-    agglomeration: "340 K"
+    agglomeration: "340 K",
+    quizCategory: ["Bolivia", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const bolivieCitiesData: Card[] = [
     localisation: "Bolivia",
     continent: "South America",
     population: "835 K",
-    agglomeration: "3.1 M"
+    agglomeration: "3.1 M",
+    quizCategory: ["Bolivia", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -26,6 +28,7 @@ export const bolivieCitiesData: Card[] = [
     localisation: "Bolivia",
     continent: "South America",
     population: "1.4 M",
-    agglomeration: "2.3 M"
+    agglomeration: "2.3 M",
+    quizCategory: ["Bolivia", "City", "South America", "General"]
   }
 ];

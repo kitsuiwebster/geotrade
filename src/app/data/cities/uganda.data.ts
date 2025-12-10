@@ -8,6 +8,7 @@ export const ougandaCitiesData: Card[] = [
     localisation: "Uganda",
     continent: "Africa",
     population: "1.7 M",
-    agglomeration: "4.9 M"
+    agglomeration: "4.9 M",
+    quizCategory: ["Uganda", "City", "Africa", "General"]
   }
 ];

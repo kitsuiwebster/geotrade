@@ -8,6 +8,7 @@ export const ukraineCitiesData: Card[] = [
     localisation: "Ukraine",
     continent: "Europe",
     population: "2.96 M",
-    agglomeration: "3.0 M"
+    agglomeration: "3.0 M",
+    quizCategory: ["Ukraine", "City", "Europe", "General"]
   }
 ];

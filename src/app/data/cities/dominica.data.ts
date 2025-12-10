@@ -8,6 +8,7 @@ export const dominiqueCitiesData: Card[] = [
     localisation: "Dominica",
     continent: "Central America",
     population: "15 K",
-    agglomeration: "20 K"
+    agglomeration: "20 K",
+    quizCategory: ["Dominica", "City", "Central America", "General"]
   }
 ];

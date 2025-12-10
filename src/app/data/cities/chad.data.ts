@@ -8,6 +8,7 @@ export const tchadCitiesData: Card[] = [
     localisation: "Chad",
     continent: "Africa",
     population: "1.6 M",
-    agglomeration: "2.1 M"
+    agglomeration: "2.1 M",
+    quizCategory: ["Chad", "City", "Africa", "General"]
   }
 ];

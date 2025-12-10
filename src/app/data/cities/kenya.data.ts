@@ -8,7 +8,8 @@ export const kenyaCitiesData: Card[] = [
     localisation: "Kenya",
     continent: "Africa",
     population: "4.40 M",
-    agglomeration: "5.33 M"
+    agglomeration: "5.33 M",
+    quizCategory: ["Kenya", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const kenyaCitiesData: Card[] = [
     localisation: "Kenya",
     continent: "Africa",
     population: "422 K",
-    agglomeration: "437 K"
+    agglomeration: "437 K",
+    quizCategory: ["Kenya", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const kenyaCitiesData: Card[] = [
     localisation: "Kenya",
     continent: "Africa",
     population: "290 K",
-    agglomeration: "402 K"
+    agglomeration: "402 K",
+    quizCategory: ["Kenya", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -35,6 +38,7 @@ export const kenyaCitiesData: Card[] = [
     localisation: "Kenya",
     continent: "Africa",
     population: "397 K",
-    agglomeration: "610 K"
+    agglomeration: "610 K",
+    quizCategory: ["Kenya", "City", "Africa", "General"]
   }
 ];

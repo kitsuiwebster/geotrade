@@ -7,7 +7,8 @@ export const islandsData: Card[] = [
     nom: "Bali",
     localisation: "Indonesia",
     continent: "Asia",
-    area: "5,780 km²"
+    area: "5,780 km²",
+    quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -15,7 +16,8 @@ export const islandsData: Card[] = [
     nom: "Greenland",
     localisation: "Denmark",
     continent: "Europe",
-    area: "2,166,086 km²"
+    area: "2,166,086 km²",
+    quizCategory: ["Denmark", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -23,7 +25,8 @@ export const islandsData: Card[] = [
     nom: "Java",
     localisation: "Indonesia",
     continent: "Asia",
-    area: "138,794 km²"
+    area: "138,794 km²",
+    quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -31,7 +34,8 @@ export const islandsData: Card[] = [
     nom: "Sicily",
     localisation: "Italy",
     continent: "Europe",
-    area: "25,711 km²"
+    area: "25,711 km²",
+    quizCategory: ["Italy", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -39,7 +43,8 @@ export const islandsData: Card[] = [
     nom: "North Island",
     localisation: "New Zealand",
     continent: "Oceania",
-    area: "113,729 km²"
+    area: "113,729 km²",
+    quizCategory: ["New Zealand", "Island", "Oceania", "General"]
   },
   {
     type: "Island",
@@ -47,7 +52,8 @@ export const islandsData: Card[] = [
     nom: "South Island",
     localisation: "New Zealand",
     continent: "Oceania",
-    area: "150,437 km²"
+    area: "150,437 km²",
+    quizCategory: ["New Zealand", "Island", "Oceania", "General"]
   },
   {
     type: "Island",
@@ -55,7 +61,8 @@ export const islandsData: Card[] = [
     nom: "Borneo",
     localisation: "Indonesia, Malaysia and Brunei",
     continent: "Asia",
-    area: "748,168 km²"
+    area: "748,168 km²",
+    quizCategory: ["Indonesia", "Malaysia", "Brunei", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -63,7 +70,8 @@ export const islandsData: Card[] = [
     nom: "Sumatra",
     localisation: "Indonesia",
     continent: "Asia",
-    area: "473,481 km²"
+    area: "473,481 km²",
+    quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -71,7 +79,8 @@ export const islandsData: Card[] = [
     nom: "Crete",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
-    area: "8,336 km²"
+    area: "8,336 km²",
+    quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -79,7 +88,8 @@ export const islandsData: Card[] = [
     nom: "Long Island",
     localisation: "New York, United States",
     continent: "North America",
-    area: "3,629 km²"
+    area: "3,629 km²",
+    quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -87,7 +97,8 @@ export const islandsData: Card[] = [
     nom: "Jeju",
     localisation: "South Korea",
     continent: "Asia",
-    area: "1,846 km²"
+    area: "1,846 km²",
+    quizCategory: ["South Korea", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -95,7 +106,8 @@ export const islandsData: Card[] = [
     nom: "Phuket",
     localisation: "Thailand",
     continent: "Asia",
-    area: "576 km²"
+    area: "576 km²",
+    quizCategory: ["Thailand", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -103,7 +115,8 @@ export const islandsData: Card[] = [
     nom: "Majorca",
     localisation: "Balearic Islands, Spain",
     continent: "Europe",
-    area: "3,640 km²"
+    area: "3,640 km²",
+    quizCategory: ["Spain", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -111,7 +124,8 @@ export const islandsData: Card[] = [
     nom: "Madagascar",
     localisation: "Madagascar",
     continent: "Africa",
-    area: "587,041 km²"
+    area: "587,041 km²",
+    quizCategory: ["Madagascar", "Island", "Africa", "General"]
   },
   {
     type: "Island",
@@ -119,7 +133,8 @@ export const islandsData: Card[] = [
     nom: "Great Britain",
     localisation: "British Isles, United Kingdom",
     continent: "Europe",
-    area: "209,331 km²"
+    area: "209,331 km²",
+    quizCategory: ["United Kingdom", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -127,7 +142,8 @@ export const islandsData: Card[] = [
     nom: "Honshu",
     localisation: "Japan",
     continent: "Asia",
-    area: "227,960 km²"
+    area: "227,960 km²",
+    quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -135,7 +151,8 @@ export const islandsData: Card[] = [
     nom: "Victoria Island",
     localisation: "Northwest Territories, Canada",
     continent: "North America",
-    area: "217,291 km²"
+    area: "217,291 km²",
+    quizCategory: ["Canada", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -143,7 +160,8 @@ export const islandsData: Card[] = [
     nom: "Ellesmere Island",
     localisation: "Nunavut, Canada",
     continent: "North America",
-    area: "196,236 km²"
+    area: "196,236 km²",
+    quizCategory: ["Canada", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -151,7 +169,8 @@ export const islandsData: Card[] = [
     nom: "Sulawesi",
     localisation: "Indonesia",
     continent: "Asia",
-    area: "174,600 km²"
+    area: "174,600 km²",
+    quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -159,7 +178,8 @@ export const islandsData: Card[] = [
     nom: "Baffin Island",
     localisation: "Nunavut, Canada",
     continent: "North America",
-    area: "507,451 km²"
+    area: "507,451 km²",
+    quizCategory: ["Canada", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -167,7 +187,8 @@ export const islandsData: Card[] = [
     nom: "Luzon",
     localisation: "Philippines",
     continent: "Asia",
-    area: "109,965 km²"
+    area: "109,965 km²",
+    quizCategory: ["Philippines", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -175,7 +196,8 @@ export const islandsData: Card[] = [
     nom: "Mindanao",
     localisation: "Philippines",
     continent: "Asia",
-    area: "97,530 km²"
+    area: "97,530 km²",
+    quizCategory: ["Philippines", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -183,7 +205,8 @@ export const islandsData: Card[] = [
     nom: "Ireland",
     localisation: "British Isles, Ireland and United Kingdom",
     continent: "Europe",
-    area: "84,421 km²"
+    area: "84,421 km²",
+    quizCategory: ["United Kingdom", "Ireland", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -191,7 +214,8 @@ export const islandsData: Card[] = [
     nom: "Hokkaido",
     localisation: "Japan",
     continent: "Asia",
-    area: "83,424 km²"
+    area: "83,424 km²",
+    quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -199,7 +223,8 @@ export const islandsData: Card[] = [
     nom: "Sakhalin",
     localisation: "Russia",
     continent: "Asia",
-    area: "72,493 km²"
+    area: "72,493 km²",
+    quizCategory: ["Russia", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -207,7 +232,8 @@ export const islandsData: Card[] = [
     nom: "Hispaniola",
     localisation: "Caribbean Islands, Haiti and Dominican Republic",
     continent: "North America",
-    area: "76,192 km²"
+    area: "76,192 km²",
+    quizCategory: ["Dominican Republic", "Haiti", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -215,7 +241,8 @@ export const islandsData: Card[] = [
     nom: "Banks Island",
     localisation: "Northwest Territories, Canada",
     continent: "North America",
-    area: "70,028 km²"
+    area: "70,028 km²",
+    quizCategory: ["Canada", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -223,7 +250,8 @@ export const islandsData: Card[] = [
     nom: "Tasmania",
     localisation: "Australia",
     continent: "Oceania",
-    area: "68,401 km²"
+    area: "68,401 km²",
+    quizCategory: ["Australia", "Island", "Oceania", "General"]
   },
   {
     type: "Island",
@@ -231,7 +259,8 @@ export const islandsData: Card[] = [
     nom: "Sri Lanka",
     localisation: "Sri Lanka",
     continent: "Asia",
-    area: "65,610 km²"
+    area: "65,610 km²",
+    quizCategory: ["Sri Lanka", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -239,7 +268,8 @@ export const islandsData: Card[] = [
     nom: "Devon Island",
     localisation: "Nunavut, Canada",
     continent: "North America",
-    area: "55,247 km²"
+    area: "55,247 km²",
+    quizCategory: ["Canada", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -247,7 +277,8 @@ export const islandsData: Card[] = [
     nom: "Novaya Zemlya",
     localisation: "Russia",
     continent: "Europe",
-    area: "90,650 km²"
+    area: "90,650 km²",
+    quizCategory: ["Russia", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -255,7 +286,8 @@ export const islandsData: Card[] = [
     nom: "Cuba",
     localisation: "Caribbean Islands, Cuba",
     continent: "North America",
-    area: "105,806 km²"
+    area: "105,806 km²",
+    quizCategory: ["Cuba", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -263,7 +295,8 @@ export const islandsData: Card[] = [
     nom: "Newfoundland",
     localisation: "Newfoundland and Labrador, Canada",
     continent: "North America",
-    area: "108,860 km²"
+    area: "108,860 km²",
+    quizCategory: ["Canada", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -271,7 +304,8 @@ export const islandsData: Card[] = [
     nom: "Iceland",
     localisation: "Iceland",
     continent: "Europe",
-    area: "103,000 km²"
+    area: "103,000 km²",
+    quizCategory: ["Iceland", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -279,7 +313,8 @@ export const islandsData: Card[] = [
     nom: "Kyushu",
     localisation: "Japan",
     continent: "Asia",
-    area: "37,000 km²"
+    area: "37,000 km²",
+    quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -287,7 +322,8 @@ export const islandsData: Card[] = [
     nom: "Shikoku",
     localisation: "Japan",
     continent: "Asia",
-    area: "18,800 km²"
+    area: "18,800 km²",
+    quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -295,7 +331,8 @@ export const islandsData: Card[] = [
     nom: "Cyprus",
     localisation: "Cyprus",
     continent: "Europe",
-    area: "9,251 km²"
+    area: "9,251 km²",
+    quizCategory: ["Cyprus", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -303,7 +340,8 @@ export const islandsData: Card[] = [
     nom: "Corsica",
     localisation: "France",
     continent: "Europe",
-    area: "8,680 km²"
+    area: "8,680 km²",
+    quizCategory: ["France", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -311,7 +349,8 @@ export const islandsData: Card[] = [
     nom: "Sardinia",
     localisation: "Italy",
     continent: "Europe",
-    area: "24,090 km²"
+    area: "24,090 km²",
+    quizCategory: ["Italy", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -319,7 +358,8 @@ export const islandsData: Card[] = [
     nom: "Jamaica",
     localisation: "Caribbean Islands, Jamaica",
     continent: "North America",
-    area: "10,991 km²"
+    area: "10,991 km²",
+    quizCategory: ["Jamaica", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -327,7 +367,8 @@ export const islandsData: Card[] = [
     nom: "Puerto Rico",
     localisation: "Caribbean Islands, United States",
     continent: "North America",
-    area: "8,870 km²"
+    area: "8,870 km²",
+    quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -335,7 +376,8 @@ export const islandsData: Card[] = [
     nom: "Socotra",
     localisation: "Yemen",
     continent: "Asia",
-    area: "3,796 km²"
+    area: "3,796 km²",
+    quizCategory: ["Yemen", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -343,7 +385,8 @@ export const islandsData: Card[] = [
     nom: "Malta",
     localisation: "Malta",
     continent: "Europe",
-    area: "316 km²"
+    area: "316 km²",
+    quizCategory: ["Malta", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -351,7 +394,8 @@ export const islandsData: Card[] = [
     nom: "Taiwan",
     localisation: "Taiwan",
     continent: "Asia",
-    area: "35,808 km²"
+    area: "35,808 km²",
+    quizCategory: ["Taiwan", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -359,7 +403,8 @@ export const islandsData: Card[] = [
     nom: "Vancouver Island",
     localisation: "British Columbia, Canada",
     continent: "North America",
-    area: "31,285 km²"
+    area: "31,285 km²",
+    quizCategory: ["Canada", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -367,7 +412,8 @@ export const islandsData: Card[] = [
     nom: "Timor",
     localisation: "Indonesia and East Timor",
     continent: "Asia",
-    area: "28,418 km²"
+    area: "28,418 km²",
+    quizCategory: ["East Timor", "Indonesia", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -375,7 +421,8 @@ export const islandsData: Card[] = [
     nom: "Mauritius",
     localisation: "Mauritius",
     continent: "Africa",
-    area: "2,040 km²"
+    area: "2,040 km²",
+    quizCategory: ["Mauritius", "Island", "Africa", "General"]
   },
   {
     type: "Island",
@@ -383,7 +430,8 @@ export const islandsData: Card[] = [
     nom: "Reunion",
     localisation: "France",
     continent: "Africa",
-    area: "2,511 km²"
+    area: "2,511 km²",
+    quizCategory: ["France", "Island", "Africa", "General"]
   },
   {
     type: "Island",
@@ -391,7 +439,8 @@ export const islandsData: Card[] = [
     nom: "Singapore",
     localisation: "Singapore",
     continent: "Asia",
-    area: "721 km²"
+    area: "721 km²",
+    quizCategory: ["Singapore", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -399,7 +448,8 @@ export const islandsData: Card[] = [
     nom: "Manhattan",
     localisation: "New York, United States",
     continent: "North America",
-    area: "60 km²"
+    area: "60 km²",
+    quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -407,7 +457,8 @@ export const islandsData: Card[] = [
     nom: "Sentosa",
     localisation: "Singapore",
     continent: "Asia",
-    area: "5 km²"
+    area: "5 km²",
+    quizCategory: ["Singapore", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -415,7 +466,8 @@ export const islandsData: Card[] = [
     nom: "Okinawa",
     localisation: "Japan",
     continent: "Asia",
-    area: "1,207 km²"
+    area: "1,207 km²",
+    quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -423,7 +475,8 @@ export const islandsData: Card[] = [
     nom: "Sado",
     localisation: "Japan",
     continent: "Asia",
-    area: "855 km²"
+    area: "855 km²",
+    quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -431,7 +484,8 @@ export const islandsData: Card[] = [
     nom: "Awaji",
     localisation: "Japan",
     continent: "Asia",
-    area: "593 km²"
+    area: "593 km²",
+    quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -439,7 +493,8 @@ export const islandsData: Card[] = [
     nom: "Tsushima",
     localisation: "Japan",
     continent: "Asia",
-    area: "708 km²"
+    area: "708 km²",
+    quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -447,7 +502,8 @@ export const islandsData: Card[] = [
     nom: "Iki",
     localisation: "Japan",
     continent: "Asia",
-    area: "138 km²"
+    area: "138 km²",
+    quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -455,7 +511,8 @@ export const islandsData: Card[] = [
     nom: "Rishiri",
     localisation: "Japan",
     continent: "Asia",
-    area: "183 km²"
+    area: "183 km²",
+    quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -463,7 +520,8 @@ export const islandsData: Card[] = [
     nom: "Oahu",
     localisation: "Hawaii, United States",
     continent: "North America",
-    area: "1,545 km²"
+    area: "1,545 km²",
+    quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -471,7 +529,8 @@ export const islandsData: Card[] = [
     nom: "Maui",
     localisation: "Hawaii, United States",
     continent: "North America",
-    area: "1,884 km²"
+    area: "1,884 km²",
+    quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -479,7 +538,8 @@ export const islandsData: Card[] = [
     nom: "Big Island",
     localisation: "Hawaii, United States",
     continent: "North America",
-    area: "10,433 km²"
+    area: "10,433 km²",
+    quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -487,7 +547,8 @@ export const islandsData: Card[] = [
     nom: "Kauai",
     localisation: "Hawaii, United States",
     continent: "North America",
-    area: "1,446 km²"
+    area: "1,446 km²",
+    quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -495,7 +556,8 @@ export const islandsData: Card[] = [
     nom: "Molokai",
     localisation: "Hawaii, United States",
     continent: "North America",
-    area: "673 km²"
+    area: "673 km²",
+    quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -503,7 +565,8 @@ export const islandsData: Card[] = [
     nom: "Lanai",
     localisation: "Hawaii, United States",
     continent: "North America",
-    area: "364 km²"
+    area: "364 km²",
+    quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
     type: "Island",
@@ -511,7 +574,8 @@ export const islandsData: Card[] = [
     nom: "Rhodes",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
-    area: "1,401 km²"
+    area: "1,401 km²",
+    quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -519,7 +583,8 @@ export const islandsData: Card[] = [
     nom: "Lesbos",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
-    area: "1,633 km²"
+    area: "1,633 km²",
+    quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -527,7 +592,8 @@ export const islandsData: Card[] = [
     nom: "Chios",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
-    area: "842 km²"
+    area: "842 km²",
+    quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -535,7 +601,8 @@ export const islandsData: Card[] = [
     nom: "Samos",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
-    area: "477 km²"
+    area: "477 km²",
+    quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -543,7 +610,8 @@ export const islandsData: Card[] = [
     nom: "Naxos",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
-    area: "430 km²"
+    area: "430 km²",
+    quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -551,7 +619,8 @@ export const islandsData: Card[] = [
     nom: "Corfu",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
-    area: "593 km²"
+    area: "593 km²",
+    quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -559,7 +628,8 @@ export const islandsData: Card[] = [
     nom: "Palawan",
     localisation: "Philippines",
     continent: "Asia",
-    area: "14,649 km²"
+    area: "14,649 km²",
+    quizCategory: ["Philippines", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -567,7 +637,8 @@ export const islandsData: Card[] = [
     nom: "Samar",
     localisation: "Philippines",
     continent: "Asia",
-    area: "13,429 km²"
+    area: "13,429 km²",
+    quizCategory: ["Philippines", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -575,7 +646,8 @@ export const islandsData: Card[] = [
     nom: "Negros",
     localisation: "Philippines",
     continent: "Asia",
-    area: "13,309 km²"
+    area: "13,309 km²",
+    quizCategory: ["Philippines", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -583,7 +655,8 @@ export const islandsData: Card[] = [
     nom: "Panay",
     localisation: "Philippines",
     continent: "Asia",
-    area: "12,300 km²"
+    area: "12,300 km²",
+    quizCategory: ["Philippines", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -591,7 +664,8 @@ export const islandsData: Card[] = [
     nom: "Cebu",
     localisation: "Philippines",
     continent: "Asia",
-    area: "4,468 km²"
+    area: "4,468 km²",
+    quizCategory: ["Philippines", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -599,7 +673,8 @@ export const islandsData: Card[] = [
     nom: "Flores",
     localisation: "Indonesia",
     continent: "Asia",
-    area: "13,540 km²"
+    area: "13,540 km²",
+    quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -607,7 +682,8 @@ export const islandsData: Card[] = [
     nom: "Seram",
     localisation: "Indonesia",
     continent: "Asia",
-    area: "17,100 km²"
+    area: "17,100 km²",
+    quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -615,7 +691,8 @@ export const islandsData: Card[] = [
     nom: "Lombok",
     localisation: "Indonesia",
     continent: "Asia",
-    area: "4,725 km²"
+    area: "4,725 km²",
+    quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -623,7 +700,8 @@ export const islandsData: Card[] = [
     nom: "Sumbawa",
     localisation: "Indonesia",
     continent: "Asia",
-    area: "15,448 km²"
+    area: "15,448 km²",
+    quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -631,7 +709,8 @@ export const islandsData: Card[] = [
     nom: "Halmahera",
     localisation: "Indonesia",
     continent: "Asia",
-    area: "17,780 km²"
+    area: "17,780 km²",
+    quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -639,7 +718,8 @@ export const islandsData: Card[] = [
     nom: "Senja",
     localisation: "Norway",
     continent: "Europe",
-    area: "1,590 km²"
+    area: "1,590 km²",
+    quizCategory: ["Norway", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -647,7 +727,8 @@ export const islandsData: Card[] = [
     nom: "Kvaloya",
     localisation: "Norway",
     continent: "Europe",
-    area: "737 km²"
+    area: "737 km²",
+    quizCategory: ["Norway", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -655,7 +736,8 @@ export const islandsData: Card[] = [
     nom: "Wrangel Island",
     localisation: "Russia",
     continent: "Asia",
-    area: "7,608 km²"
+    area: "7,608 km²",
+    quizCategory: ["Russia", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -663,7 +745,8 @@ export const islandsData: Card[] = [
     nom: "Bennett Island",
     localisation: "Russia",
     continent: "Asia",
-    area: "150 km²"
+    area: "150 km²",
+    quizCategory: ["Russia", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -671,7 +754,8 @@ export const islandsData: Card[] = [
     nom: "Kotelny Island",
     localisation: "Russia",
     continent: "Asia",
-    area: "23,200 km²"
+    area: "23,200 km²",
+    quizCategory: ["Russia", "Island", "Asia", "General"]
   },
   {
     type: "Island",
@@ -679,7 +763,8 @@ export const islandsData: Card[] = [
     nom: "Franz Josef Land",
     localisation: "Russia",
     continent: "Europe",
-    area: "16,134 km²"
+    area: "16,134 km²",
+    quizCategory: ["Russia", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -687,7 +772,8 @@ export const islandsData: Card[] = [
     nom: "Santorini",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
-    area: "96 km²"
+    area: "96 km²",
+    quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -695,7 +781,8 @@ export const islandsData: Card[] = [
     nom: "Mykonos",
     localisation: "Greek Islands, Greece",
     continent: "Europe",
-    area: "86 km²"
+    area: "86 km²",
+    quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -703,7 +790,8 @@ export const islandsData: Card[] = [
     nom: "Ibiza",
     localisation: "Balearic Islands, Spain",
     continent: "Europe",
-    area: "572 km²"
+    area: "572 km²",
+    quizCategory: ["Spain", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -711,7 +799,8 @@ export const islandsData: Card[] = [
     nom: "Minorca",
     localisation: "Balearic Islands, Spain",
     continent: "Europe",
-    area: "696 km²"
+    area: "696 km²",
+    quizCategory: ["Spain", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -719,7 +808,8 @@ export const islandsData: Card[] = [
     nom: "Papua",
     localisation: "Indonesia and Papua New Guinea",
     continent: "Asia and Oceania",
-    area: "785,753 km²"
+    area: "785,753 km²",
+    quizCategory: ["Papua New Guinea", "Indonesia", "Island", "Asia and Oceania", "General"]
   },
   {
     type: "Island",
@@ -727,7 +817,8 @@ export const islandsData: Card[] = [
     nom: "Gotland",
     localisation: "Sweden",
     continent: "Europe",
-    area: "2,994 km²"
+    area: "2,994 km²",
+    quizCategory: ["Sweden", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -735,7 +826,8 @@ export const islandsData: Card[] = [
     nom: "Jersey",
     localisation: "United Kingdom",
     continent: "Europe",
-    area: "118 km²"
+    area: "118 km²",
+    quizCategory: ["United Kingdom", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -743,7 +835,8 @@ export const islandsData: Card[] = [
     nom: "Guernsey",
     localisation: "United Kingdom",
     continent: "Europe",
-    area: "78 km²"
+    area: "78 km²",
+    quizCategory: ["United Kingdom", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -751,7 +844,8 @@ export const islandsData: Card[] = [
     nom: "Saaremaa",
     localisation: "Estonia",
     continent: "Europe",
-    area: "2,673 km²"
+    area: "2,673 km²",
+    quizCategory: ["Estonia", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -759,7 +853,8 @@ export const islandsData: Card[] = [
     nom: "Bornholm",
     localisation: "Denmark",
     continent: "Europe",
-    area: "588 km²"
+    area: "588 km²",
+    quizCategory: ["Denmark", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -767,7 +862,8 @@ export const islandsData: Card[] = [
     nom: "Madagascar",
     localisation: "Madagascar",
     continent: "Africa",
-    area: "587,041 km²"
+    area: "587,041 km²",
+    quizCategory: ["Madagascar", "Island", "Africa", "General"]
   },
   {
     type: "Island",
@@ -775,7 +871,8 @@ export const islandsData: Card[] = [
     nom: "Zealand",
     localisation: "Denmark",
     continent: "Europe",
-    area: "7,031 km²"
+    area: "7,031 km²",
+    quizCategory: ["Denmark", "Island", "Europe", "General"]
   },
   {
     type: "Island",
@@ -783,6 +880,7 @@ export const islandsData: Card[] = [
     nom: "Funen",
     localisation: "Denmark",
     continent: "Europe",
-    area: "2,985 km²"
+    area: "2,985 km²",
+    quizCategory: ["Denmark", "Island", "Europe", "General"]
   }
 ];

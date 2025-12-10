@@ -8,7 +8,8 @@ export const myanmarCitiesData: Card[] = [
     localisation: "Myanmar",
     continent: "Asia",
     population: "1.2 M",
-    agglomeration: "1.5 M"
+    agglomeration: "1.5 M",
+    quizCategory: ["Myanmar", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -17,6 +18,7 @@ export const myanmarCitiesData: Card[] = [
     localisation: "Myanmar",
     continent: "Asia",
     population: "5.2 M",
-    agglomeration: "5.5 M"
+    agglomeration: "5.5 M",
+    quizCategory: ["Myanmar", "City", "Asia", "General"]
   }
 ];

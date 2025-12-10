@@ -8,6 +8,7 @@ export const czechRepublicCitiesData: Card[] = [
     localisation: "Czech Republic",
     continent: "Europe",
     population: "1.3 M",
-    agglomeration: "2.7 M"
+    agglomeration: "2.7 M",
+    quizCategory: ["Czech Republic", "City", "Europe", "General"]
   }
 ];

@@ -8,7 +8,8 @@ export const mexiqueCitiesData: Card[] = [
     localisation: "Mexico",
     continent: "North America",
     population: "9.2 M",
-    agglomeration: "22.5 M"
+    agglomeration: "22.5 M",
+    quizCategory: ["Mexico", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const mexiqueCitiesData: Card[] = [
     localisation: "Mexico",
     continent: "North America",
     population: "1.4 M",
-    agglomeration: "5.3 M"
+    agglomeration: "5.3 M",
+    quizCategory: ["Mexico", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const mexiqueCitiesData: Card[] = [
     localisation: "Mexico",
     continent: "North America",
     population: "1.8 M",
-    agglomeration: "2.2 M"
+    agglomeration: "2.2 M",
+    quizCategory: ["Mexico", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -35,7 +38,8 @@ export const mexiqueCitiesData: Card[] = [
     localisation: "Mexico",
     continent: "North America",
     population: "1.7 M",
-    agglomeration: "3.2 M"
+    agglomeration: "3.2 M",
+    quizCategory: ["Mexico", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -44,7 +48,8 @@ export const mexiqueCitiesData: Card[] = [
     localisation: "Mexico",
     continent: "North America",
     population: "1.6 M",
-    agglomeration: "2.5 M"
+    agglomeration: "2.5 M",
+    quizCategory: ["Mexico", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -53,7 +58,8 @@ export const mexiqueCitiesData: Card[] = [
     localisation: "Mexico",
     continent: "North America",
     population: "1.2 M",
-    agglomeration: "1.9 M"
+    agglomeration: "1.9 M",
+    quizCategory: ["Mexico", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -62,6 +68,7 @@ export const mexiqueCitiesData: Card[] = [
     localisation: "Mexico",
     continent: "North America",
     population: "1.1 M",
-    agglomeration: "5.3 M"
+    agglomeration: "5.3 M",
+    quizCategory: ["Mexico", "City", "North America", "General"]
   }
 ];

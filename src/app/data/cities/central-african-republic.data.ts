@@ -8,6 +8,7 @@ export const republiquecentrafricaineCitiesData: Card[] = [
     localisation: "Central African Republic",
     continent: "Africa",
     population: "889 K",
-    agglomeration: "1.05 M"
+    agglomeration: "1.05 M",
+    quizCategory: ["Central African Republic", "City", "Africa", "General"]
   }
 ];

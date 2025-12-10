@@ -8,7 +8,8 @@ export const marocCitiesData: Card[] = [
     localisation: "Morocco",
     continent: "Africa",
     population: "3.36 M",
-    agglomeration: "4.27 M"
+    agglomeration: "4.27 M",
+    quizCategory: ["Morocco", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const marocCitiesData: Card[] = [
     localisation: "Morocco",
     continent: "Africa",
     population: "580 K",
-    agglomeration: "1.97 M"
+    agglomeration: "1.97 M",
+    quizCategory: ["Morocco", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const marocCitiesData: Card[] = [
     localisation: "Morocco",
     continent: "Africa",
     population: "1.11 M",
-    agglomeration: "1.15 M"
+    agglomeration: "1.15 M",
+    quizCategory: ["Morocco", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -35,7 +38,8 @@ export const marocCitiesData: Card[] = [
     localisation: "Morocco",
     continent: "Africa",
     population: "928 K",
-    agglomeration: "1.33 M"
+    agglomeration: "1.33 M",
+    quizCategory: ["Morocco", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -44,6 +48,7 @@ export const marocCitiesData: Card[] = [
     localisation: "Morocco",
     continent: "Africa",
     population: "948 K",
-    agglomeration: "1.07 M"
+    agglomeration: "1.07 M",
+    quizCategory: ["Morocco", "City", "Africa", "General"]
   }
 ];

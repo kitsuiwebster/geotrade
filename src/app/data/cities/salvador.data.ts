@@ -8,6 +8,7 @@ export const salvadorCitiesData: Card[] = [
     localisation: "El Salvador",
     continent: "Central America",
     population: "1.1 M",
-    agglomeration: "2.4 M"
+    agglomeration: "2.4 M",
+    quizCategory: ["City", "Central America", "General"]
   }
 ];

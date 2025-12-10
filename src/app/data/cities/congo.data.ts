@@ -8,6 +8,7 @@ export const congoCitiesData: Card[] = [
     localisation: "Congo",
     continent: "Africa",
     population: "2.3 M",
-    agglomeration: "3.1 M"
+    agglomeration: "3.1 M",
+    quizCategory: ["City", "Africa", "General"]
   }
 ];

@@ -8,6 +8,7 @@ export const omanCitiesData: Card[] = [
     localisation: "Oman",
     continent: "Asia",
     population: "1.6 M",
-    agglomeration: "2.1 M"
+    agglomeration: "2.1 M",
+    quizCategory: ["Oman", "City", "Asia", "General"]
   }
 ];

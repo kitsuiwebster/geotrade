@@ -8,6 +8,7 @@ export const papouasienouvelleguineeCitiesData: Card[] = [
     localisation: "Papua New Guinea",
     continent: "Oceania",
     population: "364 K",
-    agglomeration: "383 K"
+    agglomeration: "383 K",
+    quizCategory: ["Papua New Guinea", "City", "Oceania", "General"]
   }
 ];

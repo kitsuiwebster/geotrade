@@ -8,6 +8,7 @@ export const timororientalCitiesData: Card[] = [
     localisation: "East Timor",
     continent: "Asia",
     population: "222 K",
-    agglomeration: "222 K"
+    agglomeration: "222 K",
+    quizCategory: ["East Timor", "City", "Asia", "General"]
   }
 ];

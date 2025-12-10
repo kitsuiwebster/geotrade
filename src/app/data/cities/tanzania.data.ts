@@ -8,7 +8,8 @@ export const tanzanieCitiesData: Card[] = [
     localisation: "Tanzania",
     continent: "Africa",
     population: "411 K",
-    agglomeration: "490 K"
+    agglomeration: "490 K",
+    quizCategory: ["Tanzania", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const tanzanieCitiesData: Card[] = [
     localisation: "Tanzania",
     continent: "Africa",
     population: "6.7 M",
-    agglomeration: "7.4 M"
+    agglomeration: "7.4 M",
+    quizCategory: ["Tanzania", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -26,6 +28,7 @@ export const tanzanieCitiesData: Card[] = [
     localisation: "Tanzania",
     continent: "Africa",
     population: "386 K",
-    agglomeration: "517 K"
+    agglomeration: "517 K",
+    quizCategory: ["Tanzania", "City", "Africa", "General"]
   }
 ];

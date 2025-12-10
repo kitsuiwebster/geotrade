@@ -8,6 +8,7 @@ export const maldivesCitiesData: Card[] = [
     localisation: "Maldives",
     continent: "Asia",
     population: "252 K",
-    agglomeration: "300 K"
+    agglomeration: "300 K",
+    quizCategory: ["City", "Asia", "General"]
   }
 ];

@@ -8,6 +8,7 @@ export const andorraCitiesData: Card[] = [
     localisation: "Andorra",
     continent: "Europe",
     population: "23 K",
-    agglomeration: "80 K"
+    agglomeration: "80 K",
+    quizCategory: ["Andorra", "City", "Europe", "General"]
   }
 ];

@@ -8,6 +8,7 @@ export const ouzbekistanCitiesData: Card[] = [
     localisation: "Uzbekistan",
     continent: "Asia",
     population: "2.6 M",
-    agglomeration: "3.4 M"
+    agglomeration: "3.4 M",
+    quizCategory: ["Uzbekistan", "City", "Asia", "General"]
   }
 ];

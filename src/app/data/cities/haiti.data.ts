@@ -8,6 +8,7 @@ export const haitiCitiesData: Card[] = [
     localisation: "Haiti",
     continent: "Central America",
     population: "1.2 M",
-    agglomeration: "3.8 M"
+    agglomeration: "3.8 M",
+    quizCategory: ["Haiti", "City", "Central America", "General"]
   }
 ];

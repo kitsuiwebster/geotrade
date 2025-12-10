@@ -8,7 +8,8 @@ export const territoriesData: Card[] = [
     localisation: "Caribbean",
     continent: "Central America",
     population: "3.19 M",
-    area: "9,104 km²"
+    area: "9,104 km²",
+    quizCategory: ["Territory", "Central America", "General"]
   },
   {
     type: "Territory",
@@ -17,7 +18,8 @@ export const territoriesData: Card[] = [
     localisation: "North Atlantic",
     continent: "Europe",
     population: "56 K",
-    area: "2,166,086 km²"
+    area: "2,166,086 km²",
+    quizCategory: ["Territory", "Europe", "General"]
   },
   {
     type: "Territory",
@@ -26,7 +28,8 @@ export const territoriesData: Card[] = [
     localisation: "Southern Europe",
     continent: "Europe",
     population: "34 K",
-    area: "6.8 km²"
+    area: "6.8 km²",
+    quizCategory: ["Territory", "Europe", "General"]
   },
   {
     type: "Territory",
@@ -35,7 +38,8 @@ export const territoriesData: Card[] = [
     localisation: "North Atlantic",
     continent: "North America",
     population: "64 K",
-    area: "54 km²"
+    area: "54 km²",
+    quizCategory: ["Territory", "North America", "General"]
   },
   {
     type: "Territory",
@@ -44,7 +48,8 @@ export const territoriesData: Card[] = [
     localisation: "Caribbean",
     continent: "Central America",
     population: "104 K",
-    area: "347 km²"
+    area: "347 km²",
+    quizCategory: ["Territory", "Central America", "General"]
   },
   {
     type: "Territory",
@@ -53,7 +58,8 @@ export const territoriesData: Card[] = [
     localisation: "Micronesia",
     continent: "Oceania",
     population: "169 K",
-    area: "541 km²"
+    area: "541 km²",
+    quizCategory: ["Micronesia", "Territory", "Oceania", "General"]
   },
   {
     type: "Territory",
@@ -62,7 +68,8 @@ export const territoriesData: Card[] = [
     localisation: "Melanesia",
     continent: "Oceania",
     population: "271 K",
-    area: "18,575 km²"
+    area: "18,575 km²",
+    quizCategory: ["Territory", "Oceania", "General"]
   },
   {
     type: "Territory",
@@ -71,7 +78,8 @@ export const territoriesData: Card[] = [
     localisation: "Polynesia",
     continent: "Oceania",
     population: "280 K",
-    area: "4,167 km²"
+    area: "4,167 km²",
+    quizCategory: ["Territory", "Oceania", "General"]
   },
   {
     type: "Territory",
@@ -80,7 +88,8 @@ export const territoriesData: Card[] = [
     localisation: "Caribbean",
     continent: "Central America",
     population: "107 K",
-    area: "180 km²"
+    area: "180 km²",
+    quizCategory: ["Territory", "Central America", "General"]
   },
   {
     type: "Territory",
@@ -89,7 +98,8 @@ export const territoriesData: Card[] = [
     localisation: "Caribbean",
     continent: "Central America",
     population: "164 K",
-    area: "444 km²"
+    area: "444 km²",
+    quizCategory: ["Territory", "Central America", "General"]
   },
   {
     type: "Territory",
@@ -98,7 +108,8 @@ export const territoriesData: Card[] = [
     localisation: "Caribbean",
     continent: "Central America",
     population: "32 K",
-    area: "53 km²"
+    area: "53 km²",
+    quizCategory: ["Territory", "Central America", "General"]
   },
   {
     type: "Territory",
@@ -107,7 +118,8 @@ export const territoriesData: Card[] = [
     localisation: "Caribbean",
     continent: "Central America",
     population: "10 K",
-    area: "21 km²"
+    area: "21 km²",
+    quizCategory: ["Territory", "Central America", "General"]
   },
   {
     type: "Territory",
@@ -116,7 +128,8 @@ export const territoriesData: Card[] = [
     localisation: "South Atlantic",
     continent: "South America",
     population: "3.4 K",
-    area: "12,173 km²"
+    area: "12,173 km²",
+    quizCategory: ["Territory", "South America", "General"]
   },
   {
     type: "Territory",
@@ -125,7 +138,8 @@ export const territoriesData: Card[] = [
     localisation: "Caribbean",
     continent: "Central America",
     population: "30 K",
-    area: "151 km²"
+    area: "151 km²",
+    quizCategory: ["Territory", "Central America", "General"]
   },
   {
     type: "Territory",
@@ -134,7 +148,8 @@ export const territoriesData: Card[] = [
     localisation: "Polynesia",
     continent: "Oceania",
     population: "55 K",
-    area: "199 km²"
+    area: "199 km²",
+    quizCategory: ["Territory", "Oceania", "General"]
   },
   {
     type: "Territory",
@@ -143,7 +158,8 @@ export const territoriesData: Card[] = [
     localisation: "North Atlantic",
     continent: "North America",
     population: "6 K",
-    area: "242 km²"
+    area: "242 km²",
+    quizCategory: ["Territory", "North America", "General"]
   },
   {
     type: "Territory",
@@ -152,7 +168,8 @@ export const territoriesData: Card[] = [
     localisation: "Polynesia",
     continent: "Oceania",
     population: "11 K",
-    area: "142 km²"
+    area: "142 km²",
+    quizCategory: ["Territory", "Oceania", "General"]
   },
   {
     type: "Territory",
@@ -161,7 +178,8 @@ export const territoriesData: Card[] = [
     localisation: "Caribbean",
     continent: "Central America",
     population: "66 K",
-    area: "264 km²"
+    area: "264 km²",
+    quizCategory: ["Territory", "Central America", "General"]
   },
   {
     type: "Territory",
@@ -170,7 +188,8 @@ export const territoriesData: Card[] = [
     localisation: "Caribbean",
     continent: "Central America",
     population: "41 K",
-    area: "34 km²"
+    area: "34 km²",
+    quizCategory: ["Territory", "Central America", "General"]
   },
   {
     type: "Territory",
@@ -179,7 +198,8 @@ export const territoriesData: Card[] = [
     localisation: "Caribbean",
     continent: "Central America",
     population: "39 K",
-    area: "948 km²"
+    area: "948 km²",
+    quizCategory: ["Territory", "Central America", "General"]
   },
   {
     type: "Territory",
@@ -188,7 +208,8 @@ export const territoriesData: Card[] = [
     localisation: "Caribbean",
     continent: "Central America",
     population: "15 K",
-    area: "91 km²"
+    area: "91 km²",
+    quizCategory: ["Territory", "Central America", "General"]
   },
   {
     type: "Territory",
@@ -197,6 +218,7 @@ export const territoriesData: Card[] = [
     localisation: "Caribbean",
     continent: "Central America",
     population: "5 K",
-    area: "102 km²"
+    area: "102 km²",
+    quizCategory: ["Territory", "Central America", "General"]
   }
 ];

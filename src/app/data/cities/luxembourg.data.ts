@@ -8,6 +8,7 @@ export const luxembourgCitiesData: Card[] = [
     localisation: "Luxembourg",
     continent: "Europe",
     population: "125 K",
-    agglomeration: "645 K"
+    agglomeration: "645 K",
+    quizCategory: ["Luxembourg", "City", "Europe", "General"]
   }
 ];

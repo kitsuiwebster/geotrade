@@ -8,6 +8,7 @@ export const israelCitiesData: Card[] = [
     localisation: "Israel",
     continent: "Asia",
     population: "936 K",
-    agglomeration: "1.7 M"
+    agglomeration: "1.7 M",
+    quizCategory: ["Israel", "City", "Asia", "General"]
   }
 ];

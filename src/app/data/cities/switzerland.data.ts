@@ -8,7 +8,8 @@ export const switzerlandCitiesData: Card[] = [
     localisation: "Switzerland",
     continent: "Europe",
     population: "134 K",
-    agglomeration: "422 K"
+    agglomeration: "422 K",
+    quizCategory: ["Switzerland", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const switzerlandCitiesData: Card[] = [
     localisation: "Switzerland",
     continent: "Europe",
     population: "435 K",
-    agglomeration: "1.4 M"
+    agglomeration: "1.4 M",
+    quizCategory: ["Switzerland", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const switzerlandCitiesData: Card[] = [
     localisation: "Switzerland",
     continent: "Europe",
     population: "203 K",
-    agglomeration: "615 K"
+    agglomeration: "615 K",
+    quizCategory: ["Switzerland", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -35,6 +38,7 @@ export const switzerlandCitiesData: Card[] = [
     localisation: "Switzerland",
     continent: "Europe",
     population: "140 K",
-    agglomeration: "420 K"
+    agglomeration: "420 K",
+    quizCategory: ["Switzerland", "City", "Europe", "General"]
   }
 ];

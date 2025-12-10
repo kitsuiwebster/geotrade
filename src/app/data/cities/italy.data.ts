@@ -8,7 +8,8 @@ export const italyCitiesData: Card[] = [
     localisation: "Italy",
     continent: "Europe",
     population: "2.8 M",
-    agglomeration: "4.3 M"
+    agglomeration: "4.3 M",
+    quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const italyCitiesData: Card[] = [
     localisation: "Italy",
     continent: "Europe",
     population: "1.4 M",
-    agglomeration: "3.3 M"
+    agglomeration: "3.3 M",
+    quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const italyCitiesData: Card[] = [
     localisation: "Italy",
     continent: "Europe",
     population: "910 K",
-    agglomeration: "2.20 M"
+    agglomeration: "2.20 M",
+    quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -35,7 +38,8 @@ export const italyCitiesData: Card[] = [
     localisation: "Italy",
     continent: "Europe",
     population: "870 K",
-    agglomeration: "1.70 M"
+    agglomeration: "1.70 M",
+    quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -44,7 +48,8 @@ export const italyCitiesData: Card[] = [
     localisation: "Italy",
     continent: "Europe",
     population: "660 K",
-    agglomeration: "1.3 M"
+    agglomeration: "1.3 M",
+    quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -53,7 +58,8 @@ export const italyCitiesData: Card[] = [
     localisation: "Italy",
     continent: "Europe",
     population: "560 K",
-    agglomeration: "850 K"
+    agglomeration: "850 K",
+    quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -62,7 +68,8 @@ export const italyCitiesData: Card[] = [
     localisation: "Italy",
     continent: "Europe",
     population: "390 K",
-    agglomeration: "1.0 M"
+    agglomeration: "1.0 M",
+    quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -71,7 +78,8 @@ export const italyCitiesData: Card[] = [
     localisation: "Italy",
     continent: "Europe",
     population: "380 K",
-    agglomeration: "1.0 M"
+    agglomeration: "1.0 M",
+    quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -80,7 +88,8 @@ export const italyCitiesData: Card[] = [
     localisation: "Italy",
     continent: "Europe",
     population: "320 K",
-    agglomeration: "750 K"
+    agglomeration: "750 K",
+    quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -89,6 +98,7 @@ export const italyCitiesData: Card[] = [
     localisation: "Italy",
     continent: "Europe",
     population: "310 K",
-    agglomeration: "760 K"
+    agglomeration: "760 K",
+    quizCategory: ["Italy", "City", "Europe", "General"]
   }
 ];

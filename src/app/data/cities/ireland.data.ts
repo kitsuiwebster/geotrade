@@ -8,6 +8,7 @@ export const irelandCitiesData: Card[] = [
     localisation: "Ireland",
     continent: "Europe",
     population: "554 K",
-    agglomeration: "1.8 M"
+    agglomeration: "1.8 M",
+    quizCategory: ["Ireland", "City", "Europe", "General"]
   }
 ];

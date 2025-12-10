@@ -8,7 +8,8 @@ export const ghanaCitiesData: Card[] = [
     localisation: "Ghana",
     continent: "Africa",
     population: "2.56 M",
-    agglomeration: "4.01 M"
+    agglomeration: "4.01 M",
+    quizCategory: ["Ghana", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -17,6 +18,7 @@ export const ghanaCitiesData: Card[] = [
     localisation: "Ghana",
     continent: "Africa",
     population: "3.35 M",
-    agglomeration: "3.9 M"
+    agglomeration: "3.9 M",
+    quizCategory: ["Ghana", "City", "Africa", "General"]
   }
 ];

@@ -8,7 +8,8 @@ export const indonesieCitiesData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     population: "10.6 M",
-    agglomeration: "35.4 M"
+    agglomeration: "35.4 M",
+    quizCategory: ["Indonesia", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const indonesieCitiesData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     population: "50 K",
-    agglomeration: "2.0 M"
+    agglomeration: "2.0 M",
+    quizCategory: ["Indonesia", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const indonesieCitiesData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     population: "2.9 M",
-    agglomeration: "10.0 M"
+    agglomeration: "10.0 M",
+    quizCategory: ["Indonesia", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -35,7 +38,8 @@ export const indonesieCitiesData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     population: "2.4 M",
-    agglomeration: "7.5 M"
+    agglomeration: "7.5 M",
+    quizCategory: ["Indonesia", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -44,7 +48,8 @@ export const indonesieCitiesData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     population: "2.4 M",
-    agglomeration: "4.0 M"
+    agglomeration: "4.0 M",
+    quizCategory: ["Indonesia", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -53,7 +58,8 @@ export const indonesieCitiesData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     population: "1.4 M",
-    agglomeration: "2.8 M"
+    agglomeration: "2.8 M",
+    quizCategory: ["Indonesia", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -62,6 +68,7 @@ export const indonesieCitiesData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     population: "1.7 M",
-    agglomeration: "2.5 M"
+    agglomeration: "2.5 M",
+    quizCategory: ["Indonesia", "City", "Asia", "General"]
   }
 ];

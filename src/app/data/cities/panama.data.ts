@@ -8,6 +8,7 @@ export const panamaCitiesData: Card[] = [
     localisation: "Panama",
     continent: "Central America",
     population: "880 K",
-    agglomeration: "1.9 M"
+    agglomeration: "1.9 M",
+    quizCategory: ["Panama", "City", "Central America", "General"]
   }
 ];

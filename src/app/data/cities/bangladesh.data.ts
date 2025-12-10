@@ -8,7 +8,8 @@ export const bangladeshCitiesData: Card[] = [
     localisation: "Bangladesh",
     continent: "Asia",
     population: "9.5 M",
-    agglomeration: "22.5 M"
+    agglomeration: "22.5 M",
+    quizCategory: ["Bangladesh", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -17,6 +18,7 @@ export const bangladeshCitiesData: Card[] = [
     localisation: "Bangladesh",
     continent: "Asia",
     population: "2.6 M",
-    agglomeration: "5.3 M"
+    agglomeration: "5.3 M",
+    quizCategory: ["Bangladesh", "City", "Asia", "General"]
   }
 ];

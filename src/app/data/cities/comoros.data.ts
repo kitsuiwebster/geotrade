@@ -8,6 +8,7 @@ export const comoresCitiesData: Card[] = [
     localisation: "Comoros",
     continent: "Africa",
     population: "56 K",
-    agglomeration: "80 K"
+    agglomeration: "80 K",
+    quizCategory: ["City", "Africa", "General"]
   }
 ];

@@ -10,4 +10,5 @@ export interface Card {
   agglomeration?: string;
   depth?: string;
   length?: string;
+  quizCategory?: string[];
 }

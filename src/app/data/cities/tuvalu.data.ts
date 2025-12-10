@@ -8,6 +8,7 @@ export const tuvaluCitiesData: Card[] = [
     localisation: "Tuvalu",
     continent: "Oceania",
     population: "6.2 K",
-    agglomeration: "7.5 K"
+    agglomeration: "7.5 K",
+    quizCategory: ["Tuvalu", "City", "Oceania", "General"]
   }
 ];

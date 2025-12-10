@@ -8,6 +8,7 @@ export const cubaCitiesData: Card[] = [
     localisation: "Cuba",
     continent: "Central America",
     population: "2.1 M",
-    agglomeration: "2.8 M"
+    agglomeration: "2.8 M",
+    quizCategory: ["Cuba", "City", "Central America", "General"]
   }
 ];

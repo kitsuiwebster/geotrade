@@ -7,7 +7,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Everest",
     localisation: "Nepal",
     continent: "Asia",
-    height: "8,848 m"
+    height: "8,848 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -15,7 +16,8 @@ export const mountainsData: Card[] = [
     nom: "K2",
     localisation: "Pakistan and China",
     continent: "Asia",
-    height: "8,611 m"
+    height: "8,611 m",
+    quizCategory: ["China", "Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -23,7 +25,8 @@ export const mountainsData: Card[] = [
     nom: "Denali",
     localisation: "United States",
     continent: "North America",
-    height: "6,190 m"
+    height: "6,190 m",
+    quizCategory: ["United States", "Mountain", "North America", "General"]
   },
   {
     type: "Mountain",
@@ -31,7 +34,8 @@ export const mountainsData: Card[] = [
     nom: "Kilimanjaro",
     localisation: "Tanzania",
     continent: "Africa",
-    height: "5,895 m"
+    height: "5,895 m",
+    quizCategory: ["Tanzania", "Mountain", "Africa", "General"]
   },
   {
     type: "Mountain",
@@ -39,7 +43,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Elbrus",
     localisation: "Russia",
     continent: "Europe",
-    height: "5,642 m"
+    height: "5,642 m",
+    quizCategory: ["Russia", "Mountain", "Europe", "General"]
   },
   {
     type: "Mountain",
@@ -47,7 +52,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Vinson",
     localisation: "Antarctica",
     continent: "Antarctica",
-    height: "4,892 m"
+    height: "4,892 m",
+    quizCategory: ["Mountain", "Antarctica", "General"]
   },
   {
     type: "Mountain",
@@ -55,7 +61,8 @@ export const mountainsData: Card[] = [
     nom: "Aconcagua",
     localisation: "Argentina",
     continent: "South America",
-    height: "6,961 m"
+    height: "6,961 m",
+    quizCategory: ["Argentina", "Mountain", "South America", "General"]
   },
   {
     type: "Mountain",
@@ -63,7 +70,8 @@ export const mountainsData: Card[] = [
     nom: "Kangchenjunga",
     localisation: "Nepal and India",
     continent: "Asia",
-    height: "8,586 m"
+    height: "8,586 m",
+    quizCategory: ["India", "Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -71,7 +79,8 @@ export const mountainsData: Card[] = [
     nom: "Lhotse",
     localisation: "Nepal and Tibet",
     continent: "Asia",
-    height: "8,516 m"
+    height: "8,516 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -79,7 +88,8 @@ export const mountainsData: Card[] = [
     nom: "Makalu",
     localisation: "Nepal and Tibet",
     continent: "Asia",
-    height: "8,485 m"
+    height: "8,485 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -87,7 +97,8 @@ export const mountainsData: Card[] = [
     nom: "Cho Oyu",
     localisation: "Nepal and Tibet",
     continent: "Asia",
-    height: "8,188 m"
+    height: "8,188 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -95,7 +106,8 @@ export const mountainsData: Card[] = [
     nom: "Dhaulagiri I",
     localisation: "Nepal",
     continent: "Asia",
-    height: "8,167 m"
+    height: "8,167 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -103,7 +115,8 @@ export const mountainsData: Card[] = [
     nom: "Manaslu",
     localisation: "Nepal",
     continent: "Asia",
-    height: "8,163 m"
+    height: "8,163 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -111,7 +124,8 @@ export const mountainsData: Card[] = [
     nom: "Nanga Parbat",
     localisation: "Pakistan",
     continent: "Asia",
-    height: "8,126 m"
+    height: "8,126 m",
+    quizCategory: ["Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -119,7 +133,8 @@ export const mountainsData: Card[] = [
     nom: "Annapurna I",
     localisation: "Nepal",
     continent: "Asia",
-    height: "8,091 m"
+    height: "8,091 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -127,7 +142,8 @@ export const mountainsData: Card[] = [
     nom: "Gasherbrum I",
     localisation: "Pakistan and China",
     continent: "Asia",
-    height: "8,080 m"
+    height: "8,080 m",
+    quizCategory: ["China", "Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -135,7 +151,8 @@ export const mountainsData: Card[] = [
     nom: "Broad Peak",
     localisation: "Pakistan and China",
     continent: "Asia",
-    height: "8,051 m"
+    height: "8,051 m",
+    quizCategory: ["China", "Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -143,7 +160,8 @@ export const mountainsData: Card[] = [
     nom: "Shishapangma",
     localisation: "Tibet",
     continent: "Asia",
-    height: "8,027 m"
+    height: "8,027 m",
+    quizCategory: ["Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -151,7 +169,8 @@ export const mountainsData: Card[] = [
     nom: "Gyachung Kang",
     localisation: "Nepal and Tibet",
     continent: "Asia",
-    height: "7,952 m"
+    height: "7,952 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -159,7 +178,8 @@ export const mountainsData: Card[] = [
     nom: "Annapurna II",
     localisation: "Nepal",
     continent: "Asia",
-    height: "7,937 m"
+    height: "7,937 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -167,7 +187,8 @@ export const mountainsData: Card[] = [
     nom: "Gasherbrum IV",
     localisation: "Pakistan and China",
     continent: "Asia",
-    height: "7,932 m"
+    height: "7,932 m",
+    quizCategory: ["China", "Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -175,7 +196,8 @@ export const mountainsData: Card[] = [
     nom: "Himalchuli",
     localisation: "Nepal",
     continent: "Asia",
-    height: "7,893 m"
+    height: "7,893 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -183,7 +205,8 @@ export const mountainsData: Card[] = [
     nom: "Distaghil Sar",
     localisation: "Pakistan",
     continent: "Asia",
-    height: "7,884 m"
+    height: "7,884 m",
+    quizCategory: ["Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -191,7 +214,8 @@ export const mountainsData: Card[] = [
     nom: "Ngadi Chuli",
     localisation: "Nepal",
     continent: "Asia",
-    height: "7,871 m"
+    height: "7,871 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -199,7 +223,8 @@ export const mountainsData: Card[] = [
     nom: "Nuptse",
     localisation: "Nepal",
     continent: "Asia",
-    height: "7,861 m"
+    height: "7,861 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -207,7 +232,8 @@ export const mountainsData: Card[] = [
     nom: "Khunyang Chhish",
     localisation: "Pakistan",
     continent: "Asia",
-    height: "7,823 m"
+    height: "7,823 m",
+    quizCategory: ["Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -215,7 +241,8 @@ export const mountainsData: Card[] = [
     nom: "Masherbrum",
     localisation: "Pakistan",
     continent: "Asia",
-    height: "7,821 m"
+    height: "7,821 m",
+    quizCategory: ["Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -223,7 +250,8 @@ export const mountainsData: Card[] = [
     nom: "Nanda Devi",
     localisation: "India",
     continent: "Asia",
-    height: "7,816 m"
+    height: "7,816 m",
+    quizCategory: ["India", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -231,7 +259,8 @@ export const mountainsData: Card[] = [
     nom: "Chomo Lonzo",
     localisation: "Tibet",
     continent: "Asia",
-    height: "7,804 m"
+    height: "7,804 m",
+    quizCategory: ["Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -239,7 +268,8 @@ export const mountainsData: Card[] = [
     nom: "Batura Sar",
     localisation: "Pakistan",
     continent: "Asia",
-    height: "7,795 m"
+    height: "7,795 m",
+    quizCategory: ["Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -247,7 +277,8 @@ export const mountainsData: Card[] = [
     nom: "Rakaposhi",
     localisation: "Pakistan",
     continent: "Asia",
-    height: "7,788 m"
+    height: "7,788 m",
+    quizCategory: ["Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -255,7 +286,8 @@ export const mountainsData: Card[] = [
     nom: "Namcha Barwa",
     localisation: "Tibet",
     continent: "Asia",
-    height: "7,782 m"
+    height: "7,782 m",
+    quizCategory: ["Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -263,7 +295,8 @@ export const mountainsData: Card[] = [
     nom: "Kamet",
     localisation: "India",
     continent: "Asia",
-    height: "7,756 m"
+    height: "7,756 m",
+    quizCategory: ["India", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -271,7 +304,8 @@ export const mountainsData: Card[] = [
     nom: "Saltoro Kangri",
     localisation: "Pakistan and India",
     continent: "Asia",
-    height: "7,742 m"
+    height: "7,742 m",
+    quizCategory: ["India", "Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -279,7 +313,8 @@ export const mountainsData: Card[] = [
     nom: "Jannu",
     localisation: "Nepal",
     continent: "Asia",
-    height: "7,711 m"
+    height: "7,711 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -287,7 +322,8 @@ export const mountainsData: Card[] = [
     nom: "Tirich Mir",
     localisation: "Pakistan",
     continent: "Asia",
-    height: "7,708 m"
+    height: "7,708 m",
+    quizCategory: ["Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -295,7 +331,8 @@ export const mountainsData: Card[] = [
     nom: "Molamenqing",
     localisation: "Tibet",
     continent: "Asia",
-    height: "7,703 m"
+    height: "7,703 m",
+    quizCategory: ["Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -303,7 +340,8 @@ export const mountainsData: Card[] = [
     nom: "Gurla Mandhata",
     localisation: "Tibet",
     continent: "Asia",
-    height: "7,694 m"
+    height: "7,694 m",
+    quizCategory: ["Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -311,7 +349,8 @@ export const mountainsData: Card[] = [
     nom: "Saser Kangri I",
     localisation: "India",
     continent: "Asia",
-    height: "7,672 m"
+    height: "7,672 m",
+    quizCategory: ["India", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -319,7 +358,8 @@ export const mountainsData: Card[] = [
     nom: "Chogolisa",
     localisation: "Pakistan",
     continent: "Asia",
-    height: "7,665 m"
+    height: "7,665 m",
+    quizCategory: ["Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -327,7 +367,8 @@ export const mountainsData: Card[] = [
     nom: "Dhaulagiri IV",
     localisation: "Nepal",
     continent: "Asia",
-    height: "7,661 m"
+    height: "7,661 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -335,7 +376,8 @@ export const mountainsData: Card[] = [
     nom: "Kongur",
     localisation: "China",
     continent: "Asia",
-    height: "7,649 m"
+    height: "7,649 m",
+    quizCategory: ["China", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -343,7 +385,8 @@ export const mountainsData: Card[] = [
     nom: "Shispare",
     localisation: "Pakistan",
     continent: "Asia",
-    height: "7,611 m"
+    height: "7,611 m",
+    quizCategory: ["Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -351,7 +394,8 @@ export const mountainsData: Card[] = [
     nom: "Trivor",
     localisation: "Pakistan",
     continent: "Asia",
-    height: "7,577 m"
+    height: "7,577 m",
+    quizCategory: ["Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -359,7 +403,8 @@ export const mountainsData: Card[] = [
     nom: "Gangkhar Puensum",
     localisation: "Bhutan",
     continent: "Asia",
-    height: "7,570 m"
+    height: "7,570 m",
+    quizCategory: ["Bhutan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -367,7 +412,8 @@ export const mountainsData: Card[] = [
     nom: "Annapurna III",
     localisation: "Nepal",
     continent: "Asia",
-    height: "7,555 m"
+    height: "7,555 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -375,7 +421,8 @@ export const mountainsData: Card[] = [
     nom: "Kanjut Sar",
     localisation: "Pakistan",
     continent: "Asia",
-    height: "7,760 m"
+    height: "7,760 m",
+    quizCategory: ["Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -383,7 +430,8 @@ export const mountainsData: Card[] = [
     nom: "Skyang Kangri",
     localisation: "Pakistan and China",
     continent: "Asia",
-    height: "7,544 m"
+    height: "7,544 m",
+    quizCategory: ["China", "Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -391,7 +439,8 @@ export const mountainsData: Card[] = [
     nom: "Mamostong Kangri",
     localisation: "India",
     continent: "Asia",
-    height: "7,516 m"
+    height: "7,516 m",
+    quizCategory: ["India", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -399,7 +448,8 @@ export const mountainsData: Card[] = [
     nom: "Ismoil Somoni Peak",
     localisation: "Tajikistan",
     continent: "Asia",
-    height: "7,495 m"
+    height: "7,495 m",
+    quizCategory: ["Tajikistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -407,7 +457,8 @@ export const mountainsData: Card[] = [
     nom: "Jengish Chokusu",
     localisation: "Kyrgyzstan and China",
     continent: "Asia",
-    height: "7,439 m"
+    height: "7,439 m",
+    quizCategory: ["China", "Kyrgyzstan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -415,7 +466,8 @@ export const mountainsData: Card[] = [
     nom: "K12",
     localisation: "Pakistan",
     continent: "Asia",
-    height: "7,428 m"
+    height: "7,428 m",
+    quizCategory: ["Pakistan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -423,7 +475,8 @@ export const mountainsData: Card[] = [
     nom: "Yangra",
     localisation: "Nepal",
     continent: "Asia",
-    height: "7,422 m"
+    height: "7,422 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -431,7 +484,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Logan",
     localisation: "Canada",
     continent: "North America",
-    height: "5,959 m"
+    height: "5,959 m",
+    quizCategory: ["Canada", "Mountain", "North America", "General"]
   },
   {
     type: "Mountain",
@@ -439,7 +493,8 @@ export const mountainsData: Card[] = [
     nom: "Pico de Orizaba",
     localisation: "Mexico",
     continent: "North America",
-    height: "5,636 m"
+    height: "5,636 m",
+    quizCategory: ["Mexico", "Mountain", "North America", "General"]
   },
   {
     type: "Mountain",
@@ -447,7 +502,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Saint Elias",
     localisation: "United States and Canada",
     continent: "North America",
-    height: "5,489 m"
+    height: "5,489 m",
+    quizCategory: ["United States", "Canada", "Mountain", "North America", "General"]
   },
   {
     type: "Mountain",
@@ -455,7 +511,8 @@ export const mountainsData: Card[] = [
     nom: "Popocatépetl",
     localisation: "Mexico",
     continent: "North America",
-    height: "5,426 m"
+    height: "5,426 m",
+    quizCategory: ["Mexico", "Mountain", "North America", "General"]
   },
   {
     type: "Mountain",
@@ -463,7 +520,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Foraker",
     localisation: "United States",
     continent: "North America",
-    height: "5,304 m"
+    height: "5,304 m",
+    quizCategory: ["United States", "Mountain", "North America", "General"]
   },
   {
     type: "Mountain",
@@ -471,7 +529,8 @@ export const mountainsData: Card[] = [
     nom: "Iztaccíhuatl",
     localisation: "Mexico",
     continent: "North America",
-    height: "5,230 m"
+    height: "5,230 m",
+    quizCategory: ["Mexico", "Mountain", "North America", "General"]
   },
   {
     type: "Mountain",
@@ -479,7 +538,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Lucania",
     localisation: "Canada",
     continent: "North America",
-    height: "5,226 m"
+    height: "5,226 m",
+    quizCategory: ["Canada", "Mountain", "North America", "General"]
   },
   {
     type: "Mountain",
@@ -487,7 +547,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Whitney",
     localisation: "United States",
     continent: "North America",
-    height: "4,421 m"
+    height: "4,421 m",
+    quizCategory: ["United States", "Mountain", "North America", "General"]
   },
   {
     type: "Mountain",
@@ -495,7 +556,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Rainier",
     localisation: "United States",
     continent: "North America",
-    height: "4,392 m"
+    height: "4,392 m",
+    quizCategory: ["United States", "Mountain", "North America", "General"]
   },
   {
     type: "Mountain",
@@ -503,7 +565,8 @@ export const mountainsData: Card[] = [
     nom: "Ojos del Salado",
     localisation: "Chile and Argentina",
     continent: "South America",
-    height: "6,893 m"
+    height: "6,893 m",
+    quizCategory: ["Argentina", "Chile", "Mountain", "South America", "General"]
   },
   {
     type: "Mountain",
@@ -511,7 +574,8 @@ export const mountainsData: Card[] = [
     nom: "Monte Pissis",
     localisation: "Argentina",
     continent: "South America",
-    height: "6,793 m"
+    height: "6,793 m",
+    quizCategory: ["Argentina", "Mountain", "South America", "General"]
   },
   {
     type: "Mountain",
@@ -519,7 +583,8 @@ export const mountainsData: Card[] = [
     nom: "Huascarán",
     localisation: "Peru",
     continent: "South America",
-    height: "6,768 m"
+    height: "6,768 m",
+    quizCategory: ["Peru", "Mountain", "South America", "General"]
   },
   {
     type: "Mountain",
@@ -527,7 +592,8 @@ export const mountainsData: Card[] = [
     nom: "Llullaillaco",
     localisation: "Chile and Argentina",
     continent: "South America",
-    height: "6,739 m"
+    height: "6,739 m",
+    quizCategory: ["Argentina", "Chile", "Mountain", "South America", "General"]
   },
   {
     type: "Mountain",
@@ -535,7 +601,8 @@ export const mountainsData: Card[] = [
     nom: "Nevado Sajama",
     localisation: "Bolivia",
     continent: "South America",
-    height: "6,542 m"
+    height: "6,542 m",
+    quizCategory: ["Bolivia", "Mountain", "South America", "General"]
   },
   {
     type: "Mountain",
@@ -543,7 +610,8 @@ export const mountainsData: Card[] = [
     nom: "Yerupajá",
     localisation: "Peru",
     continent: "South America",
-    height: "6,635 m"
+    height: "6,635 m",
+    quizCategory: ["Peru", "Mountain", "South America", "General"]
   },
   {
     type: "Mountain",
@@ -551,7 +619,8 @@ export const mountainsData: Card[] = [
     nom: "Coropuna",
     localisation: "Peru",
     continent: "South America",
-    height: "6,613 m"
+    height: "6,613 m",
+    quizCategory: ["Peru", "Mountain", "South America", "General"]
   },
   {
     type: "Mountain",
@@ -559,7 +628,8 @@ export const mountainsData: Card[] = [
     nom: "Chimborazo",
     localisation: "Ecuador",
     continent: "South America",
-    height: "6,263 m"
+    height: "6,263 m",
+    quizCategory: ["Ecuador", "Mountain", "South America", "General"]
   },
   {
     type: "Mountain",
@@ -567,7 +637,8 @@ export const mountainsData: Card[] = [
     nom: "Pico Cristóbal Colón",
     localisation: "Colombia",
     continent: "South America",
-    height: "5,700 m"
+    height: "5,700 m",
+    quizCategory: ["Colombia", "Mountain", "South America", "General"]
   },
   {
     type: "Mountain",
@@ -575,7 +646,8 @@ export const mountainsData: Card[] = [
     nom: "Cotopaxi",
     localisation: "Ecuador",
     continent: "South America",
-    height: "5,897 m"
+    height: "5,897 m",
+    quizCategory: ["Ecuador", "Mountain", "South America", "General"]
   },
   {
     type: "Mountain",
@@ -583,7 +655,8 @@ export const mountainsData: Card[] = [
     nom: "Dykh-Tau",
     localisation: "Russia",
     continent: "Europe",
-    height: "5,205 m"
+    height: "5,205 m",
+    quizCategory: ["Russia", "Mountain", "Europe", "General"]
   },
   {
     type: "Mountain",
@@ -591,7 +664,8 @@ export const mountainsData: Card[] = [
     nom: "Shkhara",
     localisation: "Georgia",
     continent: "Europe",
-    height: "5,193 m"
+    height: "5,193 m",
+    quizCategory: ["Georgia", "Mountain", "Europe", "General"]
   },
   {
     type: "Mountain",
@@ -599,7 +673,8 @@ export const mountainsData: Card[] = [
     nom: "Koshtan-Tau",
     localisation: "Russia",
     continent: "Europe",
-    height: "5,152 m"
+    height: "5,152 m",
+    quizCategory: ["Russia", "Mountain", "Europe", "General"]
   },
   {
     type: "Mountain",
@@ -607,7 +682,8 @@ export const mountainsData: Card[] = [
     nom: "Kazbek",
     localisation: "Georgia",
     continent: "Europe",
-    height: "5,047 m"
+    height: "5,047 m",
+    quizCategory: ["Georgia", "Mountain", "Europe", "General"]
   },
   {
     type: "Mountain",
@@ -615,7 +691,8 @@ export const mountainsData: Card[] = [
     nom: "Mont Blanc",
     localisation: "France and Italy",
     continent: "Europe",
-    height: "4,809 m"
+    height: "4,809 m",
+    quizCategory: ["France", "Italy", "Mountain", "Europe", "General"]
   },
   {
     type: "Mountain",
@@ -623,7 +700,8 @@ export const mountainsData: Card[] = [
     nom: "Dufourspitze",
     localisation: "Switzerland",
     continent: "Europe",
-    height: "4,634 m"
+    height: "4,634 m",
+    quizCategory: ["Switzerland", "Mountain", "Europe", "General"]
   },
   {
     type: "Mountain",
@@ -631,7 +709,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Kenya",
     localisation: "Kenya",
     continent: "Africa",
-    height: "5,199 m"
+    height: "5,199 m",
+    quizCategory: ["Kenya", "Mountain", "Africa", "General"]
   },
   {
     type: "Mountain",
@@ -639,7 +718,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Stanley",
     localisation: "Uganda and Democratic Republic of Congo",
     continent: "Africa",
-    height: "5,109 m"
+    height: "5,109 m",
+    quizCategory: ["Uganda", "Mountain", "Africa", "General"]
   },
   {
     type: "Mountain",
@@ -647,7 +727,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Speke",
     localisation: "Uganda",
     continent: "Africa",
-    height: "4,890 m"
+    height: "4,890 m",
+    quizCategory: ["Uganda", "Mountain", "Africa", "General"]
   },
   {
     type: "Mountain",
@@ -655,7 +736,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Baker",
     localisation: "Uganda",
     continent: "Africa",
-    height: "4,844 m"
+    height: "4,844 m",
+    quizCategory: ["Uganda", "Mountain", "Africa", "General"]
   },
   {
     type: "Mountain",
@@ -663,7 +745,8 @@ export const mountainsData: Card[] = [
     nom: "Ras Dashen",
     localisation: "Ethiopia",
     continent: "Africa",
-    height: "4,550 m"
+    height: "4,550 m",
+    quizCategory: ["Ethiopia", "Mountain", "Africa", "General"]
   },
   {
     type: "Mountain",
@@ -671,7 +754,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Meru",
     localisation: "Tanzania",
     continent: "Africa",
-    height: "4,566 m"
+    height: "4,566 m",
+    quizCategory: ["Tanzania", "Mountain", "Africa", "General"]
   },
   {
     type: "Mountain",
@@ -679,7 +763,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Elgon",
     localisation: "Uganda and Kenya",
     continent: "Africa",
-    height: "4,321 m"
+    height: "4,321 m",
+    quizCategory: ["Kenya", "Uganda", "Mountain", "Africa", "General"]
   },
   {
     type: "Mountain",
@@ -687,7 +772,8 @@ export const mountainsData: Card[] = [
     nom: "Toubkal",
     localisation: "Morocco",
     continent: "Africa",
-    height: "4,167 m"
+    height: "4,167 m",
+    quizCategory: ["Morocco", "Mountain", "Africa", "General"]
   },
   {
     type: "Mountain",
@@ -695,7 +781,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Cameroon",
     localisation: "Cameroon",
     continent: "Africa",
-    height: "4,040 m"
+    height: "4,040 m",
+    quizCategory: ["Mountain", "Africa", "General"]
   },
   {
     type: "Mountain",
@@ -703,7 +790,8 @@ export const mountainsData: Card[] = [
     nom: "Puncak Jaya",
     localisation: "Indonesia",
     continent: "Oceania",
-    height: "4,884 m"
+    height: "4,884 m",
+    quizCategory: ["Indonesia", "Mountain", "Oceania", "General"]
   },
   {
     type: "Mountain",
@@ -711,7 +799,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Wilhelm",
     localisation: "Papua New Guinea",
     continent: "Oceania",
-    height: "4,509 m"
+    height: "4,509 m",
+    quizCategory: ["Papua New Guinea", "Mountain", "Oceania", "General"]
   },
   {
     type: "Mountain",
@@ -719,7 +808,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Cook",
     localisation: "New Zealand",
     continent: "Oceania",
-    height: "3,724 m"
+    height: "3,724 m",
+    quizCategory: ["New Zealand", "Mountain", "Oceania", "General"]
   },
   {
     type: "Mountain",
@@ -727,7 +817,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Kosciuszko",
     localisation: "Australia",
     continent: "Oceania",
-    height: "2,228 m"
+    height: "2,228 m",
+    quizCategory: ["Australia", "Mountain", "Oceania", "General"]
   },
   {
     type: "Mountain",
@@ -735,7 +826,8 @@ export const mountainsData: Card[] = [
     nom: "Mauna Kea",
     localisation: "United States (Hawaii)",
     continent: "Oceania",
-    height: "4,207 m"
+    height: "4,207 m",
+    quizCategory: ["United States", "Mountain", "Oceania", "General"]
   },
   {
     type: "Mountain",
@@ -743,7 +835,8 @@ export const mountainsData: Card[] = [
     nom: "Haleakalā",
     localisation: "United States (Hawaii)",
     continent: "Oceania",
-    height: "3,055 m"
+    height: "3,055 m",
+    quizCategory: ["United States", "Mountain", "Oceania", "General"]
   },
   {
     type: "Mountain",
@@ -751,7 +844,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Damavand",
     localisation: "Iran",
     continent: "Asia",
-    height: "5,610 m"
+    height: "5,610 m",
+    quizCategory: ["Iran", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -759,7 +853,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Ararat",
     localisation: "Turkey",
     continent: "Asia",
-    height: "5,165 m"
+    height: "5,165 m",
+    quizCategory: ["Turkey", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -767,7 +862,8 @@ export const mountainsData: Card[] = [
     nom: "Belukha",
     localisation: "Russia",
     continent: "Asia",
-    height: "4,506 m"
+    height: "4,506 m",
+    quizCategory: ["Russia", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -775,7 +871,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Kinabalu",
     localisation: "Malaysia",
     continent: "Asia",
-    height: "4,095 m"
+    height: "4,095 m",
+    quizCategory: ["Malaysia", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -783,7 +880,8 @@ export const mountainsData: Card[] = [
     nom: "Mount Fuji",
     localisation: "Japan",
     continent: "Asia",
-    height: "3,776 m"
+    height: "3,776 m",
+    quizCategory: ["Japan", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -791,7 +889,8 @@ export const mountainsData: Card[] = [
     nom: "Hallasan",
     localisation: "South Korea",
     continent: "Asia",
-    height: "1,947 m"
+    height: "1,947 m",
+    quizCategory: ["South Korea", "Mountain", "Asia", "General"]
   },
   {
     type: "Mountain",
@@ -799,7 +898,8 @@ export const mountainsData: Card[] = [
     nom: "Matterhorn",
     localisation: "Switzerland and Italy",
     continent: "Europe",
-    height: "4,478 m"
+    height: "4,478 m",
+    quizCategory: ["Italy", "Switzerland", "Mountain", "Europe", "General"]
   },
   {
     type: "Mountain",
@@ -807,6 +907,7 @@ export const mountainsData: Card[] = [
     nom: "Ama Dablam",
     localisation: "Nepal",
     continent: "Asia",
-    height: "6,812 m"
+    height: "6,812 m",
+    quizCategory: ["Nepal", "Mountain", "Asia", "General"]
   }
 ];

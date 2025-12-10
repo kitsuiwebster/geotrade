@@ -8,6 +8,7 @@ export const koweitCitiesData: Card[] = [
     localisation: "Kuwait",
     continent: "Asia",
     population: "2.1 M",
-    agglomeration: "5.8 M"
+    agglomeration: "5.8 M",
+    quizCategory: ["Kuwait", "City", "Asia", "General"]
   }
 ];

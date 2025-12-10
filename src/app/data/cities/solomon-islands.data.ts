@@ -8,6 +8,7 @@ export const ilessalomonCitiesData: Card[] = [
     localisation: "Solomon Islands",
     continent: "Oceania",
     population: "85 K",
-    agglomeration: "120 K"
+    agglomeration: "120 K",
+    quizCategory: ["Solomon Islands", "City", "Oceania", "General"]
   }
 ];

@@ -8,6 +8,7 @@ export const singapourCitiesData: Card[] = [
     localisation: "Singapore",
     continent: "Asia",
     population: "6.0 M",
-    agglomeration: "6.0 M"
+    agglomeration: "6.0 M",
+    quizCategory: ["Singapore", "City", "Asia", "General"]
   }
 ];

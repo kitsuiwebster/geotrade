@@ -8,6 +8,7 @@ export const nouvellezelandeCitiesData: Card[] = [
     localisation: "New Zealand",
     continent: "Oceania",
     population: "215 K",
-    agglomeration: "434 K"
+    agglomeration: "434 K",
+    quizCategory: ["New Zealand", "City", "Oceania", "General"]
   }
 ];

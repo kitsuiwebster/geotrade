@@ -8,7 +8,8 @@ export const germanyCitiesData: Card[] = [
     localisation: "Germany",
     continent: "Europe",
     population: "3.7 M",
-    agglomeration: "4.5 M"
+    agglomeration: "4.5 M",
+    quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const germanyCitiesData: Card[] = [
     localisation: "Germany",
     continent: "Europe",
     population: "1.9 M",
-    agglomeration: "2.5 M"
+    agglomeration: "2.5 M",
+    quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const germanyCitiesData: Card[] = [
     localisation: "Germany",
     continent: "Europe",
     population: "1.5 M",
-    agglomeration: "2.6 M"
+    agglomeration: "2.6 M",
+    quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -35,7 +38,8 @@ export const germanyCitiesData: Card[] = [
     localisation: "Germany",
     continent: "Europe",
     population: "1.1 M",
-    agglomeration: "2.2 M"
+    agglomeration: "2.2 M",
+    quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -44,7 +48,8 @@ export const germanyCitiesData: Card[] = [
     localisation: "Germany",
     continent: "Europe",
     population: "760 K",
-    agglomeration: "2.3 M"
+    agglomeration: "2.3 M",
+    quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -53,7 +58,8 @@ export const germanyCitiesData: Card[] = [
     localisation: "Germany",
     continent: "Europe",
     population: "630 K",
-    agglomeration: "2.8 M"
+    agglomeration: "2.8 M",
+    quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -62,7 +68,8 @@ export const germanyCitiesData: Card[] = [
     localisation: "Germany",
     continent: "Europe",
     population: "620 K",
-    agglomeration: "1.3 M"
+    agglomeration: "1.3 M",
+    quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -71,7 +78,8 @@ export const germanyCitiesData: Card[] = [
     localisation: "Germany",
     continent: "Europe",
     population: "590 K",
-    agglomeration: "5.1 M"
+    agglomeration: "5.1 M",
+    quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -80,7 +88,8 @@ export const germanyCitiesData: Card[] = [
     localisation: "Germany",
     continent: "Europe",
     population: "570 K",
-    agglomeration: "5.1 M"
+    agglomeration: "5.1 M",
+    quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -89,6 +98,7 @@ export const germanyCitiesData: Card[] = [
     localisation: "Germany",
     continent: "Europe",
     population: "600 K",
-    agglomeration: "1.2 M"
+    agglomeration: "1.2 M",
+    quizCategory: ["Germany", "City", "Europe", "General"]
   }
 ];

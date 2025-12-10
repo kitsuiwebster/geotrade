@@ -7,7 +7,8 @@ export const desertsData: Card[] = [
     nom: "Sahara",
     localisation: "Africa",
     continent: "Africa",
-    area: "9,200,000 km²"
+    area: "9,200,000 km²",
+    quizCategory: ["Desert", "Africa", "General"]
   },
   {
     type: "Desert",
@@ -15,7 +16,8 @@ export const desertsData: Card[] = [
     nom: "Arabian Desert",
     localisation: "Asia",
     continent: "Asia",
-    area: "2,330,000 km²"
+    area: "2,330,000 km²",
+    quizCategory: ["Desert", "Asia", "General"]
   },
   {
     type: "Desert",
@@ -23,7 +25,8 @@ export const desertsData: Card[] = [
     nom: "Gobi Desert",
     localisation: "Asia",
     continent: "Asia",
-    area: "1,295,000 km²"
+    area: "1,295,000 km²",
+    quizCategory: ["Desert", "Asia", "General"]
   },
   {
     type: "Desert",
@@ -31,7 +34,8 @@ export const desertsData: Card[] = [
     nom: "Kalahari Desert",
     localisation: "Africa",
     continent: "Africa",
-    area: "900,000 km²"
+    area: "900,000 km²",
+    quizCategory: ["Desert", "Africa", "General"]
   },
   {
     type: "Desert",
@@ -39,7 +43,8 @@ export const desertsData: Card[] = [
     nom: "Great Basin",
     localisation: "North America",
     continent: "North America",
-    area: "492,000 km²"
+    area: "492,000 km²",
+    quizCategory: ["Desert", "North America", "General"]
   },
   {
     type: "Desert",
@@ -47,7 +52,8 @@ export const desertsData: Card[] = [
     nom: "Sonoran Desert",
     localisation: "North America",
     continent: "North America",
-    area: "260,000 km²"
+    area: "260,000 km²",
+    quizCategory: ["Desert", "North America", "General"]
   },
   {
     type: "Desert",
@@ -55,7 +61,8 @@ export const desertsData: Card[] = [
     nom: "Atacama Desert",
     localisation: "North America",
     continent: "South America",
-    area: "105,000 km²"
+    area: "105,000 km²",
+    quizCategory: ["Desert", "South America", "General"]
   },
   {
     type: "Desert",
@@ -63,7 +70,8 @@ export const desertsData: Card[] = [
     nom: "Antarctic Desert",
     localisation: "Antarctica",
     continent: "Antarctica",
-    area: "14,200,000 km²"
+    area: "14,200,000 km²",
+    quizCategory: ["Desert", "Antarctica", "General"]
   },
   {
     type: "Desert",
@@ -71,7 +79,8 @@ export const desertsData: Card[] = [
     nom: "Patagonian Desert",
     localisation: "South America",
     continent: "South America",
-    area: "673,000 km²"
+    area: "673,000 km²",
+    quizCategory: ["Desert", "South America", "General"]
   },
   {
     type: "Desert",
@@ -79,7 +88,8 @@ export const desertsData: Card[] = [
     nom: "Great Victoria Desert",
     localisation: "Australia",
     continent: "Oceania",
-    area: "348,750 km²"
+    area: "348,750 km²",
+    quizCategory: ["Australia", "Desert", "Oceania", "General"]
   },
   {
     type: "Desert",
@@ -87,7 +97,8 @@ export const desertsData: Card[] = [
     nom: "Thar Desert",
     localisation: "Asia",
     continent: "Asia",
-    area: "200,000 km²"
+    area: "200,000 km²",
+    quizCategory: ["Desert", "Asia", "General"]
   },
   {
     type: "Desert",
@@ -95,7 +106,8 @@ export const desertsData: Card[] = [
     nom: "Chihuahuan Desert",
     localisation: "North America",
     continent: "North America",
-    area: "362,600 km²"
+    area: "362,600 km²",
+    quizCategory: ["Desert", "North America", "General"]
   },
   {
     type: "Desert",
@@ -103,7 +115,8 @@ export const desertsData: Card[] = [
     nom: "Mojave Desert",
     localisation: "North America",
     continent: "North America",
-    area: "124,000 km²"
+    area: "124,000 km²",
+    quizCategory: ["Desert", "North America", "General"]
   },
   {
     type: "Desert",
@@ -111,7 +124,8 @@ export const desertsData: Card[] = [
     nom: "Namib Desert",
     localisation: "Africa",
     continent: "Africa",
-    area: "81,000 km²"
+    area: "81,000 km²",
+    quizCategory: ["Desert", "Africa", "General"]
   },
   {
     type: "Desert",
@@ -119,7 +133,8 @@ export const desertsData: Card[] = [
     nom: "Taklamakan Desert",
     localisation: "Asia",
     continent: "Asia",
-    area: "337,000 km²"
+    area: "337,000 km²",
+    quizCategory: ["Desert", "Asia", "General"]
   },
   {
     type: "Desert",
@@ -127,7 +142,8 @@ export const desertsData: Card[] = [
     nom: "Rub' al Khali",
     localisation: "Arabia",
     continent: "Asia",
-    area: "650,000 km²"
+    area: "650,000 km²",
+    quizCategory: ["Desert", "Asia", "General"]
   },
   {
     type: "Desert",
@@ -135,7 +151,8 @@ export const desertsData: Card[] = [
     nom: "Karakum Desert",
     localisation: "Turkmenistan",
     continent: "Asia",
-    area: "350,000 km²"
+    area: "350,000 km²",
+    quizCategory: ["Turkmenistan", "Desert", "Asia", "General"]
   },
   {
     type: "Desert",
@@ -143,7 +160,8 @@ export const desertsData: Card[] = [
     nom: "Kyzylkum Desert",
     localisation: "Kazakhstan and Uzbekistan",
     continent: "Asia",
-    area: "298,000 km²"
+    area: "298,000 km²",
+    quizCategory: ["Kazakhstan", "Uzbekistan", "Desert", "Asia", "General"]
   },
   {
     type: "Desert",
@@ -151,7 +169,8 @@ export const desertsData: Card[] = [
     nom: "Tanami Desert",
     localisation: "Australia",
     continent: "Oceania",
-    area: "184,500 km²"
+    area: "184,500 km²",
+    quizCategory: ["Australia", "Desert", "Oceania", "General"]
   },
   {
     type: "Desert",
@@ -159,7 +178,8 @@ export const desertsData: Card[] = [
     nom: "Gibson Desert",
     localisation: "Australia",
     continent: "Oceania",
-    area: "156,000 km²"
+    area: "156,000 km²",
+    quizCategory: ["Australia", "Desert", "Oceania", "General"]
   },
   {
     type: "Desert",
@@ -167,7 +187,8 @@ export const desertsData: Card[] = [
     nom: "Kavir Desert",
     localisation: "Iran",
     continent: "Asia",
-    area: "77,000 km²"
+    area: "77,000 km²",
+    quizCategory: ["Iran", "Desert", "Asia", "General"]
   },
   {
     type: "Desert",
@@ -175,7 +196,8 @@ export const desertsData: Card[] = [
     nom: "Lut Desert",
     localisation: "Iran",
     continent: "Asia",
-    area: "51,800 km²"
+    area: "51,800 km²",
+    quizCategory: ["Iran", "Desert", "Asia", "General"]
   },
   {
     type: "Desert",
@@ -183,6 +205,7 @@ export const desertsData: Card[] = [
     nom: "Negev Desert",
     localisation: "Israel and Palestine",
     continent: "Asia",
-    area: "13,000 km²"
+    area: "13,000 km²",
+    quizCategory: ["Israel", "Palestine", "Desert", "Asia", "General"]
   }
 ];

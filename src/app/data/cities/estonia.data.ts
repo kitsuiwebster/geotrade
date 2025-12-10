@@ -8,6 +8,7 @@ export const estoniaCitiesData: Card[] = [
     localisation: "Estonia",
     continent: "Europe",
     population: "437 K",
-    agglomeration: "548 K"
+    agglomeration: "548 K",
+    quizCategory: ["Estonia", "City", "Europe", "General"]
   }
 ];

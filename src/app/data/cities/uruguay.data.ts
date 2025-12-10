@@ -8,6 +8,7 @@ export const uruguayCitiesData: Card[] = [
     localisation: "Uruguay",
     continent: "South America",
     population: "1.3 M",
-    agglomeration: "2.0 M"
+    agglomeration: "2.0 M",
+    quizCategory: ["Uruguay", "City", "South America", "General"]
   }
 ];

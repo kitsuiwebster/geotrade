@@ -8,7 +8,8 @@ export const cotedivoireCitiesData: Card[] = [
     localisation: "Ivory Coast",
     continent: "Africa",
     population: "355 K",
-    agglomeration: "420 K"
+    agglomeration: "420 K",
+    quizCategory: ["Ivory Coast", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -17,6 +18,7 @@ export const cotedivoireCitiesData: Card[] = [
     localisation: "Ivory Coast",
     continent: "Africa",
     population: "4.7 M",
-    agglomeration: "6.3 M"
+    agglomeration: "6.3 M",
+    quizCategory: ["Ivory Coast", "City", "Africa", "General"]
   }
 ];

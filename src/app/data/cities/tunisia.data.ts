@@ -8,7 +8,8 @@ export const tunisieCitiesData: Card[] = [
     localisation: "Tunisie",
     continent: "Africa",
     population: "690 K",
-    agglomeration: "2.37 M"
+    agglomeration: "2.37 M",
+    quizCategory: ["City", "Africa", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const tunisieCitiesData: Card[] = [
     localisation: "Tunisia",
     continent: "Africa",
     population: "341 K",
-    agglomeration: "658 K"
+    agglomeration: "658 K",
+    quizCategory: ["Tunisia", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -26,6 +28,7 @@ export const tunisieCitiesData: Card[] = [
     localisation: "Tunisia",
     continent: "Africa",
     population: "271 K",
-    agglomeration: "675 K"
+    agglomeration: "675 K",
+    quizCategory: ["Tunisia", "City", "Africa", "General"]
   }
 ];

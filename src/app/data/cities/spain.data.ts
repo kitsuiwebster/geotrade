@@ -8,7 +8,8 @@ export const spainCitiesData: Card[] = [
     localisation: "Spain",
     continent: "Europe",
     population: "3.3 M",
-    agglomeration: "7.0 M"
+    agglomeration: "7.0 M",
+    quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const spainCitiesData: Card[] = [
     localisation: "Spain",
     continent: "Europe",
     population: "1.66 M",
-    agglomeration: "5.7 M"
+    agglomeration: "5.7 M",
+    quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const spainCitiesData: Card[] = [
     localisation: "Spain",
     continent: "Europe",
     population: "800 K",
-    agglomeration: "2.5 M"
+    agglomeration: "2.5 M",
+    quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -35,7 +38,8 @@ export const spainCitiesData: Card[] = [
     localisation: "Spain",
     continent: "Europe",
     population: "690 K",
-    agglomeration: "1.5 M"
+    agglomeration: "1.5 M",
+    quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -44,7 +48,8 @@ export const spainCitiesData: Card[] = [
     localisation: "Spain",
     continent: "Europe",
     population: "680 K",
-    agglomeration: "760 K"
+    agglomeration: "760 K",
+    quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -53,7 +58,8 @@ export const spainCitiesData: Card[] = [
     localisation: "Spain",
     continent: "Europe",
     population: "580 K",
-    agglomeration: "1.65 M"
+    agglomeration: "1.65 M",
+    quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -62,7 +68,8 @@ export const spainCitiesData: Card[] = [
     localisation: "Spain",
     continent: "Europe",
     population: "460 K",
-    agglomeration: "670 K"
+    agglomeration: "670 K",
+    quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -71,7 +78,8 @@ export const spainCitiesData: Card[] = [
     localisation: "Spain",
     continent: "Europe",
     population: "420 K",
-    agglomeration: "560 K"
+    agglomeration: "560 K",
+    quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -80,7 +88,8 @@ export const spainCitiesData: Card[] = [
     localisation: "Spain",
     continent: "Europe",
     population: "350 K",
-    agglomeration: "1.04 M"
+    agglomeration: "1.04 M",
+    quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -89,6 +98,7 @@ export const spainCitiesData: Card[] = [
     localisation: "Spain",
     continent: "Europe",
     population: "330 K",
-    agglomeration: "760 K"
+    agglomeration: "760 K",
+    quizCategory: ["Spain", "City", "Europe", "General"]
   }
 ];

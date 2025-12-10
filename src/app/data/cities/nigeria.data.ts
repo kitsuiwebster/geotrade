@@ -8,7 +8,8 @@ export const nigeriaCitiesData: Card[] = [
     localisation: "Nigeria",
     continent: "Africa",
     population: "3.8 M",
-    agglomeration: "6.0 M"
+    agglomeration: "6.0 M",
+    quizCategory: ["Nigeria", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const nigeriaCitiesData: Card[] = [
     localisation: "Nigeria",
     continent: "Africa",
     population: "15.4 M",
-    agglomeration: "24.2 M"
+    agglomeration: "24.2 M",
+    quizCategory: ["Nigeria", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const nigeriaCitiesData: Card[] = [
     localisation: "Nigeria",
     continent: "Africa",
     population: "3.6 M",
-    agglomeration: "4.1 M"
+    agglomeration: "4.1 M",
+    quizCategory: ["Nigeria", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -35,7 +38,8 @@ export const nigeriaCitiesData: Card[] = [
     localisation: "Nigeria",
     continent: "Africa",
     population: "3.6 M",
-    agglomeration: "6.6 M"
+    agglomeration: "6.6 M",
+    quizCategory: ["Nigeria", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -44,7 +48,8 @@ export const nigeriaCitiesData: Card[] = [
     localisation: "Nigeria",
     continent: "Africa",
     population: "1.9 M",
-    agglomeration: "3.2 M"
+    agglomeration: "3.2 M",
+    quizCategory: ["Nigeria", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -53,6 +58,7 @@ export const nigeriaCitiesData: Card[] = [
     localisation: "Nigeria",
     continent: "Africa",
     population: "1.2 M",
-    agglomeration: "2.0 M"
+    agglomeration: "2.0 M",
+    quizCategory: ["Nigeria", "City", "Africa", "General"]
   }
 ];

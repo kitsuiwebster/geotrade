@@ -8,7 +8,8 @@ export const madagascarCitiesData: Card[] = [
     localisation: "Madagascar",
     continent: "Africa",
     population: "3.6 M",
-    agglomeration: "4.9 M"
+    agglomeration: "4.9 M",
+    quizCategory: ["Madagascar", "City", "Africa", "General"]
   },
   {
     type: "City",
@@ -17,6 +18,7 @@ export const madagascarCitiesData: Card[] = [
     localisation: "Madagascar",
     continent: "Africa",
     population: "265 K",
-    agglomeration: "300 K"
+    agglomeration: "300 K",
+    quizCategory: ["Madagascar", "City", "Africa", "General"]
   }
 ];

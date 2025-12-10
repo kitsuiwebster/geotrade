@@ -8,6 +8,7 @@ export const coreedunordCitiesData: Card[] = [
     localisation: "North Korea",
     continent: "Asia",
     population: "2.87 M",
-    agglomeration: "3.25 M"
+    agglomeration: "3.25 M",
+    quizCategory: ["North Korea", "City", "Asia", "General"]
   }
 ];

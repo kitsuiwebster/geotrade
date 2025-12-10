@@ -8,6 +8,7 @@ export const bulgariaCitiesData: Card[] = [
     localisation: "Bulgaria",
     continent: "Europe",
     population: "1.4 M",
-    agglomeration: "1.8 M"
+    agglomeration: "1.8 M",
+    quizCategory: ["Bulgaria", "City", "Europe", "General"]
   }
 ];

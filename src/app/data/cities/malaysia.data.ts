@@ -8,6 +8,7 @@ export const malaisieCitiesData: Card[] = [
     localisation: "Malaysia",
     continent: "Asia",
     population: "1.8 M",
-    agglomeration: "8.6 M"
+    agglomeration: "8.6 M",
+    quizCategory: ["Malaysia", "City", "Asia", "General"]
   }
 ];

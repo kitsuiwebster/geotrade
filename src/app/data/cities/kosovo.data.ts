@@ -8,6 +8,7 @@ export const kosovoCitiesData: Card[] = [
     localisation: "Kosovo",
     continent: "Europe",
     population: "215 K",
-    agglomeration: "550 K"
+    agglomeration: "550 K",
+    quizCategory: ["Kosovo", "City", "Europe", "General"]
   }
 ];

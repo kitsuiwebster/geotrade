@@ -8,6 +8,7 @@ export const norwayCitiesData: Card[] = [
     localisation: "Norway",
     continent: "Europe",
     population: "697 K",
-    agglomeration: "1.7 M"
+    agglomeration: "1.7 M",
+    quizCategory: ["Norway", "City", "Europe", "General"]
   }
 ];

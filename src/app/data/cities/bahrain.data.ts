@@ -8,6 +8,7 @@ export const bahreinCitiesData: Card[] = [
     localisation: "Bahrain",
     continent: "Asia",
     population: "411 K",
-    agglomeration: "565 K"
+    agglomeration: "565 K",
+    quizCategory: ["Bahrain", "City", "Asia", "General"]
   }
 ];

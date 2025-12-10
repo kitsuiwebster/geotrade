@@ -8,7 +8,8 @@ export const camerounCitiesData: Card[] = [
     localisation: "Cameroon",
     continent: "Africa",
     population: "4.3 M",
-    agglomeration: "5.8 M"
+    agglomeration: "5.8 M",
+    quizCategory: ["City", "Africa", "General"]
   },
   {
     type: "City",
@@ -17,6 +18,7 @@ export const camerounCitiesData: Card[] = [
     localisation: "Cameroon",
     continent: "Africa",
     population: "3.7 M",
-    agglomeration: "4.2 M"
+    agglomeration: "4.2 M",
+    quizCategory: ["City", "Africa", "General"]
   }
 ];

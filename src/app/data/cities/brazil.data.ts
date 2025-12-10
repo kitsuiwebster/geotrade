@@ -8,7 +8,8 @@ export const bresilCitiesData: Card[] = [
     localisation: "Brazil",
     continent: "South America",
     population: "2.8 M",
-    agglomeration: "4.8 M"
+    agglomeration: "4.8 M",
+    quizCategory: ["Brazil", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const bresilCitiesData: Card[] = [
     localisation: "Brazil",
     continent: "South America",
     population: "12.0 M",
-    agglomeration: "22.6 M"
+    agglomeration: "22.6 M",
+    quizCategory: ["Brazil", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const bresilCitiesData: Card[] = [
     localisation: "Brazil",
     continent: "South America",
     population: "6.7 M",
-    agglomeration: "13.3 M"
+    agglomeration: "13.3 M",
+    quizCategory: ["Brazil", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -35,7 +38,8 @@ export const bresilCitiesData: Card[] = [
     localisation: "Brazil",
     continent: "South America",
     population: "2.5 M",
-    agglomeration: "6.2 M"
+    agglomeration: "6.2 M",
+    quizCategory: ["Brazil", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -44,7 +48,8 @@ export const bresilCitiesData: Card[] = [
     localisation: "Brazil",
     continent: "South America",
     population: "2.9 M",
-    agglomeration: "4.0 M"
+    agglomeration: "4.0 M",
+    quizCategory: ["Brazil", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -53,7 +58,8 @@ export const bresilCitiesData: Card[] = [
     localisation: "Brazil",
     continent: "South America",
     population: "2.7 M",
-    agglomeration: "4.1 M"
+    agglomeration: "4.1 M",
+    quizCategory: ["Brazil", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -62,7 +68,8 @@ export const bresilCitiesData: Card[] = [
     localisation: "Brazil",
     continent: "South America",
     population: "2.2 M",
-    agglomeration: "2.7 M"
+    agglomeration: "2.7 M",
+    quizCategory: ["Brazil", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -71,7 +78,8 @@ export const bresilCitiesData: Card[] = [
     localisation: "Brazil",
     continent: "South America",
     population: "1.9 M",
-    agglomeration: "3.7 M"
+    agglomeration: "3.7 M",
+    quizCategory: ["Brazil", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -80,7 +88,8 @@ export const bresilCitiesData: Card[] = [
     localisation: "Brazil",
     continent: "South America",
     population: "1.7 M",
-    agglomeration: "4.1 M"
+    agglomeration: "4.1 M",
+    quizCategory: ["Brazil", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -89,6 +98,7 @@ export const bresilCitiesData: Card[] = [
     localisation: "Brazil",
     continent: "South America",
     population: "1.5 M",
-    agglomeration: "4.3 M"
+    agglomeration: "4.3 M",
+    quizCategory: ["Brazil", "City", "South America", "General"]
   }
 ];

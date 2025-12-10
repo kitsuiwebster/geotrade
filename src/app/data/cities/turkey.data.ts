@@ -8,7 +8,8 @@ export const turquieCitiesData: Card[] = [
     localisation: "Turkey",
     continent: "Asia",
     population: "5.7 M",
-    agglomeration: "6.1 M"
+    agglomeration: "6.1 M",
+    quizCategory: ["Turkey", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const turquieCitiesData: Card[] = [
     localisation: "Turkey",
     continent: "Europe",
     population: "15.8 M",
-    agglomeration: "16.1 M"
+    agglomeration: "16.1 M",
+    quizCategory: ["Turkey", "City", "Europe", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const turquieCitiesData: Card[] = [
     localisation: "Turkey",
     continent: "Asia",
     population: "2.9 M",
-    agglomeration: "4.4 M"
+    agglomeration: "4.4 M",
+    quizCategory: ["Turkey", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -35,7 +38,8 @@ export const turquieCitiesData: Card[] = [
     localisation: "Turkey",
     continent: "Asia",
     population: "2.0 M",
-    agglomeration: "3.1 M"
+    agglomeration: "3.1 M",
+    quizCategory: ["Turkey", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -44,6 +48,7 @@ export const turquieCitiesData: Card[] = [
     localisation: "Turkey",
     continent: "Asia",
     population: "1.8 M",
-    agglomeration: "2.3 M"
+    agglomeration: "2.3 M",
+    quizCategory: ["Turkey", "City", "Asia", "General"]
   }
 ];

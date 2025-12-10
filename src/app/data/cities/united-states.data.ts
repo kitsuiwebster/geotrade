@@ -8,7 +8,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "District of Columbia, United States",
     continent: "North America",
     population: "689 K",
-    agglomeration: "6.3 M"
+    agglomeration: "6.3 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "New York, United States",
     continent: "North America",
     population: "8.3 M",
-    agglomeration: "20.1 M"
+    agglomeration: "20.1 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "California, United States",
     continent: "North America",
     population: "3.9 M",
-    agglomeration: "13.2 M"
+    agglomeration: "13.2 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -35,7 +38,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Illinois, United States",
     continent: "North America",
     population: "2.7 M",
-    agglomeration: "9.6 M"
+    agglomeration: "9.6 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -44,7 +48,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Texas, United States",
     continent: "North America",
     population: "2.3 M",
-    agglomeration: "7.1 M"
+    agglomeration: "7.1 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -53,7 +58,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Arizona, United States",
     continent: "North America",
     population: "1.7 M",
-    agglomeration: "5.0 M"
+    agglomeration: "5.0 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -62,7 +68,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Pennsylvania, United States",
     continent: "North America",
     population: "1.6 M",
-    agglomeration: "6.1 M"
+    agglomeration: "6.1 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -71,7 +78,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Texas, United States",
     continent: "North America",
     population: "1.5 M",
-    agglomeration: "2.6 M"
+    agglomeration: "2.6 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -80,7 +88,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "California, United States",
     continent: "North America",
     population: "1.4 M",
-    agglomeration: "3.3 M"
+    agglomeration: "3.3 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -89,7 +98,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Texas, United States",
     continent: "North America",
     population: "1.3 M",
-    agglomeration: "7.6 M"
+    agglomeration: "7.6 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -98,7 +108,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "California, United States",
     continent: "North America",
     population: "1.0 M",
-    agglomeration: "2.0 M"
+    agglomeration: "2.0 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -107,7 +118,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Texas, United States",
     continent: "North America",
     population: "970 K",
-    agglomeration: "2.4 M"
+    agglomeration: "2.4 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -116,7 +128,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Florida, United States",
     continent: "North America",
     population: "950 K",
-    agglomeration: "1.5 M"
+    agglomeration: "1.5 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -125,7 +138,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Texas, United States",
     continent: "North America",
     population: "920 K",
-    agglomeration: "7.6 M"
+    agglomeration: "7.6 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -134,7 +148,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Ohio, United States",
     continent: "North America",
     population: "910 K",
-    agglomeration: "2.1 M"
+    agglomeration: "2.1 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -143,7 +158,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "California, United States",
     continent: "North America",
     population: "870 K",
-    agglomeration: "4.7 M"
+    agglomeration: "4.7 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -152,7 +168,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "North Carolina, United States",
     continent: "North America",
     population: "870 K",
-    agglomeration: "2.7 M"
+    agglomeration: "2.7 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -161,7 +178,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Indiana, United States",
     continent: "North America",
     population: "880 K",
-    agglomeration: "2.1 M"
+    agglomeration: "2.1 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -170,7 +188,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Washington, United States",
     continent: "North America",
     population: "750 K",
-    agglomeration: "4.0 M"
+    agglomeration: "4.0 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -179,7 +198,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Colorado, United States",
     continent: "North America",
     population: "720 K",
-    agglomeration: "2.9 M"
+    agglomeration: "2.9 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -188,7 +208,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Massachusetts, United States",
     continent: "North America",
     population: "690 K",
-    agglomeration: "4.9 M"
+    agglomeration: "4.9 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -197,7 +218,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Texas, United States",
     continent: "North America",
     population: "690 K",
-    agglomeration: "1.1 M"
+    agglomeration: "1.1 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -206,7 +228,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Michigan, United States",
     continent: "North America",
     population: "640 K",
-    agglomeration: "4.3 M"
+    agglomeration: "4.3 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -215,7 +238,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Tennessee, United States",
     continent: "North America",
     population: "690 K",
-    agglomeration: "1.9 M"
+    agglomeration: "1.9 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -224,7 +248,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Oregon, United States",
     continent: "North America",
     population: "650 K",
-    agglomeration: "2.5 M"
+    agglomeration: "2.5 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -233,7 +258,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Tennessee, United States",
     continent: "North America",
     population: "630 K",
-    agglomeration: "1.3 M"
+    agglomeration: "1.3 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -242,7 +268,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Oklahoma, United States",
     continent: "North America",
     population: "700 K",
-    agglomeration: "1.4 M"
+    agglomeration: "1.4 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -251,7 +278,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Nevada, United States",
     continent: "North America",
     population: "650 K",
-    agglomeration: "2.3 M"
+    agglomeration: "2.3 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -260,7 +288,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Kentucky, United States",
     continent: "North America",
     population: "630 K",
-    agglomeration: "1.3 M"
+    agglomeration: "1.3 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -269,7 +298,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Maryland, United States",
     continent: "North America",
     population: "580 K",
-    agglomeration: "2.8 M"
+    agglomeration: "2.8 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -278,7 +308,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Wisconsin, United States",
     continent: "North America",
     population: "580 K",
-    agglomeration: "1.6 M"
+    agglomeration: "1.6 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -287,7 +318,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "New Mexico, United States",
     continent: "North America",
     population: "560 K",
-    agglomeration: "920 K"
+    agglomeration: "920 K",
+    quizCategory: ["United States", "Mexico", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -296,7 +328,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Arizona, United States",
     continent: "North America",
     population: "550 K",
-    agglomeration: "1.0 M"
+    agglomeration: "1.0 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -305,7 +338,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "California, United States",
     continent: "North America",
     population: "540 K",
-    agglomeration: "980 K"
+    agglomeration: "980 K",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -314,7 +348,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "California, United States",
     continent: "North America",
     population: "520 K",
-    agglomeration: "2.4 M"
+    agglomeration: "2.4 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -323,7 +358,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Georgia, United States",
     continent: "North America",
     population: "500 K",
-    agglomeration: "6.1 M"
+    agglomeration: "6.1 M",
+    quizCategory: ["United States", "Georgia", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -332,7 +368,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Missouri, United States",
     continent: "North America",
     population: "490 K",
-    agglomeration: "2.2 M"
+    agglomeration: "2.2 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -341,7 +378,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Colorado, United States",
     continent: "North America",
     population: "480 K",
-    agglomeration: "740 K"
+    agglomeration: "740 K",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -350,7 +388,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Florida, United States",
     continent: "North America",
     population: "460 K",
-    agglomeration: "6.2 M"
+    agglomeration: "6.2 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -359,7 +398,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "North Carolina, United States",
     continent: "North America",
     population: "470 K",
-    agglomeration: "1.4 M"
+    agglomeration: "1.4 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -368,7 +408,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Nebraska, United States",
     continent: "North America",
     population: "480 K",
-    agglomeration: "940 K"
+    agglomeration: "940 K",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -377,7 +418,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "California, United States",
     continent: "North America",
     population: "460 K",
-    agglomeration: "13.2 M"
+    agglomeration: "13.2 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -386,7 +428,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Virginia, United States",
     continent: "North America",
     population: "460 K",
-    agglomeration: "1.8 M"
+    agglomeration: "1.8 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -395,7 +438,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "California, United States",
     continent: "North America",
     population: "430 K",
-    agglomeration: "4.7 M"
+    agglomeration: "4.7 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -404,7 +448,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Minnesota, United States",
     continent: "North America",
     population: "430 K",
-    agglomeration: "3.7 M"
+    agglomeration: "3.7 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -413,7 +458,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Florida, United States",
     continent: "North America",
     population: "390 K",
-    agglomeration: "3.2 M"
+    agglomeration: "3.2 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -422,7 +468,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Oklahoma, United States",
     continent: "North America",
     population: "410 K",
-    agglomeration: "990 K"
+    agglomeration: "990 K",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -431,7 +478,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Texas, United States",
     continent: "North America",
     population: "390 K",
-    agglomeration: "7.6 M"
+    agglomeration: "7.6 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -440,7 +488,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Louisiana, United States",
     continent: "North America",
     population: "380 K",
-    agglomeration: "1.3 M"
+    agglomeration: "1.3 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -449,7 +498,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Kansas, United States",
     continent: "North America",
     population: "390 K",
-    agglomeration: "650 K"
+    agglomeration: "650 K",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -458,7 +508,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Ohio, United States",
     continent: "North America",
     population: "380 K",
-    agglomeration: "2.0 M"
+    agglomeration: "2.0 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -467,7 +518,8 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "Florida, United States",
     continent: "North America",
     population: "310 K",
-    agglomeration: "2.6 M"
+    agglomeration: "2.6 M",
+    quizCategory: ["United States", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -476,6 +528,7 @@ export const etatsUnisCitiesData: Card[] = [
     localisation: "New Mexico, United States",
     continent: "North America",
     population: "88 K",
-    agglomeration: "150 K"
+    agglomeration: "150 K",
+    quizCategory: ["United States", "Mexico", "City", "North America", "General"]
   },
 ];

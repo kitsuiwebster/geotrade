@@ -8,7 +8,8 @@ export const beninCitiesData: Card[] = [
     localisation: "Benin",
     continent: "Africa",
     population: "264 K",
-    agglomeration: "320 K"
+    agglomeration: "320 K",
+    quizCategory: ["City", "Africa", "General"]
   },
   {
     type: "City",
@@ -17,6 +18,7 @@ export const beninCitiesData: Card[] = [
     localisation: "Benin",
     continent: "Africa",
     population: "738 K",
-    agglomeration: "2.4 M"
+    agglomeration: "2.4 M",
+    quizCategory: ["City", "Africa", "General"]
   }
 ];

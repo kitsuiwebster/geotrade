@@ -8,6 +8,7 @@ export const botswanaCitiesData: Card[] = [
     localisation: "Botswana",
     continent: "Africa",
     population: "246 K",
-    agglomeration: "300 K"
+    agglomeration: "300 K",
+    quizCategory: ["Botswana", "City", "Africa", "General"]
   }
 ];

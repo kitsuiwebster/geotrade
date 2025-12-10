@@ -8,7 +8,8 @@ export const argentineCitiesData: Card[] = [
     localisation: "Argentina",
     continent: "South America",
     population: "3.1 M",
-    agglomeration: "15.6 M"
+    agglomeration: "15.6 M",
+    quizCategory: ["Argentina", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const argentineCitiesData: Card[] = [
     localisation: "Argentina",
     continent: "South America",
     population: "1.0 M",
-    agglomeration: "1.3 M"
+    agglomeration: "1.3 M",
+    quizCategory: ["Argentina", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -26,6 +28,7 @@ export const argentineCitiesData: Card[] = [
     localisation: "Argentina",
     continent: "South America",
     population: "1.4 M",
-    agglomeration: "1.8 M"
+    agglomeration: "1.8 M",
+    quizCategory: ["Argentina", "City", "South America", "General"]
   }
 ];

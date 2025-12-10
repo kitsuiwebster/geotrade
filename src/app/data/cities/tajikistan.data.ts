@@ -8,6 +8,7 @@ export const tadjikistanCitiesData: Card[] = [
     localisation: "Tajikistan",
     continent: "Asia",
     population: "950 K",
-    agglomeration: "1.4 M"
+    agglomeration: "1.4 M",
+    quizCategory: ["Tajikistan", "City", "Asia", "General"]
   }
 ];

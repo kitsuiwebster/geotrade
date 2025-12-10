@@ -8,6 +8,7 @@ export const erythreeCitiesData: Card[] = [
     localisation: "Eritrea",
     continent: "Africa",
     population: "963 K",
-    agglomeration: "1.15 M"
+    agglomeration: "1.15 M",
+    quizCategory: ["City", "Africa", "General"]
   }
 ];

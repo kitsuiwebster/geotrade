@@ -8,6 +8,7 @@ export const fidjiCitiesData: Card[] = [
     localisation: "Fiji",
     continent: "Oceania",
     population: "93 K",
-    agglomeration: "178 K"
+    agglomeration: "178 K",
+    quizCategory: ["Fiji", "City", "Oceania", "General"]
   }
 ];

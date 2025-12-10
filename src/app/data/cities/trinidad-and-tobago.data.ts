@@ -8,6 +8,7 @@ export const triniteettobagoCitiesData: Card[] = [
     localisation: "Trinidad and Tobago",
     continent: "Central America",
     population: "37 K",
-    agglomeration: "545 K"
+    agglomeration: "545 K",
+    quizCategory: ["Trinidad and Tobago", "City", "Central America", "General"]
   }
 ];

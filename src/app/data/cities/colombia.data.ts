@@ -8,7 +8,8 @@ export const colombieCitiesData: Card[] = [
     localisation: "Colombia",
     continent: "South America",
     population: "7.4 M",
-    agglomeration: "11.3 M"
+    agglomeration: "11.3 M",
+    quizCategory: ["Colombia", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const colombieCitiesData: Card[] = [
     localisation: "Colombia",
     continent: "South America",
     population: "2.5 M",
-    agglomeration: "4.0 M"
+    agglomeration: "4.0 M",
+    quizCategory: ["Colombia", "City", "South America", "General"]
   },
   {
     type: "City",
@@ -26,6 +28,7 @@ export const colombieCitiesData: Card[] = [
     localisation: "Colombia",
     continent: "South America",
     population: "2.2 M",
-    agglomeration: "2.8 M"
+    agglomeration: "2.8 M",
+    quizCategory: ["Colombia", "City", "South America", "General"]
   }
 ];

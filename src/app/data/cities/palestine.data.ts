@@ -8,7 +8,8 @@ export const palestineCitiesData: Card[] = [
     localisation: "Palestine",
     continent: "Asia",
     population: "39 K",
-    agglomeration: "55 K"
+    agglomeration: "55 K",
+    quizCategory: ["Palestine", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const palestineCitiesData: Card[] = [
     localisation: "Palestine",
     continent: "Asia",
     population: "966 K",
-    agglomeration: "1.25 M"
+    agglomeration: "1.25 M",
+    quizCategory: ["Palestine", "City", "Asia", "General"]
   },
   {
     type: "City",
@@ -26,6 +28,7 @@ export const palestineCitiesData: Card[] = [
     localisation: "Palestine",
     continent: "Asia",
     population: "590 K",
-    agglomeration: "2.1 M"
+    agglomeration: "2.1 M",
+    quizCategory: ["Palestine", "City", "Asia", "General"]
   }
 ];

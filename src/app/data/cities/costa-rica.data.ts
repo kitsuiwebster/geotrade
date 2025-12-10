@@ -8,6 +8,7 @@ export const costaricaCitiesData: Card[] = [
     localisation: "Costa Rica",
     continent: "Central America",
     population: "342 K",
-    agglomeration: "2.2 M"
+    agglomeration: "2.2 M",
+    quizCategory: ["Costa Rica", "City", "Central America", "General"]
   }
 ];

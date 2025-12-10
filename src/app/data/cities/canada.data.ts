@@ -8,7 +8,8 @@ export const canadaCitiesData: Card[] = [
     localisation: "Ontario, Canada",
     continent: "North America",
     population: "1.0 M",
-    agglomeration: "1.9 M"
+    agglomeration: "1.9 M",
+    quizCategory: ["Canada", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -17,7 +18,8 @@ export const canadaCitiesData: Card[] = [
     localisation: "Ontario, Canada",
     continent: "North America",
     population: "2.8 M",
-    agglomeration: "6.5 M"
+    agglomeration: "6.5 M",
+    quizCategory: ["Canada", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -26,7 +28,8 @@ export const canadaCitiesData: Card[] = [
     localisation: "Quebec, Canada",
     continent: "North America",
     population: "1.8 M",
-    agglomeration: "4.3 M"
+    agglomeration: "4.3 M",
+    quizCategory: ["Canada", "City", "North America", "General"]
   },
   {
     type: "City",
@@ -35,6 +38,7 @@ export const canadaCitiesData: Card[] = [
     localisation: "British Columbia, Canada",
     continent: "North America",
     population: "670 K",
-    agglomeration: "2.6 M"
+    agglomeration: "2.6 M",
+    quizCategory: ["Canada", "City", "North America", "General"]
   }
 ];
