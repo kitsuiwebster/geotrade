@@ -1,0 +1,79 @@
+<div class='all-cards-container'>
+  <div class='header'>
+    <h1 class='header-title'>GeoTrade</h1>
+    <div class='buttons-container'>
+      <div class='card-count'>{{ filteredQuizzes.length }} quizzes</div>
+    </div>
+  </div>
+
+  <!-- Navigation Tabs -->
+  <app-navbar></app-navbar>
+
+  <!-- Quizzes Section -->
+  <div class='quizzes-section'>
+    <div class='section-header'>
+      <h2 class='section-title'>Play & Earn Cards</h2>
+      <p class='section-subtitle'>Complete quizzes to expand your collection</p>
+    </div>
+
+    <!-- Filters -->
+    <div class='quiz-filters'>
+      <div class='filter-group'>
+        <label>Category:</label>
+        <select [(ngModel)]="selectedCategory" class='filter-select'>
+          <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+        </select>
+      </div>
+      
+      <div class='filter-group'>
+        <label>Difficulty:</label>
+        <select [(ngModel)]="selectedDifficulty" class='filter-select'>
+          <option *ngFor="let difficulty of difficulties" [value]="difficulty">{{ difficulty }}</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Quiz Grid -->
+    <div class='quiz-grid'>
+      <div 
+        *ngFor="let quiz of filteredQuizzes" 
+        class='quiz-card'
+        [class.completed]="quiz.completed">
+        
+        <div class='quiz-header'>
+          <h3 class='quiz-title'>{{ quiz.title }}</h3>
+          <div class='quiz-difficulty' [style.color]="getDifficultyColor(quiz.difficulty)">
+            {{ quiz.difficulty }}
+          </div>
+        </div>
+        
+        <p class='quiz-description'>{{ quiz.description }}</p>
+        
+        <div class='quiz-info'>
+          <div class='quiz-questions'>📝 {{ quiz.questionsCount }} questions</div>
+          <div class='quiz-category'>🏷️ {{ quiz.category }}</div>
+        </div>
+        
+        <div class='quiz-reward'>
+          <span class='reward-label'>Reward:</span>
+          <span class='reward-item'>{{ quiz.reward }}</span>
+        </div>
+        
+        <button 
+          class='quiz-start-btn'
+          [class.completed]="quiz.completed"
+          (click)="startQuiz(quiz)"
+          [disabled]="quiz.completed">
+          {{ quiz.completed ? '✅ Completed' : '🚀 Start Quiz' }}
+        </button>
+      </div>
+    </div>
+
+    <!-- Empty State -->
+    <div class='empty-state' *ngIf="filteredQuizzes.length === 0">
+      <div class='empty-icon'>🔍</div>
+      <h3>No quizzes found!</h3>
+      <p>Try adjusting your filters to see more quizzes.</p>
+    </div>
+  </div>
+</div>

@@ -2,20 +2,14 @@
   <div class='header'>
     <h1 class='header-title'>GeoTrade</h1>
     <div class='buttons-container'>
-      <div class='card-count'>{{ shuffledCards.length }} cards</div>
-      <div *ngIf="isLoading" class="loading" style="color: white; text-align: center; font-size: 16px; margin-right: 10px;">
-        Preparing download... {{ Math.round(progress) }}%
-      </div>
-      <button class='download-btn' (click)="downloadAllCards()" [disabled]="isLoading">
-        <span class="btn-icon">📥</span>
+      <div class='card-count'>{{ displayedCards.length }} cards</div>
+      <button class='download-btn'>
         <span class="btn-text">Download</span>
       </button>
       <button class='toggle-mode-btn' (click)="toggleDisplayMode()" [class.active]="isRealMode">
-        <span class="btn-icon">{{ isRealMode ? '🖼️' : '🌐' }}</span>
         <span class="btn-text">{{ isRealMode ? 'Real Mode' : 'Web Mode' }}</span>
       </button>
       <button class='filter-btn' (click)="toggleFilters()">
-        <span class="btn-icon">🔧</span>
         <span class="btn-text">Filters</span>
         <span class="btn-arrow">{{ showFilters ? '▲' : '▼' }}</span>
       </button>
@@ -31,7 +25,7 @@
       <input 
         type="text" 
         class='search-input'
-        placeholder="Search a card (name, place, type, continent...)"
+        placeholder="Search your cards (name, place, type, continent...)"
         [(ngModel)]="searchTerm" 
         (input)="applyFilters()"
       />
@@ -74,7 +68,7 @@
       </button>
     </div>
   </div>
-  
+
   <div class='cards-grid'>
     <app-card 
       *ngFor="let card of displayedCards" 
@@ -85,8 +79,8 @@
   </div>
   
   <!-- Loading indicator -->
-  <div *ngIf="isLoadingMore" class="loading-more">
-    <div class="loading-spinner">⏳</div>
-    <p>Loading more cards...</p>
+  <div *ngIf="displayedCards.length === 0 && userCards.length > 0" class="loading-more">
+    <div class="loading-spinner">🔍</div>
+    <p>No cards match your search...</p>
   </div>
 </div>

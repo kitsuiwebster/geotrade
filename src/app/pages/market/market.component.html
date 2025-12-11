@@ -1,0 +1,351 @@
+<div class='all-cards-container'>
+  <div class='header'>
+    <h1 class='header-title'>GeoTrade</h1>
+    <div class='buttons-container'>
+      <div class='card-count'>
+        {{ filteredOffers.length + filteredRequests.length }} market listings
+      </div>
+      <button class='download-btn' (click)="startNewOffer()" [disabled]="isCreatingOffer || isCreatingRequest">
+        <span class="btn-text">Sell Card</span>
+      </button>
+      <button class='toggle-mode-btn' (click)="startNewRequest()" [disabled]="isCreatingOffer || isCreatingRequest">
+        <span class="btn-text">Request Card</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Navigation Tabs -->
+  <app-navbar></app-navbar>
+
+  <!-- Market Section -->
+  <div class='market-section'>
+    <div class='section-header'>
+      <h2 class='section-title'>Card Marketplace</h2>
+      <p class='section-subtitle'>Buy, sell, and discover rare cards</p>
+    </div>
+
+    <!-- Market Tabs -->
+    <div class='market-tabs'>
+      <button 
+        class='tab-btn'
+        [class.active]="activeTab === 'offers'"
+        (click)="setActiveTab('offers')">
+        💰 Card Offers ({{ marketOffers.length }})
+      </button>
+      <button 
+        class='tab-btn'
+        [class.active]="activeTab === 'requests'"
+        (click)="setActiveTab('requests')">
+        🔍 Card Requests ({{ marketRequests.length }})
+      </button>
+      <button 
+        class='tab-btn'
+        [class.active]="activeTab === 'mylistings'"
+        (click)="setActiveTab('mylistings')">
+        📋 My Listings ({{ myOffers.length + myRequests.length }})
+      </button>
+    </div>
+
+    <!-- Filters -->
+    <div class='market-filters' *ngIf="!isCreatingOffer && !isCreatingRequest">
+      <div class='search-container'>
+        <input 
+          type="text" 
+          class='search-input'
+          placeholder="Search cards..."
+          [(ngModel)]="searchTerm">
+        <span class='search-icon'>🔍</span>
+      </div>
+      
+      <div class='filter-selects'>
+        <select [(ngModel)]="selectedType" class='filter-select'>
+          <option *ngFor="let type of cardTypes" [value]="type">{{ type }}</option>
+        </select>
+        
+        <select [(ngModel)]="selectedContinent" class='filter-select'>
+          <option *ngFor="let continent of continents" [value]="continent">{{ continent }}</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- New Offer Form -->
+    <div class='listing-form' *ngIf="isCreatingOffer">
+      <div class='form-header'>
+        <h3>🏪 Create Card Offer</h3>
+        <button class='close-btn' (click)="cancelNewOffer()">✖</button>
+      </div>
+
+      <div class='form-content'>
+        <div class='form-step'>
+          <h4>1. Select card to offer:</h4>
+          <div class='cards-grid'>
+            <div 
+              *ngFor="let card of myCards"
+              class='card-wrapper'
+              [class.selected]="selectedOfferCard?.nom === card.nom"
+              (click)="selectOfferCard(card)">
+              <app-card [card]="card"></app-card>
+              <div class='selection-overlay' *ngIf="selectedOfferCard?.nom === card.nom">✓</div>
+            </div>
+          </div>
+        </div>
+
+        <div class='form-step' *ngIf="selectedOfferCard">
+          <h4>2. Cards you want in exchange:</h4>
+          <button class='add-btn' (click)="addWantedCard()">+ Add Wanted Card</button>
+          <div class='cards-grid' *ngIf="offerWantedCards.length > 0">
+            <div *ngFor="let card of offerWantedCards" class='card-wrapper wanted'>
+              <app-card [card]="card"></app-card>
+              <button class='remove-btn' (click)="removeWantedCard(card)">✖</button>
+            </div>
+          </div>
+        </div>
+
+        <div class='form-step' *ngIf="offerWantedCards.length > 0">
+          <h4>3. Description (optional):</h4>
+          <textarea 
+            [(ngModel)]="offerDescription" 
+            class='form-textarea'
+            placeholder="Describe your offer, trading preferences, etc..."></textarea>
+        </div>
+
+        <div class='form-actions'>
+          <button 
+            class='create-btn'
+            (click)="createOffer()"
+            [disabled]="!selectedOfferCard || offerWantedCards.length === 0">
+            Create Offer
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- New Request Form -->
+    <div class='listing-form' *ngIf="isCreatingRequest">
+      <div class='form-header'>
+        <h3>🔍 Create Card Request</h3>
+        <button class='close-btn' (click)="cancelNewRequest()">✖</button>
+      </div>
+
+      <div class='form-content'>
+        <div class='form-step'>
+          <h4>1. Card you want:</h4>
+          <button class='select-btn' (click)="selectRequestCard()">
+            {{ selectedRequestCard ? selectedRequestCard.nom : 'Select Card' }}
+          </button>
+          <div class='selected-card' *ngIf="selectedRequestCard">
+            <app-card [card]="selectedRequestCard"></app-card>
+          </div>
+        </div>
+
+        <div class='form-step' *ngIf="selectedRequestCard">
+          <h4>2. Cards you offer in exchange:</h4>
+          <div class='cards-grid'>
+            <div 
+              *ngFor="let card of myCards"
+              class='card-wrapper'
+              [class.selected]="isCardInOfferedCards(card)"
+              (click)="addOfferedCard(card)">
+              <app-card [card]="card"></app-card>
+              <div class='selection-overlay' *ngIf="isCardInOfferedCards(card)">✓</div>
+            </div>
+          </div>
+        </div>
+
+        <div class='form-step' *ngIf="requestOfferedCards.length > 0">
+          <h4>3. Description (optional):</h4>
+          <textarea 
+            [(ngModel)]="requestDescription" 
+            class='form-textarea'
+            placeholder="Explain why you want this card, what makes your offer special..."></textarea>
+        </div>
+
+        <div class='form-actions'>
+          <button 
+            class='create-btn'
+            (click)="createRequest()"
+            [disabled]="!selectedRequestCard || requestOfferedCards.length === 0">
+            Create Request
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Market Content -->
+    <div class='market-content' *ngIf="!isCreatingOffer && !isCreatingRequest">
+      
+      <!-- Card Offers -->
+      <div class='listings' *ngIf="activeTab === 'offers'">
+        <div class='listing-card offer' *ngFor="let offer of filteredOffers">
+          <div class='listing-header'>
+            <div class='seller-info'>
+              <span class='seller-name'>{{ offer.seller }}</span>
+              <span class='listing-date'>{{ offer.createdAt | date:'MMM d' }}</span>
+            </div>
+            <div class='listing-type'>💰 OFFER</div>
+          </div>
+
+          <div class='listing-content'>
+            <div class='offered-section'>
+              <h5>Offering:</h5>
+              <div class='card-display'>
+                <app-card [card]="offer.cardOffered"></app-card>
+              </div>
+            </div>
+
+            <div class='exchange-arrow'>→</div>
+
+            <div class='wanted-section'>
+              <h5>Wants (any of these):</h5>
+              <div class='cards-wanted'>
+                <div 
+                  *ngFor="let wantedCard of offer.cardsWanted" 
+                  class='wanted-card'
+                  [class.can-propose]="canProposeCard(offer, wantedCard)">
+                  <app-card [card]="wantedCard"></app-card>
+                  <button 
+                    class='propose-btn'
+                    *ngIf="hasCard(wantedCard)"
+                    (click)="proposeToOffer(offer, wantedCard)">
+                    Propose This
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class='description' *ngIf="offer.description">
+            <p>{{ offer.description }}</p>
+          </div>
+        </div>
+
+        <div class='empty-state' *ngIf="filteredOffers.length === 0">
+          <div class='empty-icon'>💰</div>
+          <h3>No offers found</h3>
+          <p>No card offers match your search criteria.</p>
+        </div>
+      </div>
+
+      <!-- Card Requests -->
+      <div class='listings' *ngIf="activeTab === 'requests'">
+        <div class='listing-card request' *ngFor="let request of filteredRequests">
+          <div class='listing-header'>
+            <div class='seller-info'>
+              <span class='seller-name'>{{ request.buyer }}</span>
+              <span class='listing-date'>{{ request.createdAt | date:'MMM d' }}</span>
+            </div>
+            <div class='listing-type'>🔍 REQUEST</div>
+          </div>
+
+          <div class='listing-content'>
+            <div class='wanted-section-req'>
+              <h5>Wants:</h5>
+              <div class='card-display'>
+                <app-card [card]="request.cardWanted"></app-card>
+                <button 
+                  class='fulfill-btn'
+                  *ngIf="hasCardForRequest(request)"
+                  (click)="acceptRequest(request, request.cardsOffered[0])">
+                  ✅ Auto-Trade
+                </button>
+              </div>
+            </div>
+
+            <div class='exchange-arrow'>←</div>
+
+            <div class='offered-section-req'>
+              <h5>Offers (choose one):</h5>
+              <div class='cards-offered'>
+                <div *ngFor="let offeredCard of request.cardsOffered" class='offered-card'>
+                  <app-card [card]="offeredCard"></app-card>
+                  <button 
+                    class='select-btn small'
+                    *ngIf="hasCardForRequest(request)"
+                    (click)="acceptRequest(request, offeredCard)">
+                    Choose
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class='description' *ngIf="request.description">
+            <p>{{ request.description }}</p>
+          </div>
+        </div>
+
+        <div class='empty-state' *ngIf="filteredRequests.length === 0">
+          <div class='empty-icon'>🔍</div>
+          <h3>No requests found</h3>
+          <p>No card requests match your search criteria.</p>
+        </div>
+      </div>
+
+      <!-- My Listings -->
+      <div class='listings' *ngIf="activeTab === 'mylistings'">
+        <!-- My Offers -->
+        <div class='my-listings-section' *ngIf="myOffers.length > 0">
+          <h4>My Offers</h4>
+          <div class='listing-card offer mine' *ngFor="let offer of myOffers">
+            <div class='listing-header'>
+              <div class='seller-info'>
+                <span class='seller-name'>You</span>
+                <span class='listing-date'>{{ offer.createdAt | date:'MMM d' }}</span>
+              </div>
+              <button class='cancel-btn' (click)="cancelListing(offer.id, 'offer')">Cancel</button>
+            </div>
+
+            <div class='listing-content'>
+              <div class='offered-section'>
+                <h5>You Offer:</h5>
+                <app-card [card]="offer.cardOffered"></app-card>
+              </div>
+              <div class='exchange-arrow'>→</div>
+              <div class='wanted-section'>
+                <h5>You Want:</h5>
+                <div class='cards-wanted'>
+                  <app-card *ngFor="let card of offer.cardsWanted" [card]="card"></app-card>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- My Requests -->
+        <div class='my-listings-section' *ngIf="myRequests.length > 0">
+          <h4>My Requests</h4>
+          <div class='listing-card request mine' *ngFor="let request of myRequests">
+            <div class='listing-header'>
+              <div class='seller-info'>
+                <span class='seller-name'>You</span>
+                <span class='listing-date'>{{ request.createdAt | date:'MMM d' }}</span>
+              </div>
+              <button class='cancel-btn' (click)="cancelListing(request.id, 'request')">Cancel</button>
+            </div>
+
+            <div class='listing-content'>
+              <div class='wanted-section-req'>
+                <h5>You Want:</h5>
+                <app-card [card]="request.cardWanted"></app-card>
+              </div>
+              <div class='exchange-arrow'>←</div>
+              <div class='offered-section-req'>
+                <h5>You Offer:</h5>
+                <div class='cards-offered'>
+                  <app-card *ngFor="let card of request.cardsOffered" [card]="card"></app-card>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class='empty-state' *ngIf="myOffers.length === 0 && myRequests.length === 0">
+          <div class='empty-icon'>📋</div>
+          <h3>No active listings</h3>
+          <p>You don't have any active offers or requests.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -199,6 +199,7 @@ export class CardComponent implements OnInit, OnDestroy {
     return originalUrl;
   }
 
+
   getFlagUrl(): string | null {
     if (this.card.type === 'Country' || this.card.type === 'City' || this.card.type === 'Territory' || 
         this.card.type === 'US State' || this.card.type === 'CA Province' || this.card.type === 'CA Territory' ||
@@ -925,7 +926,7 @@ export class CardComponent implements OnInit, OnDestroy {
         'Macao': 'mo',
         'Western Sahara': 'eh',
         'Faroe Islands': 'fo',
-        'Somaliland': 'so' // Using Somalia flag as Somaliland not widely recognized
+        'Somaliland': 'so', // Using Somalia flag as Somaliland not widely recognized
         
         // Crown dependencies and other European territories
         'Jersey': 'je',

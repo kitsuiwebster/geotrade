@@ -10,13 +10,13 @@ import { Card } from '../../interfaces/card.interface';
 import { allCardsData } from '../../data';
 
 @Component({
-  selector: 'app-cards',
+  selector: 'app-all-cards',
   standalone: true,
   imports: [CommonModule, FormsModule, RouterModule, CardComponent, NavbarComponent],
-  templateUrl: './cards.component.html',
-  styleUrls: ['./cards.component.scss']
+  templateUrl: './all-cards.component.html',
+  styleUrls: ['./all-cards.component.scss']
 })
-export class CardsComponent implements OnInit, AfterViewInit {
+export class AllCardsComponent implements OnInit, AfterViewInit {
   allCards: Card[] = [];
   cards: Card[] = [];
   shuffledCards: Card[] = [];
@@ -81,6 +81,9 @@ export class CardsComponent implements OnInit, AfterViewInit {
   ) {}
 
   ngOnInit() {
+    // Vérifier si le Real Mode est déjà actif
+    this.isRealMode = document.body.classList.contains('export-mode');
+    
     this.loadCards();
     // Charger les filtres depuis l'URL, puis appliquer les filtres
     this.activatedRoute.queryParams.subscribe(params => {

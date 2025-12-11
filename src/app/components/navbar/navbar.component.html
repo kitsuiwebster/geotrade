@@ -1,0 +1,55 @@
+<div class="navigation-tabs">
+  <a 
+    routerLink="/quizzes" 
+    class="nav-tab"
+    [class.active]="isActive('/quizzes')"
+    routerLinkActive="active">
+    <span class="tab-icon">🧠</span>
+    <span class="tab-text">Quizzes</span>
+  </a>
+  
+  <a 
+    routerLink="/my-cards" 
+    class="nav-tab"
+    [class.active]="isActive('/my-cards')"
+    routerLinkActive="active">
+    <span class="tab-icon">🎴</span>
+    <span class="tab-text">My Cards</span>
+  </a>
+  
+  <a 
+    routerLink="/all-cards" 
+    class="nav-tab"
+    [class.active]="isActive('/all-cards')"
+    routerLinkActive="active">
+    <span class="tab-icon">📚</span>
+    <span class="tab-text">All Cards</span>
+  </a>
+  
+  <a 
+    routerLink="/exchange" 
+    class="nav-tab"
+    [class.active]="isActive('/exchange')"
+    routerLinkActive="active">
+    <span class="tab-icon">🔄</span>
+    <span class="tab-text">Exchange</span>
+  </a>
+  
+  <a 
+    routerLink="/market" 
+    class="nav-tab"
+    [class.active]="isActive('/market')"
+    routerLinkActive="active">
+    <span class="tab-icon">🏪</span>
+    <span class="tab-text">Market</span>
+  </a>
+  
+  <a 
+    routerLink="/account" 
+    class="nav-tab"
+    [class.active]="isActive('/account')"
+    routerLinkActive="active">
+    <span class="tab-icon">👤</span>
+    <span class="tab-text">Account</span>
+  </a>
+</div>

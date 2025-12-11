@@ -1,0 +1,279 @@
+<div class='all-cards-container'>
+  <div class='header'>
+    <h1 class='header-title'>GeoTrade</h1>
+    <div class='buttons-container'>
+      <div class='card-count'>
+        {{ incomingRequests.length + outgoingRequests.length }} active exchanges
+      </div>
+      <button class='download-btn' (click)="startNewExchange()" [disabled]="isCreatingExchange">
+        <span class="btn-text">New Exchange</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Navigation Tabs -->
+  <app-navbar></app-navbar>
+
+  <!-- Exchange Section -->
+  <div class='exchange-section'>
+    <div class='section-header'>
+      <h2 class='section-title'>Direct Trading</h2>
+      <p class='section-subtitle'>Exchange cards directly with other players</p>
+    </div>
+
+    <!-- Exchange Tabs -->
+    <div class='exchange-tabs'>
+      <button 
+        class='tab-btn'
+        [class.active]="activeTab === 'incoming'"
+        (click)="setActiveTab('incoming')">
+        📥 Incoming ({{ incomingRequests.length }})
+      </button>
+      <button 
+        class='tab-btn'
+        [class.active]="activeTab === 'outgoing'"
+        (click)="setActiveTab('outgoing')">
+        📤 Outgoing ({{ outgoingRequests.length }})
+      </button>
+      <button 
+        class='tab-btn'
+        [class.active]="activeTab === 'history'"
+        (click)="setActiveTab('history')">
+        📋 History ({{ exchangeHistory.length }})
+      </button>
+    </div>
+
+    <!-- New Exchange Form -->
+    <div class='new-exchange-form' *ngIf="isCreatingExchange">
+      <div class='form-header'>
+        <h3>Create New Exchange</h3>
+        <button class='close-btn' (click)="cancelNewExchange()">✖</button>
+      </div>
+
+      <div class='form-content'>
+        <div class='form-section'>
+          <label>Select Player:</label>
+          <select [(ngModel)]="selectedUser" class='form-select'>
+            <option value="">Choose a player...</option>
+            <option *ngFor="let user of users" [value]="user">{{ user }}</option>
+          </select>
+        </div>
+
+        <div class='cards-selection'>
+          <div class='selection-section'>
+            <h4>Your Cards to Offer:</h4>
+            <div class='cards-grid small'>
+              <div 
+                *ngFor="let card of myCards"
+                class='card-wrapper'
+                [class.selected]="isCardOffered(card)"
+                (click)="toggleOfferedCard(card)">
+                <app-card [card]="card"></app-card>
+                <div class='selection-overlay' *ngIf="isCardOffered(card)">✓</div>
+              </div>
+            </div>
+          </div>
+
+          <div class='selection-section'>
+            <h4>Cards You Want:</h4>
+            <button class='add-card-btn' (click)="addRequestedCard()">+ Add Card</button>
+            <div class='cards-grid small' *ngIf="selectedRequestedCards.length > 0">
+              <div 
+                *ngFor="let card of selectedRequestedCards"
+                class='card-wrapper requested'>
+                <app-card [card]="card"></app-card>
+                <button class='remove-btn' (click)="removeRequestedCard(card)">✖</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class='form-section'>
+          <label>Message (optional):</label>
+          <textarea 
+            [(ngModel)]="exchangeMessage" 
+            class='form-textarea'
+            placeholder="Add a message to your exchange request..."></textarea>
+        </div>
+
+        <div class='form-actions'>
+          <button 
+            class='send-btn'
+            (click)="sendExchangeRequest()"
+            [disabled]="!selectedUser || selectedOfferedCards.length === 0 || selectedRequestedCards.length === 0">
+            Send Exchange Request
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exchange Lists -->
+    <div class='exchange-content' *ngIf="!isCreatingExchange">
+      <!-- Incoming Requests -->
+      <div class='requests-list' *ngIf="activeTab === 'incoming'">
+        <div class='request-card' *ngFor="let request of incomingRequests">
+          <div class='request-header'>
+            <div class='user-info'>
+              <span class='username'>{{ request.fromUser }}</span>
+              <span class='date'>{{ request.createdAt | date:'MMM d, yyyy' }}</span>
+            </div>
+            <div class='status' [style.color]="getStatusColor(request.status)">
+              {{ getStatusIcon(request.status) }} {{ request.status | titlecase }}
+            </div>
+          </div>
+
+          <div class='exchange-preview'>
+            <div class='offered-section'>
+              <h5>They Offer:</h5>
+              <div class='cards-preview'>
+                <app-card 
+                  *ngFor="let card of request.offeredCards" 
+                  [card]="card"
+                  class='preview-card'>
+                </app-card>
+              </div>
+            </div>
+
+            <div class='exchange-arrow'>⇄</div>
+
+            <div class='requested-section'>
+              <h5>They Want:</h5>
+              <div class='cards-preview'>
+                <app-card 
+                  *ngFor="let card of request.requestedCards" 
+                  [card]="card"
+                  class='preview-card'>
+                </app-card>
+              </div>
+            </div>
+          </div>
+
+          <div class='message' *ngIf="request.message">
+            <em>"{{ request.message }}"</em>
+          </div>
+
+          <div class='request-actions'>
+            <button class='accept-btn' (click)="acceptRequest(request)">
+              ✅ Accept
+            </button>
+            <button class='decline-btn' (click)="declineRequest(request)">
+              ❌ Decline
+            </button>
+          </div>
+        </div>
+
+        <div class='empty-state' *ngIf="incomingRequests.length === 0">
+          <div class='empty-icon'>📭</div>
+          <h3>No incoming requests</h3>
+          <p>You don't have any pending exchange requests.</p>
+        </div>
+      </div>
+
+      <!-- Outgoing Requests -->
+      <div class='requests-list' *ngIf="activeTab === 'outgoing'">
+        <div class='request-card' *ngFor="let request of outgoingRequests">
+          <div class='request-header'>
+            <div class='user-info'>
+              <span class='username'>To: {{ request.toUser }}</span>
+              <span class='date'>{{ request.createdAt | date:'MMM d, yyyy' }}</span>
+            </div>
+            <div class='status' [style.color]="getStatusColor(request.status)">
+              {{ getStatusIcon(request.status) }} {{ request.status | titlecase }}
+            </div>
+          </div>
+
+          <div class='exchange-preview'>
+            <div class='offered-section'>
+              <h5>You Offer:</h5>
+              <div class='cards-preview'>
+                <app-card 
+                  *ngFor="let card of request.offeredCards" 
+                  [card]="card"
+                  class='preview-card'>
+                </app-card>
+              </div>
+            </div>
+
+            <div class='exchange-arrow'>⇄</div>
+
+            <div class='requested-section'>
+              <h5>You Want:</h5>
+              <div class='cards-preview'>
+                <app-card 
+                  *ngFor="let card of request.requestedCards" 
+                  [card]="card"
+                  class='preview-card'>
+                </app-card>
+              </div>
+            </div>
+          </div>
+
+          <div class='message' *ngIf="request.message">
+            <em>"{{ request.message }}"</em>
+          </div>
+
+          <div class='request-actions'>
+            <button class='cancel-btn' (click)="cancelRequest(request)">
+              🗑️ Cancel Request
+            </button>
+          </div>
+        </div>
+
+        <div class='empty-state' *ngIf="outgoingRequests.length === 0">
+          <div class='empty-icon'>📤</div>
+          <h3>No outgoing requests</h3>
+          <p>You haven't sent any exchange requests yet.</p>
+        </div>
+      </div>
+
+      <!-- History -->
+      <div class='requests-list' *ngIf="activeTab === 'history'">
+        <div class='request-card history' *ngFor="let request of exchangeHistory">
+          <div class='request-header'>
+            <div class='user-info'>
+              <span class='username'>
+                {{ request.fromUser === 'You' ? 'To: ' + request.toUser : 'From: ' + request.fromUser }}
+              </span>
+              <span class='date'>{{ request.createdAt | date:'MMM d, yyyy' }}</span>
+            </div>
+            <div class='status' [style.color]="getStatusColor(request.status)">
+              {{ getStatusIcon(request.status) }} {{ request.status | titlecase }}
+            </div>
+          </div>
+
+          <div class='exchange-preview'>
+            <div class='offered-section'>
+              <h5>{{ request.fromUser === 'You' ? 'You' : 'They' }} Offered:</h5>
+              <div class='cards-preview'>
+                <app-card 
+                  *ngFor="let card of request.offeredCards" 
+                  [card]="card"
+                  class='preview-card'>
+                </app-card>
+              </div>
+            </div>
+
+            <div class='exchange-arrow completed'>⇄</div>
+
+            <div class='requested-section'>
+              <h5>{{ request.fromUser === 'You' ? 'You' : 'They' }} Wanted:</h5>
+              <div class='cards-preview'>
+                <app-card 
+                  *ngFor="let card of request.requestedCards" 
+                  [card]="card"
+                  class='preview-card'>
+                </app-card>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class='empty-state' *ngIf="exchangeHistory.length === 0">
+          <div class='empty-icon'>📜</div>
+          <h3>No exchange history</h3>
+          <p>Your completed exchanges will appear here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
