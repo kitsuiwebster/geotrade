@@ -220,5 +220,315 @@ export const territoriesData: Card[] = [
     population: "5 K",
     area: "102 km²",
     quizCategory: ["Territory", "Central America", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/tibet.jpg",
+    nom: "Tibet",
+    localisation: "Central Asia",
+    continent: "Asia",
+    population: "3.6 M",
+    area: "1,228,400 km²",
+    quizCategory: ["Territory", "Asia", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/hong-kong.jpg",
+    nom: "Hong Kong",
+    localisation: "Southern China",
+    continent: "Asia",
+    population: "7.5 M",
+    area: "1,106 km²",
+    quizCategory: ["Territory", "Asia", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/macao.jpg",
+    nom: "Macao",
+    localisation: "Southern China",
+    continent: "Asia",
+    population: "695 K",
+    area: "33 km²",
+    quizCategory: ["Territory", "Asia", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/sahara-occidental.jpg",
+    nom: "Western Sahara",
+    localisation: "Northwest Africa",
+    continent: "Africa",
+    population: "612 K",
+    area: "266,000 km²",
+    quizCategory: ["Territory", "Africa", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/iles-feroe.jpg",
+    nom: "Faroe Islands",
+    localisation: "North Atlantic",
+    continent: "Europe",
+    population: "53 K",
+    area: "1,396 km²",
+    quizCategory: ["Territory", "Europe", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/somaliland.jpg",
+    nom: "Somaliland",
+    localisation: "Horn of Africa",
+    continent: "Africa",
+    population: "5.7 M",
+    area: "176,120 km²",
+    quizCategory: ["Territory", "Africa", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/jersey.jpg",
+    nom: "Jersey",
+    localisation: "English Channel",
+    continent: "Europe",
+    population: "108 K",
+    area: "116 km²",
+    quizCategory: ["Territory", "Europe", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/guernesey.jpg",
+    nom: "Guernsey",
+    localisation: "English Channel",
+    continent: "Europe",
+    population: "67 K",
+    area: "78 km²",
+    quizCategory: ["Territory", "Europe", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/isle-of-man.jpg",
+    nom: "Isle of Man",
+    localisation: "Irish Sea",
+    continent: "Europe",
+    population: "85 K",
+    area: "572 km²",
+    quizCategory: ["Territory", "Europe", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/aland.jpg",
+    nom: "Åland",
+    localisation: "Baltic Sea",
+    continent: "Europe",
+    population: "30 K",
+    area: "1,580 km²",
+    quizCategory: ["Territory", "Europe", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/svalbard.jpg",
+    nom: "Svalbard",
+    localisation: "Arctic Ocean",
+    continent: "Europe",
+    population: "3 K",
+    area: "61,022 km²",
+    quizCategory: ["Territory", "Europe", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/jan-mayen.jpg",
+    nom: "Jan Mayen",
+    localisation: "Arctic Ocean",
+    continent: "Europe",
+    population: "0",
+    area: "377 km²",
+    quizCategory: ["Territory", "Europe", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/saint-helene.jpg",
+    nom: "Saint Helena",
+    localisation: "South Atlantic",
+    continent: "Africa",
+    population: "6 K",
+    area: "394 km²",
+    quizCategory: ["Territory", "Africa", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/ascension.jpg",
+    nom: "Ascension Island",
+    localisation: "South Atlantic",
+    continent: "Africa",
+    population: "1 K",
+    area: "88 km²",
+    quizCategory: ["Territory", "Africa", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/tristan-da-cunha.jpg",
+    nom: "Tristan da Cunha",
+    localisation: "South Atlantic",
+    continent: "Africa",
+    population: "0.3 K",
+    area: "207 km²",
+    quizCategory: ["Territory", "Africa", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/guyane-francaise.jpg",
+    nom: "French Guiana",
+    localisation: "South America",
+    continent: "South America",
+    population: "295 K",
+    area: "83,534 km²",
+    quizCategory: ["Territory", "South America", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/martinique.jpg",
+    nom: "Martinique",
+    localisation: "Caribbean",
+    continent: "Central America",
+    population: "375 K",
+    area: "1,128 km²",
+    quizCategory: ["Territory", "Central America", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/guadeloupe.jpg",
+    nom: "Guadeloupe",
+    localisation: "Caribbean",
+    continent: "Central America",
+    population: "400 K",
+    area: "1,628 km²",
+    quizCategory: ["Territory", "Central America", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/reunion.jpg",
+    nom: "Réunion",
+    localisation: "Indian Ocean",
+    continent: "Africa",
+    population: "895 K",
+    area: "2,511 km²",
+    quizCategory: ["Territory", "Africa", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/mayotte.jpg",
+    nom: "Mayotte",
+    localisation: "Indian Ocean",
+    continent: "Africa",
+    population: "280 K",
+    area: "374 km²",
+    quizCategory: ["Territory", "Africa", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/terres-australes-francaises.jpg",
+    nom: "French Southern and Antarctic Lands",
+    localisation: "Southern Ocean",
+    continent: "Antarctica",
+    population: "0.1 K",
+    area: "7,747 km²",
+    quizCategory: ["Territory", "Antarctica", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/bonaire.jpg",
+    nom: "Bonaire",
+    localisation: "Caribbean",
+    continent: "Central America",
+    population: "21 K",
+    area: "288 km²",
+    quizCategory: ["Territory", "Central America", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/saba.jpg",
+    nom: "Saba",
+    localisation: "Caribbean",
+    continent: "Central America",
+    population: "2 K",
+    area: "13 km²",
+    quizCategory: ["Territory", "Central America", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/saint-eustache.jpg",
+    nom: "Sint Eustatius",
+    localisation: "Caribbean",
+    continent: "Central America",
+    population: "3 K",
+    area: "21 km²",
+    quizCategory: ["Territory", "Central America", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/cook-islands.jpg",
+    nom: "Cook Islands",
+    localisation: "Polynesia",
+    continent: "Oceania",
+    population: "18 K",
+    area: "236 km²",
+    quizCategory: ["Territory", "Oceania", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/niue.jpg",
+    nom: "Niue",
+    localisation: "Polynesia",
+    continent: "Oceania",
+    population: "2 K",
+    area: "260 km²",
+    quizCategory: ["Territory", "Oceania", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/tokelau.jpg",
+    nom: "Tokelau",
+    localisation: "Polynesia",
+    continent: "Oceania",
+    population: "1 K",
+    area: "12 km²",
+    quizCategory: ["Territory", "Oceania", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/pitcairn.jpg",
+    nom: "Pitcairn Islands",
+    localisation: "Polynesia",
+    continent: "Oceania",
+    population: "0.05 K",
+    area: "43 km²",
+    quizCategory: ["Territory", "Oceania", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/norfolk.jpg",
+    nom: "Norfolk Island",
+    localisation: "Pacific Ocean",
+    continent: "Oceania",
+    population: "2 K",
+    area: "35 km²",
+    quizCategory: ["Territory", "Oceania", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/christmas-island.jpg",
+    nom: "Christmas Island",
+    localisation: "Indian Ocean",
+    continent: "Oceania",
+    population: "2 K",
+    area: "135 km²",
+    quizCategory: ["Territory", "Oceania", "General"]
+  },
+  {
+    type: "Territory",
+    image: "assets/images/cards/territory/cocos-islands.jpg",
+    nom: "Cocos Islands",
+    localisation: "Indian Ocean",
+    continent: "Oceania",
+    population: "0.6 K",
+    area: "14 km²",
+    quizCategory: ["Territory", "Oceania", "General"]
   }
 ];

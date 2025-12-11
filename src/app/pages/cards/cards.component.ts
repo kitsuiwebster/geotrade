@@ -47,8 +47,20 @@ export class CardsComponent implements OnInit, AfterViewInit {
     { value: 'Lake', label: 'Lakes', checked: false },
     { value: 'River', label: 'Rivers', checked: false },
     { value: 'Island', label: 'Islands', checked: false },
-    { value: 'Archipelago', label: 'Archipelagos', checked: false }
+    { value: 'Archipelago', label: 'Archipelagos', checked: false },
+    { value: 'Regions', label: 'Regions', checked: false }
   ];
+  
+  // Define all regional types
+  private regionalTypes = [
+    'US State', 'CA Province', 'CA Territory', 'Wilaya', 'AU State', 'AU Territory', 
+    'Region', 'Prefecture', 'Republic', 'Krai', 'Oblast', 'Federal City', 
+    'Autonomous Okrug', 'Autonomous Oblast'
+  ];
+  
+  private isRegionalCard(card: Card): boolean {
+    return this.regionalTypes.includes(card.type);
+  }
   
   // Continent filters
   continentFilters = [
@@ -270,7 +282,16 @@ export class CardsComponent implements OnInit, AfterViewInit {
     // Filtre par type
     const selectedTypes = this.typeFilters.filter(f => f.checked).map(f => f.value);
     if (selectedTypes.length > 0) {
-      filtered = filtered.filter(card => selectedTypes.includes(card.type));
+      filtered = filtered.filter(card => {
+        if (selectedTypes.includes('Regions')) {
+          // Si "Regions" est sélectionné, inclure toutes les cartes régionales ET les autres types sélectionnés
+          const otherSelectedTypes = selectedTypes.filter(type => type !== 'Regions');
+          return this.isRegionalCard(card) || otherSelectedTypes.includes(card.type);
+        } else {
+          // Sinon, filtrer normalement
+          return selectedTypes.includes(card.type);
+        }
+      });
     }
     
     // Filtre par continent

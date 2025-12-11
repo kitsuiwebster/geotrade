@@ -200,7 +200,12 @@ export class CardComponent implements OnInit, OnDestroy {
   }
 
   getFlagUrl(): string | null {
-    if (this.card.type === 'Country' || this.card.type === 'City' || this.card.type === 'Territory') {
+    if (this.card.type === 'Country' || this.card.type === 'City' || this.card.type === 'Territory' || 
+        this.card.type === 'US State' || this.card.type === 'CA Province' || this.card.type === 'CA Territory' ||
+        this.card.type === 'Region' || this.card.type === 'Wilaya' || this.card.type === 'AU State' || 
+        this.card.type === 'AU Territory' || this.card.type === 'Prefecture' || this.card.type === 'Republic' || this.card.type === 'Krai' || 
+        this.card.type === 'Oblast' || this.card.type === 'Federal City' || this.card.type === 'Autonomous Okrug' || 
+        this.card.type === 'Autonomous Oblast') {
       // Mapping des noms vers les codes pays pour les drapeaux
       const countryMapping: { [key: string]: string } = {
         // African countries
@@ -891,10 +896,84 @@ export class CardComponent implements OnInit, OnDestroy {
         'Fez': 'ma',
         'Marrakech': 'ma',
         'Tangier': 'ma',
-        'Monterrey': 'mx'
+        'Monterrey': 'mx',
+        
+        // Territory flags
+        'Puerto Rico': 'pr',
+        'Greenland': 'gl',
+        'Gibraltar': 'gi',
+        'Bermuda': 'bm',
+        'US Virgin Islands': 'vi',
+        'Guam': 'gu',
+        'New Caledonia': 'nc',
+        'French Polynesia': 'pf',
+        'Aruba': 'aw',
+        'Curaçao': 'cw',
+        'Saint Martin': 'mf',
+        'Saint Barthélemy': 'bl',
+        'Falkland Islands': 'fk',
+        'British Virgin Islands': 'vg',
+        'American Samoa': 'as',
+        'Saint Pierre and Miquelon': 'pm',
+        'Wallis and Futuna': 'wf',
+        'Cayman Islands': 'ky',
+        'Sint Maarten': 'sx',
+        'Turks and Caicos Islands': 'tc',
+        'Anguilla': 'ai',
+        'Montserrat': 'ms',
+        'Hong Kong': 'hk',
+        'Macao': 'mo',
+        'Western Sahara': 'eh',
+        'Faroe Islands': 'fo',
+        'Somaliland': 'so' // Using Somalia flag as Somaliland not widely recognized
+        
+        // Crown dependencies and other European territories
+        'Jersey': 'je',
+        'Guernsey': 'gg',
+        'Isle of Man': 'im',
+        'Åland': 'ax',
+        'Svalbard': 'sj',
+        'Jan Mayen': 'sj', // Same as Svalbard
+        
+        // British territories
+        'Saint Helena': 'sh',
+        'Ascension Island': 'ac',
+        'Tristan da Cunha': 'ta',
+        
+        // French overseas territories
+        'French Guiana': 'gf',
+        'Martinique': 'mq',
+        'Guadeloupe': 'gp',
+        'Réunion': 're',
+        'Mayotte': 'yt',
+        'French Southern and Antarctic Lands': 'tf',
+        
+        // Dutch territories
+        'Bonaire': 'bq',
+        'Saba': 'bq', // Same as Bonaire
+        'Sint Eustatius': 'bq', // Same as Bonaire
+        
+        // Pacific territories
+        'Cook Islands': 'ck',
+        'Niue': 'nu',
+        'Tokelau': 'tk',
+        'Pitcairn Islands': 'pn',
+        'Norfolk Island': 'nf',
+        'Christmas Island': 'cx',
+        'Cocos Islands': 'cc'
       };
       
-      const countryCode = countryMapping[this.card.nom];
+      // Pour les cartes régionales, utiliser le pays parent (localisation)
+      let lookupKey = this.card.nom;
+      if (this.card.type === 'US State' || this.card.type === 'CA Province' || this.card.type === 'CA Territory' ||
+          this.card.type === 'Region' || this.card.type === 'Wilaya' || this.card.type === 'AU State' || 
+          this.card.type === 'AU Territory' || this.card.type === 'Prefecture' || this.card.type === 'Republic' || this.card.type === 'Krai' || 
+          this.card.type === 'Oblast' || this.card.type === 'Federal City' || this.card.type === 'Autonomous Okrug' || 
+          this.card.type === 'Autonomous Oblast') {
+        lookupKey = this.card.localisation;
+      }
+      
+      const countryCode = countryMapping[lookupKey];
       if (countryCode) {
         // Cas spéciaux pour les drapeaux non-rectangulaires
         if (countryCode === 'ch' || countryCode === 'np') {

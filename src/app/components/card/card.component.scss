@@ -211,6 +211,37 @@
     }
   }
   
+  // Regional card types - all use #F54927
+  &[data-type="US State"], 
+  &[data-type="CA Province"], 
+  &[data-type="CA Territory"], 
+  &[data-type="Wilaya"], 
+  &[data-type="AU State"], 
+  &[data-type="AU Territory"], 
+  &[data-type="Region"], 
+  &[data-type="Prefecture"], 
+  &[data-type="Republic"], 
+  &[data-type="Krai"], 
+  &[data-type="Oblast"], 
+  &[data-type="Federal City"], 
+  &[data-type="Autonomous Okrug"], 
+  &[data-type="Autonomous Oblast"] {
+    box-shadow: 0 4px 12px rgba(245, 73, 39, 0.3);
+    &:hover {
+      box-shadow: 0 8px 20px rgba(245, 73, 39, 0.5);
+    }
+    .card-type-indicator {
+      background-color: #F54927;
+    }
+    .card-type {
+      color: #F54927 !important;
+      font-weight: bold !important;
+    }
+    .card-info-value {
+      color: #F54927 !important;
+    }
+  }
+  
   &:hover {
     transform: translateY(-5px);
   }
@@ -819,6 +850,34 @@
       color: #00FF7F !important;
     }
   }
+  
+  // Regional modal card types - all use #F54927
+  &[data-type="US State"], 
+  &[data-type="CA Province"], 
+  &[data-type="CA Territory"], 
+  &[data-type="Wilaya"], 
+  &[data-type="AU State"], 
+  &[data-type="AU Territory"], 
+  &[data-type="Region"], 
+  &[data-type="Prefecture"], 
+  &[data-type="Republic"], 
+  &[data-type="Krai"], 
+  &[data-type="Oblast"], 
+  &[data-type="Federal City"], 
+  &[data-type="Autonomous Okrug"], 
+  &[data-type="Autonomous Oblast"] {
+    box-shadow: 0 20px 60px rgba(245, 73, 39, 0.3);
+    .modal-card-type-indicator {
+      background-color: #F54927;
+    }
+    .modal-card-type {
+      color: #F54927 !important;
+      font-weight: bold !important;
+    }
+    .modal-card-info-value {
+      color: #F54927 !important;
+    }
+  }
 }
 
 // Responsive design - keep same scale on all devices
@@ -910,5 +969,23 @@
   
   &[data-type="Archipelago"] {
     border: 6px solid #00FF7F !important;
+  }
+  
+  // Regional export mode card types - all use #F54927
+  &[data-type="US State"], 
+  &[data-type="CA Province"], 
+  &[data-type="CA Territory"], 
+  &[data-type="Wilaya"], 
+  &[data-type="AU State"], 
+  &[data-type="AU Territory"], 
+  &[data-type="Region"], 
+  &[data-type="Prefecture"], 
+  &[data-type="Republic"], 
+  &[data-type="Krai"], 
+  &[data-type="Oblast"], 
+  &[data-type="Federal City"], 
+  &[data-type="Autonomous Okrug"], 
+  &[data-type="Autonomous Oblast"] {
+    border: 6px solid #F54927 !important;
   }
 }

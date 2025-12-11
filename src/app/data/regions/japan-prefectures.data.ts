@@ -1,0 +1,474 @@
+import { Card } from '../../interfaces/card.interface';
+
+export const japanPrefecturesData: Card[] = [
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/hokkaido.jpg",
+    nom: "Hokkaido",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "83,424 km²",
+    population: "5.25 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/aomori.jpg",
+    nom: "Aomori",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "9,645 km²",
+    population: "1.24 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/iwate.jpg",
+    nom: "Iwate",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "15,275 km²",
+    population: "1.23 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/miyagi.jpg",
+    nom: "Miyagi",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "7,282 km²",
+    population: "2.30 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/akita.jpg",
+    nom: "Akita",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "11,638 km²",
+    population: "966 K",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/yamagata.jpg",
+    nom: "Yamagata",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "9,323 km²",
+    population: "1.08 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/fukushima.jpg",
+    nom: "Fukushima",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "13,784 km²",
+    population: "1.85 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/ibaraki.jpg",
+    nom: "Ibaraki",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "6,097 km²",
+    population: "2.87 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/tochigi.jpg",
+    nom: "Tochigi",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "6,408 km²",
+    population: "1.94 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/gunma.jpg",
+    nom: "Gunma",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "6,362 km²",
+    population: "1.94 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/saitama.jpg",
+    nom: "Saitama",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "3,798 km²",
+    population: "7.34 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/chiba.jpg",
+    nom: "Chiba",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "5,157 km²",
+    population: "6.28 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/tokyo.jpg",
+    nom: "Tokyo",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "2,194 km²",
+    population: "14.05 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/kanagawa.jpg",
+    nom: "Kanagawa",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "2,416 km²",
+    population: "9.23 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/niigata.jpg",
+    nom: "Niigata",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "12,584 km²",
+    population: "2.20 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/toyama.jpg",
+    nom: "Toyama",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "4,248 km²",
+    population: "1.04 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/ishikawa.jpg",
+    nom: "Ishikawa",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "4,186 km²",
+    population: "1.13 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/fukui.jpg",
+    nom: "Fukui",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "4,190 km²",
+    population: "766 K",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/yamanashi.jpg",
+    nom: "Yamanashi",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "4,465 km²",
+    population: "817 K",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/nagano.jpg",
+    nom: "Nagano",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "13,562 km²",
+    population: "2.05 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/gifu.jpg",
+    nom: "Gifu",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "10,621 km²",
+    population: "1.99 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/shizuoka.jpg",
+    nom: "Shizuoka",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "7,777 km²",
+    population: "3.64 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/aichi.jpg",
+    nom: "Aichi",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "5,173 km²",
+    population: "7.55 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/mie.jpg",
+    nom: "Mie",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "5,774 km²",
+    population: "1.78 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/shiga.jpg",
+    nom: "Shiga",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "4,017 km²",
+    population: "1.41 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/kyoto.jpg",
+    nom: "Kyoto",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "4,612 km²",
+    population: "2.58 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/osaka.jpg",
+    nom: "Osaka",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "1,905 km²",
+    population: "8.84 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/hyogo.jpg",
+    nom: "Hyogo",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "8,401 km²",
+    population: "5.46 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/nara.jpg",
+    nom: "Nara",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "3,691 km²",
+    population: "1.33 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/wakayama.jpg",
+    nom: "Wakayama",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "4,725 km²",
+    population: "924 K",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/tottori.jpg",
+    nom: "Tottori",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "3,507 km²",
+    population: "556 K",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/shimane.jpg",
+    nom: "Shimane",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "6,708 km²",
+    population: "674 K",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/okayama.jpg",
+    nom: "Okayama",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "7,114 km²",
+    population: "1.89 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/hiroshima.jpg",
+    nom: "Hiroshima",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "8,479 km²",
+    population: "2.80 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/yamaguchi.jpg",
+    nom: "Yamaguchi",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "6,112 km²",
+    population: "1.34 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/tokushima.jpg",
+    nom: "Tokushima",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "4,147 km²",
+    population: "728 K",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/kagawa.jpg",
+    nom: "Kagawa",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "1,877 km²",
+    population: "956 K",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/ehime.jpg",
+    nom: "Ehime",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "5,676 km²",
+    population: "1.33 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/kochi.jpg",
+    nom: "Kochi",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "7,103 km²",
+    population: "691 K",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/fukuoka.jpg",
+    nom: "Fukuoka",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "4,986 km²",
+    population: "5.14 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/saga.jpg",
+    nom: "Saga",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "2,441 km²",
+    population: "811 K",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/nagasaki.jpg",
+    nom: "Nagasaki",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "4,132 km²",
+    population: "1.33 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/kumamoto.jpg",
+    nom: "Kumamoto",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "7,409 km²",
+    population: "1.74 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/oita.jpg",
+    nom: "Oita",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "6,341 km²",
+    population: "1.13 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/miyazaki.jpg",
+    nom: "Miyazaki",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "7,735 km²",
+    population: "1.07 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/kagoshima.jpg",
+    nom: "Kagoshima",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "9,187 km²",
+    population: "1.59 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  },
+  {
+    type: "Prefecture",
+    image: "assets/images/cards/region/japan/okinawa.jpg",
+    nom: "Okinawa",
+    localisation: "Japan",
+    continent: "Asia",
+    area: "2,281 km²",
+    population: "1.47 M",
+    quizCategory: ["Japan", "Asia", "General"]
+  }
+];
