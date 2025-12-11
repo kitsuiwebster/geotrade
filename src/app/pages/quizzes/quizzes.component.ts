@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from '../../components/navbar/navbar.component';
+import { FooterComponent } from '../../components/footer/footer.component';
 
 interface Quiz {
   id: number;
@@ -18,7 +19,7 @@ interface Quiz {
 @Component({
   selector: 'app-quizzes',
   standalone: true,
-  imports: [CommonModule, RouterModule, FormsModule, NavbarComponent],
+  imports: [CommonModule, RouterModule, FormsModule, NavbarComponent, FooterComponent],
   templateUrl: './quizzes.component.html',
   styleUrls: ['./quizzes.component.scss']
 })

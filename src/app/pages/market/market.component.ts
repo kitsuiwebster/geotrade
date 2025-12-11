@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from '../../components/navbar/navbar.component';
 import { CardComponent } from '../../components/card/card.component';
+import { FooterComponent } from '../../components/footer/footer.component';
 import { Card } from '../../interfaces/card.interface';
 import { allCardsData } from '../../data';
 
@@ -38,7 +39,7 @@ interface TradeProposal {
 @Component({
   selector: 'app-market',
   standalone: true,
-  imports: [CommonModule, RouterModule, FormsModule, NavbarComponent, CardComponent],
+  imports: [CommonModule, RouterModule, FormsModule, NavbarComponent, CardComponent, FooterComponent],
   templateUrl: './market.component.html',
   styleUrls: ['./market.component.scss']
 })

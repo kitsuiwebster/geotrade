@@ -1,7 +1,19 @@
 @import '../cards/cards.component.scss';
 
+.all-cards-container {
+  display: flex;
+  flex-direction: column;
+
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .account-section {
   margin-top: 20px;
+  flex: 1;
   
   .section-header {
     text-align: center;

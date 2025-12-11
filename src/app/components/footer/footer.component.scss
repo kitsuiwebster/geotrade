@@ -1,0 +1,138 @@
+.footer {
+  background: linear-gradient(135deg, rgba(10, 26, 26, 0.95) 0%, rgba(13, 38, 38, 0.98) 100%);
+  border-top: 1px solid rgba(0, 201, 167, 0.2);
+  border-radius: 20px;
+  padding: 40px 20px 20px;
+  margin-top: 60px;
+  backdrop-filter: blur(10px);
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    
+    .footer-section {
+      h3.footer-title {
+        color: #00c9a7;
+        font-family: "Courier New", monospace;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0 0 12px 0;
+        text-shadow: 0 0 15px rgba(0, 201, 167, 0.3);
+      }
+      
+      .footer-description {
+        color: rgba(255, 255, 255, 0.7);
+        font-family: "Courier New", monospace;
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0;
+      }
+      
+      h4 {
+        color: rgba(255, 255, 255, 0.9);
+        font-family: "Courier New", monospace;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0 0 16px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        
+        li {
+          margin-bottom: 8px;
+          
+          a {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            font-family: "Courier New", monospace;
+            font-size: 13px;
+            transition: all 0.3s ease;
+            
+            &:hover {
+              color: #00c9a7;
+              text-shadow: 0 0 8px rgba(0, 201, 167, 0.4);
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid rgba(0, 201, 167, 0.1);
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    
+    p {
+      color: rgba(255, 255, 255, 0.5);
+      font-family: "Courier New", monospace;
+      font-size: 12px;
+      margin: 0;
+      letter-spacing: 0.3px;
+    }
+  }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 15px 20px;
+    margin-top: 40px;
+    
+    .footer-content {
+      grid-template-columns: 1fr;
+      gap: 25px;
+      text-align: center;
+      
+      .footer-section {
+        h3.footer-title {
+          font-size: 20px;
+        }
+        
+        h4 {
+          font-size: 14px;
+          margin-bottom: 12px;
+        }
+        
+        ul li a {
+          font-size: 12px;
+        }
+      }
+    }
+    
+    .footer-bottom {
+      margin-top: 25px;
+      padding-top: 15px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 25px 10px 15px;
+    margin-top: 30px;
+    
+    .footer-content {
+      gap: 20px;
+      
+      .footer-section {
+        h3.footer-title {
+          font-size: 18px;
+        }
+        
+        .footer-description {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

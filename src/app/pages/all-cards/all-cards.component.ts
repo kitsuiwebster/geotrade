@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { Router, ActivatedRoute, RouterModule } from '@angular/router';
 import { CardComponent } from '../../components/card/card.component';
 import { NavbarComponent } from '../../components/navbar/navbar.component';
+import { FooterComponent } from '../../components/footer/footer.component';
 import html2canvas from 'html2canvas';
 import JSZip from 'jszip';
 import { Card } from '../../interfaces/card.interface';
@@ -12,7 +13,7 @@ import { allCardsData } from '../../data';
 @Component({
   selector: 'app-all-cards',
   standalone: true,
-  imports: [CommonModule, FormsModule, RouterModule, CardComponent, NavbarComponent],
+  imports: [CommonModule, FormsModule, RouterModule, CardComponent, NavbarComponent, FooterComponent],
   templateUrl: './all-cards.component.html',
   styleUrls: ['./all-cards.component.scss']
 })

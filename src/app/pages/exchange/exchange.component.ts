@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from '../../components/navbar/navbar.component';
 import { CardComponent } from '../../components/card/card.component';
+import { FooterComponent } from '../../components/footer/footer.component';
 import { Card } from '../../interfaces/card.interface';
 import { allCardsData } from '../../data';
 
@@ -21,7 +22,7 @@ interface ExchangeRequest {
 @Component({
   selector: 'app-exchange',
   standalone: true,
-  imports: [CommonModule, RouterModule, FormsModule, NavbarComponent, CardComponent],
+  imports: [CommonModule, RouterModule, FormsModule, NavbarComponent, CardComponent, FooterComponent],
   templateUrl: './exchange.component.html',
   styleUrls: ['./exchange.component.scss']
 })

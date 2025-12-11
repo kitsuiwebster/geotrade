@@ -4,13 +4,14 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { CardComponent } from '../../components/card/card.component';
 import { NavbarComponent } from '../../components/navbar/navbar.component';
+import { FooterComponent } from '../../components/footer/footer.component';
 import { Card } from '../../interfaces/card.interface';
 import { allCardsData } from '../../data';
 
 @Component({
   selector: 'app-my-cards',
   standalone: true,
-  imports: [CommonModule, RouterModule, FormsModule, CardComponent, NavbarComponent],
+  imports: [CommonModule, RouterModule, FormsModule, CardComponent, NavbarComponent, FooterComponent],
   templateUrl: './my-cards.component.html',
   styleUrls: ['./my-cards.component.scss']
 })
@@ -24,26 +25,26 @@ export class MyCardsComponent implements OnInit {
   isRealMode = false;
   
   typeFilters = [
-    { label: 'Countries', value: 'Country', checked: true },
-    { label: 'Territories', value: 'Territory', checked: true },
-    { label: 'Mountains', value: 'Mountain', checked: true },
-    { label: 'Cities', value: 'City', checked: true },
-    { label: 'Rivers', value: 'River', checked: true },
-    { label: 'Islands', value: 'Island', checked: true },
-    { label: 'Archipelagos', value: 'Archipelago', checked: true },
-    { label: 'Lakes', value: 'Lake', checked: true },
-    { label: 'Seas', value: 'Sea', checked: true },
-    { label: 'Deserts', value: 'Desert', checked: true },
-    { label: 'Oceans', value: 'Ocean', checked: true }
+    { value: 'Country', label: 'Countries', checked: false },
+    { value: 'Territory', label: 'Territories', checked: false },
+    { value: 'Mountain', label: 'Mountains', checked: false },
+    { value: 'City', label: 'Cities', checked: false },
+    { value: 'River', label: 'Rivers', checked: false },
+    { value: 'Island', label: 'Islands', checked: false },
+    { value: 'Archipelago', label: 'Archipelagos', checked: false },
+    { value: 'Lake', label: 'Lakes', checked: false },
+    { value: 'Sea', label: 'Seas', checked: false },
+    { value: 'Desert', label: 'Deserts', checked: false },
+    { value: 'Ocean', label: 'Oceans', checked: false }
   ];
   
   continentFilters = [
-    { label: 'Europe', value: 'Europe', checked: true },
-    { label: 'Asia', value: 'Asia', checked: true },
-    { label: 'Africa', value: 'Africa', checked: true },
-    { label: 'South America', value: 'South America', checked: true },
-    { label: 'Global', value: 'Global', checked: true },
-    { label: 'All Others', value: 'Others', checked: true }
+    { value: 'Europe', label: 'Europe', checked: false },
+    { value: 'Asia', label: 'Asia', checked: false },
+    { value: 'Africa', label: 'Africa', checked: false },
+    { value: 'South America', label: 'South America', checked: false },
+    { value: 'Global', label: 'Global', checked: false },
+    { value: 'Others', label: 'All Others', checked: false }
   ];
 
   ngOnInit(): void {
@@ -53,17 +54,18 @@ export class MyCardsComponent implements OnInit {
     // Sélectionner une carte de chaque type pour la collection de l'utilisateur
     this.userCards = allCardsData.filter(card => 
       card.nom === 'France' ||                                    // Country
-      card.nom === 'Puerto Rico' ||                               // Territory
+      card.nom === 'Saint Pierre and Miquelon' ||                 // Territory  
       card.nom === 'Matterhorn' ||                                // Mountain
       card.nom === 'Ljubljana' ||                                 // City
       card.nom === 'Amazon' ||                                    // River
       (card.nom === 'Hokkaido' && card.type === 'Island') ||      // Island
-      card.nom === 'Azores' ||                                    // Archipelago
+      card.nom === 'Canary Islands' ||                            // Archipelago
       card.nom === 'Lake Baikal' ||                               // Lake
-      card.nom === 'Mediterranean' ||                             // Sea
+      card.nom === 'Mediterranean Sea' ||                        // Sea
       card.nom === 'Sahara' ||                                    // Desert
-      card.nom === 'Pacific'                                      // Ocean
+      card.nom === 'Pacific Ocean'                                // Ocean
     );
+    
     this.applyFilters();
   }
   
@@ -113,8 +115,8 @@ export class MyCardsComponent implements OnInit {
   
   clearAllFilters(): void {
     this.searchTerm = '';
-    this.typeFilters.forEach(filter => filter.checked = true);
-    this.continentFilters.forEach(filter => filter.checked = true);
+    this.typeFilters.forEach(filter => filter.checked = false);
+    this.continentFilters.forEach(filter => filter.checked = false);
     this.applyFilters();
   }
 }

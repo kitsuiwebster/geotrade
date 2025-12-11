@@ -11,6 +11,8 @@
   bottom: 0;
   overflow-y: auto;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 
   .header {
     display: flex;
@@ -70,6 +72,7 @@
 
 .exchange-section {
   margin-top: 20px;
+  flex: 1;
   
   .section-header {
     text-align: center;
