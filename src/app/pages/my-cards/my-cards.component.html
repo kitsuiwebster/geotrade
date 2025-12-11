@@ -3,8 +3,9 @@
     <h1 class='header-title'>GeoTrade</h1>
     <div class='buttons-container'>
       <div class='card-count'>{{ displayedCards.length }} cards</div>
-      <button class='download-btn'>
-        <span class="btn-text">Download</span>
+      <button class='download-btn' (click)="downloadAllCards()" [disabled]="isLoading">
+        <span class="btn-text" *ngIf="!isLoading">Download</span>
+        <span class="btn-text" *ngIf="isLoading">{{ Math.round(progress) }}%</span>
       </button>
       <button class='toggle-mode-btn' (click)="toggleDisplayMode()" [class.active]="isRealMode">
         <span class="btn-text">{{ isRealMode ? 'Real Mode' : 'Web Mode' }}</span>
