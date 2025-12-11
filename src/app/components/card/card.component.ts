@@ -66,6 +66,14 @@ export class CardComponent implements OnInit, OnDestroy {
     this.modalImageFullyDisplayed = false;
     document.body.style.overflow = 'hidden';
     
+    // Déplacer le modal vers le body pour éviter les containers parents
+    setTimeout(() => {
+      const modalElement = this.elementRef.nativeElement.querySelector('.modal-overlay');
+      if (modalElement && modalElement.parentNode !== document.body) {
+        document.body.appendChild(modalElement);
+      }
+    }, 0);
+    
     const img = new Image();
     img.onload = () => {
       this.modalImageSrc = this.getFullImageUrl();
@@ -107,6 +115,12 @@ export class CardComponent implements OnInit, OnDestroy {
   closeModal() {
     this.isModalOpen = false;
     document.body.style.overflow = 'auto';
+    
+    // Remettre le modal dans son container d'origine
+    const modalElement = document.body.querySelector('.modal-overlay');
+    if (modalElement && modalElement.parentNode === document.body) {
+      this.elementRef.nativeElement.appendChild(modalElement);
+    }
   }
 
   getCardInfo(): string {
