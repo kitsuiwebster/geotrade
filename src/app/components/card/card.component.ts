@@ -26,6 +26,8 @@ export class CardComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.setupIntersectionObserver();
+    // S'assurer que le modal est fermé au démarrage
+    this.isModalOpen = false;
   }
 
   ngOnDestroy() {

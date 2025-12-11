@@ -454,6 +454,15 @@
       transform: scale(3);
     }
   }
+  
+  // Éviter l'animation sur les nouveaux composants
+  &:not(.active) {
+    transition: none !important;
+    
+    .modal-card {
+      transition: none !important;
+    }
+  }
 }
 
 .modal-card {
