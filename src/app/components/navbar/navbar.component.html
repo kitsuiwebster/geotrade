@@ -45,6 +45,15 @@
   </a>
   
   <a 
+    routerLink="/friends" 
+    class="nav-tab"
+    [class.active]="isActive('/friends')"
+    routerLinkActive="active">
+    <span class="tab-icon">👥</span>
+    <span class="tab-text">Friends</span>
+  </a>
+  
+  <a 
     routerLink="/account" 
     class="nav-tab"
     [class.active]="isActive('/account')"

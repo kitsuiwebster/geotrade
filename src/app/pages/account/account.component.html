@@ -1,10 +1,10 @@
 <div class='all-cards-container'>
   <div class='header'>
-    <h1 class='header-title'>GeoTrade</h1>
+    <h1 class='header-title'>GeoTrade ⚠️ Site under construction - All pages are mocked</h1>
     <div class='buttons-container'>
-      <div class='card-count'>Level {{ stats.level }}</div>
-      <button class='download-btn' (click)="updateProfile()">
-        <span class="btn-text">Save Profile</span>
+      <div class='card-count'>Account</div>
+      <button class='download-btn' (click)="updateAccount()">
+        <span class="btn-text">Save Account</span>
       </button>
       <button class='toggle-mode-btn' (click)="logout()">
         <span class="btn-text">Logout</span>
@@ -27,30 +27,34 @@
       <!-- Profile Card -->
       <div class='profile-card'>
         <div class='profile-header'>
-          <div class='avatar'>{{ user.avatar }}</div>
+          <div class='avatar'>
+            <img [src]="user.avatar" alt="Avatar" class='avatar-img'>
+          </div>
           <div class='profile-info'>
-            <h3 class='username'>{{ user.username }}</h3>
+            <h3 class='display-name'>{{ user.displayName }}</h3>
+            <p class='username'>{{ '@' + user.username }}</p>
             <p class='email'>{{ user.email }}</p>
-            <p class='join-date'>Member since {{ user.joinDate | date:'MMM yyyy' }}</p>
           </div>
         </div>
 
-        <!-- Level Progress -->
-        <div class='level-progress'>
-          <div class='level-info'>
-            <span class='level-label'>Level {{ stats.level }}</span>
-            <span class='xp-info'>{{ stats.xp }} / {{ stats.nextLevelXp }} XP</span>
-          </div>
-          <div class='progress-bar'>
-            <div class='progress-fill' [style.width.%]="xpProgress"></div>
-          </div>
+        <!-- Profile Actions -->
+        <div class='profile-actions'>
+          <button class='preview-profile-btn' (click)="previewProfile()">
+            <span class="btn-text">Preview Profile</span>
+          </button>
         </div>
 
         <!-- Profile Form -->
         <div class='profile-form'>
           <div class='form-group'>
             <label>Username</label>
-            <input type='text' [(ngModel)]="user.username" class='form-input'>
+            <input type='text' [value]="user.username" class='form-input' readonly>
+            <small class='field-note'>Username cannot be changed</small>
+          </div>
+          
+          <div class='form-group'>
+            <label>Display Name</label>
+            <input type='text' [(ngModel)]="user.displayName" class='form-input'>
           </div>
           
           <div class='form-group'>
@@ -60,8 +64,40 @@
           
           <div class='form-group'>
             <label>Avatar</label>
-            <input type='text' [(ngModel)]="user.avatar" class='form-input' maxlength="2">
+            <div class='avatar-upload'>
+              <div class='avatar-preview'>
+                <img [src]="user.avatar" alt="Avatar" class='avatar-img'>
+              </div>
+              <input type='file' accept='image/*' (change)="onAvatarUpload($event)" class='file-input' id='avatar-upload'>
+              <label for='avatar-upload' class='upload-btn'>Upload Avatar</label>
+            </div>
           </div>
+        </div>
+      </div>
+
+      <!-- Security Card -->
+      <div class='security-card'>
+        <h3 class='card-title'>Security</h3>
+        
+        <div class='security-form'>
+          <div class='form-group'>
+            <label>Current Password</label>
+            <input type='password' [(ngModel)]="passwordForm.currentPassword" class='form-input' placeholder="Enter current password">
+          </div>
+          
+          <div class='form-group'>
+            <label>New Password</label>
+            <input type='password' [(ngModel)]="passwordForm.newPassword" class='form-input' placeholder="Enter new password">
+          </div>
+          
+          <div class='form-group'>
+            <label>Confirm New Password</label>
+            <input type='password' [(ngModel)]="passwordForm.confirmPassword" class='form-input' placeholder="Confirm new password">
+          </div>
+          
+          <button class='change-password-btn' (click)="changePassword()" [disabled]="!isPasswordFormValid()">
+            <span class="btn-text">Change Password</span>
+          </button>
         </div>
       </div>
 
@@ -74,25 +110,44 @@
             <div class='stat-icon'>🎴</div>
             <div class='stat-value'>{{ stats.totalCards }}</div>
             <div class='stat-label'>Cards Collected</div>
+            <div class='stat-sublabel'>{{ getCollectionPercentage() }}% Complete</div>
           </div>
           
           <div class='stat-item'>
             <div class='stat-icon'>✅</div>
             <div class='stat-value'>{{ stats.quizzesCompleted }}</div>
             <div class='stat-label'>Quizzes Completed</div>
+            <div class='stat-sublabel'>{{ stats.quizzesTotal }} Available</div>
           </div>
           
           <div class='stat-item'>
-            <div class='stat-icon'>🔥</div>
-            <div class='stat-value'>{{ stats.winStreak }}</div>
-            <div class='stat-label'>Win Streak</div>
+            <div class='stat-icon'>🔄</div>
+            <div class='stat-value'>{{ stats.exchangesPending }}</div>
+            <div class='stat-label'>Pending Exchanges</div>
+            <div class='stat-sublabel'>Awaiting Response</div>
           </div>
           
           <div class='stat-item'>
-            <div class='stat-icon'>⭐</div>
-            <div class='stat-value'>{{ stats.level }}</div>
-            <div class='stat-label'>Current Level</div>
+            <div class='stat-icon'>🏪</div>
+            <div class='stat-value'>{{ stats.marketDealsCompleted }}</div>
+            <div class='stat-label'>Market Deals</div>
+            <div class='stat-sublabel'>Successfully Completed</div>
           </div>
+          
+          <div class='stat-item'>
+            <div class='stat-icon'>👥</div>
+            <div class='stat-value'>{{ stats.friendsCount }}</div>
+            <div class='stat-label'>Friends</div>
+            <div class='stat-sublabel'>Trading Partners</div>
+          </div>
+          
+          <div class='stat-item'>
+            <div class='stat-icon'>🏆</div>
+            <div class='stat-value'>{{ unlockedAchievements.length }}</div>
+            <div class='stat-label'>Achievements</div>
+            <div class='stat-sublabel'>{{ stats.achievementsTotal }} Total</div>
+          </div>
+          
         </div>
       </div>
 

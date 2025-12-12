@@ -11,6 +11,7 @@ import { allCardsData } from '../../data';
 interface MarketOffer {
   id: number;
   seller: string;
+  sellerId: string;
   cardOffered: Card;
   cardsWanted: Card[];
   description: string;
@@ -21,6 +22,7 @@ interface MarketOffer {
 interface MarketRequest {
   id: number;
   buyer: string;
+  buyerId: string;
   cardWanted: Card;
   cardsOffered: Card[];
   description: string;
@@ -93,6 +95,7 @@ export class MarketComponent implements OnInit {
       {
         id: 1,
         seller: 'GeoMaster',
+        sellerId: 'user123',
         cardOffered: allCardsData.find(c => c.nom === 'Spain')!,
         cardsWanted: [
           allCardsData.find(c => c.nom === 'Portugal')!,
@@ -105,6 +108,7 @@ export class MarketComponent implements OnInit {
       {
         id: 2,
         seller: 'CardCollector',
+        sellerId: 'user456',
         cardOffered: allCardsData.find(c => c.nom === 'Mount Everest')!,
         cardsWanted: [
           allCardsData.find(c => c.nom === 'K2')!,
@@ -118,6 +122,7 @@ export class MarketComponent implements OnInit {
       {
         id: 3,
         seller: 'WorldExplorer',
+        sellerId: 'user789',
         cardOffered: allCardsData.find(c => c.nom === 'Amazon')!,
         cardsWanted: [
           allCardsData.find(c => c.nom === 'Nile')!,
@@ -134,6 +139,7 @@ export class MarketComponent implements OnInit {
       {
         id: 1,
         buyer: 'MapLover',
+        buyerId: 'user101',
         cardWanted: allCardsData.find(c => c.nom === 'France')!,
         cardsOffered: [
           allCardsData.find(c => c.nom === 'Germany')!,
@@ -147,6 +153,7 @@ export class MarketComponent implements OnInit {
       {
         id: 2,
         buyer: 'PeakHunter',
+        buyerId: 'user202',
         cardWanted: allCardsData.find(c => c.nom === 'Matterhorn')!,
         cardsOffered: [
           allCardsData.find(c => c.nom === 'Mont Blanc')!,
@@ -159,6 +166,7 @@ export class MarketComponent implements OnInit {
       {
         id: 3,
         buyer: 'CityCollector',
+        buyerId: 'user303',
         cardWanted: allCardsData.find(c => c.nom === 'Ljubljana')!,
         cardsOffered: [
           allCardsData.find(c => c.nom === 'Prague')!,
@@ -253,6 +261,7 @@ export class MarketComponent implements OnInit {
       const newOffer: MarketOffer = {
         id: Date.now(),
         seller: 'You',
+        sellerId: 'currentUser',
         cardOffered: this.selectedOfferCard,
         cardsWanted: [...this.offerWantedCards],
         description: this.offerDescription,
@@ -299,6 +308,7 @@ export class MarketComponent implements OnInit {
       const newRequest: MarketRequest = {
         id: Date.now(),
         buyer: 'You',
+        buyerId: 'currentUser',
         cardWanted: this.selectedRequestCard,
         cardsOffered: [...this.requestOfferedCards],
         description: this.requestDescription,
@@ -352,5 +362,9 @@ export class MarketComponent implements OnInit {
 
   hasCard(card: Card): boolean {
     return this.myCards.some(c => c.nom === card.nom);
+  }
+
+  openUserProfile(userId: string): void {
+    window.open(`/user/${userId}`, '_blank');
   }
 }

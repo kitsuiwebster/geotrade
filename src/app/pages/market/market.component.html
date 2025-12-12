@@ -179,7 +179,7 @@
         <div class='listing-card offer' *ngFor="let offer of filteredOffers">
           <div class='listing-header'>
             <div class='seller-info'>
-              <span class='seller-name'>{{ offer.seller }}</span>
+              <span class='seller-name clickable-profile' (click)="openUserProfile(offer.sellerId)">{{ offer.seller }}</span>
               <span class='listing-date'>{{ offer.createdAt | date:'MMM d' }}</span>
             </div>
             <div class='listing-type'>💰 OFFER</div>
@@ -231,7 +231,7 @@
         <div class='listing-card request' *ngFor="let request of filteredRequests">
           <div class='listing-header'>
             <div class='seller-info'>
-              <span class='seller-name'>{{ request.buyer }}</span>
+              <span class='seller-name clickable-profile' (click)="openUserProfile(request.buyerId)">{{ request.buyer }}</span>
               <span class='listing-date'>{{ request.createdAt | date:'MMM d' }}</span>
             </div>
             <div class='listing-type'>🔍 REQUEST</div>

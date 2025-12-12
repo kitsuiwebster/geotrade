@@ -7,11 +7,13 @@ import { FooterComponent } from '../../components/footer/footer.component';
 
 interface UserStats {
   totalCards: number;
+  totalCardsAvailable: number;
   quizzesCompleted: number;
-  winStreak: number;
-  level: number;
-  xp: number;
-  nextLevelXp: number;
+  quizzesTotal: number;
+  exchangesPending: number;
+  marketDealsCompleted: number;
+  friendsCount: number;
+  achievementsTotal: number;
 }
 
 interface Achievement {
@@ -32,19 +34,27 @@ interface Achievement {
 })
 export class AccountComponent implements OnInit {
   user = {
-    username: 'GeoExplorer',
+    username: 'geoexplorer',
+    displayName: 'GeoExplorer',
     email: 'explorer@geotrade.com',
-    joinDate: new Date('2024-01-15'),
-    avatar: '🌍'
+    avatar: 'assets/images/pp_default.jpg'
   };
 
   stats: UserStats = {
-    totalCards: 3,
-    quizzesCompleted: 1,
-    winStreak: 1,
-    level: 2,
-    xp: 250,
-    nextLevelXp: 500
+    totalCards: 11,
+    totalCardsAvailable: 3127,
+    quizzesCompleted: 2,
+    quizzesTotal: 15,
+    exchangesPending: 3,
+    marketDealsCompleted: 7,
+    friendsCount: 12,
+    achievementsTotal: 25
+  };
+
+  passwordForm = {
+    currentPassword: '',
+    newPassword: '',
+    confirmPassword: ''
   };
 
   achievements: Achievement[] = [
@@ -83,9 +93,6 @@ export class AccountComponent implements OnInit {
     // Simulation initialization
   }
 
-  get xpProgress(): number {
-    return (this.stats.xp / this.stats.nextLevelXp) * 100;
-  }
 
   get unlockedAchievements(): Achievement[] {
     return this.achievements.filter(a => a.unlocked);
@@ -95,13 +102,57 @@ export class AccountComponent implements OnInit {
     return this.achievements.filter(a => !a.unlocked);
   }
 
-  updateProfile(): void {
-    console.log('Profile updated');
-    // Mock profile update
+  getCollectionPercentage(): number {
+    return Math.round((this.stats.totalCards / this.stats.totalCardsAvailable) * 100);
+  }
+
+  onAvatarUpload(event: any): void {
+    const file = event.target.files[0];
+    if (file) {
+      console.log('Avatar file selected:', file.name);
+      // Mock file upload - will use API endpoint later
+      // POST /api/upload/avatar
+    }
+  }
+
+  updateAccount(): void {
+    console.log('Account updated');
+    // Mock account update - will use API endpoint later  
+    // PUT /api/auth/account
+  }
+
+  isPasswordFormValid(): boolean {
+    return this.passwordForm.currentPassword.length > 0 &&
+           this.passwordForm.newPassword.length >= 6 &&
+           this.passwordForm.newPassword === this.passwordForm.confirmPassword;
+  }
+
+  changePassword(): void {
+    if (!this.isPasswordFormValid()) {
+      return;
+    }
+    
+    console.log('Password change requested');
+    // Mock password change - will use API endpoint later
+    // PUT /api/auth/password
+    
+    // Reset form after successful change
+    this.passwordForm = {
+      currentPassword: '',
+      newPassword: '',
+      confirmPassword: ''
+    };
+    
+    alert('Password changed successfully!');
   }
 
   logout(): void {
     console.log('User logged out');
     // Mock logout
+  }
+
+  previewProfile(): void {
+    const userId = 'demo123'; // Mock current user ID
+    window.open(`/user/${userId}`, '_blank');
   }
 }
