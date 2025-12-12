@@ -39,6 +39,8 @@ export class UserProfileComponent implements OnInit {
       displayName: `User ${this.userId}`,
       email: `user${this.userId}@geotrade.com`,
       avatar: 'assets/images/pp_default.jpg',
+      country: 'Spain',
+      city: 'Madrid',
       joinDate: new Date('2024-01-15'),
       coverImage: 'assets/images/default-cover.jpg',
       favoriteCards: favoriteCards,

@@ -35,6 +35,7 @@
             <div class='profile-info'>
               <h3 class='display-name'>{{ user.displayName }}</h3>
               <p class='username'>{{ '@' + user.username }}</p>
+              <p class='location'>📍 {{ user.city ? user.city + ', ' : '' }}{{ user.country }}</p>
             </div>
           </div>
 

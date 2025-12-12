@@ -14,6 +14,8 @@ Request: {
   displayName: string;               // Display name (can be changed)
   email: string;
   password: string;
+  country: string;                   // User's country (required)
+  city?: string;                     // User's city (optional)
   avatar?: string;
 }
 Response: {
@@ -51,6 +53,8 @@ Response: {
   displayName: string;                // Display name (changeable)
   email: string;
   avatar?: string;                    // Image URL (defaults to pp_default.jpg)
+  country: string;                    // User's country (required)
+  city?: string;                      // User's city (optional)
   
   // Game Statistics  
   totalCards: number;                // Cards in collection
@@ -83,6 +87,8 @@ Request: {
   // Basic Info (editable)
   displayName?: string;              // Display name (changeable)
   avatar?: string;                   // Uploaded image URL
+  country?: string;                  // User's country (required)
+  city?: string;                     // User's city (optional)
   // Note: username cannot be changed after registration
   
   // Preferences (editable)
@@ -849,6 +855,8 @@ CREATE TABLE users (
   
   -- Basic Profile
   avatar text DEFAULT 'assets/images/pp_default.jpg', -- Image URL
+  country text NOT NULL,               -- User's country (required)
+  city text,                           -- User's city (optional)
   created_at timestamp DEFAULT now(),
   
   -- Game Statistics

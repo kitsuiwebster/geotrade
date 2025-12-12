@@ -37,7 +37,9 @@ export class AccountComponent implements OnInit {
     username: 'geoexplorer',
     displayName: 'GeoExplorer',
     email: 'explorer@geotrade.com',
-    avatar: 'assets/images/pp_default.jpg'
+    avatar: 'assets/images/pp_default.jpg',
+    country: 'France',
+    city: 'Paris'
   };
 
   stats: UserStats = {
