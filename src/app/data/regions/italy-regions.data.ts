@@ -183,7 +183,7 @@ export const italyRegionsData: Card[] = [
   },
   {
     type: "Region",
-    image: "assets/images/cards/region/italy/valle-d-aosta.jpg",
+    image: "assets/images/cards/region/italy/valle-daosta.jpg",
     nom: "Valle d'Aosta",
     localisation: "Italy",
     continent: "Europe",

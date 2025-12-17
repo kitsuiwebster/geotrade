@@ -963,12 +963,11 @@ export class CardComponent implements OnInit, OnDestroy {
         'Guadeloupe': 'gp',
         'Réunion': 're',
         'Mayotte': 'yt',
-        'French Southern and Antarctic Lands': 'tf',
         
         // Dutch territories
         'Bonaire': 'bq',
-        'Saba': 'bq', // Same as Bonaire
-        'Sint Eustatius': 'bq', // Same as Bonaire
+        'Saba': 'nl',
+        'Sint Eustatius': 'nl',
         
         // Pacific territories
         'Cook Islands': 'ck',

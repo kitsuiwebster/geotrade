@@ -253,7 +253,7 @@ export const territoriesData: Card[] = [
   },
   {
     type: "Territory",
-    image: "assets/images/cards/territory/sahara-occidental.jpg",
+    image: "assets/images/cards/territory/western-sahara.jpg",
     nom: "Western Sahara",
     localisation: "Northwest Africa",
     continent: "Africa",
@@ -263,7 +263,7 @@ export const territoriesData: Card[] = [
   },
   {
     type: "Territory",
-    image: "assets/images/cards/territory/iles-feroe.jpg",
+    image: "assets/images/cards/territory/faroe-islands.jpg",
     nom: "Faroe Islands",
     localisation: "North Atlantic",
     continent: "Europe",
@@ -293,7 +293,7 @@ export const territoriesData: Card[] = [
   },
   {
     type: "Territory",
-    image: "assets/images/cards/territory/guernesey.jpg",
+    image: "assets/images/cards/territory/guernsey.jpg",
     nom: "Guernsey",
     localisation: "English Channel",
     continent: "Europe",
@@ -343,7 +343,7 @@ export const territoriesData: Card[] = [
   },
   {
     type: "Territory",
-    image: "assets/images/cards/territory/saint-helene.jpg",
+    image: "assets/images/cards/territory/saint-helena.jpg",
     nom: "Saint Helena",
     localisation: "South Atlantic",
     continent: "Africa",
@@ -353,7 +353,7 @@ export const territoriesData: Card[] = [
   },
   {
     type: "Territory",
-    image: "assets/images/cards/territory/ascension.jpg",
+    image: "assets/images/cards/territory/ascension-island.jpg",
     nom: "Ascension Island",
     localisation: "South Atlantic",
     continent: "Africa",
@@ -373,7 +373,7 @@ export const territoriesData: Card[] = [
   },
   {
     type: "Territory",
-    image: "assets/images/cards/territory/guyane-francaise.jpg",
+    image: "assets/images/cards/territory/french-guiana.jpg",
     nom: "French Guiana",
     localisation: "South America",
     continent: "South America",
@@ -423,16 +423,6 @@ export const territoriesData: Card[] = [
   },
   {
     type: "Territory",
-    image: "assets/images/cards/territory/terres-australes-francaises.jpg",
-    nom: "French Southern and Antarctic Lands",
-    localisation: "Southern Ocean",
-    continent: "Antarctica",
-    population: "0.1 K",
-    area: "7,747 km²",
-    quizCategory: ["Territory", "Antarctica", "General"]
-  },
-  {
-    type: "Territory",
     image: "assets/images/cards/territory/bonaire.jpg",
     nom: "Bonaire",
     localisation: "Caribbean",
@@ -453,7 +443,7 @@ export const territoriesData: Card[] = [
   },
   {
     type: "Territory",
-    image: "assets/images/cards/territory/saint-eustache.jpg",
+    image: "assets/images/cards/territory/sint-eustatius.jpg",
     nom: "Sint Eustatius",
     localisation: "Caribbean",
     continent: "Central America",
@@ -493,7 +483,7 @@ export const territoriesData: Card[] = [
   },
   {
     type: "Territory",
-    image: "assets/images/cards/territory/pitcairn.jpg",
+    image: "assets/images/cards/territory/pitcairn-islands.jpg",
     nom: "Pitcairn Islands",
     localisation: "Polynesia",
     continent: "Oceania",
@@ -503,7 +493,7 @@ export const territoriesData: Card[] = [
   },
   {
     type: "Territory",
-    image: "assets/images/cards/territory/norfolk.jpg",
+    image: "assets/images/cards/territory/norfolk-island.jpg",
     nom: "Norfolk Island",
     localisation: "Pacific Ocean",
     continent: "Oceania",
