@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { RouterModule, ActivatedRoute } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from '../../components/navbar/navbar.component';
 import { CardComponent } from '../../components/card/card.component';
@@ -41,21 +41,60 @@ export class ExchangeComponent implements OnInit {
   isCreatingExchange = false;
   selectedUser = '';
   selectedOfferedCards: Card[] = [];
-  selectedRequestedCards: Card[] = [];
   exchangeMessage = '';
+  
+  // Recherche de cartes
+  cardSearchTerm = '';
+  showSuggestions = false;
+  filteredCards: Card[] = [];
   
   users = ['GeoMaster', 'CardCollector', 'WorldExplorer', 'MapLover'];
 
+  constructor(private route: ActivatedRoute) {
+    // Fermer les suggestions quand on clique en dehors
+    document.addEventListener('click', (event) => {
+      const target = event.target as HTMLElement;
+      if (!target.closest('.search-container')) {
+        this.showSuggestions = false;
+      }
+    });
+  }
+
   ngOnInit(): void {
     this.loadMockData();
+    this.handleQueryParams();
+  }
+
+  handleQueryParams(): void {
+    this.route.queryParams.subscribe(params => {
+      if (params['friendId'] && params['friendName']) {
+        // Switch to outgoing tab
+        this.setActiveTab('outgoing');
+        
+        // Start creating a new exchange
+        this.startNewExchange();
+        
+        // Preselect the friend
+        this.selectedUser = params['friendName'];
+      }
+    });
   }
 
   loadMockData(): void {
-    // Cartes de l'utilisateur (même que My Cards)
+    // Cartes de l'utilisateur (collection plus large)
     this.myCards = allCardsData.filter(card => 
       card.nom === 'France' || 
       card.nom === 'Matterhorn' || 
-      card.nom === 'Ljubljana'
+      card.nom === 'Ljubljana' ||
+      card.nom === 'Spain' ||
+      card.nom === 'Italy' ||
+      card.nom === 'Germany' ||
+      card.nom === 'Switzerland' ||
+      card.nom === 'Austria' ||
+      card.nom === 'Mont Blanc' ||
+      card.nom === 'Danube' ||
+      card.nom === 'Rhine' ||
+      card.nom === 'Prague'
     );
 
     // Demandes reçues
@@ -122,53 +161,52 @@ export class ExchangeComponent implements OnInit {
     this.isCreatingExchange = true;
     this.selectedUser = '';
     this.selectedOfferedCards = [];
-    this.selectedRequestedCards = [];
     this.exchangeMessage = '';
+    this.cardSearchTerm = '';
+    this.showSuggestions = false;
+    this.filteredCards = [];
   }
 
   cancelNewExchange(): void {
     this.isCreatingExchange = false;
   }
 
-  toggleOfferedCard(card: Card): void {
-    const index = this.selectedOfferedCards.findIndex(c => c.nom === card.nom);
-    if (index === -1) {
-      this.selectedOfferedCards.push(card);
-    } else {
-      this.selectedOfferedCards.splice(index, 1);
+  onSearchChange(): void {
+    if (this.cardSearchTerm.trim().length === 0) {
+      this.filteredCards = [];
+      this.showSuggestions = false;
+      return;
     }
-  }
 
-  isCardOffered(card: Card): boolean {
-    return this.selectedOfferedCards.some(c => c.nom === card.nom);
-  }
-
-  addRequestedCard(): void {
-    // Mock: ajouter une carte random pour la demo
-    const availableCards = allCardsData.filter(card => 
-      !this.selectedRequestedCards.some(c => c.nom === card.nom)
+    const searchTerm = this.cardSearchTerm.toLowerCase();
+    this.filteredCards = this.myCards.filter(card =>
+      card.nom.toLowerCase().includes(searchTerm) ||
+      card.type.toLowerCase().includes(searchTerm)
     );
-    if (availableCards.length > 0) {
-      const randomCard = availableCards[Math.floor(Math.random() * availableCards.length)];
-      this.selectedRequestedCards.push(randomCard);
-    }
+    this.showSuggestions = true;
   }
 
-  removeRequestedCard(card: Card): void {
-    const index = this.selectedRequestedCards.findIndex(c => c.nom === card.nom);
-    if (index !== -1) {
-      this.selectedRequestedCards.splice(index, 1);
-    }
+  selectCard(card: Card): void {
+    this.selectedOfferedCards = [card];
+    this.cardSearchTerm = card.nom;
+    this.showSuggestions = false;
+  }
+
+  clearSelection(): void {
+    this.selectedOfferedCards = [];
+    this.cardSearchTerm = '';
+    this.showSuggestions = false;
+    this.filteredCards = [];
   }
 
   sendExchangeRequest(): void {
-    if (this.selectedUser && this.selectedOfferedCards.length > 0 && this.selectedRequestedCards.length > 0) {
+    if (this.selectedUser && this.selectedOfferedCards.length > 0) {
       const newRequest: ExchangeRequest = {
         id: Date.now(),
         fromUser: 'You',
         toUser: this.selectedUser,
         offeredCards: [...this.selectedOfferedCards],
-        requestedCards: [...this.selectedRequestedCards],
+        requestedCards: [], // L'autre joueur proposera ses cartes
         message: this.exchangeMessage,
         status: 'pending',
         createdAt: new Date()
@@ -177,6 +215,7 @@ export class ExchangeComponent implements OnInit {
       this.outgoingRequests.unshift(newRequest);
       this.isCreatingExchange = false;
       this.setActiveTab('outgoing');
+      alert(`Exchange request sent to ${this.selectedUser}!`);
     }
   }
 

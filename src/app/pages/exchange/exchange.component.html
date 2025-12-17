@@ -61,30 +61,44 @@
 
         <div class='cards-selection'>
           <div class='selection-section'>
-            <h4>Your Cards to Offer:</h4>
-            <div class='cards-grid small'>
-              <div 
-                *ngFor="let card of myCards"
-                class='card-wrapper'
-                [class.selected]="isCardOffered(card)"
-                (click)="toggleOfferedCard(card)">
-                <app-card [card]="card"></app-card>
-                <div class='selection-overlay' *ngIf="isCardOffered(card)">✓</div>
+            <h4>Select One Card to Offer:</h4>
+            
+            <!-- Search field with suggestions -->
+            <div class='search-container'>
+              <input 
+                type="text" 
+                class='card-search'
+                [(ngModel)]="cardSearchTerm"
+                (input)="onSearchChange()"
+                (focus)="showSuggestions = true"
+                placeholder="Search your cards...">
+              
+              <!-- Search results dropdown -->
+              <div class='search-suggestions' *ngIf="showSuggestions && filteredCards.length > 0">
+                <div 
+                  class='suggestion-item'
+                  *ngFor="let card of filteredCards | slice:0:6"
+                  (click)="selectCard(card)">
+                  <span class='card-name'>{{ card.nom }}</span>
+                  <span class='card-type'>{{ card.type }}</span>
+                </div>
+              </div>
+              
+              <!-- No results message -->
+              <div class='no-results' *ngIf="showSuggestions && cardSearchTerm && filteredCards.length === 0">
+                No cards found matching "{{ cardSearchTerm }}"
               </div>
             </div>
-          </div>
-
-          <div class='selection-section'>
-            <h4>Cards You Want:</h4>
-            <button class='add-card-btn' (click)="addRequestedCard()">+ Add Card</button>
-            <div class='cards-grid small' *ngIf="selectedRequestedCards.length > 0">
-              <div 
-                *ngFor="let card of selectedRequestedCards"
-                class='card-wrapper requested'>
-                <app-card [card]="card"></app-card>
-                <button class='remove-btn' (click)="removeRequestedCard(card)">✖</button>
+            
+            <!-- Show selected card -->
+            <div class='selected-card-display' *ngIf="selectedOfferedCards.length > 0">
+              <div class='card-preview'>
+                <app-card [card]="selectedOfferedCards[0]"></app-card>
+                <button class='remove-selection' (click)="clearSelection()">Remove Selection</button>
               </div>
             </div>
+            
+            <p class='selection-hint'>{{ myCards.length }} cards in your collection</p>
           </div>
         </div>
 
@@ -100,7 +114,7 @@
           <button 
             class='send-btn'
             (click)="sendExchangeRequest()"
-            [disabled]="!selectedUser || selectedOfferedCards.length === 0 || selectedRequestedCards.length === 0">
+            [disabled]="!selectedUser || selectedOfferedCards.length === 0">
             Send Exchange Request
           </button>
         </div>

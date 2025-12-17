@@ -44,54 +44,49 @@
 
       <!-- Friends List -->
       <div class='friends-content' *ngIf="activeTab === 'friends'">
-        <div class='search-container'>
-          <input 
-            type="text" 
-            class='search-input'
-            placeholder="Search friends..."
-            [(ngModel)]="searchTerm">
-          <span class='search-icon'>🔍</span>
+        <div class='friends-header'>
+          <div class='friends-count'>{{ friends.length }} Friends</div>
+          <div class='search-container'>
+            <input 
+              type="text" 
+              class='search-input'
+              placeholder="Search friends..."
+              [(ngModel)]="searchTerm">
+            <span class='search-icon'>🔍</span>
+          </div>
         </div>
 
-        <div class='friends-grid'>
-          <div class='friend-card' *ngFor="let friend of filteredFriends">
-            <div class='friend-header'>
-              <div class='friend-avatar'>
-                <img [src]="friend.avatar" alt="Avatar" class='avatar-img'>
-                <div class='status-indicator' [class.online]="friend.status === 'online'"></div>
-              </div>
-              <div class='friend-info'>
-                <h4 class='friend-name clickable' (click)="openUserProfile(friend.id)">{{ friend.displayName }}</h4>
-                <p class='friend-username'>{{ '@' + friend.username }}</p>
-                <p class='friend-status' *ngIf="friend.status === 'online'">🟢 Online</p>
-                <p class='friend-status offline' *ngIf="friend.status === 'offline'">
-                  🔴 Last seen {{ friend.lastSeen | date:'MMM d, HH:mm' }}
-                </p>
-              </div>
+        <div class='friends-list'>
+          <div class='friend-item' *ngFor="let friend of filteredFriends">
+            <div class='friend-avatar'>
+              <img [src]="friend.avatar" alt="Avatar" class='avatar-img'>
             </div>
-
+            
+            <div class='friend-info'>
+              <div class='friend-name clickable' (click)="openUserProfile(friend.id)">{{ friend.displayName }}</div>
+              <div class='friend-username'>{{ '@' + friend.username }}</div>
+            </div>
+            
             <div class='friend-stats'>
               <div class='stat'>
                 <span class='stat-icon'>🎴</span>
                 <span class='stat-value'>{{ friend.cardsCount }}</span>
-                <span class='stat-label'>Cards</span>
               </div>
               <div class='stat'>
                 <span class='stat-icon'>⭐</span>
                 <span class='stat-value'>{{ friend.level }}</span>
-                <span class='stat-label'>Level</span>
               </div>
             </div>
-
+            
             <div class='friend-actions'>
-              <button class='action-btn message' (click)="startDirectMessage(friend)">
-                💬 Message
+              <button class='action-btn exchange' (click)="startExchange(friend)" title="Start Exchange">
+                🔄
               </button>
-              <button class='action-btn trade' (click)="openUserProfile(friend.id)">
-                🔄 Trade
+              <button class='action-btn profile' (click)="openUserProfile(friend.id)" title="View Profile">
+                👁️
               </button>
-              <button class='action-btn remove' (click)="removeFriend(friend.id)">
-                ❌ Remove
+              <button class='action-btn remove' (click)="removeFriend(friend.id)" title="Remove Friend">
+                🗑️
               </button>
             </div>
           </div>
@@ -177,7 +172,7 @@
               placeholder="Enter username..."
               [(ngModel)]="newFriendUsername"
               (input)="searchUsers()">
-            <span class='search-icon'>🔍</span>
+            <span class='search-icon'>➕</span>
           </div>
         </div>
 

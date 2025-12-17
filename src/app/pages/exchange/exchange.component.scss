@@ -147,6 +147,7 @@
     border-radius: 16px;
     margin: 20px;
     backdrop-filter: blur(10px);
+    overflow: visible;
 
     .form-header {
       display: flex;
@@ -221,19 +222,155 @@
 
       .cards-selection {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 30px;
         margin: 25px 0;
         max-width: 100%;
-        overflow-x: hidden;
+        overflow: visible;
 
         .selection-section {
+          position: relative;
+          overflow: visible;
+          
           h4 {
             color: rgba(255, 255, 255, 0.9);
             font-family: "Courier New", monospace;
             font-size: 16px;
             margin: 0 0 15px 0;
             font-weight: 600;
+          }
+
+          .selection-hint {
+            color: rgba(255, 255, 255, 0.6);
+            font-family: "Courier New", monospace;
+            font-size: 12px;
+            margin: 10px 0 0 0;
+            font-style: italic;
+            text-align: center;
+          }
+
+          .search-container {
+            position: relative;
+            margin-bottom: 20px;
+            
+            .card-search {
+              width: 100%;
+              background: #2a2a2a;
+              color: #fff;
+              border: 2px solid #555;
+              border-radius: 8px;
+              padding: 12px 15px;
+              font-family: "Courier New", monospace;
+              font-size: 14px;
+              transition: all 0.3s ease;
+              box-sizing: border-box;
+              
+              &:focus {
+                outline: none;
+                border-color: #00c9a7;
+                box-shadow: 0 0 0 2px rgba(0, 201, 167, 0.2);
+              }
+              
+              &::placeholder {
+                color: rgba(255, 255, 255, 0.4);
+              }
+            }
+            
+            .search-suggestions {
+              position: absolute;
+              top: calc(100% + 4px);
+              left: 0;
+              right: 0;
+              background: #2a2a2a;
+              border: 2px solid rgba(0, 201, 167, 0.5);
+              border-radius: 8px;
+              max-height: auto;
+              overflow-y: hidden;
+              z-index: 9999;
+              box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8);
+              backdrop-filter: blur(10px);
+              
+              .suggestion-item {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 12px 15px;
+                cursor: pointer;
+                transition: background-color 0.2s ease;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                
+                &:last-child {
+                  border-bottom: none;
+                }
+                
+                &:hover {
+                  background: rgba(0, 201, 167, 0.1);
+                }
+                
+                .card-name {
+                  color: #fff;
+                  font-family: "Courier New", monospace;
+                  font-size: 14px;
+                  font-weight: 600;
+                }
+                
+                .card-type {
+                  color: rgba(255, 255, 255, 0.6);
+                  font-family: "Courier New", monospace;
+                  font-size: 12px;
+                  font-style: italic;
+                }
+              }
+            }
+            
+            .no-results {
+              position: absolute;
+              top: calc(100% + 4px);
+              left: 0;
+              right: 0;
+              background: #2a2a2a;
+              border: 2px solid rgba(0, 201, 167, 0.5);
+              border-radius: 8px;
+              padding: 15px;
+              color: rgba(255, 255, 255, 0.6);
+              font-family: "Courier New", monospace;
+              font-size: 14px;
+              text-align: center;
+              z-index: 9999;
+              font-style: italic;
+              box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8);
+            }
+          }
+
+          .selected-card-display {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+            
+            .card-preview {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              gap: 15px;
+              
+              .remove-selection {
+                background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+                color: #fff;
+                border: none;
+                padding: 8px 16px;
+                border-radius: 6px;
+                cursor: pointer;
+                font-family: "Courier New", monospace;
+                font-size: 12px;
+                font-weight: 600;
+                transition: all 0.3s ease;
+                
+                &:hover {
+                  background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);
+                  transform: translateY(-1px);
+                }
+              }
+            }
           }
 
           .add-card-btn {
@@ -258,7 +395,8 @@
           .cards-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            gap: 10px;
+            gap: 15px;
+            padding: 10px;
 
             &.small {
               .card-wrapper {
@@ -266,10 +404,13 @@
                 cursor: pointer;
                 transition: all 0.3s ease;
                 border-radius: 8px;
-                overflow: hidden;
 
-                &:hover {
-                  transform: scale(1.05);
+                // Disable all card hover effects in exchange form
+                ::ng-deep .card {
+                  &:hover {
+                    transform: none !important;
+                    box-shadow: inherit !important;
+                  }
                 }
 
                 &.selected {

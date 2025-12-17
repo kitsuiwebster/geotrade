@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
 import { NavbarComponent } from '../../components/navbar/navbar.component';
 import { FooterComponent } from '../../components/footer/footer.component';
 
@@ -41,6 +42,8 @@ export class FriendsComponent implements OnInit {
   incomingRequests: FriendRequest[] = [];
   outgoingRequests: FriendRequest[] = [];
   searchResults: Friend[] = [];
+
+  constructor(private router: Router) {}
 
   ngOnInit() {
     this.loadMockData();
@@ -209,7 +212,12 @@ export class FriendsComponent implements OnInit {
     window.open(`/user/${userId}`, '_blank');
   }
 
-  startDirectMessage(friend: Friend) {
-    alert(`Direct messaging with ${friend.displayName} - Feature coming soon!`);
+  startExchange(friend: Friend) {
+    this.router.navigate(['/exchange'], { 
+      queryParams: { 
+        friendId: friend.id,
+        friendName: friend.displayName 
+      } 
+    });
   }
 }
