@@ -293,7 +293,7 @@ export const japanPrefecturesData: Card[] = [
   },
   {
     type: "Prefecture",
-    image: "assets/images/cards/region/japan/wakayama.jpg",
+    image: "assets/images/cards/region/japan/wayakama.jpg",
     nom: "Wakayama",
     localisation: "Japan",
     continent: "Asia",
@@ -423,7 +423,7 @@ export const japanPrefecturesData: Card[] = [
   },
   {
     type: "Prefecture",
-    image: "assets/images/cards/region/japan/kumamoto.jpg",
+    image: "assets/images/cards/region/japan/kumamoti.jpg",
     nom: "Kumamoto",
     localisation: "Japan",
     continent: "Asia",
