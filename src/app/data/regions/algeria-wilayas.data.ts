@@ -54,7 +54,7 @@ export const algeriaWilayasData: Card[] = [
   {
     type: "Wilaya",
     image: "assets/images/cards/region/algeria/bejaia.jpg",
-    nom: "Béjaïa",
+    nom: "Bejaia",
     localisation: "Algeria",
     continent: "Africa",
     area: "3,223 km²",
@@ -73,8 +73,8 @@ export const algeriaWilayasData: Card[] = [
   },
   {
     type: "Wilaya",
-    image: "assets/images/cards/region/algeria/bechar.jpg",
-    nom: "Béchar",
+    image: "assets/images/cards/region/algeria/béchar.jpg",
+    nom: "Bechar",
     localisation: "Algeria",
     continent: "Africa",
     area: "161,400 km²",
@@ -114,7 +114,7 @@ export const algeriaWilayasData: Card[] = [
   {
     type: "Wilaya",
     image: "assets/images/cards/region/algeria/tebessa.jpg",
-    nom: "Tébessa",
+    nom: "Tebessa",
     localisation: "Algeria",
     continent: "Africa",
     area: "13,878 km²",
@@ -184,7 +184,7 @@ export const algeriaWilayasData: Card[] = [
   {
     type: "Wilaya",
     image: "assets/images/cards/region/algeria/setif.jpg",
-    nom: "Sétif",
+    nom: "Setif",
     localisation: "Algeria",
     continent: "Africa",
     area: "6,504 km²",
@@ -194,7 +194,7 @@ export const algeriaWilayasData: Card[] = [
   {
     type: "Wilaya",
     image: "assets/images/cards/region/algeria/saida.jpg",
-    nom: "Saïda",
+    nom: "Saida",
     localisation: "Algeria",
     continent: "Africa",
     area: "6,764 km²",
@@ -213,8 +213,8 @@ export const algeriaWilayasData: Card[] = [
   },
   {
     type: "Wilaya",
-    image: "assets/images/cards/region/algeria/sidi-bel-abbes.jpg",
-    nom: "Sidi Bel Abbès",
+    image: "assets/images/cards/region/algeria/sidi-bel-abbès.jpg",
+    nom: "Sidi Bel Abbes",
     localisation: "Algeria",
     continent: "Africa",
     area: "9,150 km²",
@@ -254,7 +254,7 @@ export const algeriaWilayasData: Card[] = [
   {
     type: "Wilaya",
     image: "assets/images/cards/region/algeria/medea.jpg",
-    nom: "Médéa",
+    nom: "Medea",
     localisation: "Algeria",
     continent: "Africa",
     area: "8,866 km²",
@@ -273,7 +273,7 @@ export const algeriaWilayasData: Card[] = [
   },
   {
     type: "Wilaya",
-    image: "assets/images/cards/region/algeria/msila.jpg",
+    image: "assets/images/cards/region/algeria/m-sila.jpg",
     nom: "M'Sila",
     localisation: "Algeria",
     continent: "Africa",
@@ -334,7 +334,7 @@ export const algeriaWilayasData: Card[] = [
   {
     type: "Wilaya",
     image: "assets/images/cards/region/algeria/bordj-bou-arreridj.jpg",
-    nom: "Bordj Bou Arréridj",
+    nom: "Bordj Bou Arreridj",
     localisation: "Algeria",
     continent: "Africa",
     area: "4,115 km²",
@@ -344,7 +344,7 @@ export const algeriaWilayasData: Card[] = [
   {
     type: "Wilaya",
     image: "assets/images/cards/region/algeria/boumerdes.jpg",
-    nom: "Boumerdès",
+    nom: "Boumerdes",
     localisation: "Algeria",
     continent: "Africa",
     area: "1,456 km²",
@@ -433,8 +433,8 @@ export const algeriaWilayasData: Card[] = [
   },
   {
     type: "Wilaya",
-    image: "assets/images/cards/region/algeria/ain-defla.jpg",
-    nom: "Aïn Defla",
+    image: "assets/images/cards/region/algeria/ain-defla",
+    nom: "Ain Defla",
     localisation: "Algeria",
     continent: "Africa",
     area: "4,897 km²",
@@ -444,7 +444,7 @@ export const algeriaWilayasData: Card[] = [
   {
     type: "Wilaya",
     image: "assets/images/cards/region/algeria/naama.jpg",
-    nom: "Naâma",
+    nom: "Naama",
     localisation: "Algeria",
     continent: "Africa",
     area: "29,950 km²",
@@ -454,7 +454,7 @@ export const algeriaWilayasData: Card[] = [
   {
     type: "Wilaya",
     image: "assets/images/cards/region/algeria/ain-temouchent.jpg",
-    nom: "Aïn Témouchent",
+    nom: "Ain Temouchent",
     localisation: "Algeria",
     continent: "Africa",
     area: "2,379 km²",
@@ -464,7 +464,7 @@ export const algeriaWilayasData: Card[] = [
   {
     type: "Wilaya",
     image: "assets/images/cards/region/algeria/ghardaia.jpg",
-    nom: "Ghardaïa",
+    nom: "Ghardaia",
     localisation: "Algeria",
     continent: "Africa",
     area: "86,105 km²",
