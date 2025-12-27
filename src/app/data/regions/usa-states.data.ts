@@ -203,7 +203,7 @@ export const usaStatesData: Card[] = [
   },
   {
     type: "US State",
-    image: "assets/images/cards/region/usa/massachusetts.jpg",
+    image: "assets/images/cards/region/usa/massachussetts.jpg",
     nom: "Massachusetts",
     localisation: "United States",
     continent: "North America",
