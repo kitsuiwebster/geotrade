@@ -224,7 +224,8 @@ export class CardComponent implements OnInit, OnDestroy {
         this.card.type === 'Oblast' || this.card.type === 'Federal City' || this.card.type === 'Autonomous Okrug' || 
         this.card.type === 'Autonomous Oblast' || this.card.type === 'State' || this.card.type === 'Province' || 
         this.card.type === 'Federal District' || this.card.type === 'Federal Capital Territory' || 
-        this.card.type === 'Municipality' || this.card.type === 'Autonomous Region' || this.card.type === 'MX State') {
+        this.card.type === 'Municipality' || this.card.type === 'Autonomous Region' || this.card.type === 'MX State' ||
+        this.card.type === 'County' || this.card.type === 'District') {
       // Mapping des noms vers les codes pays pour les drapeaux
       const countryMapping: { [key: string]: string } = {
         // African countries
@@ -989,7 +990,8 @@ export class CardComponent implements OnInit, OnDestroy {
           this.card.type === 'Oblast' || this.card.type === 'Federal City' || this.card.type === 'Autonomous Okrug' || 
           this.card.type === 'Autonomous Oblast' || this.card.type === 'State' || this.card.type === 'Province' || 
           this.card.type === 'Federal District' || this.card.type === 'Federal Capital Territory' || 
-        this.card.type === 'Municipality' || this.card.type === 'Autonomous Region' || this.card.type === 'MX State') {
+        this.card.type === 'Municipality' || this.card.type === 'Autonomous Region' || this.card.type === 'MX State' ||
+        this.card.type === 'County' || this.card.type === 'District') {
         lookupKey = this.card.localisation;
       }
       

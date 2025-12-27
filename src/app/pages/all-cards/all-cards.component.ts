@@ -58,7 +58,8 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     'US State', 'CA Province', 'CA Territory', 'Wilaya', 'AU State', 'AU Territory', 
     'Region', 'Prefecture', 'Republic', 'Krai', 'Oblast', 'Federal City', 
     'Autonomous Okrug', 'Autonomous Oblast', 'State', 'Province', 'Federal District', 
-    'Federal Capital Territory', 'Municipality', 'Autonomous Region', 'MX State'
+    'Federal Capital Territory', 'Municipality', 'Autonomous Region', 'MX State',
+    'County', 'District'
   ];
   
   private isRegionalCard(card: Card): boolean {

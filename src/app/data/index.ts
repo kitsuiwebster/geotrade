@@ -23,6 +23,8 @@ export { nigeriaStatesData } from './regions/nigeria-states.data';
 export { mexicoStatesData } from './regions/mexico-states.data';
 export { newZealandRegionsData } from './regions/new-zealand-regions.data';
 export { argentinaProvincesData } from './regions/argentina-provinces.data';
+export { estoniaCountiesData } from './regions/estonia-counties.data';
+export { latviaDistrictsData } from './regions/latvia-districts.data';
 
 import { Card } from '../interfaces/card.interface';
 import { mountainsData } from './mountains.data';
@@ -50,6 +52,8 @@ import { nigeriaStatesData } from './regions/nigeria-states.data';
 import { mexicoStatesData } from './regions/mexico-states.data';
 import { newZealandRegionsData } from './regions/new-zealand-regions.data';
 import { argentinaProvincesData } from './regions/argentina-provinces.data';
+import { estoniaCountiesData } from './regions/estonia-counties.data';
+import { latviaDistrictsData } from './regions/latvia-districts.data';
 
 export const allCardsData: Card[] = [
   ...mountainsData,
@@ -76,5 +80,7 @@ export const allCardsData: Card[] = [
   ...nigeriaStatesData,
   ...mexicoStatesData,
   ...newZealandRegionsData,
-  ...argentinaProvincesData
+  ...argentinaProvincesData,
+  ...estoniaCountiesData,
+  ...latviaDistrictsData
 ];

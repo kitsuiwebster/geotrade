@@ -232,7 +232,9 @@
   &[data-type="Federal Capital Territory"], 
   &[data-type="Municipality"], 
   &[data-type="Autonomous Region"], 
-  &[data-type="MX State"] {
+  &[data-type="MX State"], 
+  &[data-type="County"], 
+  &[data-type="District"] {
     box-shadow: 0 4px 12px rgba(245, 73, 39, 0.3);
     &:hover {
       box-shadow: 0 8px 20px rgba(245, 73, 39, 0.5);
@@ -888,7 +890,9 @@
   &[data-type="Federal Capital Territory"], 
   &[data-type="Municipality"], 
   &[data-type="Autonomous Region"], 
-  &[data-type="MX State"] {
+  &[data-type="MX State"], 
+  &[data-type="County"], 
+  &[data-type="District"] {
     box-shadow: 0 20px 60px rgba(245, 73, 39, 0.3);
     .modal-card-type-indicator {
       background-color: #F54927;
@@ -1015,7 +1019,9 @@
   &[data-type="Federal Capital Territory"], 
   &[data-type="Municipality"], 
   &[data-type="Autonomous Region"], 
-  &[data-type="MX State"] {
+  &[data-type="MX State"], 
+  &[data-type="County"], 
+  &[data-type="District"] {
     border: 6px solid #F54927 !important;
   }
 }
