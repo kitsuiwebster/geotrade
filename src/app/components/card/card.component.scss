@@ -225,7 +225,14 @@
   &[data-type="Oblast"], 
   &[data-type="Federal City"], 
   &[data-type="Autonomous Okrug"], 
-  &[data-type="Autonomous Oblast"] {
+  &[data-type="Autonomous Oblast"], 
+  &[data-type="State"], 
+  &[data-type="Province"], 
+  &[data-type="Federal District"], 
+  &[data-type="Federal Capital Territory"], 
+  &[data-type="Municipality"], 
+  &[data-type="Autonomous Region"], 
+  &[data-type="MX State"] {
     box-shadow: 0 4px 12px rgba(245, 73, 39, 0.3);
     &:hover {
       box-shadow: 0 8px 20px rgba(245, 73, 39, 0.5);
@@ -874,7 +881,14 @@
   &[data-type="Oblast"], 
   &[data-type="Federal City"], 
   &[data-type="Autonomous Okrug"], 
-  &[data-type="Autonomous Oblast"] {
+  &[data-type="Autonomous Oblast"], 
+  &[data-type="State"], 
+  &[data-type="Province"], 
+  &[data-type="Federal District"], 
+  &[data-type="Federal Capital Territory"], 
+  &[data-type="Municipality"], 
+  &[data-type="Autonomous Region"], 
+  &[data-type="MX State"] {
     box-shadow: 0 20px 60px rgba(245, 73, 39, 0.3);
     .modal-card-type-indicator {
       background-color: #F54927;
@@ -994,7 +1008,14 @@
   &[data-type="Oblast"], 
   &[data-type="Federal City"], 
   &[data-type="Autonomous Okrug"], 
-  &[data-type="Autonomous Oblast"] {
+  &[data-type="Autonomous Oblast"], 
+  &[data-type="State"], 
+  &[data-type="Province"], 
+  &[data-type="Federal District"], 
+  &[data-type="Federal Capital Territory"], 
+  &[data-type="Municipality"], 
+  &[data-type="Autonomous Region"], 
+  &[data-type="MX State"] {
     border: 6px solid #F54927 !important;
   }
 }

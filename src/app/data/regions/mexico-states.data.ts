@@ -1,0 +1,324 @@
+import { Card } from '../../interfaces/card.interface';
+
+export const mexicoStatesData: Card[] = [
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/aguascalientes.jpg",
+    nom: "Aguascalientes",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "5,616 km²",
+    population: "1.42 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/baja-california.jpg",
+    nom: "Baja California",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "71,450 km²",
+    population: "3.77 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/baja-california-sur.jpg",
+    nom: "Baja California Sur",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "73,922 km²",
+    population: "799 K",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/campeche.jpg",
+    nom: "Campeche",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "57,924 km²",
+    population: "928 K",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/chiapas.jpg",
+    nom: "Chiapas",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "73,289 km²",
+    population: "5.54 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/chihuahua.jpg",
+    nom: "Chihuahua",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "247,455 km²",
+    population: "3.74 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/coahuila.jpg",
+    nom: "Coahuila",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "151,563 km²",
+    population: "3.15 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/colima.jpg",
+    nom: "Colima",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "5,625 km²",
+    population: "731 K",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/durango.jpg",
+    nom: "Durango",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "123,451 km²",
+    population: "1.83 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/guanajuato.jpg",
+    nom: "Guanajuato",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "30,608 km²",
+    population: "6.17 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/guerrero.jpg",
+    nom: "Guerrero",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "63,621 km²",
+    population: "3.54 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/hidalgo.jpg",
+    nom: "Hidalgo",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "20,813 km²",
+    population: "3.08 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/jalisco.jpg",
+    nom: "Jalisco",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "78,599 km²",
+    population: "8.35 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/mexico-state.jpg",
+    nom: "Mexico State",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "22,357 km²",
+    population: "16.99 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/michoacan.jpg",
+    nom: "Michoacán",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "58,643 km²",
+    population: "4.75 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/morelos.jpg",
+    nom: "Morelos",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "4,893 km²",
+    population: "1.97 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/nayarit.jpg",
+    nom: "Nayarit",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "27,815 km²",
+    population: "1.24 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/nuevo-leon.jpg",
+    nom: "Nuevo León",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "64,220 km²",
+    population: "5.78 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/oaxaca.jpg",
+    nom: "Oaxaca",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "93,793 km²",
+    population: "4.13 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/puebla.jpg",
+    nom: "Puebla",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "34,290 km²",
+    population: "6.58 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/queretaro.jpg",
+    nom: "Querétaro",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "11,684 km²",
+    population: "2.37 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/quintana-roo.jpg",
+    nom: "Quintana Roo",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "42,361 km²",
+    population: "1.86 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/san-luis-potosi.jpg",
+    nom: "San Luis Potosí",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "60,983 km²",
+    population: "2.82 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/sinaloa.jpg",
+    nom: "Sinaloa",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "57,377 km²",
+    population: "3.03 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/sonora.jpg",
+    nom: "Sonora",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "179,503 km²",
+    population: "2.94 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/tabasco.jpg",
+    nom: "Tabasco",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "24,738 km²",
+    population: "2.40 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/tamaulipas.jpg",
+    nom: "Tamaulipas",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "80,175 km²",
+    population: "3.53 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/tlaxcala.jpg",
+    nom: "Tlaxcala",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "3,991 km²",
+    population: "1.34 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/veracruz.jpg",
+    nom: "Veracruz",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "71,820 km²",
+    population: "8.06 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/yucatan.jpg",
+    nom: "Yucatán",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "39,612 km²",
+    population: "2.32 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "MX State",
+    image: "assets/images/cards/region/mexico/zacatecas.jpg",
+    nom: "Zacatecas",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "75,275 km²",
+    population: "1.62 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  },
+  {
+    type: "Federal District",
+    image: "assets/images/cards/region/mexico/mexico-city.jpg",
+    nom: "Mexico City",
+    localisation: "Mexico",
+    continent: "North America",
+    area: "1,485 km²",
+    population: "9.21 M",
+    quizCategory: ["Mexico", "North America", "General"]
+  }
+];

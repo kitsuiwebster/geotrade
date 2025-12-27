@@ -16,6 +16,13 @@ export { australiaStatesData } from './regions/australia-states.data';
 export { italyRegionsData } from './regions/italy-regions.data';
 export { japanPrefecturesData } from './regions/japan-prefectures.data';
 export { russiaFederalSubjectsData } from './regions/russia-federal-subjects.data';
+export { spainRegionsData } from './regions/spain-regions.data';
+export { brazilStatesData } from './regions/brazil-states.data';
+export { chinaProvincesData } from './regions/china-provinces.data';
+export { nigeriaStatesData } from './regions/nigeria-states.data';
+export { mexicoStatesData } from './regions/mexico-states.data';
+export { newZealandRegionsData } from './regions/new-zealand-regions.data';
+export { argentinaProvincesData } from './regions/argentina-provinces.data';
 
 import { Card } from '../interfaces/card.interface';
 import { mountainsData } from './mountains.data';
@@ -36,6 +43,13 @@ import { australiaStatesData } from './regions/australia-states.data';
 import { italyRegionsData } from './regions/italy-regions.data';
 import { japanPrefecturesData } from './regions/japan-prefectures.data';
 import { russiaFederalSubjectsData } from './regions/russia-federal-subjects.data';
+import { spainRegionsData } from './regions/spain-regions.data';
+import { brazilStatesData } from './regions/brazil-states.data';
+import { chinaProvincesData } from './regions/china-provinces.data';
+import { nigeriaStatesData } from './regions/nigeria-states.data';
+import { mexicoStatesData } from './regions/mexico-states.data';
+import { newZealandRegionsData } from './regions/new-zealand-regions.data';
+import { argentinaProvincesData } from './regions/argentina-provinces.data';
 
 export const allCardsData: Card[] = [
   ...mountainsData,
@@ -55,5 +69,12 @@ export const allCardsData: Card[] = [
   ...australiaStatesData,
   ...italyRegionsData,
   ...japanPrefecturesData,
-  ...russiaFederalSubjectsData
+  ...russiaFederalSubjectsData,
+  ...spainRegionsData,
+  ...brazilStatesData,
+  ...chinaProvincesData,
+  ...nigeriaStatesData,
+  ...mexicoStatesData,
+  ...newZealandRegionsData,
+  ...argentinaProvincesData
 ];

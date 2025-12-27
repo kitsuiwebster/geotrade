@@ -2,7 +2,7 @@ import { Card } from '../../interfaces/card.interface';
 
 export const canadaProvincesData: Card[] = [
   {
-    type: "CA Province",
+    type: "Province",
     image: "assets/images/cards/region/canada/alberta.jpg",
     nom: "Alberta",
     localisation: "Canada",
@@ -12,7 +12,7 @@ export const canadaProvincesData: Card[] = [
     quizCategory: ["Canada", "North America", "General"]
   },
   {
-    type: "CA Province",
+    type: "Province",
     image: "assets/images/cards/region/canada/british-columbia.jpg",
     nom: "British Columbia",
     localisation: "Canada",
@@ -22,7 +22,7 @@ export const canadaProvincesData: Card[] = [
     quizCategory: ["Canada", "North America", "General"]
   },
   {
-    type: "CA Province",
+    type: "Province",
     image: "assets/images/cards/region/canada/manitoba.jpg",
     nom: "Manitoba",
     localisation: "Canada",
@@ -32,7 +32,7 @@ export const canadaProvincesData: Card[] = [
     quizCategory: ["Canada", "North America", "General"]
   },
   {
-    type: "CA Province",
+    type: "Province",
     image: "assets/images/cards/region/canada/new-brunswick.jpg",
     nom: "New Brunswick",
     localisation: "Canada",
@@ -42,7 +42,7 @@ export const canadaProvincesData: Card[] = [
     quizCategory: ["Canada", "North America", "General"]
   },
   {
-    type: "CA Province",
+    type: "Province",
     image: "assets/images/cards/region/canada/newfoundland-and-labrador.jpg",
     nom: "Newfoundland and Labrador",
     localisation: "Canada",
@@ -52,7 +52,7 @@ export const canadaProvincesData: Card[] = [
     quizCategory: ["Canada", "North America", "General"]
   },
   {
-    type: "CA Province",
+    type: "Province",
     image: "assets/images/cards/region/canada/nova-scotia.jpg",
     nom: "Nova Scotia",
     localisation: "Canada",
@@ -62,7 +62,7 @@ export const canadaProvincesData: Card[] = [
     quizCategory: ["Canada", "North America", "General"]
   },
   {
-    type: "CA Province",
+    type: "Province",
     image: "assets/images/cards/region/canada/ontario.jpg",
     nom: "Ontario",
     localisation: "Canada",
@@ -72,7 +72,7 @@ export const canadaProvincesData: Card[] = [
     quizCategory: ["Canada", "North America", "General"]
   },
   {
-    type: "CA Province",
+    type: "Province",
     image: "assets/images/cards/region/canada/prince-edward-island.jpg",
     nom: "Prince Edward Island",
     localisation: "Canada",
@@ -82,7 +82,7 @@ export const canadaProvincesData: Card[] = [
     quizCategory: ["Canada", "North America", "General"]
   },
   {
-    type: "CA Province",
+    type: "Province",
     image: "assets/images/cards/region/canada/quebec.jpg",
     nom: "Quebec",
     localisation: "Canada",
@@ -92,7 +92,7 @@ export const canadaProvincesData: Card[] = [
     quizCategory: ["Canada", "North America", "General"]
   },
   {
-    type: "CA Province",
+    type: "Province",
     image: "assets/images/cards/region/canada/saskatchewan.jpg",
     nom: "Saskatchewan",
     localisation: "Canada",

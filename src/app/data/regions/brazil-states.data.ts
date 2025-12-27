@@ -1,0 +1,274 @@
+import { Card } from '../../interfaces/card.interface';
+
+export const brazilStatesData: Card[] = [
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/acre.jpg",
+    nom: "Acre",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "164,123 km²",
+    population: "906 K",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/alagoas.jpg",
+    nom: "Alagoas",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "27,779 km²",
+    population: "3.36 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/amapa.jpg",
+    nom: "Amapá",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "142,828 km²",
+    population: "877 K",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/amazonas.jpg",
+    nom: "Amazonas",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "1,559,168 km²",
+    population: "4.27 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/bahia.jpg",
+    nom: "Bahia",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "564,733 km²",
+    population: "14.99 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/ceara.jpg",
+    nom: "Ceará",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "148,920 km²",
+    population: "9.24 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "Federal District",
+    image: "assets/images/cards/region/brazil/distrito-federal.jpg",
+    nom: "Federal District",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "5,760 km²",
+    population: "3.09 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/espirito-santo.jpg",
+    nom: "Espírito Santo",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "46,095 km²",
+    population: "4.11 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/goias.jpg",
+    nom: "Goiás",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "340,111 km²",
+    population: "7.21 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/maranhao.jpg",
+    nom: "Maranhão",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "331,937 km²",
+    population: "7.15 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/mato-grosso.jpg",
+    nom: "Mato Grosso",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "903,357 km²",
+    population: "3.66 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/mato-grosso-do-sul.jpg",
+    nom: "Mato Grosso do Sul",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "357,125 km²",
+    population: "2.84 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/minas-gerais.jpg",
+    nom: "Minas Gerais",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "586,528 km²",
+    population: "21.41 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/para.jpg",
+    nom: "Pará",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "1,247,690 km²",
+    population: "8.78 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/paraiba.jpg",
+    nom: "Paraíba",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "56,469 km²",
+    population: "4.06 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/parana.jpg",
+    nom: "Paraná",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "199,314 km²",
+    population: "11.60 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/pernambuco.jpg",
+    nom: "Pernambuco",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "98,312 km²",
+    population: "9.67 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/piaui.jpg",
+    nom: "Piauí",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "251,529 km²",
+    population: "3.29 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/rio-de-janeiro.jpg",
+    nom: "Rio de Janeiro",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "43,696 km²",
+    population: "17.46 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/rio-grande-do-norte.jpg",
+    nom: "Rio Grande do Norte",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "52,797 km²",
+    population: "3.56 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/rio-grande-do-sul.jpg",
+    nom: "Rio Grande do Sul",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "281,748 km²",
+    population: "11.46 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/rondonia.jpg",
+    nom: "Rondônia",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "237,765 km²",
+    population: "1.81 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/roraima.jpg",
+    nom: "Roraima",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "224,299 km²",
+    population: "653 K",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/santa-catarina.jpg",
+    nom: "Santa Catarina",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "95,346 km²",
+    population: "7.34 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/sao-paulo.jpg",
+    nom: "São Paulo",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "248,209 km²",
+    population: "46.29 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/sergipe.jpg",
+    nom: "Sergipe",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "21,910 km²",
+    population: "2.32 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/brazil/tocantins.jpg",
+    nom: "Tocantins",
+    localisation: "Brazil",
+    continent: "South America",
+    area: "277,621 km²",
+    population: "1.61 M",
+    quizCategory: ["Brazil", "South America", "General"]
+  }
+];

@@ -1,0 +1,374 @@
+import { Card } from '../../interfaces/card.interface';
+
+export const nigeriaStatesData: Card[] = [
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/abia.jpg",
+    nom: "Abia",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "6,320 km²",
+    population: "3.73 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/adamawa.jpg",
+    nom: "Adamawa",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "36,917 km²",
+    population: "4.25 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/akwa-ibom.jpg",
+    nom: "Akwa Ibom",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "7,081 km²",
+    population: "5.48 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/anambra.jpg",
+    nom: "Anambra",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "4,844 km²",
+    population: "5.53 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/bauchi.jpg",
+    nom: "Bauchi",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "45,837 km²",
+    population: "6.54 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/bayelsa.jpg",
+    nom: "Bayelsa",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "10,773 km²",
+    population: "2.28 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/benue.jpg",
+    nom: "Benue",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "34,059 km²",
+    population: "5.74 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/borno.jpg",
+    nom: "Borno",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "70,898 km²",
+    population: "5.86 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/cross-river.jpg",
+    nom: "Cross River",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "20,156 km²",
+    population: "3.74 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/delta.jpg",
+    nom: "Delta",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "17,698 km²",
+    population: "5.66 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/ebonyi.jpg",
+    nom: "Ebonyi",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "5,670 km²",
+    population: "2.88 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/edo.jpg",
+    nom: "Edo",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "17,802 km²",
+    population: "4.78 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/ekiti.jpg",
+    nom: "Ekiti",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "6,353 km²",
+    population: "3.60 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/enugu.jpg",
+    nom: "Enugu",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "7,161 km²",
+    population: "4.41 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "Federal Capital Territory",
+    image: "assets/images/cards/region/nigeria/fct-abuja.jpg",
+    nom: "FCT Abuja",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "7,315 km²",
+    population: "3.56 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/gombe.jpg",
+    nom: "Gombe",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "18,768 km²",
+    population: "3.26 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/imo.jpg",
+    nom: "Imo",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "5,530 km²",
+    population: "5.41 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/jigawa.jpg",
+    nom: "Jigawa",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "23,154 km²",
+    population: "5.83 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/kaduna.jpg",
+    nom: "Kaduna",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "46,053 km²",
+    population: "8.25 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/kano.jpg",
+    nom: "Kano",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "20,131 km²",
+    population: "13.08 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/katsina.jpg",
+    nom: "Katsina",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "24,192 km²",
+    population: "8.48 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/kebbi.jpg",
+    nom: "Kebbi",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "36,800 km²",
+    population: "4.44 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/kogi.jpg",
+    nom: "Kogi",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "29,833 km²",
+    population: "4.47 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/kwara.jpg",
+    nom: "Kwara",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "36,825 km²",
+    population: "3.19 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/lagos.jpg",
+    nom: "Lagos",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "3,345 km²",
+    population: "14.37 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/nasarawa.jpg",
+    nom: "Nasarawa",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "27,117 km²",
+    population: "2.52 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/niger.jpg",
+    nom: "Niger",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "76,363 km²",
+    population: "5.55 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/ogun.jpg",
+    nom: "Ogun",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "16,762 km²",
+    population: "5.22 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/ondo.jpg",
+    nom: "Ondo",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "15,500 km²",
+    population: "4.67 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/osun.jpg",
+    nom: "Osun",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "9,251 km²",
+    population: "4.71 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/oyo.jpg",
+    nom: "Oyo",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "28,454 km²",
+    population: "7.84 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/plateau.jpg",
+    nom: "Plateau",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "30,913 km²",
+    population: "4.20 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/rivers.jpg",
+    nom: "Rivers",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "11,077 km²",
+    population: "7.30 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/sokoto.jpg",
+    nom: "Sokoto",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "25,973 km²",
+    population: "4.99 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/taraba.jpg",
+    nom: "Taraba",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "54,473 km²",
+    population: "3.07 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/yobe.jpg",
+    nom: "Yobe",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "45,502 km²",
+    population: "3.29 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  },
+  {
+    type: "State",
+    image: "assets/images/cards/region/nigeria/zamfara.jpg",
+    nom: "Zamfara",
+    localisation: "Nigeria",
+    continent: "Africa",
+    area: "39,762 km²",
+    population: "4.52 M",
+    quizCategory: ["Nigeria", "Africa", "General"]
+  }
+];
