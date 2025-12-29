@@ -28,6 +28,23 @@ GeoTrade is a comprehensive trading platform featuring an extensive collection o
 - **Rivers**: Major waterways and river systems across all continents
 - **Territories**: Special administrative regions, dependencies, and autonomous territories
 
+## Card Rarity System
+
+| Type | Rarity | Criteria |
+|------|--------|----------|
+| **Oceans** | 10/10 | Fixed rarity |
+| **Countries** | 9/10 | Fixed rarity |
+| **Capitals** | 9/10 | Fixed rarity |
+| **Seas** | 8/10 | Fixed rarity |
+| **Deserts** | 8/10 | Fixed rarity |
+| **Territories** | 8/10 | Fixed rarity |
+| **Archipelagos** | 6/10 | Fixed rarity |
+| **Regions** | 5/10 | Fixed rarity |
+| **Mountains** | Variable | Higher elevation = higher rarity |
+| **Islands** | Variable | Larger size = higher rarity |
+| **Rivers** | Variable | Longer length = higher rarity |
+| **Cities** | Variable | Higher agglomeration population = higher rarity |
+
 ## Project Status
 
 🚧 **Under Active Development** - Platform is currently in construction phase.
