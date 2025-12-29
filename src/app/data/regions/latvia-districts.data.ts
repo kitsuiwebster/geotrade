@@ -253,7 +253,7 @@ export const latviaDistrictsData: Card[] = [
   },
   {
     type: "District",
-    image: "assets/images/cards/region/latvia/ventspils.jpg",
+    image: "assets/images/cards/region/latvia/centspils.jpg",
     nom: "Ventspils",
     localisation: "Latvia",
     continent: "Europe",
