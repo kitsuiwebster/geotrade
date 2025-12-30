@@ -7,6 +7,7 @@ export const oceansData: Card[] = [
     nom: "Pacific Ocean",
     localisation: "Americas, Asia and Oceania",
     depth: "10,911 m",
+    rarity: 10,
     quizCategory: ["Ocean", "General"]
   },
   {
@@ -15,6 +16,7 @@ export const oceansData: Card[] = [
     nom: "Atlantic Ocean",
     localisation: "Americas, Europe and Africa",
     depth: "8,486 m",
+    rarity: 10,
     quizCategory: ["Ocean", "General"]
   },
   {
@@ -23,6 +25,7 @@ export const oceansData: Card[] = [
     nom: "Southern Ocean",
     localisation: "Antarctica",
     depth: "7,236 m",
+    rarity: 10,
     quizCategory: ["Ocean", "General"]
   },
   {
@@ -31,6 +34,7 @@ export const oceansData: Card[] = [
     nom: "Indian Ocean",
     localisation: "Asia, Africa and Australia",
     depth: "7,258 m",
+    rarity: 10,
     quizCategory: ["Australia", "Ocean", "General"]
   },
   {
@@ -39,6 +43,7 @@ export const oceansData: Card[] = [
     nom: "Arctic Ocean",
     localisation: "Arctic",
     depth: "5,450 m",
+    rarity: 10,
     quizCategory: ["Ocean", "General"]
   }
 ];

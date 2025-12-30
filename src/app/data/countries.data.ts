@@ -9,6 +9,7 @@ export const countriesData: Card[] = [
     continent: "Oceania",
     population: "25 M",
     area: "7,692,024 km²",
+    rarity: 9,
     quizCategory: ["Country", "Oceania", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const countriesData: Card[] = [
     continent: "Oceania",
     population: "896 K",
     area: "18,274 km²",
+    rarity: 9,
     quizCategory: ["Country", "Oceania", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const countriesData: Card[] = [
     continent: "Oceania",
     population: "9.12 M",
     area: "462,840 km²",
+    rarity: 9,
     quizCategory: ["Country", "Oceania", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const countriesData: Card[] = [
     continent: "Oceania",
     population: "4.9 M",
     area: "268,021 km²",
+    rarity: 9,
     quizCategory: ["Country", "Oceania", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const countriesData: Card[] = [
     continent: "Oceania",
     population: "307 K",
     area: "12,189 km²",
+    rarity: 9,
     quizCategory: ["Country", "Oceania", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const countriesData: Card[] = [
     continent: "Oceania",
     population: "202 K",
     area: "2,842 km²",
+    rarity: 9,
     quizCategory: ["Country", "Oceania", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const countriesData: Card[] = [
     continent: "Oceania",
     population: "106 K",
     area: "747 km²",
+    rarity: 9,
     quizCategory: ["Country", "Oceania", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const countriesData: Card[] = [
     continent: "Oceania",
     population: "123 K",
     area: "811 km²",
+    rarity: 9,
     quizCategory: ["Country", "Oceania", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const countriesData: Card[] = [
     continent: "Oceania",
     population: "59 K",
     area: "181 km²",
+    rarity: 9,
     quizCategory: ["Country", "Oceania", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const countriesData: Card[] = [
     continent: "Oceania",
     population: "116 K",
     area: "702 km²",
+    rarity: 9,
     quizCategory: ["Country", "Oceania", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const countriesData: Card[] = [
     continent: "Oceania",
     population: "18 K",
     area: "459 km²",
+    rarity: 9,
     quizCategory: ["Country", "Oceania", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const countriesData: Card[] = [
     continent: "Oceania",
     population: "12.8 K",
     area: "21 km²",
+    rarity: 9,
     quizCategory: ["Country", "Oceania", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const countriesData: Card[] = [
     continent: "Oceania",
     population: "703 K",
     area: "28,400 km²",
+    rarity: 9,
     quizCategory: ["Country", "Oceania", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const countriesData: Card[] = [
     continent: "Oceania",
     population: "11.3 K",
     area: "26 km²",
+    rarity: 9,
     quizCategory: ["Country", "Oceania", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "2.8 M",
     area: "28,748 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "83 M",
     area: "357,022 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -169,6 +185,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "77 K",
     area: "468 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -179,6 +196,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "8.9 M",
     area: "83,879 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -189,6 +207,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "9.4 M",
     area: "207,600 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -199,6 +218,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "11.5 M",
     area: "30,689 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -209,6 +229,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "3.3 M",
     area: "51,197 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -219,6 +240,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "7 M",
     area: "110,879 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -229,6 +251,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "4.1 M",
     area: "56,594 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -239,6 +262,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "1.2 M",
     area: "9,251 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -249,6 +273,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "10.7 M",
     area: "78,867 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -259,6 +284,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "5.8 M",
     area: "42,933 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -269,6 +295,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "1.3 M",
     area: "45,227 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -279,6 +306,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "5.5 M",
     area: "338,424 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -289,6 +317,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "67 M",
     area: "643,801 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -299,6 +328,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "3.7 M",
     area: "69,700 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -309,6 +339,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "10.4 M",
     area: "131,957 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -319,6 +350,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "9.6 M",
     area: "93,028 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -329,6 +361,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "364 K",
     area: "103,000 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -339,6 +372,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "4.9 M",
     area: "70,273 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -349,6 +383,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "60.4 M",
     area: "301,340 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -359,6 +394,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "1.9 M",
     area: "64,589 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -369,6 +405,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "2.8 M",
     area: "65,300 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -379,6 +416,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "626 K",
     area: "2,586 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -389,6 +427,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "514 K",
     area: "316 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -399,6 +438,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "2.6 M",
     area: "33,846 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -409,6 +449,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "622 K",
     area: "13,812 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -419,6 +460,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "17.3 M",
     area: "41,543 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -429,6 +471,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "5.4 M",
     area: "385,207 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -439,6 +482,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "38 M",
     area: "312,696 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -449,6 +493,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "10.3 M",
     area: "92,090 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -459,6 +504,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "19.3 M",
     area: "238,397 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -469,6 +515,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "146 M",
     area: "17,098,242 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -479,6 +526,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "34 K",
     area: "61 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -489,6 +537,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "7 M",
     area: "88,361 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -499,6 +548,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "5.4 M",
     area: "49,035 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -509,6 +559,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "2.1 M",
     area: "20,273 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -519,6 +570,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "47 M",
     area: "505,990 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -529,6 +581,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "10.3 M",
     area: "450,295 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -539,6 +592,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "8.6 M",
     area: "41,290 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -549,6 +603,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "41 M",
     area: "603,500 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -559,6 +614,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "67 M",
     area: "242,495 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -569,6 +625,7 @@ export const countriesData: Card[] = [
     continent: "Europe",
     population: "2.1 M",
     area: "25,713 km²",
+    rarity: 9,
     quizCategory: ["Country", "Europe", "General"]
   },
   {
@@ -579,6 +636,7 @@ export const countriesData: Card[] = [
     continent: "South America",
     population: "45 M",
     area: "2,780,400 km²",
+    rarity: 9,
     quizCategory: ["Country", "South America", "General"]
   },
   {
@@ -589,6 +647,7 @@ export const countriesData: Card[] = [
     continent: "South America",
     population: "213 M",
     area: "8,515,767 km²",
+    rarity: 9,
     quizCategory: ["Country", "South America", "General"]
   },
   {
@@ -599,6 +658,7 @@ export const countriesData: Card[] = [
     continent: "South America",
     population: "19 M",
     area: "756,102 km²",
+    rarity: 9,
     quizCategory: ["Country", "South America", "General"]
   },
   {
@@ -609,6 +669,7 @@ export const countriesData: Card[] = [
     continent: "South America",
     population: "51 M",
     area: "1,141,748 km²",
+    rarity: 9,
     quizCategory: ["Country", "South America", "General"]
   },
   {
@@ -619,6 +680,7 @@ export const countriesData: Card[] = [
     continent: "South America",
     population: "17.4 M",
     area: "283,561 km²",
+    rarity: 9,
     quizCategory: ["Country", "South America", "General"]
   },
   {
@@ -629,6 +691,7 @@ export const countriesData: Card[] = [
     continent: "South America",
     population: "33 M",
     area: "1,285,216 km²",
+    rarity: 9,
     quizCategory: ["Country", "South America", "General"]
   },
   {
@@ -639,6 +702,7 @@ export const countriesData: Card[] = [
     continent: "South America",
     population: "28 M",
     area: "916,445 km²",
+    rarity: 9,
     quizCategory: ["Country", "South America", "General"]
   },
   {
@@ -649,6 +713,7 @@ export const countriesData: Card[] = [
     continent: "South America",
     population: "3.5 M",
     area: "176,215 km²",
+    rarity: 9,
     quizCategory: ["Country", "South America", "General"]
   },
   {
@@ -659,6 +724,7 @@ export const countriesData: Card[] = [
     continent: "South America",
     population: "7.1 M",
     area: "406,752 km²",
+    rarity: 9,
     quizCategory: ["Country", "South America", "General"]
   },
   {
@@ -669,6 +735,7 @@ export const countriesData: Card[] = [
     continent: "South America",
     population: "11.6 M",
     area: "1,098,581 km²",
+    rarity: 9,
     quizCategory: ["Country", "South America", "General"]
   },
   {
@@ -679,6 +746,7 @@ export const countriesData: Card[] = [
     continent: "South America",
     population: "0.6 M",
     area: "163,821 km²",
+    rarity: 9,
     quizCategory: ["Country", "South America", "General"]
   },
   {
@@ -689,6 +757,7 @@ export const countriesData: Card[] = [
     continent: "South America",
     population: "0.8 M",
     area: "214,969 km²",
+    rarity: 9,
     quizCategory: ["Country", "South America", "General"]
   },
   {
@@ -699,6 +768,7 @@ export const countriesData: Card[] = [
     continent: "North America",
     population: "38.2 M",
     area: "9,984,670 km²",
+    rarity: 9,
     quizCategory: ["Country", "North America", "General"]
   },
   {
@@ -709,6 +779,7 @@ export const countriesData: Card[] = [
     continent: "North America",
     population: "331.9 M",
     area: "9,833,520 km²",
+    rarity: 9,
     quizCategory: ["Country", "North America", "General"]
   },
   {
@@ -719,6 +790,7 @@ export const countriesData: Card[] = [
     continent: "North America",
     population: "128.9 M",
     area: "1,964,375 km²",
+    rarity: 9,
     quizCategory: ["Country", "North America", "General"]
   },
   {
@@ -729,6 +801,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "17.3 M",
     area: "108,889 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -739,6 +812,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "0.4 M",
     area: "22,966 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -749,6 +823,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "10.1 M",
     area: "112,492 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -759,6 +834,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "6.5 M",
     area: "21,041 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -769,6 +845,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "6.8 M",
     area: "130,373 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -779,6 +856,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "5.2 M",
     area: "51,100 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -789,6 +867,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "4.4 M",
     area: "75,417 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -799,6 +878,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "11.3 M",
     area: "109,884 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -809,6 +889,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "11.5 M",
     area: "27,750 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -819,6 +900,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "11.0 M",
     area: "48,671 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -829,6 +911,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "2.8 M",
     area: "10,991 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -839,6 +922,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "1.4 M",
     area: "5,131 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -849,6 +933,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "0.3 M",
     area: "439 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -859,6 +944,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "0.4 M",
     area: "13,943 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -869,6 +955,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "0.2 M",
     area: "617 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -879,6 +966,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "0.1 M",
     area: "344 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -889,6 +977,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "0.1 M",
     area: "443 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -899,6 +988,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "0.07 M",
     area: "751 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -909,6 +999,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "0.05 M",
     area: "261 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -919,6 +1010,7 @@ export const countriesData: Card[] = [
     continent: "Central America",
     population: "0.1 M",
     area: "389 km²",
+    rarity: 9,
     quizCategory: ["Country", "Central America", "General"]
   },
   {
@@ -929,6 +1021,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "44.9 M",
     area: "2,381,741 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -939,6 +1032,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "35.6 M",
     area: "1,246,700 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -949,6 +1043,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "13.5 M",
     area: "112,622 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -959,6 +1054,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "2.4 M",
     area: "581,730 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -969,6 +1065,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "22.7 M",
     area: "274,200 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -979,6 +1076,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "12.6 M",
     area: "27,830 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -989,6 +1087,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "28.6 M",
     area: "475,440 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -999,6 +1098,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "0.6 M",
     area: "4,033 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1009,6 +1109,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "5.5 M",
     area: "622,984 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1019,6 +1120,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "17.7 M",
     area: "1,284,000 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1029,6 +1131,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "0.9 M",
     area: "2,235 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1039,6 +1142,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "102.3 M",
     area: "2,344,858 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1049,6 +1153,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "5.8 M",
     area: "342,000 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1059,6 +1164,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "28.2 M",
     area: "322,463 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1069,6 +1175,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "1.1 M",
     area: "23,200 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1079,6 +1186,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "109.3 M",
     area: "1,001,450 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1089,6 +1197,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "1.7 M",
     area: "28,051 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1099,6 +1208,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "3.7 M",
     area: "117,600 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1109,6 +1219,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "123.4 M",
     area: "1,104,300 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1119,6 +1230,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "2.4 M",
     area: "267,667 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1129,6 +1241,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "2.7 M",
     area: "11,295 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1139,6 +1252,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "33.5 M",
     area: "238,533 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1149,6 +1263,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "14.2 M",
     area: "245,857 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1159,6 +1274,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "2.1 M",
     area: "36,125 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1169,6 +1285,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "56.2 M",
     area: "580,367 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1179,6 +1296,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "2.3 M",
     area: "30,355 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1189,6 +1307,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "5.4 M",
     area: "111,369 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1199,6 +1318,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "7.0 M",
     area: "1,759,540 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1209,6 +1329,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "30.3 M",
     area: "587,041 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1219,6 +1340,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "20.4 M",
     area: "118,484 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1229,6 +1351,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "22.6 M",
     area: "1,240,192 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1239,6 +1362,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "5.0 M",
     area: "1,030,700 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1249,6 +1373,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "1.3 M",
     area: "2,040 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1259,6 +1384,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "37.7 M",
     area: "446,550 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1269,6 +1395,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "33.9 M",
     area: "801,590 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1279,6 +1406,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "2.6 M",
     area: "824,292 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1289,6 +1417,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "26.2 M",
     area: "1,267,000 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1299,6 +1428,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "223.8 M",
     area: "923,768 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1309,6 +1439,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "14.1 M",
     area: "26,338 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1319,6 +1450,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "0.2 M",
     area: "964 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1329,6 +1461,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "18.4 M",
     area: "196,722 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1339,6 +1472,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "0.1 M",
     area: "455 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1349,6 +1483,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "8.8 M",
     area: "71,740 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1359,6 +1494,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "18.1 M",
     area: "637,657 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1369,6 +1505,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "60.4 M",
     area: "1,221,037 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1379,6 +1516,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "11.1 M",
     area: "644,329 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1389,6 +1527,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "48.1 M",
     area: "1,861,484 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1399,6 +1538,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "1.2 M",
     area: "17,364 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1409,6 +1549,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "65.5 M",
     area: "947,303 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1419,6 +1560,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "8.8 M",
     area: "56,785 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1429,6 +1571,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "12.4 M",
     area: "163,610 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1439,6 +1582,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "48.6 M",
     area: "241,038 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1449,6 +1593,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "20.0 M",
     area: "752,612 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1459,6 +1604,7 @@ export const countriesData: Card[] = [
     continent: "Africa",
     population: "16.3 M",
     area: "390,757 km²",
+    rarity: 9,
     quizCategory: ["Country", "Africa", "General"]
   },
   {
@@ -1469,6 +1615,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "41.1 M",
     area: "652,867 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1479,6 +1626,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "3.0 M",
     area: "29,743 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1489,6 +1637,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "10.4 M",
     area: "86,600 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1499,6 +1648,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "1.8 M",
     area: "778 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1509,6 +1659,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "171.2 M",
     area: "147,570 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1519,6 +1670,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "0.8 M",
     area: "38,394 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1529,6 +1681,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "0.5 M",
     area: "5,765 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1539,6 +1692,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "16.9 M",
     area: "181,035 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1549,6 +1703,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "1,425.7 M",
     area: "9,596,960 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1559,6 +1714,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "26.0 M",
     area: "120,538 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1569,6 +1725,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "51.7 M",
     area: "100,210 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1579,6 +1736,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "9.4 M",
     area: "83,600 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1589,6 +1747,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "1,428.6 M",
     area: "3,287,263 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1599,6 +1758,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "277.5 M",
     area: "1,904,569 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1609,6 +1769,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "44.5 M",
     area: "438,317 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1619,6 +1780,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "86.0 M",
     area: "1,648,195 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1629,6 +1791,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "9.7 M",
     area: "22,072 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1639,6 +1802,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "123.3 M",
     area: "377,975 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1649,6 +1813,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "11.3 M",
     area: "89,342 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1659,6 +1824,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "20.0 M",
     area: "2,724,900 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1669,6 +1835,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "7.0 M",
     area: "199,951 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1679,6 +1846,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "4.3 M",
     area: "17,818 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1689,6 +1857,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "7.5 M",
     area: "236,800 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1699,6 +1868,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "5.5 M",
     area: "10,452 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1709,6 +1879,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "34.2 M",
     area: "329,847 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1719,6 +1890,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "0.5 M",
     area: "298 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1729,6 +1901,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "3.4 M",
     area: "1,564,110 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1739,6 +1912,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "54.2 M",
     area: "676,578 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1749,6 +1923,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "30.5 M",
     area: "147,516 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1759,6 +1934,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "4.6 M",
     area: "309,500 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1769,6 +1945,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "35.6 M",
     area: "447,400 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1779,6 +1956,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "240.5 M",
     area: "881,913 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1789,6 +1967,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "5.4 M",
     area: "6,020 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1799,6 +1978,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "117.3 M",
     area: "300,000 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1809,6 +1989,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "2.7 M",
     area: "11,586 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1819,6 +2000,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "36.4 M",
     area: "2,149,690 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1829,6 +2011,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "6.0 M",
     area: "719 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1839,6 +2022,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "22.2 M",
     area: "65,610 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1849,6 +2033,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "23.2 M",
     area: "185,180 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1859,6 +2044,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "10.1 M",
     area: "143,100 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1869,6 +2055,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "71.7 M",
     area: "513,120 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1879,6 +2066,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "1.4 M",
     area: "14,919 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1889,6 +2077,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "6.1 M",
     area: "488,100 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1899,6 +2088,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "85.3 M",
     area: "783,562 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1909,6 +2099,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "98.2 M",
     area: "331,212 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   },
   {
@@ -1919,6 +2110,7 @@ export const countriesData: Card[] = [
     continent: "Asia",
     population: "34.4 M",
     area: "527,968 km²",
+    rarity: 9,
     quizCategory: ["Country", "Asia", "General"]
   }
 ];
