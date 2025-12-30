@@ -9,6 +9,7 @@ export const mozambiqueCitiesData: Card[] = [
     continent: "Africa",
     population: "1.1 M",
     agglomeration: "2.4 M",
+    rarity: 9,
     quizCategory: ["Mozambique", "City", "Africa", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const mozambiqueCitiesData: Card[] = [
     continent: "Africa",
     population: "350 K",
     agglomeration: "395 K",
+    rarity: 3,
     quizCategory: ["Mozambique", "City", "Africa", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const mozambiqueCitiesData: Card[] = [
     continent: "Africa",
     population: "743 K",
     agglomeration: "743 K",
+    rarity: 3,
     quizCategory: ["Mozambique", "City", "Africa", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const mozambiqueCitiesData: Card[] = [
     continent: "Africa",
     population: "533 K",
     agglomeration: "533 K",
+    rarity: 3,
     quizCategory: ["Mozambique", "City", "Africa", "General"]
   }
 ];

@@ -9,6 +9,7 @@ export const afriqueDuSudCitiesData: Card[] = [
     continent: "Africa",
     population: "430 K",
     agglomeration: "4.00 M",
+    rarity: 9,
     quizCategory: ["South Africa", "City", "Africa", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const afriqueDuSudCitiesData: Card[] = [
     continent: "Africa",
     population: "960 K",
     agglomeration: "5.93 M",
+    rarity: 3,
     quizCategory: ["South Africa", "City", "Africa", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const afriqueDuSudCitiesData: Card[] = [
     continent: "Africa",
     population: "595 K",
     agglomeration: "3.26 M",
+    rarity: 3,
     quizCategory: ["South Africa", "City", "Africa", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const afriqueDuSudCitiesData: Card[] = [
     continent: "Africa",
     population: "267 K",
     agglomeration: "755 K",
+    rarity: 3,
     quizCategory: ["South Africa", "City", "Africa", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const afriqueDuSudCitiesData: Card[] = [
     continent: "Africa",
     population: "312 K",
     agglomeration: "1.26 M",
+    rarity: 3,
     quizCategory: ["South Africa", "City", "Africa", "General"]
   }
 ];

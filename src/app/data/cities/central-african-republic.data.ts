@@ -9,6 +9,7 @@ export const republiquecentrafricaineCitiesData: Card[] = [
     continent: "Africa",
     population: "889 K",
     agglomeration: "1.05 M",
+    rarity: 9,
     quizCategory: ["Central African Republic", "City", "Africa", "General"]
   }
 ];

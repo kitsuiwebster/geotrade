@@ -9,6 +9,7 @@ export const nouvellezelandeCitiesData: Card[] = [
     continent: "Oceania",
     population: "215 K",
     agglomeration: "434 K",
+    rarity: 9,
     quizCategory: ["New Zealand", "City", "Oceania", "General"]
   }
 ];

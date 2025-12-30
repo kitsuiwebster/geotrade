@@ -9,6 +9,7 @@ export const samoaCitiesData: Card[] = [
     continent: "Oceania",
     population: "36 K",
     agglomeration: "50 K",
+    rarity: 9,
     quizCategory: ["Samoa", "City", "Oceania", "General"]
   }
 ];

@@ -9,6 +9,7 @@ export const northMacedoniaCitiesData: Card[] = [
     continent: "Europe",
     population: "544 K",
     agglomeration: "650 K",
+    rarity: 9,
     quizCategory: ["North Macedonia", "City", "Europe", "General"]
   }
 ];

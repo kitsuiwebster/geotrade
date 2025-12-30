@@ -8,6 +8,7 @@ export const archipelagosData: Card[] = [
     localisation: "Ecuador",
     continent: "South America",
     area: "8,010 km²",
+    rarity: 6,
     quizCategory: ["Ecuador", "Archipelago", "South America", "General"]
   },
   {
@@ -17,6 +18,7 @@ export const archipelagosData: Card[] = [
     localisation: "Spain",
     continent: "Africa",
     area: "7,493 km²",
+    rarity: 6,
     quizCategory: ["Spain", "Archipelago", "Africa", "General"]
   },
   {
@@ -26,6 +28,7 @@ export const archipelagosData: Card[] = [
     localisation: "Denmark",
     continent: "Europe",
     area: "1,393 km²",
+    rarity: 6,
     quizCategory: ["Denmark", "Archipelago", "Europe", "General"]
   },
   {
@@ -35,6 +38,7 @@ export const archipelagosData: Card[] = [
     localisation: "Seychelles",
     continent: "Africa",
     area: "455 km²",
+    rarity: 6,
     quizCategory: ["Seychelles", "Archipelago", "Africa", "General"]
   },
   {
@@ -44,6 +48,7 @@ export const archipelagosData: Card[] = [
     localisation: "Maldives",
     continent: "Asia",
     area: "298 km²",
+    rarity: 6,
     quizCategory: ["Archipelago", "Asia", "General"]
   },
   {
@@ -53,6 +58,7 @@ export const archipelagosData: Card[] = [
     localisation: "Philippines",
     continent: "Asia",
     area: "300,000 km²",
+    rarity: 6,
     quizCategory: ["Philippines", "Archipelago", "Asia", "General"]
   },
   {
@@ -62,6 +68,7 @@ export const archipelagosData: Card[] = [
     localisation: "Bahamas",
     continent: "North America",
     area: "13,943 km²",
+    rarity: 6,
     quizCategory: ["Bahamas", "Archipelago", "North America", "General"]
   },
   {
@@ -71,6 +78,7 @@ export const archipelagosData: Card[] = [
     localisation: "Greece",
     continent: "Europe",
     area: "25,042 km²",
+    rarity: 6,
     quizCategory: ["Greece", "Archipelago", "Europe", "General"]
   },
   {
@@ -80,6 +88,7 @@ export const archipelagosData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     area: "1,904,569 km²",
+    rarity: 6,
     quizCategory: ["Indonesia", "Archipelago", "Asia", "General"]
   },
   {
@@ -89,6 +98,7 @@ export const archipelagosData: Card[] = [
     localisation: "Caribbean",
     continent: "North America",
     area: "235,000 km²",
+    rarity: 6,
     quizCategory: ["Archipelago", "North America", "General"]
   },
   {
@@ -98,6 +108,7 @@ export const archipelagosData: Card[] = [
     localisation: "Portugal",
     continent: "Europe",
     area: "2,351 km²",
+    rarity: 6,
     quizCategory: ["Portugal", "Archipelago", "Europe", "General"]
   },
   {
@@ -107,6 +118,7 @@ export const archipelagosData: Card[] = [
     localisation: "Spain",
     continent: "Europe",
     area: "4,992 km²",
+    rarity: 6,
     quizCategory: ["Spain", "Archipelago", "Europe", "General"]
   },
   {
@@ -116,6 +128,7 @@ export const archipelagosData: Card[] = [
     localisation: "Japan",
     continent: "Asia",
     area: "377,975 km²",
+    rarity: 6,
     quizCategory: ["Japan", "Archipelago", "Asia", "General"]
   },
   {
@@ -125,6 +138,7 @@ export const archipelagosData: Card[] = [
     localisation: "United Kingdom and Ireland",
     continent: "Europe",
     area: "315,159 km²",
+    rarity: 6,
     quizCategory: ["United Kingdom", "Ireland", "Archipelago", "Europe", "General"]
   },
   {
@@ -134,6 +148,7 @@ export const archipelagosData: Card[] = [
     localisation: "Norway",
     continent: "Europe",
     area: "1,227 km²",
+    rarity: 6,
     quizCategory: ["Norway", "Archipelago", "Europe", "General"]
   },
   {
@@ -143,6 +158,7 @@ export const archipelagosData: Card[] = [
     localisation: "Norway",
     continent: "Europe",
     area: "2,511 km²",
+    rarity: 6,
     quizCategory: ["Norway", "Archipelago", "Europe", "General"]
   },
   {
@@ -152,6 +168,7 @@ export const archipelagosData: Card[] = [
     localisation: "Fiji",
     continent: "Oceania",
     area: "18,333 km²",
+    rarity: 6,
     quizCategory: ["Fiji", "Archipelago", "Oceania", "General"]
   },
   {
@@ -161,6 +178,7 @@ export const archipelagosData: Card[] = [
     localisation: "United States",
     continent: "North America",
     area: "16,635 km²",
+    rarity: 6,
     quizCategory: ["United States", "Archipelago", "North America", "General"]
   },
   {
@@ -170,6 +188,7 @@ export const archipelagosData: Card[] = [
     localisation: "Tanzania",
     continent: "Africa",
     area: "2,461 km²",
+    rarity: 6,
     quizCategory: ["Tanzania", "Archipelago", "Africa", "General"]
   },
   {
@@ -179,6 +198,7 @@ export const archipelagosData: Card[] = [
     localisation: "Norway",
     continent: "Europe",
     area: "61,022 km²",
+    rarity: 6,
     quizCategory: ["Norway", "Archipelago", "Europe", "General"]
   },
   {
@@ -188,6 +208,7 @@ export const archipelagosData: Card[] = [
     localisation: "Micronesia",
     continent: "Oceania",
     area: "702 km²",
+    rarity: 6,
     quizCategory: ["Micronesia", "Archipelago", "Oceania", "General"]
   },
   {
@@ -197,6 +218,7 @@ export const archipelagosData: Card[] = [
     localisation: "Tonga",
     continent: "Oceania",
     area: "747 km²",
+    rarity: 6,
     quizCategory: ["Tonga", "Archipelago", "Oceania", "General"]
   },
   {
@@ -206,6 +228,7 @@ export const archipelagosData: Card[] = [
     localisation: "Vanuatu",
     continent: "Oceania",
     area: "12,189 km²",
+    rarity: 6,
     quizCategory: ["Vanuatu", "Archipelago", "Oceania", "General"]
   },
   {
@@ -215,6 +238,7 @@ export const archipelagosData: Card[] = [
     localisation: "Tuvalu",
     continent: "Oceania",
     area: "26 km²",
+    rarity: 6,
     quizCategory: ["Tuvalu", "Archipelago", "Oceania", "General"]
   },
   {
@@ -224,6 +248,7 @@ export const archipelagosData: Card[] = [
     localisation: "Sao Tome and Principe",
     continent: "Africa",
     area: "964 km²",
+    rarity: 6,
     quizCategory: ["Archipelago", "Africa", "General"]
   },
   {
@@ -233,6 +258,7 @@ export const archipelagosData: Card[] = [
     localisation: "United States and United Kingdom",
     continent: "North America",
     area: "497 km²",
+    rarity: 6,
     quizCategory: ["United States", "United Kingdom", "Archipelago", "North America", "General"]
   },
   {
@@ -242,6 +268,7 @@ export const archipelagosData: Card[] = [
     localisation: "United Kingdom",
     continent: "South America",
     area: "12,173 km²",
+    rarity: 6,
     quizCategory: ["United Kingdom", "Archipelago", "South America", "General"]
   },
   {
@@ -251,6 +278,7 @@ export const archipelagosData: Card[] = [
     localisation: "Samoa",
     continent: "Oceania",
     area: "2,842 km²",
+    rarity: 6,
     quizCategory: ["Samoa", "Archipelago", "Oceania", "General"]
   },
   {
@@ -260,6 +288,7 @@ export const archipelagosData: Card[] = [
     localisation: "Solomon Islands",
     continent: "Oceania",
     area: "28,896 km²",
+    rarity: 6,
     quizCategory: ["Solomon Islands", "Archipelago", "Oceania", "General"]
   },
   {
@@ -269,6 +298,7 @@ export const archipelagosData: Card[] = [
     localisation: "Marshall Islands",
     continent: "Oceania",
     area: "181 km²",
+    rarity: 6,
     quizCategory: ["Marshall Islands", "Archipelago", "Oceania", "General"]
   },
   {
@@ -278,6 +308,7 @@ export const archipelagosData: Card[] = [
     localisation: "France",
     continent: "Oceania",
     area: "4,167 km²",
+    rarity: 6,
     quizCategory: ["France", "Archipelago", "Oceania", "General"]
   },
   {
@@ -287,6 +318,7 @@ export const archipelagosData: Card[] = [
     localisation: "Palau",
     continent: "Oceania",
     area: "459 km²",
+    rarity: 6,
     quizCategory: ["Palau", "Archipelago", "Oceania", "General"]
   },
   {
@@ -296,6 +328,7 @@ export const archipelagosData: Card[] = [
     localisation: "Comoros",
     continent: "Africa",
     area: "2,235 km²",
+    rarity: 6,
     quizCategory: ["Archipelago", "Africa", "General"]
   },
   {
@@ -305,6 +338,7 @@ export const archipelagosData: Card[] = [
     localisation: "Cape Verde",
     continent: "Africa",
     area: "4,033 km²",
+    rarity: 6,
     quizCategory: ["Archipelago", "Africa", "General"]
   },
   {
@@ -314,6 +348,7 @@ export const archipelagosData: Card[] = [
     localisation: "France",
     continent: "Antarctica",
     area: "7,215 km²",
+    rarity: 6,
     quizCategory: ["France", "Archipelago", "Antarctica", "General"]
   },
   {
@@ -323,6 +358,7 @@ export const archipelagosData: Card[] = [
     localisation: "France",
     continent: "Antarctica",
     area: "352 km²",
+    rarity: 6,
     quizCategory: ["France", "Archipelago", "Antarctica", "General"]
   },
   {
@@ -332,6 +368,7 @@ export const archipelagosData: Card[] = [
     localisation: "New Zealand",
     continent: "Oceania",
     area: "268,021 km²",
+    rarity: 6,
     quizCategory: ["New Zealand", "Archipelago", "Oceania", "General"]
   }
 ];

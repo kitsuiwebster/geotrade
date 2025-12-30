@@ -9,6 +9,7 @@ export const laosCitiesData: Card[] = [
     continent: "Asia",
     population: "948 K",
     agglomeration: "1.1 M",
+    rarity: 9,
     quizCategory: ["Laos", "City", "Asia", "General"]
   }
 ];

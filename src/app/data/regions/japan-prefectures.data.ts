@@ -9,6 +9,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "83,424 km²",
     population: "5.25 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "9,645 km²",
     population: "1.24 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "15,275 km²",
     population: "1.23 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "7,282 km²",
     population: "2.30 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "11,638 km²",
     population: "966 K",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "9,323 km²",
     population: "1.08 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "13,784 km²",
     population: "1.85 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "6,097 km²",
     population: "2.87 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "6,408 km²",
     population: "1.94 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "6,362 km²",
     population: "1.94 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "3,798 km²",
     population: "7.34 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "5,157 km²",
     population: "6.28 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "2,194 km²",
     population: "14.05 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "2,416 km²",
     population: "9.23 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "12,584 km²",
     population: "2.20 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "4,248 km²",
     population: "1.04 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -169,6 +185,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "4,186 km²",
     population: "1.13 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -179,6 +196,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "4,190 km²",
     population: "766 K",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -189,6 +207,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "4,465 km²",
     population: "817 K",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -199,6 +218,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "13,562 km²",
     population: "2.05 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -209,6 +229,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "10,621 km²",
     population: "1.99 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -219,6 +240,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "7,777 km²",
     population: "3.64 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -229,6 +251,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "5,173 km²",
     population: "7.55 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -239,6 +262,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "5,774 km²",
     population: "1.78 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -249,6 +273,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "4,017 km²",
     population: "1.41 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -259,6 +284,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "4,612 km²",
     population: "2.58 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -269,6 +295,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "1,905 km²",
     population: "8.84 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -279,6 +306,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "8,401 km²",
     population: "5.46 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -289,6 +317,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "3,691 km²",
     population: "1.33 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -299,6 +328,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "4,725 km²",
     population: "924 K",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -309,6 +339,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "3,507 km²",
     population: "556 K",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -319,6 +350,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "6,708 km²",
     population: "674 K",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -329,6 +361,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "7,114 km²",
     population: "1.89 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -339,6 +372,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "8,479 km²",
     population: "2.80 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -349,6 +383,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "6,112 km²",
     population: "1.34 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -359,6 +394,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "4,147 km²",
     population: "728 K",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -369,6 +405,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "1,877 km²",
     population: "956 K",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -379,6 +416,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "5,676 km²",
     population: "1.33 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -389,6 +427,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "7,103 km²",
     population: "691 K",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -399,6 +438,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "4,986 km²",
     population: "5.14 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -409,6 +449,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "2,441 km²",
     population: "811 K",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -419,6 +460,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "4,132 km²",
     population: "1.33 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -429,6 +471,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "7,409 km²",
     population: "1.74 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -439,6 +482,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "6,341 km²",
     population: "1.13 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -449,6 +493,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "7,735 km²",
     population: "1.07 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -459,6 +504,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "9,187 km²",
     population: "1.59 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   },
   {
@@ -469,6 +515,7 @@ export const japanPrefecturesData: Card[] = [
     continent: "Asia",
     area: "2,281 km²",
     population: "1.47 M",
+    rarity: 5,
     quizCategory: ["Japan", "Asia", "General"]
   }
 ];

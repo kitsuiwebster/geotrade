@@ -9,6 +9,7 @@ export const japonCitiesData: Card[] = [
     continent: "Asia",
     population: "13.96 M",
     agglomeration: "37.40 M",
+    rarity: 9,
     quizCategory: ["Japan", "City", "Asia", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const japonCitiesData: Card[] = [
     continent: "Asia",
     population: "2.7 M",
     agglomeration: "19.3 M",
+    rarity: 3,
     quizCategory: ["Japan", "City", "Asia", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const japonCitiesData: Card[] = [
     continent: "Asia",
     population: "1.5 M",
     agglomeration: "2.6 M",
+    rarity: 3,
     quizCategory: ["Japan", "City", "Asia", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const japonCitiesData: Card[] = [
     continent: "Asia",
     population: "1.97 M",
     agglomeration: "2.7 M",
+    rarity: 3,
     quizCategory: ["Japan", "City", "Asia", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const japonCitiesData: Card[] = [
     continent: "Asia",
     population: "2.3 M",
     agglomeration: "10.1 M",
+    rarity: 3,
     quizCategory: ["Japan", "City", "Asia", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const japonCitiesData: Card[] = [
     continent: "Asia",
     population: "1.6 M",
     agglomeration: "2.6 M",
+    rarity: 3,
     quizCategory: ["Japan", "City", "Asia", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const japonCitiesData: Card[] = [
     continent: "Asia",
     population: "3.8 M",
     agglomeration: "38.0 M",
+    rarity: 3,
     quizCategory: ["Japan", "City", "Asia", "General"]
   }
 ];

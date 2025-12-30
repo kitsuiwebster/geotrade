@@ -9,6 +9,7 @@ export const germanyCitiesData: Card[] = [
     continent: "Europe",
     population: "3.7 M",
     agglomeration: "4.5 M",
+    rarity: 9,
     quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const germanyCitiesData: Card[] = [
     continent: "Europe",
     population: "1.9 M",
     agglomeration: "2.5 M",
+    rarity: 3,
     quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const germanyCitiesData: Card[] = [
     continent: "Europe",
     population: "1.5 M",
     agglomeration: "2.6 M",
+    rarity: 3,
     quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const germanyCitiesData: Card[] = [
     continent: "Europe",
     population: "1.1 M",
     agglomeration: "2.2 M",
+    rarity: 3,
     quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const germanyCitiesData: Card[] = [
     continent: "Europe",
     population: "760 K",
     agglomeration: "2.3 M",
+    rarity: 3,
     quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const germanyCitiesData: Card[] = [
     continent: "Europe",
     population: "630 K",
     agglomeration: "2.8 M",
+    rarity: 3,
     quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const germanyCitiesData: Card[] = [
     continent: "Europe",
     population: "620 K",
     agglomeration: "1.3 M",
+    rarity: 3,
     quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const germanyCitiesData: Card[] = [
     continent: "Europe",
     population: "590 K",
     agglomeration: "5.1 M",
+    rarity: 3,
     quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const germanyCitiesData: Card[] = [
     continent: "Europe",
     population: "570 K",
     agglomeration: "5.1 M",
+    rarity: 3,
     quizCategory: ["Germany", "City", "Europe", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const germanyCitiesData: Card[] = [
     continent: "Europe",
     population: "600 K",
     agglomeration: "1.2 M",
+    rarity: 3,
     quizCategory: ["Germany", "City", "Europe", "General"]
   }
 ];

@@ -9,6 +9,7 @@ export const capvertCitiesData: Card[] = [
     continent: "Africa",
     population: "168 K",
     agglomeration: "200 K",
+    rarity: 9,
     quizCategory: ["City", "Africa", "General"]
   }
 ];

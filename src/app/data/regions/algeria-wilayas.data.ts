@@ -9,6 +9,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "427,968 km²",
     population: "402 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "4,791 km²",
     population: "1.00 M",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "25,057 km²",
     population: "455 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "6,768 km²",
     population: "621 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "12,038 km²",
     population: "1.13 M",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "3,223 km²",
     population: "915 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "21,671 km²",
     population: "721 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "161,400 km²",
     population: "270 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "1,696 km²",
     population: "1.00 M",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "4,439 km²",
     population: "695 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "556,200 km²",
     population: "198 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "13,878 km²",
     population: "648 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "9,061 km²",
     population: "949 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "20,086 km²",
     population: "846 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "3,568 km²",
     population: "1.13 M",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "1,190 km²",
     population: "2.99 M",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -169,6 +185,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "32,256 km²",
     population: "1.16 M",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -179,6 +196,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "2,577 km²",
     population: "636 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -189,6 +207,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "6,504 km²",
     population: "1.50 M",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -199,6 +218,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "6,764 km²",
     population: "330 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -209,6 +229,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "4,026 km²",
     population: "898 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -219,6 +240,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "9,150 km²",
     population: "603 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -229,6 +251,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "1,439 km²",
     population: "609 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -239,6 +262,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "3,686 km²",
     population: "482 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -249,6 +273,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "2,187 km²",
     population: "938 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -259,6 +284,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "8,866 km²",
     population: "819 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -269,6 +295,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "2,175 km²",
     population: "737 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -279,6 +306,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "18,718 km²",
     population: "991 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -289,6 +317,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "5,135 km²",
     population: "784 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -299,6 +328,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "163,230 km²",
     population: "558 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -309,6 +339,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "2,114 km²",
     population: "1.58 M",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -319,6 +350,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "78,870 km²",
     population: "229 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -329,6 +361,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "284,618 km²",
     population: "54 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -339,6 +372,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "4,115 km²",
     population: "628 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -349,6 +383,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "1,456 km²",
     population: "802 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -359,6 +394,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "3,339 km²",
     population: "408 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -369,6 +405,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "159,000 km²",
     population: "58 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -379,6 +416,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "3,152 km²",
     population: "296 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -389,6 +427,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "54,573 km²",
     population: "673 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -399,6 +438,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "9,811 km²",
     population: "386 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -409,6 +449,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "4,541 km²",
     population: "438 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -419,6 +460,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "2,166 km²",
     population: "591 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -429,6 +471,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "9,375 km²",
     population: "768 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -439,6 +482,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "4,897 km²",
     population: "766 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -449,6 +493,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "29,950 km²",
     population: "192 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -459,6 +504,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "2,379 km²",
     population: "371 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -469,6 +515,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "86,105 km²",
     population: "363 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   },
   {
@@ -479,6 +526,7 @@ export const algeriaWilayasData: Card[] = [
     continent: "Africa",
     area: "4,870 km²",
     population: "726 K",
+    rarity: 5,
     quizCategory: ["Algeria", "Africa", "General"]
   }
 ];

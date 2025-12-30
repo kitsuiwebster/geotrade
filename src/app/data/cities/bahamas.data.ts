@@ -9,6 +9,7 @@ export const bahamasCitiesData: Card[] = [
     continent: "Central America",
     population: "274 K",
     agglomeration: "390 K",
+    rarity: 9,
     quizCategory: ["Bahamas", "City", "Central America", "General"]
   }
 ];

@@ -9,6 +9,7 @@ export const burkinafasoCitiesData: Card[] = [
     continent: "Africa",
     population: "2.4 M",
     agglomeration: "3.0 M",
+    rarity: 9,
     quizCategory: ["Burkina Faso", "City", "Africa", "General"]
   }
 ];

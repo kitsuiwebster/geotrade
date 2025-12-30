@@ -9,6 +9,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "164,123 km²",
     population: "906 K",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "27,779 km²",
     population: "3.36 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "142,828 km²",
     population: "877 K",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "1,559,168 km²",
     population: "4.27 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "564,733 km²",
     population: "14.99 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "148,920 km²",
     population: "9.24 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "5,760 km²",
     population: "3.09 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "46,095 km²",
     population: "4.11 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "340,111 km²",
     population: "7.21 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "331,937 km²",
     population: "7.15 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "903,357 km²",
     population: "3.66 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "357,125 km²",
     population: "2.84 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "586,528 km²",
     population: "21.41 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "1,247,690 km²",
     population: "8.78 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "56,469 km²",
     population: "4.06 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "199,314 km²",
     population: "11.60 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -169,6 +185,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "98,312 km²",
     population: "9.67 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -179,6 +196,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "251,529 km²",
     population: "3.29 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -189,6 +207,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "43,696 km²",
     population: "17.46 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -199,6 +218,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "52,797 km²",
     population: "3.56 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -209,6 +229,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "281,748 km²",
     population: "11.46 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -219,6 +240,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "237,765 km²",
     population: "1.81 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -229,6 +251,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "224,299 km²",
     population: "653 K",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -239,6 +262,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "95,346 km²",
     population: "7.34 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -249,6 +273,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "248,209 km²",
     population: "46.29 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -259,6 +284,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "21,910 km²",
     population: "2.32 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   },
   {
@@ -269,6 +295,7 @@ export const brazilStatesData: Card[] = [
     continent: "South America",
     area: "277,621 km²",
     population: "1.61 M",
+    rarity: 5,
     quizCategory: ["Brazil", "South America", "General"]
   }
 ];

@@ -9,6 +9,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "307,571 km²",
     population: "17.57 M",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "102,602 km²",
     population: "415 K",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "99,633 km²",
     population: "1.20 M",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "224,686 km²",
     population: "618 K",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "165,321 km²",
     population: "3.76 M",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "88,199 km²",
     population: "1.12 M",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "78,781 km²",
     population: "1.39 M",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "72,066 km²",
     population: "606 K",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "53,219 km²",
     population: "770 K",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "143,440 km²",
     population: "349 K",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "89,680 km²",
     population: "385 K",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "148,827 km²",
     population: "1.99 M",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "29,801 km²",
     population: "1.26 M",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "94,078 km²",
     population: "664 K",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "203,013 km²",
     population: "747 K",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "155,488 km²",
     population: "1.40 M",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -169,6 +185,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "89,651 km²",
     population: "738 K",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -179,6 +196,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "76,748 km²",
     population: "514 K",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -189,6 +207,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "243,943 km²",
     population: "374 K",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -199,6 +218,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "133,007 km²",
     population: "3.56 M",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -209,6 +229,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "136,351 km²",
     population: "978 K",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -219,6 +240,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "21,263 km²",
     population: "173 K",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -229,6 +251,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "22,524 km²",
     population: "1.69 M",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   },
   {
@@ -239,6 +262,7 @@ export const argentinaProvincesData: Card[] = [
     continent: "South America",
     area: "200 km²",
     population: "3.08 M",
+    rarity: 5,
     quizCategory: ["Argentina", "South America", "General"]
   }
 ];

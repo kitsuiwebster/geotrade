@@ -9,6 +9,7 @@ export const republiquedominicaineCitiesData: Card[] = [
     continent: "Central America",
     population: "1.0 M",
     agglomeration: "3.4 M",
+    rarity: 9,
     quizCategory: ["Dominican Republic", "City", "Central America", "General"]
   }
 ];

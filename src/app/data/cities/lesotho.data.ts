@@ -9,6 +9,7 @@ export const lesothoCitiesData: Card[] = [
     continent: "Africa",
     population: "330 K",
     agglomeration: "400 K",
+    rarity: 9,
     quizCategory: ["Lesotho", "City", "Africa", "General"]
   }
 ];

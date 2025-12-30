@@ -9,6 +9,7 @@ export const mauriceCitiesData: Card[] = [
     continent: "Africa",
     population: "148 K",
     agglomeration: "149 K",
+    rarity: 9,
     quizCategory: ["Mauritius", "City", "Africa", "General"]
   }
 ];

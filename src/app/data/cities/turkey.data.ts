@@ -9,6 +9,7 @@ export const turquieCitiesData: Card[] = [
     continent: "Asia",
     population: "5.7 M",
     agglomeration: "6.1 M",
+    rarity: 9,
     quizCategory: ["Turkey", "City", "Asia", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const turquieCitiesData: Card[] = [
     continent: "Europe",
     population: "15.8 M",
     agglomeration: "16.1 M",
+    rarity: 3,
     quizCategory: ["Turkey", "City", "Europe", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const turquieCitiesData: Card[] = [
     continent: "Asia",
     population: "2.9 M",
     agglomeration: "4.4 M",
+    rarity: 3,
     quizCategory: ["Turkey", "City", "Asia", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const turquieCitiesData: Card[] = [
     continent: "Asia",
     population: "2.0 M",
     agglomeration: "3.1 M",
+    rarity: 3,
     quizCategory: ["Turkey", "City", "Asia", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const turquieCitiesData: Card[] = [
     continent: "Asia",
     population: "1.8 M",
     agglomeration: "2.3 M",
+    rarity: 3,
     quizCategory: ["Turkey", "City", "Asia", "General"]
   }
 ];

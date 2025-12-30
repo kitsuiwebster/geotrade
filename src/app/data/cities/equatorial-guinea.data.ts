@@ -9,6 +9,7 @@ export const guineeequatorialeCitiesData: Card[] = [
     continent: "Africa",
     population: "297 K",
     agglomeration: "360 K",
+    rarity: 9,
     quizCategory: ["Equatorial Guinea", "City", "Africa", "General"]
   }
 ];

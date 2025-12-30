@@ -9,6 +9,7 @@ export const barbadeCitiesData: Card[] = [
     continent: "Central America",
     population: "110 K",
     agglomeration: "180 K",
+    rarity: 9,
     quizCategory: ["Barbados", "City", "Central America", "General"]
   }
 ];

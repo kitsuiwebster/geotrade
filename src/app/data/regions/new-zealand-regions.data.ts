@@ -9,6 +9,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "13,789 km²",
     population: "194 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "4,894 km²",
     population: "1.72 M",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "25,598 km²",
     population: "498 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "12,231 km²",
     population: "345 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "8,355 km²",
     population: "51 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "14,164 km²",
     population: "179 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "7,254 km²",
     population: "126 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "22,215 km²",
     population: "251 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "8,049 km²",
     population: "550 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "9,786 km²",
     population: "58 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "445 km²",
     population: "54 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "12,484 km²",
     population: "49 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "23,276 km²",
     population: "33 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "44,508 km²",
     population: "695 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "31,476 km²",
     population: "246 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const newZealandRegionsData: Card[] = [
     continent: "Oceania",
     area: "28,681 km²",
     population: "103 K",
+    rarity: 5,
     quizCategory: ["New Zealand", "Oceania", "General"]
   }
 ];

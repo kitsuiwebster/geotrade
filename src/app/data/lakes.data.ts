@@ -9,6 +9,7 @@ export const lakesData: Card[] = [
     continent: "Asia",
     area: "31,500 km²",
     depth: "1,642 m",
+    rarity: 6,
     quizCategory: ["Russia", "Lake", "Asia", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const lakesData: Card[] = [
     continent: "North America",
     area: "82,100 km²",
     depth: "406 m",
+    rarity: 6,
     quizCategory: ["United States", "Canada", "Lake", "North America", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const lakesData: Card[] = [
     continent: "Africa",
     area: "68,800 km²",
     depth: "84 m",
+    rarity: 6,
     quizCategory: ["Kenya", "Tanzania", "Uganda", "Lake", "Africa", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const lakesData: Card[] = [
     continent: "North America",
     area: "59,600 km²",
     depth: "229 m",
+    rarity: 6,
     quizCategory: ["United States", "Canada", "Lake", "North America", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const lakesData: Card[] = [
     continent: "North America",
     area: "58,000 km²",
     depth: "281 m",
+    rarity: 6,
     quizCategory: ["United States", "Lake", "North America", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const lakesData: Card[] = [
     continent: "Africa",
     area: "32,900 km²",
     depth: "1,470 m",
+    rarity: 6,
     quizCategory: ["Tanzania", "Burundi", "Zambia", "Lake", "Africa", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const lakesData: Card[] = [
     continent: "South America",
     area: "8,372 km²",
     depth: "281 m",
+    rarity: 6,
     quizCategory: ["Peru", "Bolivia", "Lake", "South America", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const lakesData: Card[] = [
     continent: "Africa",
     area: "29,600 km²",
     depth: "706 m",
+    rarity: 6,
     quizCategory: ["Tanzania", "Mozambique", "Malawi", "Lake", "Africa", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const lakesData: Card[] = [
     continent: "North America",
     area: "27,200 km²",
     depth: "614 m",
+    rarity: 6,
     quizCategory: ["Canada", "Lake", "North America", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const lakesData: Card[] = [
     continent: "Europe",
     area: "580 km²",
     depth: "310 m",
+    rarity: 6,
     quizCategory: ["France", "Switzerland", "Lake", "Europe", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const lakesData: Card[] = [
     continent: "Africa",
     area: "1,040 km²",
     depth: "3 m",
+    rarity: 6,
     quizCategory: ["Tanzania", "Lake", "Africa", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const lakesData: Card[] = [
     continent: "Asia",
     area: "1.82 km²",
     depth: "40 m",
+    rarity: 6,
     quizCategory: ["Kazakhstan", "Lake", "Asia", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const lakesData: Card[] = [
     continent: "North America",
     area: "25,700 km²",
     depth: "64 m",
+    rarity: 6,
     quizCategory: ["United States", "Canada", "Lake", "North America", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const lakesData: Card[] = [
     continent: "North America",
     area: "18,960 km²",
     depth: "244 m",
+    rarity: 6,
     quizCategory: ["United States", "Canada", "Lake", "North America", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const lakesData: Card[] = [
     continent: "North America",
     area: "31,080 km²",
     depth: "446 m",
+    rarity: 6,
     quizCategory: ["Canada", "Lake", "North America", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const lakesData: Card[] = [
     continent: "Africa",
     area: "5,580 km²",
     depth: "97 m",
+    rarity: 6,
     quizCategory: ["Zambia", "Zimbabwe", "Lake", "Africa", "General"]
   },
   {
@@ -169,6 +185,7 @@ export const lakesData: Card[] = [
     continent: "Asia",
     area: "6,236 km²",
     depth: "668 m",
+    rarity: 6,
     quizCategory: ["Kyrgyzstan", "Lake", "Asia", "General"]
   },
   {
@@ -179,6 +196,7 @@ export const lakesData: Card[] = [
     continent: "Asia",
     area: "371,000 km²",
     depth: "1,025 m",
+    rarity: 6,
     quizCategory: ["Russia", "Iran", "Kazakhstan", "Turkmenistan", "Azerbaijan", "Lake", "Asia", "General"]
   }
 ];

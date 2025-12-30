@@ -9,6 +9,7 @@ export const kazakhstanCitiesData: Card[] = [
     continent: "Asia",
     population: "1.2 M",
     agglomeration: "1.5 M",
+    rarity: 9,
     quizCategory: ["Kazakhstan", "City", "Asia", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const kazakhstanCitiesData: Card[] = [
     continent: "Asia",
     population: "2.0 M",
     agglomeration: "2.2 M",
+    rarity: 3,
     quizCategory: ["Kazakhstan", "City", "Asia", "General"]
   }
 ];

@@ -8,6 +8,7 @@ export const desertsData: Card[] = [
     localisation: "Africa",
     continent: "Africa",
     area: "9,200,000 km²",
+    rarity: 8,
     quizCategory: ["Desert", "Africa", "General"]
   },
   {
@@ -17,6 +18,7 @@ export const desertsData: Card[] = [
     localisation: "Asia",
     continent: "Asia",
     area: "2,330,000 km²",
+    rarity: 8,
     quizCategory: ["Desert", "Asia", "General"]
   },
   {
@@ -26,6 +28,7 @@ export const desertsData: Card[] = [
     localisation: "Asia",
     continent: "Asia",
     area: "1,295,000 km²",
+    rarity: 8,
     quizCategory: ["Desert", "Asia", "General"]
   },
   {
@@ -35,6 +38,7 @@ export const desertsData: Card[] = [
     localisation: "Africa",
     continent: "Africa",
     area: "900,000 km²",
+    rarity: 8,
     quizCategory: ["Desert", "Africa", "General"]
   },
   {
@@ -44,6 +48,7 @@ export const desertsData: Card[] = [
     localisation: "North America",
     continent: "North America",
     area: "492,000 km²",
+    rarity: 8,
     quizCategory: ["Desert", "North America", "General"]
   },
   {
@@ -53,6 +58,7 @@ export const desertsData: Card[] = [
     localisation: "North America",
     continent: "North America",
     area: "260,000 km²",
+    rarity: 8,
     quizCategory: ["Desert", "North America", "General"]
   },
   {
@@ -62,6 +68,7 @@ export const desertsData: Card[] = [
     localisation: "North America",
     continent: "South America",
     area: "105,000 km²",
+    rarity: 8,
     quizCategory: ["Desert", "South America", "General"]
   },
   {
@@ -71,6 +78,7 @@ export const desertsData: Card[] = [
     localisation: "Antarctica",
     continent: "Antarctica",
     area: "14,200,000 km²",
+    rarity: 8,
     quizCategory: ["Desert", "Antarctica", "General"]
   },
   {
@@ -80,6 +88,7 @@ export const desertsData: Card[] = [
     localisation: "South America",
     continent: "South America",
     area: "673,000 km²",
+    rarity: 8,
     quizCategory: ["Desert", "South America", "General"]
   },
   {
@@ -89,6 +98,7 @@ export const desertsData: Card[] = [
     localisation: "Australia",
     continent: "Oceania",
     area: "348,750 km²",
+    rarity: 8,
     quizCategory: ["Australia", "Desert", "Oceania", "General"]
   },
   {
@@ -98,6 +108,7 @@ export const desertsData: Card[] = [
     localisation: "Asia",
     continent: "Asia",
     area: "200,000 km²",
+    rarity: 8,
     quizCategory: ["Desert", "Asia", "General"]
   },
   {
@@ -107,6 +118,7 @@ export const desertsData: Card[] = [
     localisation: "North America",
     continent: "North America",
     area: "362,600 km²",
+    rarity: 8,
     quizCategory: ["Desert", "North America", "General"]
   },
   {
@@ -116,6 +128,7 @@ export const desertsData: Card[] = [
     localisation: "North America",
     continent: "North America",
     area: "124,000 km²",
+    rarity: 8,
     quizCategory: ["Desert", "North America", "General"]
   },
   {
@@ -125,6 +138,7 @@ export const desertsData: Card[] = [
     localisation: "Africa",
     continent: "Africa",
     area: "81,000 km²",
+    rarity: 8,
     quizCategory: ["Desert", "Africa", "General"]
   },
   {
@@ -134,6 +148,7 @@ export const desertsData: Card[] = [
     localisation: "Asia",
     continent: "Asia",
     area: "337,000 km²",
+    rarity: 8,
     quizCategory: ["Desert", "Asia", "General"]
   },
   {
@@ -143,6 +158,7 @@ export const desertsData: Card[] = [
     localisation: "Arabia",
     continent: "Asia",
     area: "650,000 km²",
+    rarity: 8,
     quizCategory: ["Desert", "Asia", "General"]
   },
   {
@@ -152,6 +168,7 @@ export const desertsData: Card[] = [
     localisation: "Turkmenistan",
     continent: "Asia",
     area: "350,000 km²",
+    rarity: 8,
     quizCategory: ["Turkmenistan", "Desert", "Asia", "General"]
   },
   {
@@ -161,6 +178,7 @@ export const desertsData: Card[] = [
     localisation: "Kazakhstan and Uzbekistan",
     continent: "Asia",
     area: "298,000 km²",
+    rarity: 8,
     quizCategory: ["Kazakhstan", "Uzbekistan", "Desert", "Asia", "General"]
   },
   {
@@ -170,6 +188,7 @@ export const desertsData: Card[] = [
     localisation: "Australia",
     continent: "Oceania",
     area: "184,500 km²",
+    rarity: 8,
     quizCategory: ["Australia", "Desert", "Oceania", "General"]
   },
   {
@@ -179,6 +198,7 @@ export const desertsData: Card[] = [
     localisation: "Australia",
     continent: "Oceania",
     area: "156,000 km²",
+    rarity: 8,
     quizCategory: ["Australia", "Desert", "Oceania", "General"]
   },
   {
@@ -188,6 +208,7 @@ export const desertsData: Card[] = [
     localisation: "Iran",
     continent: "Asia",
     area: "77,000 km²",
+    rarity: 8,
     quizCategory: ["Iran", "Desert", "Asia", "General"]
   },
   {
@@ -197,6 +218,7 @@ export const desertsData: Card[] = [
     localisation: "Iran",
     continent: "Asia",
     area: "51,800 km²",
+    rarity: 8,
     quizCategory: ["Iran", "Desert", "Asia", "General"]
   },
   {
@@ -206,6 +228,7 @@ export const desertsData: Card[] = [
     localisation: "Israel and Palestine",
     continent: "Asia",
     area: "13,000 km²",
+    rarity: 8,
     quizCategory: ["Israel", "Palestine", "Desert", "Asia", "General"]
   }
 ];

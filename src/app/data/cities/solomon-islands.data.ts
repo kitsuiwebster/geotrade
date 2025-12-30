@@ -9,6 +9,7 @@ export const ilessalomonCitiesData: Card[] = [
     continent: "Oceania",
     population: "85 K",
     agglomeration: "120 K",
+    rarity: 9,
     quizCategory: ["Solomon Islands", "City", "Oceania", "General"]
   }
 ];

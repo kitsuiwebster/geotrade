@@ -9,6 +9,7 @@ export const franceCitiesData: Card[] = [
     continent: "Europe",
     population: "2.16 M",
     agglomeration: "12.27 M",
+    rarity: 9,
     quizCategory: ["France", "City", "Europe", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const franceCitiesData: Card[] = [
     continent: "Europe",
     population: "870 K",
     agglomeration: "1.76 M",
+    rarity: 3,
     quizCategory: ["France", "City", "Europe", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const franceCitiesData: Card[] = [
     continent: "Europe",
     population: "520 K",
     agglomeration: "2.31 M",
+    rarity: 3,
     quizCategory: ["France", "City", "Europe", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const franceCitiesData: Card[] = [
     continent: "Europe",
     population: "480 K",
     agglomeration: "1.36 M",
+    rarity: 3,
     quizCategory: ["France", "City", "Europe", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const franceCitiesData: Card[] = [
     continent: "Europe",
     population: "340 K",
     agglomeration: "1.01 M",
+    rarity: 3,
     quizCategory: ["France", "City", "Europe", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const franceCitiesData: Card[] = [
     continent: "Europe",
     population: "310 K",
     agglomeration: "970 K",
+    rarity: 3,
     quizCategory: ["France", "City", "Europe", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const franceCitiesData: Card[] = [
     continent: "Europe",
     population: "300 K",
     agglomeration: "610 K",
+    rarity: 3,
     quizCategory: ["France", "City", "Europe", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const franceCitiesData: Card[] = [
     continent: "Europe",
     population: "280 K",
     agglomeration: "790 K",
+    rarity: 3,
     quizCategory: ["France", "City", "Europe", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const franceCitiesData: Card[] = [
     continent: "Europe",
     population: "260 K",
     agglomeration: "1.36 M",
+    rarity: 3,
     quizCategory: ["France", "City", "Europe", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const franceCitiesData: Card[] = [
     continent: "Europe",
     population: "230 K",
     agglomeration: "1.18 M",
+    rarity: 3,
     quizCategory: ["France", "City", "Europe", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const franceCitiesData: Card[] = [
     continent: "Europe",
     population: "4 K",
     agglomeration: "4 K",
+    rarity: 3,
     quizCategory: ["France", "City", "Europe"]
   }
 ];

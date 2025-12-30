@@ -9,6 +9,7 @@ export const algerieCitiesData: Card[] = [
     continent: "Africa",
     population: "2.36 M",
     agglomeration: "4.85 M",
+    rarity: 9,
     quizCategory: ["Algeria", "City", "Africa", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const algerieCitiesData: Card[] = [
     continent: "Africa",
     population: "800 K",
     agglomeration: "1.45 M",
+    rarity: 3,
     quizCategory: ["Algeria", "City", "Africa", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const algerieCitiesData: Card[] = [
     continent: "Africa",
     population: "450 K",
     agglomeration: "940 K",
+    rarity: 3,
     quizCategory: ["Algeria", "City", "Africa", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const algerieCitiesData: Card[] = [
     continent: "Africa",
     population: "260 K",
     agglomeration: "460 K",
+    rarity: 3,
     quizCategory: ["Algeria", "City", "Africa", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const algerieCitiesData: Card[] = [
     continent: "Africa",
     population: "290 K",
     agglomeration: "390 K",
+    rarity: 3,
     quizCategory: ["Algeria", "City", "Africa", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const algerieCitiesData: Card[] = [
     continent: "Africa",
     population: "330 K",
     agglomeration: "550 K",
+    rarity: 3,
     quizCategory: ["Algeria", "City", "Africa", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const algerieCitiesData: Card[] = [
     continent: "Africa",
     population: "290 K",
     agglomeration: "410 K",
+    rarity: 3,
     quizCategory: ["Algeria", "City", "Africa", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const algerieCitiesData: Card[] = [
     continent: "Africa",
     population: "270 K",
     agglomeration: "350 K",
+    rarity: 3,
     quizCategory: ["Algeria", "City", "Africa", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const algerieCitiesData: Card[] = [
     continent: "Africa",
     population: "210 K",
     agglomeration: "280 K",
+    rarity: 3,
     quizCategory: ["Algeria", "City", "Africa", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const algerieCitiesData: Card[] = [
     continent: "Africa",
     population: "200 K",
     agglomeration: "310 K",
+    rarity: 3,
     quizCategory: ["Algeria", "City", "Africa", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const algerieCitiesData: Card[] = [
     continent: "Africa",
     population: "190 K",
     agglomeration: "250 K",
+    rarity: 3,
     quizCategory: ["Algeria", "City", "Africa", "General"]
   }
 ];

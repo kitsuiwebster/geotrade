@@ -9,6 +9,7 @@ export const erythreeCitiesData: Card[] = [
     continent: "Africa",
     population: "963 K",
     agglomeration: "1.15 M",
+    rarity: 9,
     quizCategory: ["City", "Africa", "General"]
   }
 ];

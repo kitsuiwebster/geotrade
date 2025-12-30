@@ -9,6 +9,7 @@ export const cubaCitiesData: Card[] = [
     continent: "Central America",
     population: "2.1 M",
     agglomeration: "2.8 M",
+    rarity: 9,
     quizCategory: ["Cuba", "City", "Central America", "General"]
   }
 ];

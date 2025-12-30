@@ -9,6 +9,7 @@ export const republicDemocratiqueDuCongoCitiesData: Card[] = [
     continent: "Africa",
     population: "11.86 M",
     agglomeration: "17.07 M",
+    rarity: 9,
     quizCategory: ["City", "Africa", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const republicDemocratiqueDuCongoCitiesData: Card[] = [
     continent: "Africa",
     population: "1.27 M",
     agglomeration: "1.27 M",
+    rarity: 3,
     quizCategory: ["City", "Africa", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const republicDemocratiqueDuCongoCitiesData: Card[] = [
     continent: "Africa",
     population: "1.31 M",
     agglomeration: "1.31 M",
+    rarity: 3,
     quizCategory: ["City", "Africa", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const republicDemocratiqueDuCongoCitiesData: Card[] = [
     continent: "Africa",
     population: "290 K",
     agglomeration: "425 K",
+    rarity: 3,
     quizCategory: ["City", "Africa", "General"]
   }
 ];

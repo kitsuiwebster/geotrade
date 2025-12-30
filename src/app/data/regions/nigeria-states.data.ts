@@ -9,6 +9,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "6,320 km²",
     population: "3.73 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "36,917 km²",
     population: "4.25 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "7,081 km²",
     population: "5.48 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "4,844 km²",
     population: "5.53 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "45,837 km²",
     population: "6.54 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "10,773 km²",
     population: "2.28 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "34,059 km²",
     population: "5.74 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "70,898 km²",
     population: "5.86 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "20,156 km²",
     population: "3.74 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "17,698 km²",
     population: "5.66 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "5,670 km²",
     population: "2.88 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "17,802 km²",
     population: "4.78 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "6,353 km²",
     population: "3.60 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "7,161 km²",
     population: "4.41 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "7,315 km²",
     population: "3.56 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "18,768 km²",
     population: "3.26 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -169,6 +185,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "5,530 km²",
     population: "5.41 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -179,6 +196,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "23,154 km²",
     population: "5.83 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -189,6 +207,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "46,053 km²",
     population: "8.25 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -199,6 +218,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "20,131 km²",
     population: "13.08 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -209,6 +229,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "24,192 km²",
     population: "8.48 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -219,6 +240,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "36,800 km²",
     population: "4.44 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -229,6 +251,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "29,833 km²",
     population: "4.47 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -239,6 +262,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "36,825 km²",
     population: "3.19 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -249,6 +273,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "3,345 km²",
     population: "14.37 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -259,6 +284,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "27,117 km²",
     population: "2.52 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -269,6 +295,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "76,363 km²",
     population: "5.55 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -279,6 +306,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "16,762 km²",
     population: "5.22 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -289,6 +317,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "15,500 km²",
     population: "4.67 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -299,6 +328,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "9,251 km²",
     population: "4.71 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -309,6 +339,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "28,454 km²",
     population: "7.84 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -319,6 +350,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "30,913 km²",
     population: "4.20 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -329,6 +361,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "11,077 km²",
     population: "7.30 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -339,6 +372,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "25,973 km²",
     population: "4.99 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -349,6 +383,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "54,473 km²",
     population: "3.07 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -359,6 +394,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "45,502 km²",
     population: "3.29 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   },
   {
@@ -369,6 +405,7 @@ export const nigeriaStatesData: Card[] = [
     continent: "Africa",
     area: "39,762 km²",
     population: "4.52 M",
+    rarity: 5,
     quizCategory: ["Nigeria", "Africa", "General"]
   }
 ];

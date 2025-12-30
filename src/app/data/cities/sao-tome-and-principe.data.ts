@@ -9,6 +9,7 @@ export const sãotomeetpríncipeCitiesData: Card[] = [
     continent: "Africa",
     population: "80 K",
     agglomeration: "110 K",
+    rarity: 9,
     quizCategory: ["City", "Africa", "General"]
   }
 ];

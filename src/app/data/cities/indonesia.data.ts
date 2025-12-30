@@ -9,6 +9,7 @@ export const indonesieCitiesData: Card[] = [
     continent: "Asia",
     population: "10.6 M",
     agglomeration: "35.4 M",
+    rarity: 3,
     quizCategory: ["Indonesia", "City", "Asia", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const indonesieCitiesData: Card[] = [
     continent: "Asia",
     population: "50 K",
     agglomeration: "2.0 M",
+    rarity: 9,
     quizCategory: ["Indonesia", "City", "Asia", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const indonesieCitiesData: Card[] = [
     continent: "Asia",
     population: "2.9 M",
     agglomeration: "10.0 M",
+    rarity: 3,
     quizCategory: ["Indonesia", "City", "Asia", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const indonesieCitiesData: Card[] = [
     continent: "Asia",
     population: "2.4 M",
     agglomeration: "7.5 M",
+    rarity: 3,
     quizCategory: ["Indonesia", "City", "Asia", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const indonesieCitiesData: Card[] = [
     continent: "Asia",
     population: "2.4 M",
     agglomeration: "4.0 M",
+    rarity: 3,
     quizCategory: ["Indonesia", "City", "Asia", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const indonesieCitiesData: Card[] = [
     continent: "Asia",
     population: "1.4 M",
     agglomeration: "2.8 M",
+    rarity: 3,
     quizCategory: ["Indonesia", "City", "Asia", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const indonesieCitiesData: Card[] = [
     continent: "Asia",
     population: "1.7 M",
     agglomeration: "2.5 M",
+    rarity: 3,
     quizCategory: ["Indonesia", "City", "Asia", "General"]
   }
 ];

@@ -9,6 +9,7 @@ export const iranCitiesData: Card[] = [
     continent: "Asia",
     population: "9.1 M",
     agglomeration: "15.2 M",
+    rarity: 9,
     quizCategory: ["Iran", "City", "Asia", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const iranCitiesData: Card[] = [
     continent: "Asia",
     population: "3.3 M",
     agglomeration: "3.5 M",
+    rarity: 3,
     quizCategory: ["Iran", "City", "Asia", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const iranCitiesData: Card[] = [
     continent: "Asia",
     population: "2.2 M",
     agglomeration: "2.6 M",
+    rarity: 3,
     quizCategory: ["Iran", "City", "Asia", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const iranCitiesData: Card[] = [
     continent: "Asia",
     population: "1.7 M",
     agglomeration: "2.0 M",
+    rarity: 3,
     quizCategory: ["Iran", "City", "Asia", "General"]
   }
 ];

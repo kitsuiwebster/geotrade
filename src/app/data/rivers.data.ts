@@ -8,6 +8,7 @@ export const riversData: Card[] = [
     localisation: "Egypt, Sudan and South Sudan",
     continent: "Africa",
     length: "6,650 km",
+    rarity: 7,
     quizCategory: ["South Sudan", "Egypt", "Sudan", "River", "Africa", "General"]
   },
   {
@@ -17,6 +18,7 @@ export const riversData: Card[] = [
     localisation: "Brazil, Peru, Colombia",
     continent: "South America",
     length: "7,062 km",
+    rarity: 7,
     quizCategory: ["Brazil", "Peru", "Colombia", "River", "South America", "General"]
   },
   {
@@ -26,6 +28,7 @@ export const riversData: Card[] = [
     localisation: "China",
     continent: "Asia",
     length: "6,300 km",
+    rarity: 7,
     quizCategory: ["China", "River", "Asia", "General"]
   },
   {
@@ -35,6 +38,7 @@ export const riversData: Card[] = [
     localisation: "United States",
     continent: "North America",
     length: "3,734 km",
+    rarity: 7,
     quizCategory: ["United States", "River", "North America", "General"]
   },
   {
@@ -44,6 +48,7 @@ export const riversData: Card[] = [
     localisation: "Russia",
     continent: "Asia",
     length: "5,539 km",
+    rarity: 7,
     quizCategory: ["Russia", "River", "Asia", "General"]
   },
   {
@@ -53,6 +58,7 @@ export const riversData: Card[] = [
     localisation: "Democratic Republic of Congo",
     continent: "Africa",
     length: "4,700 km",
+    rarity: 7,
     quizCategory: ["River", "Africa", "General"]
   },
   {
@@ -62,6 +68,7 @@ export const riversData: Card[] = [
     localisation: "Russia",
     continent: "Europe",
     length: "3,530 km",
+    rarity: 7,
     quizCategory: ["Russia", "River", "Europe", "General"]
   },
   {
@@ -71,6 +78,7 @@ export const riversData: Card[] = [
     localisation: "China, Myanmar, Laos, Thailand, Cambodia, Vietnam",
     continent: "Asia",
     length: "4,350 km",
+    rarity: 7,
     quizCategory: ["China", "Thailand", "Vietnam", "Cambodia", "Laos", "Myanmar", "River", "Asia", "General"]
   },
   {
@@ -80,6 +88,7 @@ export const riversData: Card[] = [
     localisation: "India and Bangladesh",
     continent: "Asia",
     length: "2,525 km",
+    rarity: 7,
     quizCategory: ["India", "Bangladesh", "River", "Asia", "General"]
   },
   {
@@ -89,6 +98,7 @@ export const riversData: Card[] = [
     localisation: "Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Romania, Bulgaria, Moldova, Ukraine",
     continent: "Europe",
     length: "2,860 km",
+    rarity: 7,
     quizCategory: ["Germany", "Austria", "Croatia", "Serbia", "Slovakia", "Hungary", "Romania", "Bulgaria", "Moldova", "Ukraine", "River", "Europe", "General"]
   },
   {
@@ -98,6 +108,7 @@ export const riversData: Card[] = [
     localisation: "China",
     continent: "Asia",
     length: "5,464 km",
+    rarity: 7,
     quizCategory: ["China", "River", "Asia", "General"]
   },
   {
@@ -107,6 +118,7 @@ export const riversData: Card[] = [
     localisation: "Russia",
     continent: "Asia",
     length: "5,410 km",
+    rarity: 7,
     quizCategory: ["Russia", "River", "Asia", "General"]
   },
   {
@@ -116,6 +128,7 @@ export const riversData: Card[] = [
     localisation: "Brazil, Paraguay, Argentina",
     continent: "South America",
     length: "4,880 km",
+    rarity: 7,
     quizCategory: ["Brazil", "Argentina", "Paraguay", "River", "South America", "General"]
   },
   {
@@ -125,6 +138,7 @@ export const riversData: Card[] = [
     localisation: "Kazakhstan, Russia",
     continent: "Asia",
     length: "4,248 km",
+    rarity: 7,
     quizCategory: ["Russia", "Kazakhstan", "River", "Asia", "General"]
   },
   {
@@ -134,6 +148,7 @@ export const riversData: Card[] = [
     localisation: "Guinea, Mali, Niger, Benin, Nigeria",
     continent: "Africa",
     length: "4,180 km",
+    rarity: 7,
     quizCategory: ["Nigeria", "Mali", "Niger", "River", "Africa", "General"]
   },
   {
@@ -143,6 +158,7 @@ export const riversData: Card[] = [
     localisation: "Australia",
     continent: "Oceania",
     length: "2,508 km",
+    rarity: 7,
     quizCategory: ["Australia", "River", "Oceania", "General"]
   },
   {
@@ -152,6 +168,7 @@ export const riversData: Card[] = [
     localisation: "Turkey, Syria, Iraq",
     continent: "Asia",
     length: "2,800 km",
+    rarity: 7,
     quizCategory: ["Turkey", "Iraq", "Syria", "River", "Asia", "General"]
   },
   {
@@ -161,6 +178,7 @@ export const riversData: Card[] = [
     localisation: "Canada",
     continent: "North America",
     length: "4,241 km",
+    rarity: 7,
     quizCategory: ["Canada", "River", "North America", "General"]
   },
   {
@@ -170,6 +188,7 @@ export const riversData: Card[] = [
     localisation: "Russia",
     continent: "Asia",
     length: "4,400 km",
+    rarity: 7,
     quizCategory: ["Russia", "River", "Asia", "General"]
   },
   {
@@ -179,6 +198,7 @@ export const riversData: Card[] = [
     localisation: "Russia, China",
     continent: "Asia",
     length: "4,444 km",
+    rarity: 7,
     quizCategory: ["China", "Russia", "River", "Asia", "General"]
   },
   {
@@ -188,6 +208,7 @@ export const riversData: Card[] = [
     localisation: "Zambia, Angola, Namibia, Botswana, Zimbabwe, Mozambique",
     continent: "Africa",
     length: "2,693 km",
+    rarity: 7,
     quizCategory: ["Zambia", "Zimbabwe", "Botswana", "Namibia", "Angola", "Mozambique", "River", "Africa", "General"]
   },
   {
@@ -197,6 +218,7 @@ export const riversData: Card[] = [
     localisation: "South Africa, Namibia",
     continent: "Africa",
     length: "2,200 km",
+    rarity: 7,
     quizCategory: ["South Africa", "Namibia", "River", "Africa", "General"]
   },
   {
@@ -206,6 +228,7 @@ export const riversData: Card[] = [
     localisation: "Venezuela, Colombia",
     continent: "South America",
     length: "2,140 km",
+    rarity: 7,
     quizCategory: ["Colombia", "Venezuela", "River", "South America", "General"]
   },
   {
@@ -215,6 +238,7 @@ export const riversData: Card[] = [
     localisation: "Switzerland, Germany, France, Netherlands",
     continent: "Europe",
     length: "1,233 km",
+    rarity: 7,
     quizCategory: ["France", "Germany", "Netherlands", "Switzerland", "River", "Europe", "General"]
   },
   {
@@ -224,6 +248,7 @@ export const riversData: Card[] = [
     localisation: "Russia, Belarus, Ukraine",
     continent: "Europe",
     length: "2,201 km",
+    rarity: 7,
     quizCategory: ["Russia", "Ukraine", "Belarus", "River", "Europe", "General"]
   },
   {
@@ -233,6 +258,7 @@ export const riversData: Card[] = [
     localisation: "China, India, Pakistan",
     continent: "Asia",
     length: "3,180 km",
+    rarity: 7,
     quizCategory: ["China", "India", "Pakistan", "River", "Asia", "General"]
   },
   {
@@ -242,6 +268,7 @@ export const riversData: Card[] = [
     localisation: "China, India, Bangladesh",
     continent: "Asia",
     length: "2,900 km",
+    rarity: 7,
     quizCategory: ["China", "India", "Bangladesh", "River", "Asia", "General"]
   },
   {
@@ -251,6 +278,7 @@ export const riversData: Card[] = [
     localisation: "Canada, United States",
     continent: "North America",
     length: "3,185 km",
+    rarity: 7,
     quizCategory: ["United States", "Canada", "River", "North America", "General"]
   },
   {
@@ -260,6 +288,7 @@ export const riversData: Card[] = [
     localisation: "United States, Mexico",
     continent: "North America",
     length: "2,334 km",
+    rarity: 7,
     quizCategory: ["United States", "Mexico", "River", "North America", "General"]
   },
   {
@@ -269,6 +298,7 @@ export const riversData: Card[] = [
     localisation: "Canada, United States",
     continent: "North America",
     length: "2,000 km",
+    rarity: 7,
     quizCategory: ["United States", "Canada", "River", "North America", "General"]
   },
   {
@@ -278,6 +308,7 @@ export const riversData: Card[] = [
     localisation: "United Kingdom",
     continent: "Europe",
     length: "346 km",
+    rarity: 7,
     quizCategory: ["United Kingdom", "River", "Europe", "General"]
   },
   {
@@ -287,6 +318,7 @@ export const riversData: Card[] = [
     localisation: "France",
     continent: "Europe",
     length: "777 km",
+    rarity: 7,
     quizCategory: ["France", "River", "Europe", "General"]
   },
   {
@@ -296,6 +328,7 @@ export const riversData: Card[] = [
     localisation: "United States, Mexico",
     continent: "North America",
     length: "3,034 km",
+    rarity: 7,
     quizCategory: ["United States", "Mexico", "River", "North America", "General"]
   },
   {
@@ -305,6 +338,7 @@ export const riversData: Card[] = [
     localisation: "Turkey, Syria, Iraq",
     continent: "Asia",
     length: "1,900 km",
+    rarity: 7,
     quizCategory: ["Turkey", "Iraq", "Syria", "River", "Asia", "General"]
   },
   {
@@ -314,6 +348,7 @@ export const riversData: Card[] = [
     localisation: "Israel, Palestine, Jordan, Syria, Lebanon",
     continent: "Asia",
     length: "251 km",
+    rarity: 7,
     quizCategory: ["Syria", "Lebanon", "Jordan", "Israel", "Palestine", "River", "Asia", "General"]
   },
   {
@@ -323,6 +358,7 @@ export const riversData: Card[] = [
     localisation: "Russia",
     continent: "Europe",
     length: "1,870 km",
+    rarity: 7,
     quizCategory: ["Russia", "River", "Europe", "General"]
   },
   {
@@ -332,6 +368,7 @@ export const riversData: Card[] = [
     localisation: "Ukraine, Moldova",
     continent: "Europe",
     length: "1,352 km",
+    rarity: 7,
     quizCategory: ["Moldova", "Ukraine", "River", "Europe", "General"]
   },
   {
@@ -341,6 +378,7 @@ export const riversData: Card[] = [
     localisation: "Czech Republic, Germany",
     continent: "Europe",
     length: "1,091 km",
+    rarity: 7,
     quizCategory: ["Czech Republic", "Germany", "River", "Europe", "General"]
   },
   {
@@ -350,6 +388,7 @@ export const riversData: Card[] = [
     localisation: "Italy",
     continent: "Europe",
     length: "652 km",
+    rarity: 7,
     quizCategory: ["Italy", "River", "Europe", "General"]
   },
   {
@@ -359,6 +398,7 @@ export const riversData: Card[] = [
     localisation: "Switzerland, France",
     continent: "Europe",
     length: "812 km",
+    rarity: 7,
     quizCategory: ["France", "Switzerland", "River", "Europe", "General"]
   },
   {
@@ -368,6 +408,7 @@ export const riversData: Card[] = [
     localisation: "France",
     continent: "Europe",
     length: "1,012 km",
+    rarity: 7,
     quizCategory: ["France", "River", "Europe", "General"]
   },
   {
@@ -377,6 +418,7 @@ export const riversData: Card[] = [
     localisation: "Spain, Portugal",
     continent: "Europe",
     length: "1,007 km",
+    rarity: 7,
     quizCategory: ["Spain", "Portugal", "River", "Europe", "General"]
   },
   {
@@ -386,6 +428,7 @@ export const riversData: Card[] = [
     localisation: "Spain",
     continent: "Europe",
     length: "657 km",
+    rarity: 7,
     quizCategory: ["Spain", "River", "Europe", "General"]
   },
   {
@@ -395,6 +438,7 @@ export const riversData: Card[] = [
     localisation: "China, Myanmar, Thailand",
     continent: "Asia",
     length: "2,815 km",
+    rarity: 7,
     quizCategory: ["China", "Thailand", "Myanmar", "River", "Asia", "General"]
   },
   {
@@ -404,6 +448,7 @@ export const riversData: Card[] = [
     localisation: "Myanmar",
     continent: "Asia",
     length: "2,170 km",
+    rarity: 7,
     quizCategory: ["Myanmar", "River", "Asia", "General"]
   },
   {
@@ -413,6 +458,7 @@ export const riversData: Card[] = [
     localisation: "Thailand",
     continent: "Asia",
     length: "372 km",
+    rarity: 7,
     quizCategory: ["Thailand", "River", "Asia", "General"]
   },
   {
@@ -422,6 +468,7 @@ export const riversData: Card[] = [
     localisation: "China, Vietnam",
     continent: "Asia",
     length: "1,175 km",
+    rarity: 7,
     quizCategory: ["China", "Vietnam", "River", "Asia", "General"]
   },
   {
@@ -431,6 +478,7 @@ export const riversData: Card[] = [
     localisation: "Afghanistan, Tajikistan, Turkmenistan, Uzbekistan",
     continent: "Asia",
     length: "2,620 km",
+    rarity: 7,
     quizCategory: ["Afghanistan", "Uzbekistan", "Turkmenistan", "Tajikistan", "River", "Asia", "General"]
   },
   {
@@ -440,6 +488,7 @@ export const riversData: Card[] = [
     localisation: "Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan",
     continent: "Asia",
     length: "2,212 km",
+    rarity: 7,
     quizCategory: ["Kazakhstan", "Uzbekistan", "Tajikistan", "Kyrgyzstan", "River", "Asia", "General"]
   },
   {
@@ -449,6 +498,7 @@ export const riversData: Card[] = [
     localisation: "Russia, Kazakhstan",
     continent: "Europe",
     length: "2,428 km",
+    rarity: 7,
     quizCategory: ["Russia", "Kazakhstan", "River", "Europe", "General"]
   },
   {
@@ -458,6 +508,7 @@ export const riversData: Card[] = [
     localisation: "Brazil",
     continent: "South America",
     length: "2,914 km",
+    rarity: 7,
     quizCategory: ["Brazil", "River", "South America", "General"]
   },
   {
@@ -467,6 +518,7 @@ export const riversData: Card[] = [
     localisation: "Colombia",
     continent: "South America",
     length: "1,528 km",
+    rarity: 7,
     quizCategory: ["Colombia", "River", "South America", "General"]
   },
   {
@@ -476,6 +528,7 @@ export const riversData: Card[] = [
     localisation: "Brazil, Argentina, Uruguay",
     continent: "South America",
     length: "1,838 km",
+    rarity: 7,
     quizCategory: ["Brazil", "Argentina", "Uruguay", "River", "South America", "General"]
   },
   {
@@ -485,6 +538,7 @@ export const riversData: Card[] = [
     localisation: "Brazil",
     continent: "South America",
     length: "2,699 km",
+    rarity: 7,
     quizCategory: ["Brazil", "River", "South America", "General"]
   },
   {
@@ -494,6 +548,7 @@ export const riversData: Card[] = [
     localisation: "South Africa, Botswana, Zimbabwe, Mozambique",
     continent: "Africa",
     length: "1,750 km",
+    rarity: 7,
     quizCategory: ["South Africa", "Zimbabwe", "Botswana", "Mozambique", "River", "Africa", "General"]
   },
   {
@@ -503,6 +558,7 @@ export const riversData: Card[] = [
     localisation: "Burkina Faso, Ghana",
     continent: "Africa",
     length: "1,600 km",
+    rarity: 7,
     quizCategory: ["Burkina Faso", "Ghana", "River", "Africa", "General"]
   },
   {
@@ -512,6 +568,7 @@ export const riversData: Card[] = [
     localisation: "Guinea, Mali, Mauritania, Senegal",
     continent: "Africa",
     length: "1,086 km",
+    rarity: 7,
     quizCategory: ["Senegal", "Mali", "River", "Africa", "General"]
   },
   {
@@ -521,6 +578,7 @@ export const riversData: Card[] = [
     localisation: "Guinea, Senegal, Gambia",
     continent: "Africa",
     length: "1,130 km",
+    rarity: 7,
     quizCategory: ["Senegal", "River", "Africa", "General"]
   },
   {
@@ -530,6 +588,7 @@ export const riversData: Card[] = [
     localisation: "Uganda, South Sudan, Sudan",
     continent: "Africa",
     length: "3,700 km",
+    rarity: 7,
     quizCategory: ["South Sudan", "Uganda", "Sudan", "River", "Africa", "General"]
   },
   {
@@ -539,6 +598,7 @@ export const riversData: Card[] = [
     localisation: "Ethiopia, Sudan",
     continent: "Africa",
     length: "1,450 km",
+    rarity: 7,
     quizCategory: ["Ethiopia", "Sudan", "River", "Africa", "General"]
   },
   {
@@ -548,6 +608,7 @@ export const riversData: Card[] = [
     localisation: "Canada",
     continent: "North America",
     length: "1,923 km",
+    rarity: 7,
     quizCategory: ["Canada", "River", "North America", "General"]
   },
   {
@@ -557,6 +618,7 @@ export const riversData: Card[] = [
     localisation: "Canada",
     continent: "North America",
     length: "1,375 km",
+    rarity: 7,
     quizCategory: ["Canada", "River", "North America", "General"]
   },
   {
@@ -566,6 +628,7 @@ export const riversData: Card[] = [
     localisation: "Canada",
     continent: "North America",
     length: "1,609 km",
+    rarity: 7,
     quizCategory: ["Canada", "River", "North America", "General"]
   },
   {
@@ -575,6 +638,7 @@ export const riversData: Card[] = [
     localisation: "United States",
     continent: "North America",
     length: "1,049 km",
+    rarity: 7,
     quizCategory: ["United States", "River", "North America", "General"]
   },
   {
@@ -584,6 +648,7 @@ export const riversData: Card[] = [
     localisation: "United States",
     continent: "North America",
     length: "1,735 km",
+    rarity: 7,
     quizCategory: ["United States", "River", "North America", "General"]
   },
   {
@@ -593,6 +658,7 @@ export const riversData: Card[] = [
     localisation: "United States",
     continent: "North America",
     length: "655 km",
+    rarity: 7,
     quizCategory: ["United States", "River", "North America", "General"]
   },
   {
@@ -602,6 +668,7 @@ export const riversData: Card[] = [
     localisation: "United States",
     continent: "North America",
     length: "507 km",
+    rarity: 7,
     quizCategory: ["United States", "River", "North America", "General"]
   }
 ];

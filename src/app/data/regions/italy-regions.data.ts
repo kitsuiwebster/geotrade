@@ -9,6 +9,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "10,763 km²",
     population: "1.31 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "9,995 km²",
     population: "562 K",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "15,080 km²",
     population: "1.95 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "13,590 km²",
     population: "5.83 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "22,446 km²",
     population: "4.46 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "7,858 km²",
     population: "1.22 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "17,236 km²",
     population: "5.89 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "5,422 km²",
     population: "1.55 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "23,844 km²",
     population: "10.04 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "9,366 km²",
     population: "1.53 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "4,438 km²",
     population: "305 K",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "25,402 km²",
     population: "4.36 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "19,358 km²",
     population: "4.05 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "24,090 km²",
     population: "1.64 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "25,711 km²",
     population: "5.00 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "22,994 km²",
     population: "3.73 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -169,6 +185,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "13,607 km²",
     population: "1.07 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -179,6 +196,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "8,456 km²",
     population: "884 K",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -189,6 +207,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "3,263 km²",
     population: "126 K",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   },
   {
@@ -199,6 +218,7 @@ export const italyRegionsData: Card[] = [
     continent: "Europe",
     area: "18,399 km²",
     population: "4.91 M",
+    rarity: 5,
     quizCategory: ["Italy", "Europe", "General"]
   }
 ];

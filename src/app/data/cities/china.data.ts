@@ -9,6 +9,18 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "11.11 M",
     agglomeration: "21.89 M",
+    rarity: 9,
+    quizCategory: ["China", "City", "Asia", "General"]
+  },
+  {
+    type: "City",
+    image: "assets/images/cards/city/china/shanghai.jpg",
+    nom: "Shanghai",
+    localisation: "China",
+    continent: "Asia",
+    population: "26.3 M",
+    agglomeration: "28.5 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -19,6 +31,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "9.5 M",
     agglomeration: "32.1 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -29,6 +42,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "11.2 M",
     agglomeration: "15.6 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -39,6 +53,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "13.5 M",
     agglomeration: "25.0 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -49,6 +64,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "12.6 M",
     agglomeration: "25.0 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -59,6 +75,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "11.5 M",
     agglomeration: "20.9 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -69,6 +86,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "8.5 M",
     agglomeration: "11.7 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -79,6 +97,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "8.4 M",
     agglomeration: "12.3 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -89,6 +108,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "7.0 M",
     agglomeration: "12.9 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -99,6 +119,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "8.2 M",
     agglomeration: "25.0 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -109,6 +130,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "7.2 M",
     agglomeration: "11.9 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -119,6 +141,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "7.2 M",
     agglomeration: "25.0 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -129,6 +152,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "5.7 M",
     agglomeration: "8.1 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -139,6 +163,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "4.3 M",
     agglomeration: "6.7 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -149,6 +174,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "4.6 M",
     agglomeration: "5.8 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -159,6 +185,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "4.3 M",
     agglomeration: "5.4 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -169,6 +196,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "3.0 M",
     agglomeration: "4.8 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -179,6 +207,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "4.3 M",
     agglomeration: "6.1 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -189,6 +218,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "4.0 M",
     agglomeration: "7.0 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -199,6 +229,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "3.3 M",
     agglomeration: "4.7 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -209,6 +240,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "3.6 M",
     agglomeration: "6.6 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -219,6 +251,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "2.3 M",
     agglomeration: "4.0 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -229,6 +262,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "3.3 M",
     agglomeration: "6.7 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -239,6 +273,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "2.9 M",
     agglomeration: "3.3 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -249,6 +284,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "2.5 M",
     agglomeration: "3.1 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -259,6 +295,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "2.7 M",
     agglomeration: "5.0 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -269,6 +306,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "2.3 M",
     agglomeration: "4.4 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -279,6 +317,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "1.9 M",
     agglomeration: "2.9 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -289,6 +328,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "2.0 M",
     agglomeration: "4.4 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -299,6 +339,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "1.9 M",
     agglomeration: "2.8 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   },
   {
@@ -309,6 +350,7 @@ export const chineCitiesData: Card[] = [
     continent: "Asia",
     population: "1.4 M",
     agglomeration: "2.0 M",
+    rarity: 3,
     quizCategory: ["China", "City", "Asia", "General"]
   }
 ];

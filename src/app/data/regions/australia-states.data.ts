@@ -9,6 +9,7 @@ export const australiaStatesData: Card[] = [
     continent: "Oceania",
     area: "800,642 km²",
     population: "8.07 M",
+    rarity: 5,
     quizCategory: ["Australia", "Oceania", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const australiaStatesData: Card[] = [
     continent: "Oceania",
     area: "227,416 km²",
     population: "6.68 M",
+    rarity: 5,
     quizCategory: ["Australia", "Oceania", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const australiaStatesData: Card[] = [
     continent: "Oceania",
     area: "1,729,742 km²",
     population: "5.16 M",
+    rarity: 5,
     quizCategory: ["Australia", "Oceania", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const australiaStatesData: Card[] = [
     continent: "Oceania",
     area: "2,529,875 km²",
     population: "2.67 M",
+    rarity: 5,
     quizCategory: ["Australia", "Oceania", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const australiaStatesData: Card[] = [
     continent: "Oceania",
     area: "983,482 km²",
     population: "1.77 M",
+    rarity: 5,
     quizCategory: ["Australia", "Oceania", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const australiaStatesData: Card[] = [
     continent: "Oceania",
     area: "68,401 km²",
     population: "541 K",
+    rarity: 5,
     quizCategory: ["Australia", "Oceania", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const australiaStatesData: Card[] = [
     continent: "Oceania",
     area: "1,349,129 km²",
     population: "246 K",
+    rarity: 5,
     quizCategory: ["Australia", "Oceania", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const australiaStatesData: Card[] = [
     continent: "Oceania",
     area: "2,358 km²",
     population: "431 K",
+    rarity: 5,
     quizCategory: ["Australia", "Oceania", "General"]
   }
 ];

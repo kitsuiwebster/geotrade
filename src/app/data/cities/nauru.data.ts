@@ -9,6 +9,7 @@ export const nauruCitiesData: Card[] = [
     continent: "Oceania",
     population: "1.1 K",
     agglomeration: "10 K",
+    rarity: 9,
     quizCategory: ["Nauru", "City", "Oceania", "General"]
   }
 ];

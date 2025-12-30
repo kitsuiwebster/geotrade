@@ -9,6 +9,7 @@ export const gambieCitiesData: Card[] = [
     continent: "Africa",
     population: "34 K",
     agglomeration: "437 K",
+    rarity: 9,
     quizCategory: ["City", "Africa", "General"]
   }
 ];

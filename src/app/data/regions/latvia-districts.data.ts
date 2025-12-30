@@ -9,6 +9,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,549 km²",
     population: "33 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,242 km²",
     population: "15 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,164 km²",
     population: "22 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "1,878 km²",
     population: "52 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,999 km²",
     population: "48 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,526 km²",
     population: "85 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "1,632 km²",
     population: "33 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "1,876 km²",
     population: "22 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,999 km²",
     population: "48 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "1,607 km²",
     population: "59 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,286 km²",
     population: "28 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,596 km²",
     population: "23 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "3,589 km²",
     population: "71 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,609 km²",
     population: "30 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,412 km²",
     population: "24 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,151 km²",
     population: "30 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -169,6 +185,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "1,844 km²",
     population: "58 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -179,6 +196,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,041 km²",
     population: "26 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -189,6 +207,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,544 km²",
     population: "31 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -199,6 +218,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "3,058 km²",
     population: "115 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -209,6 +229,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,155 km²",
     population: "30 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -219,6 +240,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,751 km²",
     population: "30 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -229,6 +251,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,447 km²",
     population: "50 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -239,6 +262,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,441 km²",
     population: "28 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -249,6 +273,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,373 km²",
     population: "55 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   },
   {
@@ -259,6 +284,7 @@ export const latviaDistrictsData: Card[] = [
     continent: "Europe",
     area: "2,461 km²",
     population: "36 K",
+    rarity: 5,
     quizCategory: ["Latvia", "Europe", "General"]
   }
 ];

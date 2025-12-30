@@ -9,6 +9,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "140,100 km²",
     population: "61.03 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "124,000 km²",
     population: "41.54 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -29,16 +31,18 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "425,800 km²",
     population: "25.02 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
     type: "Province",
-    image: "assets/images/cards/region/china/guangdong.jpg",
+    image: "assets/images/cards/region/china/guangdng.jpg",
     nom: "Guangdong",
     localisation: "China",
     continent: "Asia",
     area: "179,800 km²",
     population: "126.01 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "176,167 km²",
     population: "38.56 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "35,400 km²",
     population: "10.08 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "188,800 km²",
     population: "74.61 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "454,000 km²",
     population: "31.85 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "167,000 km²",
     population: "99.37 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "185,900 km²",
     population: "57.75 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "211,800 km²",
     population: "66.44 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "107,200 km²",
     population: "84.75 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "166,900 km²",
     population: "45.19 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "187,400 km²",
     population: "24.07 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "148,000 km²",
     population: "42.59 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "720,000 km²",
     population: "5.93 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -169,6 +185,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "205,800 km²",
     population: "39.53 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -179,6 +196,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "158,000 km²",
     population: "101.53 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -189,6 +207,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "156,000 km²",
     population: "34.92 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -199,6 +218,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "486,000 km²",
     population: "83.68 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -209,6 +229,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "394,000 km²",
     population: "47.21 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -219,6 +240,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "104,141 km²",
     population: "64.57 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -229,6 +251,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "16,410 km²",
     population: "21.54 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -239,6 +262,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "6,341 km²",
     population: "24.87 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -249,6 +273,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "11,917 km²",
     population: "13.87 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -259,6 +284,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "82,403 km²",
     population: "32.12 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -269,6 +295,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "1,228,400 km²",
     population: "3.65 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -279,6 +306,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "1,664,900 km²",
     population: "25.85 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -289,6 +317,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "1,183,000 km²",
     population: "24.05 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -299,6 +328,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "236,700 km²",
     population: "50.13 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   },
   {
@@ -309,6 +339,7 @@ export const chinaProvincesData: Card[] = [
     continent: "Asia",
     area: "66,400 km²",
     population: "7.20 M",
+    rarity: 5,
     quizCategory: ["China", "Asia", "General"]
   }
 ];

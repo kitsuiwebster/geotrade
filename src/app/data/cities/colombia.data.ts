@@ -9,6 +9,7 @@ export const colombieCitiesData: Card[] = [
     continent: "South America",
     population: "7.4 M",
     agglomeration: "11.3 M",
+    rarity: 9,
     quizCategory: ["Colombia", "City", "South America", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const colombieCitiesData: Card[] = [
     continent: "South America",
     population: "2.5 M",
     agglomeration: "4.0 M",
+    rarity: 3,
     quizCategory: ["Colombia", "City", "South America", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const colombieCitiesData: Card[] = [
     continent: "South America",
     population: "2.2 M",
     agglomeration: "2.8 M",
+    rarity: 3,
     quizCategory: ["Colombia", "City", "South America", "General"]
   }
 ];

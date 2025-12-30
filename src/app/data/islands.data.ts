@@ -8,6 +8,7 @@ export const islandsData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     area: "5,780 km²",
+    rarity: 7,
     quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
@@ -17,6 +18,7 @@ export const islandsData: Card[] = [
     localisation: "Denmark",
     continent: "Europe",
     area: "2,166,086 km²",
+    rarity: 7,
     quizCategory: ["Denmark", "Island", "Europe", "General"]
   },
   {
@@ -26,6 +28,7 @@ export const islandsData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     area: "138,794 km²",
+    rarity: 7,
     quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
@@ -35,6 +38,7 @@ export const islandsData: Card[] = [
     localisation: "Italy",
     continent: "Europe",
     area: "25,711 km²",
+    rarity: 7,
     quizCategory: ["Italy", "Island", "Europe", "General"]
   },
   {
@@ -44,6 +48,7 @@ export const islandsData: Card[] = [
     localisation: "New Zealand",
     continent: "Oceania",
     area: "113,729 km²",
+    rarity: 7,
     quizCategory: ["New Zealand", "Island", "Oceania", "General"]
   },
   {
@@ -53,6 +58,7 @@ export const islandsData: Card[] = [
     localisation: "New Zealand",
     continent: "Oceania",
     area: "150,437 km²",
+    rarity: 7,
     quizCategory: ["New Zealand", "Island", "Oceania", "General"]
   },
   {
@@ -62,6 +68,7 @@ export const islandsData: Card[] = [
     localisation: "Indonesia, Malaysia and Brunei",
     continent: "Asia",
     area: "748,168 km²",
+    rarity: 7,
     quizCategory: ["Indonesia", "Malaysia", "Brunei", "Island", "Asia", "General"]
   },
   {
@@ -71,6 +78,7 @@ export const islandsData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     area: "473,481 km²",
+    rarity: 7,
     quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
@@ -80,6 +88,7 @@ export const islandsData: Card[] = [
     localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "8,336 km²",
+    rarity: 7,
     quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
@@ -89,6 +98,7 @@ export const islandsData: Card[] = [
     localisation: "New York, United States",
     continent: "North America",
     area: "3,629 km²",
+    rarity: 7,
     quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
@@ -98,6 +108,7 @@ export const islandsData: Card[] = [
     localisation: "South Korea",
     continent: "Asia",
     area: "1,846 km²",
+    rarity: 7,
     quizCategory: ["South Korea", "Island", "Asia", "General"]
   },
   {
@@ -107,6 +118,7 @@ export const islandsData: Card[] = [
     localisation: "Thailand",
     continent: "Asia",
     area: "576 km²",
+    rarity: 7,
     quizCategory: ["Thailand", "Island", "Asia", "General"]
   },
   {
@@ -116,6 +128,7 @@ export const islandsData: Card[] = [
     localisation: "Balearic Islands, Spain",
     continent: "Europe",
     area: "3,640 km²",
+    rarity: 7,
     quizCategory: ["Spain", "Island", "Europe", "General"]
   },
   {
@@ -125,6 +138,7 @@ export const islandsData: Card[] = [
     localisation: "Madagascar",
     continent: "Africa",
     area: "587,041 km²",
+    rarity: 7,
     quizCategory: ["Madagascar", "Island", "Africa", "General"]
   },
   {
@@ -134,6 +148,7 @@ export const islandsData: Card[] = [
     localisation: "British Isles, United Kingdom",
     continent: "Europe",
     area: "209,331 km²",
+    rarity: 7,
     quizCategory: ["United Kingdom", "Island", "Europe", "General"]
   },
   {
@@ -143,6 +158,7 @@ export const islandsData: Card[] = [
     localisation: "Japan",
     continent: "Asia",
     area: "227,960 km²",
+    rarity: 7,
     quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
@@ -152,6 +168,7 @@ export const islandsData: Card[] = [
     localisation: "Northwest Territories, Canada",
     continent: "North America",
     area: "217,291 km²",
+    rarity: 7,
     quizCategory: ["Canada", "Island", "North America", "General"]
   },
   {
@@ -161,6 +178,7 @@ export const islandsData: Card[] = [
     localisation: "Nunavut, Canada",
     continent: "North America",
     area: "196,236 km²",
+    rarity: 7,
     quizCategory: ["Canada", "Island", "North America", "General"]
   },
   {
@@ -170,6 +188,7 @@ export const islandsData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     area: "174,600 km²",
+    rarity: 7,
     quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
@@ -179,6 +198,7 @@ export const islandsData: Card[] = [
     localisation: "Nunavut, Canada",
     continent: "North America",
     area: "507,451 km²",
+    rarity: 7,
     quizCategory: ["Canada", "Island", "North America", "General"]
   },
   {
@@ -188,6 +208,7 @@ export const islandsData: Card[] = [
     localisation: "Philippines",
     continent: "Asia",
     area: "109,965 km²",
+    rarity: 7,
     quizCategory: ["Philippines", "Island", "Asia", "General"]
   },
   {
@@ -197,6 +218,7 @@ export const islandsData: Card[] = [
     localisation: "Philippines",
     continent: "Asia",
     area: "97,530 km²",
+    rarity: 7,
     quizCategory: ["Philippines", "Island", "Asia", "General"]
   },
   {
@@ -206,6 +228,7 @@ export const islandsData: Card[] = [
     localisation: "British Isles, Ireland and United Kingdom",
     continent: "Europe",
     area: "84,421 km²",
+    rarity: 7,
     quizCategory: ["United Kingdom", "Ireland", "Island", "Europe", "General"]
   },
   {
@@ -215,6 +238,7 @@ export const islandsData: Card[] = [
     localisation: "Japan",
     continent: "Asia",
     area: "83,424 km²",
+    rarity: 7,
     quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
@@ -224,6 +248,7 @@ export const islandsData: Card[] = [
     localisation: "Russia",
     continent: "Asia",
     area: "72,493 km²",
+    rarity: 7,
     quizCategory: ["Russia", "Island", "Asia", "General"]
   },
   {
@@ -233,6 +258,7 @@ export const islandsData: Card[] = [
     localisation: "Caribbean Islands, Haiti and Dominican Republic",
     continent: "North America",
     area: "76,192 km²",
+    rarity: 7,
     quizCategory: ["Dominican Republic", "Haiti", "Island", "North America", "General"]
   },
   {
@@ -242,6 +268,7 @@ export const islandsData: Card[] = [
     localisation: "Northwest Territories, Canada",
     continent: "North America",
     area: "70,028 km²",
+    rarity: 7,
     quizCategory: ["Canada", "Island", "North America", "General"]
   },
   {
@@ -251,6 +278,7 @@ export const islandsData: Card[] = [
     localisation: "Australia",
     continent: "Oceania",
     area: "68,401 km²",
+    rarity: 7,
     quizCategory: ["Australia", "Island", "Oceania", "General"]
   },
   {
@@ -260,6 +288,7 @@ export const islandsData: Card[] = [
     localisation: "Sri Lanka",
     continent: "Asia",
     area: "65,610 km²",
+    rarity: 7,
     quizCategory: ["Sri Lanka", "Island", "Asia", "General"]
   },
   {
@@ -269,6 +298,7 @@ export const islandsData: Card[] = [
     localisation: "Nunavut, Canada",
     continent: "North America",
     area: "55,247 km²",
+    rarity: 7,
     quizCategory: ["Canada", "Island", "North America", "General"]
   },
   {
@@ -278,6 +308,7 @@ export const islandsData: Card[] = [
     localisation: "Russia",
     continent: "Europe",
     area: "90,650 km²",
+    rarity: 7,
     quizCategory: ["Russia", "Island", "Europe", "General"]
   },
   {
@@ -287,6 +318,7 @@ export const islandsData: Card[] = [
     localisation: "Caribbean Islands, Cuba",
     continent: "North America",
     area: "105,806 km²",
+    rarity: 7,
     quizCategory: ["Cuba", "Island", "North America", "General"]
   },
   {
@@ -296,6 +328,7 @@ export const islandsData: Card[] = [
     localisation: "Newfoundland and Labrador, Canada",
     continent: "North America",
     area: "108,860 km²",
+    rarity: 7,
     quizCategory: ["Canada", "Island", "North America", "General"]
   },
   {
@@ -305,6 +338,7 @@ export const islandsData: Card[] = [
     localisation: "Iceland",
     continent: "Europe",
     area: "103,000 km²",
+    rarity: 7,
     quizCategory: ["Iceland", "Island", "Europe", "General"]
   },
   {
@@ -314,6 +348,7 @@ export const islandsData: Card[] = [
     localisation: "Japan",
     continent: "Asia",
     area: "37,000 km²",
+    rarity: 7,
     quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
@@ -323,6 +358,7 @@ export const islandsData: Card[] = [
     localisation: "Japan",
     continent: "Asia",
     area: "18,800 km²",
+    rarity: 7,
     quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
@@ -332,6 +368,7 @@ export const islandsData: Card[] = [
     localisation: "Cyprus",
     continent: "Europe",
     area: "9,251 km²",
+    rarity: 7,
     quizCategory: ["Cyprus", "Island", "Europe", "General"]
   },
   {
@@ -341,6 +378,7 @@ export const islandsData: Card[] = [
     localisation: "France",
     continent: "Europe",
     area: "8,680 km²",
+    rarity: 7,
     quizCategory: ["France", "Island", "Europe", "General"]
   },
   {
@@ -350,6 +388,7 @@ export const islandsData: Card[] = [
     localisation: "Italy",
     continent: "Europe",
     area: "24,090 km²",
+    rarity: 7,
     quizCategory: ["Italy", "Island", "Europe", "General"]
   },
   {
@@ -359,6 +398,7 @@ export const islandsData: Card[] = [
     localisation: "Caribbean Islands, Jamaica",
     continent: "North America",
     area: "10,991 km²",
+    rarity: 7,
     quizCategory: ["Jamaica", "Island", "North America", "General"]
   },
   {
@@ -368,6 +408,7 @@ export const islandsData: Card[] = [
     localisation: "Caribbean Islands, United States",
     continent: "North America",
     area: "8,870 km²",
+    rarity: 7,
     quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
@@ -377,6 +418,7 @@ export const islandsData: Card[] = [
     localisation: "Yemen",
     continent: "Asia",
     area: "3,796 km²",
+    rarity: 7,
     quizCategory: ["Yemen", "Island", "Asia", "General"]
   },
   {
@@ -386,6 +428,7 @@ export const islandsData: Card[] = [
     localisation: "Malta",
     continent: "Europe",
     area: "316 km²",
+    rarity: 7,
     quizCategory: ["Malta", "Island", "Europe", "General"]
   },
   {
@@ -395,6 +438,7 @@ export const islandsData: Card[] = [
     localisation: "Taiwan",
     continent: "Asia",
     area: "35,808 km²",
+    rarity: 7,
     quizCategory: ["Taiwan", "Island", "Asia", "General"]
   },
   {
@@ -404,6 +448,7 @@ export const islandsData: Card[] = [
     localisation: "British Columbia, Canada",
     continent: "North America",
     area: "31,285 km²",
+    rarity: 7,
     quizCategory: ["Canada", "Island", "North America", "General"]
   },
   {
@@ -413,6 +458,7 @@ export const islandsData: Card[] = [
     localisation: "Indonesia and East Timor",
     continent: "Asia",
     area: "28,418 km²",
+    rarity: 7,
     quizCategory: ["East Timor", "Indonesia", "Island", "Asia", "General"]
   },
   {
@@ -422,6 +468,7 @@ export const islandsData: Card[] = [
     localisation: "Mauritius",
     continent: "Africa",
     area: "2,040 km²",
+    rarity: 7,
     quizCategory: ["Mauritius", "Island", "Africa", "General"]
   },
   {
@@ -431,6 +478,7 @@ export const islandsData: Card[] = [
     localisation: "France",
     continent: "Africa",
     area: "2,511 km²",
+    rarity: 7,
     quizCategory: ["France", "Island", "Africa", "General"]
   },
   {
@@ -440,6 +488,7 @@ export const islandsData: Card[] = [
     localisation: "Singapore",
     continent: "Asia",
     area: "721 km²",
+    rarity: 7,
     quizCategory: ["Singapore", "Island", "Asia", "General"]
   },
   {
@@ -449,6 +498,7 @@ export const islandsData: Card[] = [
     localisation: "New York, United States",
     continent: "North America",
     area: "60 km²",
+    rarity: 7,
     quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
@@ -458,6 +508,7 @@ export const islandsData: Card[] = [
     localisation: "Singapore",
     continent: "Asia",
     area: "5 km²",
+    rarity: 7,
     quizCategory: ["Singapore", "Island", "Asia", "General"]
   },
   {
@@ -467,6 +518,7 @@ export const islandsData: Card[] = [
     localisation: "Japan",
     continent: "Asia",
     area: "1,207 km²",
+    rarity: 7,
     quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
@@ -476,6 +528,7 @@ export const islandsData: Card[] = [
     localisation: "Japan",
     continent: "Asia",
     area: "855 km²",
+    rarity: 7,
     quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
@@ -485,6 +538,7 @@ export const islandsData: Card[] = [
     localisation: "Japan",
     continent: "Asia",
     area: "593 km²",
+    rarity: 7,
     quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
@@ -494,6 +548,7 @@ export const islandsData: Card[] = [
     localisation: "Japan",
     continent: "Asia",
     area: "708 km²",
+    rarity: 7,
     quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
@@ -503,6 +558,7 @@ export const islandsData: Card[] = [
     localisation: "Japan",
     continent: "Asia",
     area: "138 km²",
+    rarity: 7,
     quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
@@ -512,6 +568,7 @@ export const islandsData: Card[] = [
     localisation: "Japan",
     continent: "Asia",
     area: "183 km²",
+    rarity: 7,
     quizCategory: ["Japan", "Island", "Asia", "General"]
   },
   {
@@ -521,6 +578,7 @@ export const islandsData: Card[] = [
     localisation: "Hawaii, United States",
     continent: "North America",
     area: "1,545 km²",
+    rarity: 7,
     quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
@@ -530,6 +588,7 @@ export const islandsData: Card[] = [
     localisation: "Hawaii, United States",
     continent: "North America",
     area: "1,884 km²",
+    rarity: 7,
     quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
@@ -539,6 +598,7 @@ export const islandsData: Card[] = [
     localisation: "Hawaii, United States",
     continent: "North America",
     area: "10,433 km²",
+    rarity: 7,
     quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
@@ -548,6 +608,7 @@ export const islandsData: Card[] = [
     localisation: "Hawaii, United States",
     continent: "North America",
     area: "1,446 km²",
+    rarity: 7,
     quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
@@ -557,6 +618,7 @@ export const islandsData: Card[] = [
     localisation: "Hawaii, United States",
     continent: "North America",
     area: "673 km²",
+    rarity: 7,
     quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
@@ -566,6 +628,7 @@ export const islandsData: Card[] = [
     localisation: "Hawaii, United States",
     continent: "North America",
     area: "364 km²",
+    rarity: 7,
     quizCategory: ["United States", "Island", "North America", "General"]
   },
   {
@@ -575,6 +638,7 @@ export const islandsData: Card[] = [
     localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "1,401 km²",
+    rarity: 7,
     quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
@@ -584,6 +648,7 @@ export const islandsData: Card[] = [
     localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "1,633 km²",
+    rarity: 7,
     quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
@@ -593,6 +658,7 @@ export const islandsData: Card[] = [
     localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "842 km²",
+    rarity: 7,
     quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
@@ -602,6 +668,7 @@ export const islandsData: Card[] = [
     localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "477 km²",
+    rarity: 7,
     quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
@@ -611,6 +678,7 @@ export const islandsData: Card[] = [
     localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "430 km²",
+    rarity: 7,
     quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
@@ -620,6 +688,7 @@ export const islandsData: Card[] = [
     localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "593 km²",
+    rarity: 7,
     quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
@@ -629,6 +698,7 @@ export const islandsData: Card[] = [
     localisation: "Philippines",
     continent: "Asia",
     area: "14,649 km²",
+    rarity: 7,
     quizCategory: ["Philippines", "Island", "Asia", "General"]
   },
   {
@@ -638,6 +708,7 @@ export const islandsData: Card[] = [
     localisation: "Philippines",
     continent: "Asia",
     area: "13,429 km²",
+    rarity: 7,
     quizCategory: ["Philippines", "Island", "Asia", "General"]
   },
   {
@@ -647,6 +718,7 @@ export const islandsData: Card[] = [
     localisation: "Philippines",
     continent: "Asia",
     area: "13,309 km²",
+    rarity: 7,
     quizCategory: ["Philippines", "Island", "Asia", "General"]
   },
   {
@@ -656,6 +728,7 @@ export const islandsData: Card[] = [
     localisation: "Philippines",
     continent: "Asia",
     area: "12,300 km²",
+    rarity: 7,
     quizCategory: ["Philippines", "Island", "Asia", "General"]
   },
   {
@@ -665,6 +738,7 @@ export const islandsData: Card[] = [
     localisation: "Philippines",
     continent: "Asia",
     area: "4,468 km²",
+    rarity: 7,
     quizCategory: ["Philippines", "Island", "Asia", "General"]
   },
   {
@@ -674,6 +748,7 @@ export const islandsData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     area: "13,540 km²",
+    rarity: 7,
     quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
@@ -683,6 +758,7 @@ export const islandsData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     area: "17,100 km²",
+    rarity: 7,
     quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
@@ -692,6 +768,7 @@ export const islandsData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     area: "4,725 km²",
+    rarity: 7,
     quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
@@ -701,6 +778,7 @@ export const islandsData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     area: "15,448 km²",
+    rarity: 7,
     quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
@@ -710,6 +788,7 @@ export const islandsData: Card[] = [
     localisation: "Indonesia",
     continent: "Asia",
     area: "17,780 km²",
+    rarity: 7,
     quizCategory: ["Indonesia", "Island", "Asia", "General"]
   },
   {
@@ -719,6 +798,7 @@ export const islandsData: Card[] = [
     localisation: "Norway",
     continent: "Europe",
     area: "1,590 km²",
+    rarity: 7,
     quizCategory: ["Norway", "Island", "Europe", "General"]
   },
   {
@@ -728,6 +808,7 @@ export const islandsData: Card[] = [
     localisation: "Norway",
     continent: "Europe",
     area: "737 km²",
+    rarity: 7,
     quizCategory: ["Norway", "Island", "Europe", "General"]
   },
   {
@@ -737,6 +818,7 @@ export const islandsData: Card[] = [
     localisation: "Russia",
     continent: "Asia",
     area: "7,608 km²",
+    rarity: 7,
     quizCategory: ["Russia", "Island", "Asia", "General"]
   },
   {
@@ -746,6 +828,7 @@ export const islandsData: Card[] = [
     localisation: "Russia",
     continent: "Asia",
     area: "150 km²",
+    rarity: 7,
     quizCategory: ["Russia", "Island", "Asia", "General"]
   },
   {
@@ -755,6 +838,7 @@ export const islandsData: Card[] = [
     localisation: "Russia",
     continent: "Asia",
     area: "23,200 km²",
+    rarity: 7,
     quizCategory: ["Russia", "Island", "Asia", "General"]
   },
   {
@@ -764,6 +848,7 @@ export const islandsData: Card[] = [
     localisation: "Russia",
     continent: "Europe",
     area: "16,134 km²",
+    rarity: 7,
     quizCategory: ["Russia", "Island", "Europe", "General"]
   },
   {
@@ -773,6 +858,7 @@ export const islandsData: Card[] = [
     localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "96 km²",
+    rarity: 7,
     quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
@@ -782,6 +868,7 @@ export const islandsData: Card[] = [
     localisation: "Greek Islands, Greece",
     continent: "Europe",
     area: "86 km²",
+    rarity: 7,
     quizCategory: ["Greece", "Island", "Europe", "General"]
   },
   {
@@ -791,6 +878,7 @@ export const islandsData: Card[] = [
     localisation: "Balearic Islands, Spain",
     continent: "Europe",
     area: "572 km²",
+    rarity: 7,
     quizCategory: ["Spain", "Island", "Europe", "General"]
   },
   {
@@ -800,6 +888,7 @@ export const islandsData: Card[] = [
     localisation: "Balearic Islands, Spain",
     continent: "Europe",
     area: "696 km²",
+    rarity: 7,
     quizCategory: ["Spain", "Island", "Europe", "General"]
   },
   {
@@ -809,6 +898,7 @@ export const islandsData: Card[] = [
     localisation: "Indonesia and Papua New Guinea",
     continent: "Asia and Oceania",
     area: "785,753 km²",
+    rarity: 7,
     quizCategory: ["Papua New Guinea", "Indonesia", "Island", "Asia and Oceania", "General"]
   },
   {
@@ -818,6 +908,7 @@ export const islandsData: Card[] = [
     localisation: "Sweden",
     continent: "Europe",
     area: "2,994 km²",
+    rarity: 7,
     quizCategory: ["Sweden", "Island", "Europe", "General"]
   },
   {
@@ -827,6 +918,7 @@ export const islandsData: Card[] = [
     localisation: "United Kingdom",
     continent: "Europe",
     area: "118 km²",
+    rarity: 7,
     quizCategory: ["United Kingdom", "Island", "Europe", "General"]
   },
   {
@@ -836,6 +928,7 @@ export const islandsData: Card[] = [
     localisation: "United Kingdom",
     continent: "Europe",
     area: "78 km²",
+    rarity: 7,
     quizCategory: ["United Kingdom", "Island", "Europe", "General"]
   },
   {
@@ -845,6 +938,7 @@ export const islandsData: Card[] = [
     localisation: "Estonia",
     continent: "Europe",
     area: "2,673 km²",
+    rarity: 7,
     quizCategory: ["Estonia", "Island", "Europe", "General"]
   },
   {
@@ -854,6 +948,7 @@ export const islandsData: Card[] = [
     localisation: "Denmark",
     continent: "Europe",
     area: "588 km²",
+    rarity: 7,
     quizCategory: ["Denmark", "Island", "Europe", "General"]
   },
   {
@@ -863,6 +958,7 @@ export const islandsData: Card[] = [
     localisation: "Madagascar",
     continent: "Africa",
     area: "587,041 km²",
+    rarity: 7,
     quizCategory: ["Madagascar", "Island", "Africa", "General"]
   },
   {
@@ -872,6 +968,7 @@ export const islandsData: Card[] = [
     localisation: "Denmark",
     continent: "Europe",
     area: "7,031 km²",
+    rarity: 7,
     quizCategory: ["Denmark", "Island", "Europe", "General"]
   },
   {
@@ -881,6 +978,7 @@ export const islandsData: Card[] = [
     localisation: "Denmark",
     continent: "Europe",
     area: "2,985 km²",
+    rarity: 7,
     quizCategory: ["Denmark", "Island", "Europe", "General"]
   }
 ];

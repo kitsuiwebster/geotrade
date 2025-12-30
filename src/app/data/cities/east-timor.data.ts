@@ -9,6 +9,7 @@ export const timororientalCitiesData: Card[] = [
     continent: "Asia",
     population: "222 K",
     agglomeration: "222 K",
+    rarity: 9,
     quizCategory: ["East Timor", "City", "Asia", "General"]
   }
 ];

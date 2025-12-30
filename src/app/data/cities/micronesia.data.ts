@@ -9,6 +9,7 @@ export const micronesieCitiesData: Card[] = [
     continent: "Oceania",
     population: "5 K",
     agglomeration: "6 K",
+    rarity: 9,
     quizCategory: ["Micronesia", "City", "Oceania", "General"]
   }
 ];

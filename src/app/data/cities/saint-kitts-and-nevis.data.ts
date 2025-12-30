@@ -9,6 +9,7 @@ export const stchristopheetnievesCitiesData: Card[] = [
     continent: "Central America",
     population: "14 K",
     agglomeration: "18 K",
+    rarity: 9,
     quizCategory: ["Saint Kitts and Nevis", "City", "Central America", "General"]
   }
 ];

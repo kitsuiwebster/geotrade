@@ -9,6 +9,7 @@ export const tanzanieCitiesData: Card[] = [
     continent: "Africa",
     population: "411 K",
     agglomeration: "490 K",
+    rarity: 9,
     quizCategory: ["Tanzania", "City", "Africa", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const tanzanieCitiesData: Card[] = [
     continent: "Africa",
     population: "6.7 M",
     agglomeration: "7.4 M",
+    rarity: 3,
     quizCategory: ["Tanzania", "City", "Africa", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const tanzanieCitiesData: Card[] = [
     continent: "Africa",
     population: "386 K",
     agglomeration: "517 K",
+    rarity: 3,
     quizCategory: ["Tanzania", "City", "Africa", "General"]
   }
 ];

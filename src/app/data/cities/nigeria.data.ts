@@ -9,6 +9,7 @@ export const nigeriaCitiesData: Card[] = [
     continent: "Africa",
     population: "3.8 M",
     agglomeration: "6.0 M",
+    rarity: 9,
     quizCategory: ["Nigeria", "City", "Africa", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const nigeriaCitiesData: Card[] = [
     continent: "Africa",
     population: "15.4 M",
     agglomeration: "24.2 M",
+    rarity: 3,
     quizCategory: ["Nigeria", "City", "Africa", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const nigeriaCitiesData: Card[] = [
     continent: "Africa",
     population: "3.6 M",
     agglomeration: "4.1 M",
+    rarity: 3,
     quizCategory: ["Nigeria", "City", "Africa", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const nigeriaCitiesData: Card[] = [
     continent: "Africa",
     population: "3.6 M",
     agglomeration: "6.6 M",
+    rarity: 3,
     quizCategory: ["Nigeria", "City", "Africa", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const nigeriaCitiesData: Card[] = [
     continent: "Africa",
     population: "1.9 M",
     agglomeration: "3.2 M",
+    rarity: 3,
     quizCategory: ["Nigeria", "City", "Africa", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const nigeriaCitiesData: Card[] = [
     continent: "Africa",
     population: "1.2 M",
     agglomeration: "2.0 M",
+    rarity: 3,
     quizCategory: ["Nigeria", "City", "Africa", "General"]
   }
 ];

@@ -9,6 +9,7 @@ export const ilesmarshallCitiesData: Card[] = [
     continent: "Oceania",
     population: "28 K",
     agglomeration: "35 K",
+    rarity: 9,
     quizCategory: ["Marshall Islands", "City", "Oceania", "General"]
   }
 ];

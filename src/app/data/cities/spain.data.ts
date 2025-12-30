@@ -9,6 +9,7 @@ export const spainCitiesData: Card[] = [
     continent: "Europe",
     population: "3.3 M",
     agglomeration: "7.0 M",
+    rarity: 9,
     quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const spainCitiesData: Card[] = [
     continent: "Europe",
     population: "1.66 M",
     agglomeration: "5.7 M",
+    rarity: 3,
     quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const spainCitiesData: Card[] = [
     continent: "Europe",
     population: "800 K",
     agglomeration: "2.5 M",
+    rarity: 3,
     quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const spainCitiesData: Card[] = [
     continent: "Europe",
     population: "690 K",
     agglomeration: "1.5 M",
+    rarity: 3,
     quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const spainCitiesData: Card[] = [
     continent: "Europe",
     population: "680 K",
     agglomeration: "760 K",
+    rarity: 3,
     quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const spainCitiesData: Card[] = [
     continent: "Europe",
     population: "580 K",
     agglomeration: "1.65 M",
+    rarity: 3,
     quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const spainCitiesData: Card[] = [
     continent: "Europe",
     population: "460 K",
     agglomeration: "670 K",
+    rarity: 3,
     quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const spainCitiesData: Card[] = [
     continent: "Europe",
     population: "420 K",
     agglomeration: "560 K",
+    rarity: 3,
     quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const spainCitiesData: Card[] = [
     continent: "Europe",
     population: "350 K",
     agglomeration: "1.04 M",
+    rarity: 3,
     quizCategory: ["Spain", "City", "Europe", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const spainCitiesData: Card[] = [
     continent: "Europe",
     population: "330 K",
     agglomeration: "760 K",
+    rarity: 3,
     quizCategory: ["Spain", "City", "Europe", "General"]
   }
 ];

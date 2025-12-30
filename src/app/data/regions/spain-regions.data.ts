@@ -9,6 +9,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "87,268 km²",
     population: "8.46 M",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "47,719 km²",
     population: "1.32 M",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "10,604 km²",
     population: "1.02 M",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "4,992 km²",
     population: "1.17 M",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "7,234 km²",
     population: "2.21 M",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "7,447 km²",
     population: "2.18 M",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "5,321 km²",
     population: "583 K",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "94,223 km²",
     population: "2.40 M",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "79,463 km²",
     population: "2.04 M",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "32,114 km²",
     population: "7.78 M",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "41,634 km²",
     population: "1.07 M",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "29,574 km²",
     population: "2.70 M",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "5,045 km²",
     population: "317 K",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "8,028 km²",
     population: "6.75 M",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "11,313 km²",
     population: "1.51 M",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "10,391 km²",
     population: "661 K",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   },
   {
@@ -169,6 +185,7 @@ export const spainRegionsData: Card[] = [
     continent: "Europe",
     area: "23,255 km²",
     population: "5.06 M",
+    rarity: 5,
     quizCategory: ["Spain", "Europe", "General"]
   }
 ];

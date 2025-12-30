@@ -9,6 +9,7 @@ export const antiguaetbarbudaCitiesData: Card[] = [
     continent: "Central America",
     population: "22 K",
     agglomeration: "30 K",
+    rarity: 9,
     quizCategory: ["Antigua and Barbuda", "City", "Central America", "General"]
   }
 ];

@@ -9,6 +9,7 @@ export const palaosCitiesData: Card[] = [
     continent: "Oceania",
     population: "0.3 K",
     agglomeration: "0.3 K",
+    rarity: 9,
     quizCategory: ["Palau", "City", "Oceania", "General"]
   }
 ];

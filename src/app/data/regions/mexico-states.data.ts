@@ -9,6 +9,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "5,616 km²",
     population: "1.42 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "71,450 km²",
     population: "3.77 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "73,922 km²",
     population: "799 K",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "57,924 km²",
     population: "928 K",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "73,289 km²",
     population: "5.54 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "247,455 km²",
     population: "3.74 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "151,563 km²",
     population: "3.15 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "5,625 km²",
     population: "731 K",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "123,451 km²",
     population: "1.83 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "30,608 km²",
     population: "6.17 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "63,621 km²",
     population: "3.54 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "20,813 km²",
     population: "3.08 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "78,599 km²",
     population: "8.35 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "22,357 km²",
     population: "16.99 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "58,643 km²",
     population: "4.75 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "4,893 km²",
     population: "1.97 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -169,6 +185,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "27,815 km²",
     population: "1.24 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -179,6 +196,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "64,220 km²",
     population: "5.78 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -189,6 +207,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "93,793 km²",
     population: "4.13 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -199,6 +218,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "34,290 km²",
     population: "6.58 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -209,6 +229,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "11,684 km²",
     population: "2.37 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -219,6 +240,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "42,361 km²",
     population: "1.86 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -229,6 +251,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "60,983 km²",
     population: "2.82 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -239,6 +262,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "57,377 km²",
     population: "3.03 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -249,6 +273,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "179,503 km²",
     population: "2.94 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -259,6 +284,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "24,738 km²",
     population: "2.40 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -269,6 +295,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "80,175 km²",
     population: "3.53 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -279,6 +306,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "3,991 km²",
     population: "1.34 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -289,6 +317,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "71,820 km²",
     population: "8.06 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -299,6 +328,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "39,612 km²",
     population: "2.32 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -309,6 +339,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "75,275 km²",
     population: "1.62 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
@@ -319,6 +350,7 @@ export const mexicoStatesData: Card[] = [
     continent: "North America",
     area: "1,485 km²",
     population: "9.21 M",
+    rarity: 5,
     quizCategory: ["Mexico", "North America", "General"]
   }
 ];

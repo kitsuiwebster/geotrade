@@ -9,6 +9,7 @@ export const nicaraguaCitiesData: Card[] = [
     continent: "Central America",
     population: "1.1 M",
     agglomeration: "1.9 M",
+    rarity: 9,
     quizCategory: ["Nicaragua", "City", "Central America", "General"]
   }
 ];

@@ -9,6 +9,7 @@ export const vanuatuCitiesData: Card[] = [
     continent: "Oceania",
     population: "53 K",
     agglomeration: "75 K",
+    rarity: 9,
     quizCategory: ["Vanuatu", "City", "Oceania", "General"]
   }
 ];

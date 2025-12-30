@@ -9,6 +9,7 @@ export const canadaProvincesData: Card[] = [
     continent: "North America",
     area: "661,848 km²",
     population: "4.26 M",
+    rarity: 5,
     quizCategory: ["Canada", "North America", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const canadaProvincesData: Card[] = [
     continent: "North America",
     area: "944,735 km²",
     population: "5.07 M",
+    rarity: 5,
     quizCategory: ["Canada", "North America", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const canadaProvincesData: Card[] = [
     continent: "North America",
     area: "647,797 km²",
     population: "1.34 M",
+    rarity: 5,
     quizCategory: ["Canada", "North America", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const canadaProvincesData: Card[] = [
     continent: "North America",
     area: "72,908 km²",
     population: "776 K",
+    rarity: 5,
     quizCategory: ["Canada", "North America", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const canadaProvincesData: Card[] = [
     continent: "North America",
     area: "405,212 km²",
     population: "520 K",
+    rarity: 5,
     quizCategory: ["Canada", "North America", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const canadaProvincesData: Card[] = [
     continent: "North America",
     area: "55,284 km²",
     population: "971 K",
+    rarity: 5,
     quizCategory: ["Canada", "North America", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const canadaProvincesData: Card[] = [
     continent: "North America",
     area: "1,076,395 km²",
     population: "14.57 M",
+    rarity: 5,
     quizCategory: ["Canada", "North America", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const canadaProvincesData: Card[] = [
     continent: "North America",
     area: "5,660 km²",
     population: "154 K",
+    rarity: 5,
     quizCategory: ["Canada", "North America", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const canadaProvincesData: Card[] = [
     continent: "North America",
     area: "1,542,056 km²",
     population: "8.49 M",
+    rarity: 5,
     quizCategory: ["Canada", "North America", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const canadaProvincesData: Card[] = [
     continent: "North America",
     area: "651,036 km²",
     population: "1.17 M",
+    rarity: 5,
     quizCategory: ["Canada", "North America", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const canadaProvincesData: Card[] = [
     continent: "North America",
     area: "1,346,106 km²",
     population: "44 K",
+    rarity: 5,
     quizCategory: ["Canada", "North America", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const canadaProvincesData: Card[] = [
     continent: "North America",
     area: "2,093,190 km²",
     population: "38 K",
+    rarity: 5,
     quizCategory: ["Canada", "North America", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const canadaProvincesData: Card[] = [
     continent: "North America",
     area: "482,443 km²",
     population: "40 K",
+    rarity: 5,
     quizCategory: ["Canada", "North America", "General"]
   }
 ];

@@ -9,6 +9,7 @@ export const coreedusudCitiesData: Card[] = [
     continent: "Asia",
     population: "9.7 M",
     agglomeration: "25.7 M",
+    rarity: 9,
     quizCategory: ["South Korea", "City", "Asia", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const coreedusudCitiesData: Card[] = [
     continent: "Asia",
     population: "3.4 M",
     agglomeration: "3.8 M",
+    rarity: 3,
     quizCategory: ["South Korea", "City", "Asia", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const coreedusudCitiesData: Card[] = [
     continent: "Asia",
     population: "3.0 M",
     agglomeration: "25.7 M",
+    rarity: 3,
     quizCategory: ["South Korea", "City", "Asia", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const coreedusudCitiesData: Card[] = [
     continent: "Asia",
     population: "2.4 M",
     agglomeration: "2.6 M",
+    rarity: 3,
     quizCategory: ["South Korea", "City", "Asia", "General"]
   }
 ];

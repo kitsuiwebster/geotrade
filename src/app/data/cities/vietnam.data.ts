@@ -9,6 +9,7 @@ export const vietnamCitiesData: Card[] = [
     continent: "Asia",
     population: "8.2 M",
     agglomeration: "9.1 M",
+    rarity: 9,
     quizCategory: ["Vietnam", "City", "Asia", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const vietnamCitiesData: Card[] = [
     continent: "Asia",
     population: "9.3 M",
     agglomeration: "13.3 M",
+    rarity: 3,
     quizCategory: ["Vietnam", "City", "Asia", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const vietnamCitiesData: Card[] = [
     continent: "Asia",
     population: "1.2 M",
     agglomeration: "1.4 M",
+    rarity: 3,
     quizCategory: ["Vietnam", "City", "Asia", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const vietnamCitiesData: Card[] = [
     continent: "Asia",
     population: "2.0 M",
     agglomeration: "2.4 M",
+    rarity: 3,
     quizCategory: ["Vietnam", "City", "Asia", "General"]
   }
 ];

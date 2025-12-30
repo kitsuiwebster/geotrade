@@ -9,6 +9,7 @@ export const grenadeCitiesData: Card[] = [
     continent: "Central America",
     population: "39 K",
     agglomeration: "55 K",
+    rarity: 9,
     quizCategory: ["Grenada", "City", "Central America", "General"]
   }
 ];

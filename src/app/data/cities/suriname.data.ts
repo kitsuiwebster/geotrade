@@ -9,6 +9,7 @@ export const surinameCitiesData: Card[] = [
     continent: "South America",
     population: "241 K",
     agglomeration: "290 K",
+    rarity: 9,
     quizCategory: ["Suriname", "City", "South America", "General"]
   }
 ];

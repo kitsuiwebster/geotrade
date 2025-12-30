@@ -9,6 +9,7 @@ export const sierraleoneCitiesData: Card[] = [
     continent: "Africa",
     population: "1.3 M",
     agglomeration: "1.7 M",
+    rarity: 9,
     quizCategory: ["Sierra Leone", "City", "Africa", "General"]
   }
 ];

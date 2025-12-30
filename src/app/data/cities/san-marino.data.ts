@@ -9,6 +9,7 @@ export const sanMarinoCitiesData: Card[] = [
     continent: "Europe",
     population: "4.1 K",
     agglomeration: "33 K",
+    rarity: 9,
     quizCategory: ["San Marino", "City", "Europe", "General"]
   }
 ];

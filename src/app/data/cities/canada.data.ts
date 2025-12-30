@@ -9,6 +9,7 @@ export const canadaCitiesData: Card[] = [
     continent: "North America",
     population: "1.0 M",
     agglomeration: "1.9 M",
+    rarity: 9,
     quizCategory: ["Canada", "City", "North America", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const canadaCitiesData: Card[] = [
     continent: "North America",
     population: "2.8 M",
     agglomeration: "6.5 M",
+    rarity: 3,
     quizCategory: ["Canada", "City", "North America", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const canadaCitiesData: Card[] = [
     continent: "North America",
     population: "1.8 M",
     agglomeration: "4.3 M",
+    rarity: 3,
     quizCategory: ["Canada", "City", "North America", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const canadaCitiesData: Card[] = [
     continent: "North America",
     population: "670 K",
     agglomeration: "2.6 M",
+    rarity: 3,
     quizCategory: ["Canada", "City", "North America", "General"]
   }
 ];

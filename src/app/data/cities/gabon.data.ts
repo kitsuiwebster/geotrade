@@ -9,6 +9,7 @@ export const gabonCitiesData: Card[] = [
     continent: "Africa",
     population: "813 K",
     agglomeration: "970 K",
+    rarity: 9,
     quizCategory: ["City", "Africa", "General"]
   }
 ];

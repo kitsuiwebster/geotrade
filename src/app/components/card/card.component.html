@@ -1,5 +1,6 @@
 <div class="card" [id]="id" [attr.data-type]="card.type" (click)="openModal()">
   <div class="card-type-indicator"></div>
+  <div class="card-rarity">{{ card.rarity }}/10</div>
   <div class="card-image-container">
     <img 
       *ngIf="imageLoaded" 
@@ -40,6 +41,7 @@
   <div class="modal-card" [attr.data-type]="card.type" (click)="$event.stopPropagation()">
     <button class="modal-close" (click)="closeModal()">&times;</button>
     <div class="modal-card-type-indicator"></div>
+    <div class="modal-card-rarity">{{ card.rarity }}/10</div>
     <div class="modal-card-image-container">
       <!-- Placeholder flou avec la thumbnail -->
       <div 

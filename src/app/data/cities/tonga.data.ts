@@ -9,6 +9,7 @@ export const tongaCitiesData: Card[] = [
     continent: "Oceania",
     population: "25 K",
     agglomeration: "35 K",
+    rarity: 9,
     quizCategory: ["Tonga", "City", "Oceania", "General"]
   }
 ];

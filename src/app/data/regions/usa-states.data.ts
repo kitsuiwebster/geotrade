@@ -9,6 +9,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "135,767 km²",
     population: "5.03 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "1,723,337 km²",
     population: "733 K",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "295,234 km²",
     population: "7.28 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "137,732 km²",
     population: "3.01 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "423,967 km²",
     population: "39.54 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "269,601 km²",
     population: "5.77 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "14,357 km²",
     population: "3.61 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "6,446 km²",
     population: "989 K",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "170,312 km²",
     population: "21.78 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "153,910 km²",
     population: "10.71 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "28,313 km²",
     population: "1.46 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "216,443 km²",
     population: "1.84 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "149,995 km²",
     population: "12.59 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "94,326 km²",
     population: "6.79 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "145,746 km²",
     population: "3.19 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "213,100 km²",
     population: "2.94 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -169,6 +185,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "104,656 km²",
     population: "4.51 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -179,6 +196,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "135,659 km²",
     population: "4.66 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -189,6 +207,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "91,633 km²",
     population: "1.40 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -199,6 +218,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "32,131 km²",
     population: "6.18 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -209,6 +229,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "27,336 km²",
     population: "7.00 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -219,6 +240,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "250,487 km²",
     population: "10.04 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -229,6 +251,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "225,163 km²",
     population: "5.74 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -239,6 +262,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "125,438 km²",
     population: "2.94 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -249,6 +273,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "180,540 km²",
     population: "6.20 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -259,6 +284,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "380,831 km²",
     population: "1.08 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -269,6 +295,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "200,330 km²",
     population: "1.96 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -279,6 +306,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "286,380 km²",
     population: "3.18 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -289,6 +317,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "24,214 km²",
     population: "1.40 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -299,6 +328,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "22,591 km²",
     population: "9.29 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -309,6 +339,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "314,917 km²",
     population: "2.12 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -319,6 +350,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "141,297 km²",
     population: "19.34 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -329,6 +361,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "139,391 km²",
     population: "10.44 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -339,6 +372,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "183,108 km²",
     population: "779 K",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -349,6 +383,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "116,098 km²",
     population: "11.80 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -359,6 +394,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "181,037 km²",
     population: "3.99 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -369,6 +405,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "254,799 km²",
     population: "4.24 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -379,6 +416,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "119,280 km²",
     population: "13.00 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -389,6 +427,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "4,001 km²",
     population: "1.10 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -399,6 +438,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "82,933 km²",
     population: "5.12 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -409,6 +449,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "199,729 km²",
     population: "887 K",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -419,6 +460,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "109,153 km²",
     population: "6.91 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -429,6 +471,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "695,662 km²",
     population: "29.53 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -439,6 +482,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "219,882 km²",
     population: "3.27 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -449,6 +493,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "24,906 km²",
     population: "643 K",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -459,6 +504,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "110,787 km²",
     population: "8.64 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -469,6 +515,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "184,661 km²",
     population: "7.69 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -479,6 +526,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "62,756 km²",
     population: "1.78 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -489,6 +537,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "169,635 km²",
     population: "5.89 M",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   },
   {
@@ -499,6 +548,7 @@ export const usaStatesData: Card[] = [
     continent: "North America",
     area: "253,335 km²",
     population: "576 K",
+    rarity: 5,
     quizCategory: ["United States", "North America", "General"]
   }
 ];

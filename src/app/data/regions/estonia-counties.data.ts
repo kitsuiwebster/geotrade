@@ -9,6 +9,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "4,333 km²",
     population: "650 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "1,023 km²",
     population: "9 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "3,364 km²",
     population: "136 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "2,623 km²",
     population: "29 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "2,604 km²",
     population: "28 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "2,383 km²",
     population: "20 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "3,627 km²",
     population: "53 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "2,165 km²",
     population: "25 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "4,807 km²",
     population: "86 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "2,980 km²",
     population: "33 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "2,922 km²",
     population: "31 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "2,993 km²",
     population: "153 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "2,044 km²",
     population: "28 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "3,422 km²",
     population: "47 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const estoniaCountiesData: Card[] = [
     continent: "Europe",
     area: "2,305 km²",
     population: "33 K",
+    rarity: 5,
     quizCategory: ["Estonia", "Europe", "General"]
   }
 ];

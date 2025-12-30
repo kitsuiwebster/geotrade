@@ -9,6 +9,7 @@ export const palestineCitiesData: Card[] = [
     continent: "Asia",
     population: "39 K",
     agglomeration: "55 K",
+    rarity: 9,
     quizCategory: ["Palestine", "City", "Asia", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const palestineCitiesData: Card[] = [
     continent: "Asia",
     population: "966 K",
     agglomeration: "1.25 M",
+    rarity: 3,
     quizCategory: ["Palestine", "City", "Asia", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const palestineCitiesData: Card[] = [
     continent: "Asia",
     population: "590 K",
     agglomeration: "2.1 M",
+    rarity: 3,
     quizCategory: ["Palestine", "City", "Asia", "General"]
   }
 ];

@@ -9,6 +9,7 @@ export const italyCitiesData: Card[] = [
     continent: "Europe",
     population: "2.8 M",
     agglomeration: "4.3 M",
+    rarity: 9,
     quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const italyCitiesData: Card[] = [
     continent: "Europe",
     population: "1.4 M",
     agglomeration: "3.3 M",
+    rarity: 3,
     quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const italyCitiesData: Card[] = [
     continent: "Europe",
     population: "910 K",
     agglomeration: "2.20 M",
+    rarity: 3,
     quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const italyCitiesData: Card[] = [
     continent: "Europe",
     population: "870 K",
     agglomeration: "1.70 M",
+    rarity: 3,
     quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const italyCitiesData: Card[] = [
     continent: "Europe",
     population: "660 K",
     agglomeration: "1.3 M",
+    rarity: 3,
     quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const italyCitiesData: Card[] = [
     continent: "Europe",
     population: "560 K",
     agglomeration: "850 K",
+    rarity: 3,
     quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const italyCitiesData: Card[] = [
     continent: "Europe",
     population: "390 K",
     agglomeration: "1.0 M",
+    rarity: 3,
     quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const italyCitiesData: Card[] = [
     continent: "Europe",
     population: "380 K",
     agglomeration: "1.0 M",
+    rarity: 3,
     quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const italyCitiesData: Card[] = [
     continent: "Europe",
     population: "320 K",
     agglomeration: "750 K",
+    rarity: 3,
     quizCategory: ["Italy", "City", "Europe", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const italyCitiesData: Card[] = [
     continent: "Europe",
     population: "310 K",
     agglomeration: "760 K",
+    rarity: 3,
     quizCategory: ["Italy", "City", "Europe", "General"]
   }
 ];

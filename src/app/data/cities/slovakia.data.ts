@@ -9,6 +9,7 @@ export const slovakiaCitiesData: Card[] = [
     continent: "Europe",
     population: "437 K",
     agglomeration: "669 K",
+    rarity: 9,
     quizCategory: ["Slovakia", "City", "Europe", "General"]
   }
 ];

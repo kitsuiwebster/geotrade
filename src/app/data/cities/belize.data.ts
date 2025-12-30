@@ -9,6 +9,7 @@ export const belizeCitiesData: Card[] = [
     continent: "Central America",
     population: "20 K",
     agglomeration: "25 K",
+    rarity: 9,
     quizCategory: ["Belize", "City", "Central America", "General"]
   }
 ];

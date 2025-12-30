@@ -9,6 +9,7 @@ export const guatemalaCitiesData: Card[] = [
     continent: "Central America",
     population: "3.0 M",
     agglomeration: "5.7 M",
+    rarity: 9,
     quizCategory: ["Guatemala", "City", "Central America", "General"]
   }
 ];

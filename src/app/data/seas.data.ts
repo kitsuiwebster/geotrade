@@ -8,6 +8,7 @@ export const seasData: Card[] = [
     localisation: "Europe, Africa and Asia",
     continent: "Europe",
     depth: "5,267 m",
+    rarity: 8,
     quizCategory: ["Sea", "Europe", "General"]
   },
   {
@@ -17,6 +18,7 @@ export const seasData: Card[] = [
     localisation: "America",
     continent: "Central America",
     depth: "7,686 m",
+    rarity: 8,
     quizCategory: ["Sea", "Central America", "General"]
   },
   {
@@ -26,6 +28,7 @@ export const seasData: Card[] = [
     localisation: "Europe",
     continent: "Europe",
     depth: "459 m",
+    rarity: 8,
     quizCategory: ["Sea", "Europe", "General"]
   },
   {
@@ -35,6 +38,7 @@ export const seasData: Card[] = [
     localisation: "Asia",
     continent: "Asia",
     depth: "4,652 m",
+    rarity: 8,
     quizCategory: ["Sea", "Asia", "General"]
   },
   {
@@ -44,6 +48,7 @@ export const seasData: Card[] = [
     localisation: "America and Asia",
     continent: "Asia",
     depth: "4,097 m",
+    rarity: 8,
     quizCategory: ["Sea", "Asia", "General"]
   },
   {
@@ -53,6 +58,7 @@ export const seasData: Card[] = [
     localisation: "Asia",
     continent: "Asia",
     depth: "5,016 m",
+    rarity: 8,
     quizCategory: ["Sea", "Asia", "General"]
   },
   {
@@ -62,6 +68,7 @@ export const seasData: Card[] = [
     localisation: "Europe and Asia",
     continent: "Europe",
     depth: "2,212 m",
+    rarity: 8,
     quizCategory: ["Sea", "Europe", "General"]
   },
   {
@@ -71,6 +78,7 @@ export const seasData: Card[] = [
     localisation: "Africa and Asia",
     continent: "Africa",
     depth: "3,040 m",
+    rarity: 8,
     quizCategory: ["Sea", "Africa", "General"]
   },
   {
@@ -80,6 +88,7 @@ export const seasData: Card[] = [
     localisation: "Europe",
     continent: "Europe",
     depth: "700 m",
+    rarity: 8,
     quizCategory: ["Sea", "Europe", "General"]
   },
   {
@@ -89,6 +98,7 @@ export const seasData: Card[] = [
     localisation: "Oceania",
     continent: "Oceania",
     depth: "9,140 m",
+    rarity: 8,
     quizCategory: ["Sea", "Oceania", "General"]
   },
   {
@@ -98,6 +108,7 @@ export const seasData: Card[] = [
     localisation: "Europe and Asia",
     continent: "Europe",
     depth: "600 m",
+    rarity: 8,
     quizCategory: ["Sea", "Europe", "General"]
   },
   {
@@ -107,6 +118,7 @@ export const seasData: Card[] = [
     localisation: "Europe",
     continent: "Europe",
     depth: "3,970 m",
+    rarity: 8,
     quizCategory: ["Sea", "Europe", "General"]
   },
   {
@@ -116,6 +128,7 @@ export const seasData: Card[] = [
     localisation: "Asia",
     continent: "Asia",
     depth: "90 m",
+    rarity: 8,
     quizCategory: ["Sea", "Asia", "General"]
   },
   {
@@ -125,6 +138,7 @@ export const seasData: Card[] = [
     localisation: "North America",
     continent: "North America",
     depth: "4,384 m",
+    rarity: 8,
     quizCategory: ["Sea", "North America", "General"]
   },
   {
@@ -134,6 +148,7 @@ export const seasData: Card[] = [
     localisation: "Asia",
     continent: "Asia",
     depth: "4,694 m",
+    rarity: 8,
     quizCategory: ["Sea", "Asia", "General"]
   },
   {
@@ -143,6 +158,7 @@ export const seasData: Card[] = [
     localisation: "Africa",
     continent: "Africa",
     depth: "6,363 m",
+    rarity: 8,
     quizCategory: ["Sea", "Africa", "General"]
   },
   {
@@ -152,6 +168,7 @@ export const seasData: Card[] = [
     localisation: "Europe",
     continent: "Europe",
     depth: "1,233 m",
+    rarity: 8,
     quizCategory: ["Sea", "Europe", "General"]
   },
   {
@@ -161,6 +178,7 @@ export const seasData: Card[] = [
     localisation: "Europe",
     continent: "Europe",
     depth: "3,544 m",
+    rarity: 8,
     quizCategory: ["Sea", "Europe", "General"]
   },
   {
@@ -170,6 +188,7 @@ export const seasData: Card[] = [
     localisation: "Asia",
     continent: "Asia",
     depth: "3,742 m",
+    rarity: 8,
     quizCategory: ["Sea", "Asia", "General"]
   },
   {
@@ -179,6 +198,7 @@ export const seasData: Card[] = [
     localisation: "Oceania",
     continent: "Oceania",
     depth: "5,943 m",
+    rarity: 8,
     quizCategory: ["Sea", "Oceania", "General"]
   },
   {
@@ -188,6 +208,7 @@ export const seasData: Card[] = [
     localisation: "Asia",
     continent: "Asia",
     depth: "4,198 m",
+    rarity: 8,
     quizCategory: ["Sea", "Asia", "General"]
   },
   {
@@ -197,6 +218,7 @@ export const seasData: Card[] = [
     localisation: "Europe",
     continent: "Europe",
     depth: "340 m",
+    rarity: 8,
     quizCategory: ["Sea", "Europe", "General"]
   },
   {
@@ -206,6 +228,7 @@ export const seasData: Card[] = [
     localisation: "Europe",
     continent: "Europe",
     depth: "175 m",
+    rarity: 8,
     quizCategory: ["Sea", "Europe", "General"]
   },
   {
@@ -215,6 +238,7 @@ export const seasData: Card[] = [
     localisation: "Europe",
     continent: "Europe",
     depth: "3,785 m",
+    rarity: 8,
     quizCategory: ["Sea", "Europe", "General"]
   }
 ];

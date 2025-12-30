@@ -9,6 +9,7 @@ export const switzerlandCitiesData: Card[] = [
     continent: "Europe",
     population: "134 K",
     agglomeration: "422 K",
+    rarity: 9,
     quizCategory: ["Switzerland", "City", "Europe", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const switzerlandCitiesData: Card[] = [
     continent: "Europe",
     population: "435 K",
     agglomeration: "1.4 M",
+    rarity: 9,
     quizCategory: ["Switzerland", "City", "Europe", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const switzerlandCitiesData: Card[] = [
     continent: "Europe",
     population: "203 K",
     agglomeration: "615 K",
+    rarity: 3,
     quizCategory: ["Switzerland", "City", "Europe", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const switzerlandCitiesData: Card[] = [
     continent: "Europe",
     population: "140 K",
     agglomeration: "420 K",
+    rarity: 3,
     quizCategory: ["Switzerland", "City", "Europe", "General"]
   }
 ];

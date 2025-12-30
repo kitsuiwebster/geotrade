@@ -9,6 +9,7 @@ export const cambodgeCitiesData: Card[] = [
     continent: "Asia",
     population: "2.1 M",
     agglomeration: "2.8 M",
+    rarity: 9,
     quizCategory: ["Cambodia", "City", "Asia", "General"]
   }
 ];

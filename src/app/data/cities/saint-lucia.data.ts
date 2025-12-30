@@ -9,6 +9,7 @@ export const saintelucieCitiesData: Card[] = [
     continent: "Central America",
     population: "22 K",
     agglomeration: "70 K",
+    rarity: 9,
     quizCategory: ["Saint Lucia", "City", "Central America", "General"]
   }
 ];

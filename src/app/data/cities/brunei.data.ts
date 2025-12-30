@@ -9,6 +9,7 @@ export const bruneiCitiesData: Card[] = [
     continent: "Asia",
     population: "100 K",
     agglomeration: "180 K",
+    rarity: 9,
     quizCategory: ["Brunei", "City", "Asia", "General"]
   }
 ];

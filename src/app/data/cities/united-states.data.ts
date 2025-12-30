@@ -9,6 +9,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "689 K",
     agglomeration: "6.3 M",
+    rarity: 9,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -19,6 +20,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "8.3 M",
     agglomeration: "20.1 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -29,6 +31,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "3.9 M",
     agglomeration: "13.2 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -39,6 +42,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "2.7 M",
     agglomeration: "9.6 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -49,6 +53,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "2.3 M",
     agglomeration: "7.1 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -59,6 +64,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "1.7 M",
     agglomeration: "5.0 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -69,6 +75,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "1.6 M",
     agglomeration: "6.1 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -79,6 +86,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "1.5 M",
     agglomeration: "2.6 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -89,6 +97,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "1.4 M",
     agglomeration: "3.3 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -99,6 +108,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "1.3 M",
     agglomeration: "7.6 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -109,6 +119,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "1.0 M",
     agglomeration: "2.0 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -119,6 +130,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "970 K",
     agglomeration: "2.4 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -129,6 +141,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "950 K",
     agglomeration: "1.5 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -139,6 +152,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "920 K",
     agglomeration: "7.6 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -149,6 +163,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "910 K",
     agglomeration: "2.1 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -159,6 +174,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "870 K",
     agglomeration: "4.7 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -169,6 +185,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "870 K",
     agglomeration: "2.7 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -179,6 +196,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "880 K",
     agglomeration: "2.1 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -189,6 +207,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "750 K",
     agglomeration: "4.0 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -199,6 +218,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "720 K",
     agglomeration: "2.9 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -209,6 +229,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "690 K",
     agglomeration: "4.9 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -219,6 +240,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "690 K",
     agglomeration: "1.1 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -229,6 +251,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "640 K",
     agglomeration: "4.3 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -239,6 +262,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "690 K",
     agglomeration: "1.9 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -249,6 +273,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "650 K",
     agglomeration: "2.5 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -259,6 +284,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "630 K",
     agglomeration: "1.3 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -269,6 +295,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "700 K",
     agglomeration: "1.4 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -279,6 +306,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "650 K",
     agglomeration: "2.3 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -289,6 +317,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "630 K",
     agglomeration: "1.3 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -299,6 +328,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "580 K",
     agglomeration: "2.8 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -309,6 +339,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "580 K",
     agglomeration: "1.6 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -319,6 +350,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "560 K",
     agglomeration: "920 K",
+    rarity: 3,
     quizCategory: ["United States", "Mexico", "City", "North America", "General"]
   },
   {
@@ -329,6 +361,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "550 K",
     agglomeration: "1.0 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -339,6 +372,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "540 K",
     agglomeration: "980 K",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -349,6 +383,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "520 K",
     agglomeration: "2.4 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -359,6 +394,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "500 K",
     agglomeration: "6.1 M",
+    rarity: 3,
     quizCategory: ["United States", "Georgia", "City", "North America", "General"]
   },
   {
@@ -369,6 +405,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "490 K",
     agglomeration: "2.2 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -379,6 +416,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "480 K",
     agglomeration: "740 K",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -389,6 +427,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "460 K",
     agglomeration: "6.2 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -399,6 +438,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "470 K",
     agglomeration: "1.4 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -409,6 +449,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "480 K",
     agglomeration: "940 K",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -419,6 +460,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "460 K",
     agglomeration: "13.2 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -429,6 +471,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "460 K",
     agglomeration: "1.8 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -439,6 +482,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "430 K",
     agglomeration: "4.7 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -449,6 +493,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "430 K",
     agglomeration: "3.7 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -459,6 +504,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "390 K",
     agglomeration: "3.2 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -469,6 +515,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "410 K",
     agglomeration: "990 K",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -479,6 +526,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "390 K",
     agglomeration: "7.6 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -489,6 +537,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "380 K",
     agglomeration: "1.3 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -499,6 +548,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "390 K",
     agglomeration: "650 K",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -509,6 +559,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "380 K",
     agglomeration: "2.0 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -519,6 +570,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "310 K",
     agglomeration: "2.6 M",
+    rarity: 3,
     quizCategory: ["United States", "City", "North America", "General"]
   },
   {
@@ -529,6 +581,7 @@ export const etatsUnisCitiesData: Card[] = [
     continent: "North America",
     population: "88 K",
     agglomeration: "150 K",
+    rarity: 3,
     quizCategory: ["United States", "Mexico", "City", "North America", "General"]
   },
 ];

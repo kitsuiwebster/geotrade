@@ -9,6 +9,7 @@ export const kiribatiCitiesData: Card[] = [
     continent: "Oceania",
     population: "64 K",
     agglomeration: "64 K",
+    rarity: 9,
     quizCategory: ["Kiribati", "City", "Oceania", "General"]
   }
 ];
