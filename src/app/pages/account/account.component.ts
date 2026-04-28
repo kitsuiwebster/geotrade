@@ -2,28 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
 import { NavbarComponent } from '../../components/navbar/navbar.component';
 import { FooterComponent } from '../../components/footer/footer.component';
-
-interface UserStats {
-  totalCards: number;
-  totalCardsAvailable: number;
-  quizzesCompleted: number;
-  quizzesTotal: number;
-  exchangesPending: number;
-  marketDealsCompleted: number;
-  friendsCount: number;
-  achievementsTotal: number;
-}
-
-interface Achievement {
-  id: number;
-  title: string;
-  description: string;
-  icon: string;
-  unlocked: boolean;
-  unlockedAt?: Date;
-}
+import { SupabaseService, Profile } from '../../services/supabase.service';
+import { allCardsData, allCitiesData, countriesData } from '../../data';
 
 @Component({
   selector: 'app-account',
@@ -33,128 +16,113 @@ interface Achievement {
   styleUrls: ['./account.component.scss']
 })
 export class AccountComponent implements OnInit {
-  user = {
-    username: 'geoexplorer',
-    displayName: 'GeoExplorer',
-    email: 'explorer@geotrade.com',
-    avatar: 'assets/images/pp_default.jpg',
-    country: 'France',
-    city: 'Paris'
-  };
+  profile: Profile | null = null;
+  totalCards = 0;
+  readonly totalCardsAvailable = allCardsData.length;
+  readonly countries = countriesData.map(c => c.nom).sort();
 
-  stats: UserStats = {
-    totalCards: 11,
-    totalCardsAvailable: 3127,
-    quizzesCompleted: 2,
-    quizzesTotal: 15,
-    exchangesPending: 3,
-    marketDealsCompleted: 7,
-    friendsCount: 12,
-    achievementsTotal: 25
-  };
+  get filteredCityOptions(): string[] {
+    const term = (this.editForm.city || '').toLowerCase().trim();
+    if (!term) return [];
+    const all = allCitiesData.map(c => c.nom);
+    return Array.from(new Set(all))
+      .filter(n => n.toLowerCase().includes(term))
+      .sort()
+      .slice(0, 50);
+  }
 
-  passwordForm = {
-    currentPassword: '',
-    newPassword: '',
-    confirmPassword: ''
-  };
+  openCitySuggestions() {
+    this.showCitySuggestions = true;
+  }
 
-  achievements: Achievement[] = [
-    {
-      id: 1,
-      title: 'First Steps',
-      description: 'Complete your first quiz',
-      icon: '🎯',
-      unlocked: true,
-      unlockedAt: new Date('2024-01-16')
-    },
-    {
-      id: 2,
-      title: 'Card Collector',
-      description: 'Collect your first 5 cards',
-      icon: '📚',
-      unlocked: false
-    },
-    {
-      id: 3,
-      title: 'Geography Master',
-      description: 'Complete 10 geography quizzes',
-      icon: '🗺️',
-      unlocked: false
-    },
-    {
-      id: 4,
-      title: 'Explorer',
-      description: 'Reach level 5',
-      icon: '🧭',
-      unlocked: false
+  selectCity(name: string) {
+    this.editForm.city = name;
+    this.showCitySuggestions = false;
+  }
+
+  editForm = { display_name: '', country: '', city: '' };
+  passwordForm = { newPassword: '', confirmPassword: '' };
+
+  loading = false;
+  saveSuccess = false;
+  passwordSuccess = false;
+
+  showCitySuggestions = false;
+
+  constructor(private supabase: SupabaseService, private router: Router) {
+    document.addEventListener('click', (event) => {
+      const target = event.target as HTMLElement;
+      if (!target.closest('.city-field-wrapper')) {
+        this.showCitySuggestions = false;
+      }
+    });
+  }
+
+  async ngOnInit() {
+    const user = this.supabase.currentUser;
+    if (!user) { this.router.navigate(['/login']); return; }
+
+    const { data } = await this.supabase.getProfile(user.id);
+    if (data) {
+      this.profile = data;
+      this.editForm = {
+        display_name: data.display_name,
+        country: data.country,
+        city: data.city ?? ''
+      };
     }
-  ];
 
-  ngOnInit(): void {
-    // Simulation initialization
-  }
-
-
-  get unlockedAchievements(): Achievement[] {
-    return this.achievements.filter(a => a.unlocked);
-  }
-
-  get lockedAchievements(): Achievement[] {
-    return this.achievements.filter(a => !a.unlocked);
+    const cardIds = await this.supabase.getUserCardIds(user.id);
+    this.totalCards = cardIds.length;
   }
 
   getCollectionPercentage(): number {
-    return Math.round((this.stats.totalCards / this.stats.totalCardsAvailable) * 100);
+    return this.totalCardsAvailable > 0
+      ? Math.round((this.totalCards / this.totalCardsAvailable) * 100)
+      : 0;
   }
 
-  onAvatarUpload(event: any): void {
-    const file = event.target.files[0];
-    if (file) {
-      console.log('Avatar file selected:', file.name);
-      // Mock file upload - will use API endpoint later
-      // POST /api/upload/avatar
+  async updateAccount() {
+    const user = this.supabase.currentUser;
+    if (!user) return;
+    this.loading = true;
+    await this.supabase.updateProfile(user.id, {
+      display_name: this.editForm.display_name,
+      country: this.editForm.country,
+      city: this.editForm.city || null
+    });
+    if (this.profile) {
+      this.profile.display_name = this.editForm.display_name;
+      this.profile.country = this.editForm.country;
+      this.profile.city = this.editForm.city || null;
     }
-  }
-
-  updateAccount(): void {
-    console.log('Account updated');
-    // Mock account update - will use API endpoint later  
-    // PUT /api/auth/account
+    this.loading = false;
+    this.saveSuccess = true;
+    setTimeout(() => (this.saveSuccess = false), 2000);
   }
 
   isPasswordFormValid(): boolean {
-    return this.passwordForm.currentPassword.length > 0 &&
-           this.passwordForm.newPassword.length >= 6 &&
-           this.passwordForm.newPassword === this.passwordForm.confirmPassword;
+    return this.passwordForm.newPassword.length >= 6 &&
+      this.passwordForm.newPassword === this.passwordForm.confirmPassword;
   }
 
-  changePassword(): void {
-    if (!this.isPasswordFormValid()) {
-      return;
-    }
-    
-    console.log('Password change requested');
-    // Mock password change - will use API endpoint later
-    // PUT /api/auth/password
-    
-    // Reset form after successful change
-    this.passwordForm = {
-      currentPassword: '',
-      newPassword: '',
-      confirmPassword: ''
-    };
-    
-    alert('Password changed successfully!');
+  async changePassword() {
+    if (!this.isPasswordFormValid()) return;
+    this.loading = true;
+    await this.supabase.updatePassword(this.passwordForm.newPassword);
+    this.loading = false;
+    this.passwordForm = { newPassword: '', confirmPassword: '' };
+    this.passwordSuccess = true;
+    setTimeout(() => (this.passwordSuccess = false), 2000);
   }
 
-  logout(): void {
-    console.log('User logged out');
-    // Mock logout
+  async logout() {
+    await this.supabase.signOut();
+    this.router.navigate(['/login']);
   }
 
-  previewProfile(): void {
-    const userId = 'demo123'; // Mock current user ID
-    window.open(`/user/${userId}`, '_blank');
+  previewProfile() {
+    const user = this.supabase.currentUser;
+    if (user) window.open(`/user/${user.id}`, '_blank');
   }
 }

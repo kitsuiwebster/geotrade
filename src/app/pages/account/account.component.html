@@ -1,10 +1,10 @@
 <div class='all-cards-container'>
   <div class='header'>
-    <h1 class='header-title'>GeoTrade ⚠️ Site under construction - All pages are mocked</h1>
+    <h1 class='header-title'>GeoTrade</h1>
     <div class='buttons-container'>
       <div class='card-count'>Account</div>
-      <button class='download-btn' (click)="updateAccount()">
-        <span class="btn-text">Save Account</span>
+      <button class='download-btn' (click)="updateAccount()" [disabled]="loading">
+        <span class="btn-text">{{ saveSuccess ? 'Saved ✓' : 'Save Account' }}</span>
       </button>
       <button class='toggle-mode-btn' (click)="logout()">
         <span class="btn-text">Logout</span>
@@ -12,188 +12,125 @@
     </div>
   </div>
 
-  <!-- Navigation Tabs -->
   <app-navbar></app-navbar>
 
   <div class="main-content">
-  <!-- Account Section -->
-  <div class='account-section'>
-    <div class='section-header'>
-      <h2 class='section-title'>My Account</h2>
-      <p class='section-subtitle'>Manage your profile and track your progress</p>
-    </div>
-
-    <div class='account-content'>
-      <!-- Profile Card -->
-      <div class='profile-card'>
-        <div class='profile-header'>
-          <div class='avatar-section'>
-            <div class='avatar'>
-              <img [src]="user.avatar" alt="Avatar" class='avatar-img'>
-            </div>
-            <input type='file' accept='image/*' (change)="onAvatarUpload($event)" class='file-input' id='avatar-upload'>
-            <label for='avatar-upload' class='upload-btn'>Upload</label>
-          </div>
-          <div class='profile-info'>
-            <h3 class='display-name'>{{ user.displayName }}</h3>
-            <p class='username'>{{ '@' + user.username }}</p>
-            <p class='email'>{{ user.email }}</p>
-          </div>
-        </div>
-
-        <!-- Profile Actions -->
-        <div class='profile-actions'>
-          <button class='preview-profile-btn' (click)="previewProfile()">
-            <span class="btn-text">Preview Profile</span>
-          </button>
-        </div>
-
-        <!-- Profile Form -->
-        <div class='profile-form'>
-          <div class='form-group'>
-            <label>Username</label>
-            <input type='text' [value]="user.username" class='form-input' readonly>
-            <small class='field-note'>Username cannot be changed</small>
-          </div>
-          
-          <div class='form-group'>
-            <label>Display Name</label>
-            <input type='text' [(ngModel)]="user.displayName" class='form-input'>
-          </div>
-          
-          <div class='form-group'>
-            <label>Email</label>
-            <input type='email' [(ngModel)]="user.email" class='form-input'>
-          </div>
-
-          <div class='form-group'>
-            <label>Country *</label>
-            <input type='text' [(ngModel)]="user.country" class='form-input' required>
-          </div>
-          
-          <div class='form-group'>
-            <label>City</label>
-            <input type='text' [(ngModel)]="user.city" class='form-input' placeholder="Optional">
-          </div>
-          
-        </div>
+    <div class='account-section'>
+      <div class='section-header'>
+        <h2 class='section-title'>My Account</h2>
+        <p class='section-subtitle'>Manage your profile and track your progress</p>
       </div>
 
-      <!-- Security Card -->
-      <div class='security-card'>
-        <h3 class='card-title'>Security</h3>
-        
-        <div class='security-form'>
-          <div class='form-group'>
-            <label>Current Password</label>
-            <input type='password' [(ngModel)]="passwordForm.currentPassword" class='form-input' placeholder="Enter current password">
-          </div>
-          
-          <div class='form-group'>
-            <label>New Password</label>
-            <input type='password' [(ngModel)]="passwordForm.newPassword" class='form-input' placeholder="Enter new password">
-          </div>
-          
-          <div class='form-group'>
-            <label>Confirm New Password</label>
-            <input type='password' [(ngModel)]="passwordForm.confirmPassword" class='form-input' placeholder="Confirm new password">
-          </div>
-          
-          <button class='change-password-btn' (click)="changePassword()" [disabled]="!isPasswordFormValid()">
-            <span class="btn-text">Change Password</span>
-          </button>
-        </div>
-      </div>
-
-      <!-- Stats Card -->
-      <div class='stats-card'>
-        <h3 class='card-title'>Statistics</h3>
-        
-        <div class='stats-grid'>
-          <div class='stat-item'>
-            <div class='stat-icon'>🎴</div>
-            <div class='stat-value'>{{ stats.totalCards }}</div>
-            <div class='stat-label'>Cards Collected</div>
-            <div class='stat-sublabel'>{{ getCollectionPercentage() }}% Complete</div>
-          </div>
-          
-          <div class='stat-item'>
-            <div class='stat-icon'>✅</div>
-            <div class='stat-value'>{{ stats.quizzesCompleted }}</div>
-            <div class='stat-label'>Quizzes Completed</div>
-            <div class='stat-sublabel'>{{ stats.quizzesTotal }} Available</div>
-          </div>
-          
-          <div class='stat-item'>
-            <div class='stat-icon'>🔄</div>
-            <div class='stat-value'>{{ stats.exchangesPending }}</div>
-            <div class='stat-label'>Pending Exchanges</div>
-            <div class='stat-sublabel'>Awaiting Response</div>
-          </div>
-          
-          <div class='stat-item'>
-            <div class='stat-icon'>🏪</div>
-            <div class='stat-value'>{{ stats.marketDealsCompleted }}</div>
-            <div class='stat-label'>Market Deals</div>
-            <div class='stat-sublabel'>Successfully Completed</div>
-          </div>
-          
-          <div class='stat-item'>
-            <div class='stat-icon'>👥</div>
-            <div class='stat-value'>{{ stats.friendsCount }}</div>
-            <div class='stat-label'>Friends</div>
-            <div class='stat-sublabel'>Trading Partners</div>
-          </div>
-          
-          <div class='stat-item'>
-            <div class='stat-icon'>🏆</div>
-            <div class='stat-value'>{{ unlockedAchievements.length }}</div>
-            <div class='stat-label'>Achievements</div>
-            <div class='stat-sublabel'>{{ stats.achievementsTotal }} Total</div>
-          </div>
-          
-        </div>
-      </div>
-
-      <!-- Achievements Card -->
-      <div class='achievements-card'>
-        <h3 class='card-title'>Achievements</h3>
-        
-        <div class='achievements-section'>
-          <h4 class='achievements-subtitle'>Unlocked ({{ unlockedAchievements.length }})</h4>
-          <div class='achievements-grid' *ngIf="unlockedAchievements.length > 0">
-            <div 
-              *ngFor="let achievement of unlockedAchievements" 
-              class='achievement-item unlocked'>
-              <div class='achievement-icon'>{{ achievement.icon }}</div>
-              <div class='achievement-info'>
-                <h5 class='achievement-title'>{{ achievement.title }}</h5>
-                <p class='achievement-description'>{{ achievement.description }}</p>
-                <span class='achievement-date' *ngIf="achievement.unlockedAt">
-                  Unlocked {{ achievement.unlockedAt | date:'MMM d, yyyy' }}
-                </span>
+      <div class='account-content' *ngIf="profile">
+        <!-- Profile Card -->
+        <div class='profile-card'>
+          <div class='profile-header'>
+            <div class='avatar-section'>
+              <div class='avatar'>
+                <img src="assets/images/pp_default.jpg" alt="Avatar" class='avatar-img'>
               </div>
             </div>
+            <div class='profile-info'>
+              <h3 class='display-name'>{{ profile.display_name }}</h3>
+              <p class='username'>{{ '@' + profile.username }}</p>
+            </div>
           </div>
-          
-          <h4 class='achievements-subtitle'>Locked ({{ lockedAchievements.length }})</h4>
-          <div class='achievements-grid' *ngIf="lockedAchievements.length > 0">
-            <div 
-              *ngFor="let achievement of lockedAchievements" 
-              class='achievement-item locked'>
-              <div class='achievement-icon'>🔒</div>
-              <div class='achievement-info'>
-                <h5 class='achievement-title'>{{ achievement.title }}</h5>
-                <p class='achievement-description'>{{ achievement.description }}</p>
-              </div>
+
+          <div class='profile-actions'>
+            <button class='preview-profile-btn' (click)="previewProfile()">
+              <span class="btn-text">Preview Profile</span>
+            </button>
+          </div>
+
+          <div class='profile-form'>
+            <div class='form-group'>
+              <label>Username</label>
+              <input type='text' [value]="profile.username" class='form-input' readonly>
+              <small class='field-note'>Username cannot be changed</small>
+            </div>
+
+            <div class='form-group'>
+              <label>Display Name</label>
+              <input type='text' [(ngModel)]="editForm.display_name" class='form-input'>
+            </div>
+
+            <div class='form-group'>
+              <label>Country *</label>
+              <select [(ngModel)]="editForm.country" class='form-input' required>
+                <option value="" disabled>Select your country</option>
+                <option *ngFor="let c of countries" [value]="c">{{ c }}</option>
+              </select>
+            </div>
+
+            <div class='form-group city-field-wrapper'>
+              <label>City</label>
+              <input
+                type='text'
+                [(ngModel)]="editForm.city"
+                class='form-input'
+                placeholder="Optional"
+                autocomplete="off"
+                (focus)="openCitySuggestions()"
+                (input)="openCitySuggestions()">
+              <ul
+                class='city-suggestions'
+                *ngIf="showCitySuggestions && filteredCityOptions.length > 0">
+                <li
+                  *ngFor="let c of filteredCityOptions"
+                  class='city-suggestion-item'
+                  (click)="selectCity(c)">
+                  {{ c }}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Security Card -->
+        <div class='security-card'>
+          <h3 class='card-title'>Security</h3>
+          <div class='security-form'>
+            <div class='form-group'>
+              <label>New Password</label>
+              <input type='password' [(ngModel)]="passwordForm.newPassword" class='form-input' placeholder="At least 6 characters">
+            </div>
+            <div class='form-group'>
+              <label>Confirm New Password</label>
+              <input type='password' [(ngModel)]="passwordForm.confirmPassword" class='form-input' placeholder="Confirm new password">
+            </div>
+            <button class='change-password-btn' (click)="changePassword()" [disabled]="!isPasswordFormValid() || loading">
+              <span class="btn-text">{{ passwordSuccess ? 'Updated ✓' : 'Change Password' }}</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Stats Card -->
+        <div class='stats-card'>
+          <h3 class='card-title'>Statistics</h3>
+          <div class='stats-grid'>
+            <div class='stat-item'>
+              <div class='stat-icon'>🎴</div>
+              <div class='stat-value'>{{ totalCards }}</div>
+              <div class='stat-label'>Cards Collected</div>
+              <div class='stat-sublabel'>{{ getCollectionPercentage() }}% of {{ totalCardsAvailable }}</div>
+            </div>
+            <div class='stat-item'>
+              <div class='stat-icon'>✅</div>
+              <div class='stat-value'>{{ profile.quizzes_completed }}</div>
+              <div class='stat-label'>Quizzes Completed</div>
+            </div>
+            <div class='stat-item'>
+              <div class='stat-icon'>🏪</div>
+              <div class='stat-value'>{{ profile.market_deals_completed }}</div>
+              <div class='stat-label'>Market Deals</div>
             </div>
           </div>
         </div>
       </div>
+
+      <div *ngIf="!profile" class="loading-state">Loading profile...</div>
     </div>
   </div>
-  </div>
 
-  <!-- Footer -->
   <app-footer></app-footer>
 </div>
