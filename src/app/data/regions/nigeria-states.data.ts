@@ -14,7 +14,7 @@ export const nigeriaStatesData: Card[] = [
   },
   {
     type: "State",
-    image: "assets/images/cards/region/nigeria/adamawa.jpg",
+    image: "assets/images/cards/region/nigeria/adamawa.jpeg",
     nom: "Adamawa",
     localisation: "Nigeria",
     continent: "Africa",
@@ -58,7 +58,7 @@ export const nigeriaStatesData: Card[] = [
   },
   {
     type: "State",
-    image: "assets/images/cards/region/nigeria/bayelsa.jpg",
+    image: "assets/images/cards/region/nigeria/bayelsa.webp",
     nom: "Bayelsa",
     localisation: "Nigeria",
     continent: "Africa",
@@ -91,7 +91,7 @@ export const nigeriaStatesData: Card[] = [
   },
   {
     type: "State",
-    image: "assets/images/cards/region/nigeria/cross-river.jpg",
+    image: "assets/images/cards/region/nigeria/cross-river.webp",
     nom: "Cross River",
     localisation: "Nigeria",
     continent: "Africa",
@@ -113,7 +113,7 @@ export const nigeriaStatesData: Card[] = [
   },
   {
     type: "State",
-    image: "assets/images/cards/region/nigeria/ebonyi.jpg",
+    image: "assets/images/cards/region/nigeria/ebonyi.jpeg",
     nom: "Ebonyi",
     localisation: "Nigeria",
     continent: "Africa",
@@ -157,7 +157,7 @@ export const nigeriaStatesData: Card[] = [
   },
   {
     type: "Federal Capital Territory",
-    image: "assets/images/cards/region/nigeria/fct-abuja.jpg",
+    image: "assets/images/cards/region/nigeria/fct-abuja.webp",
     nom: "FCT Abuja",
     localisation: "Nigeria",
     continent: "Africa",
@@ -223,7 +223,7 @@ export const nigeriaStatesData: Card[] = [
   },
   {
     type: "State",
-    image: "assets/images/cards/region/nigeria/katsina.jpg",
+    image: "assets/images/cards/region/nigeria/katsina.webp",
     nom: "Katsina",
     localisation: "Nigeria",
     continent: "Africa",
@@ -234,7 +234,7 @@ export const nigeriaStatesData: Card[] = [
   },
   {
     type: "State",
-    image: "assets/images/cards/region/nigeria/kebbi.jpg",
+    image: "assets/images/cards/region/nigeria/kebbi.jpeg",
     nom: "Kebbi",
     localisation: "Nigeria",
     continent: "Africa",
@@ -256,7 +256,7 @@ export const nigeriaStatesData: Card[] = [
   },
   {
     type: "State",
-    image: "assets/images/cards/region/nigeria/kwara.jpg",
+    image: "assets/images/cards/region/nigeria/kwara",
     nom: "Kwara",
     localisation: "Nigeria",
     continent: "Africa",
@@ -278,7 +278,7 @@ export const nigeriaStatesData: Card[] = [
   },
   {
     type: "State",
-    image: "assets/images/cards/region/nigeria/nasarawa.jpg",
+    image: "assets/images/cards/region/nigeria/nasarawa.webp",
     nom: "Nasarawa",
     localisation: "Nigeria",
     continent: "Africa",
