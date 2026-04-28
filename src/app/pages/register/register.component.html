@@ -1,0 +1,41 @@
+<div class="auth-page">
+  <div class="auth-card">
+    <div class="auth-logo">🌍</div>
+    <h1>GeoTrade</h1>
+    <h2>Create an account</h2>
+
+    <form (ngSubmit)="submit()" #f="ngForm">
+      <div class="field">
+        <label for="username">Username</label>
+        <input id="username" type="text" [(ngModel)]="form.username" name="username" required minlength="3" autocomplete="username" />
+      </div>
+      <div class="field">
+        <label for="displayName">Display name</label>
+        <input id="displayName" type="text" [(ngModel)]="form.displayName" name="displayName" required />
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" type="email" [(ngModel)]="form.email" name="email" required autocomplete="email" />
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input id="password" type="password" [(ngModel)]="form.password" name="password" required minlength="6" autocomplete="new-password" />
+      </div>
+      <div class="field">
+        <label for="country">Country</label>
+        <select id="country" [(ngModel)]="form.country" name="country" required>
+          <option value="" disabled>Select your country</option>
+          <option *ngFor="let c of countries" [value]="c">{{ c }}</option>
+        </select>
+      </div>
+
+      <p class="error" *ngIf="error">{{ error }}</p>
+
+      <button type="submit" [disabled]="loading || !f.valid">
+        {{ loading ? 'Creating account...' : 'Register' }}
+      </button>
+    </form>
+
+    <p class="auth-switch">Already have an account? <a routerLink="/login">Login</a></p>
+  </div>
+</div>

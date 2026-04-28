@@ -1,0 +1,26 @@
+<div class="auth-page">
+  <div class="auth-card">
+    <div class="auth-logo">🌍</div>
+    <h1>GeoTrade</h1>
+    <h2>Login</h2>
+
+    <form (ngSubmit)="submit()" #f="ngForm">
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" type="email" [(ngModel)]="form.email" name="email" required autocomplete="email" />
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input id="password" type="password" [(ngModel)]="form.password" name="password" required autocomplete="current-password" />
+      </div>
+
+      <p class="error" *ngIf="error">{{ error }}</p>
+
+      <button type="submit" [disabled]="loading || !f.valid">
+        {{ loading ? 'Logging in...' : 'Login' }}
+      </button>
+    </form>
+
+    <p class="auth-switch">No account? <a routerLink="/register">Register</a></p>
+  </div>
+</div>

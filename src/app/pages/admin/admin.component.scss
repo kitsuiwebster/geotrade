@@ -1,0 +1,77 @@
+@import '../cards/cards.component.scss';
+
+.account-section {
+  margin-top: 8px;
+  flex: 1;
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 32px;
+
+    .section-title {
+      margin: 0 0 8px;
+      font-family: 'Outfit', 'Inter', sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: -0.6px;
+      background: linear-gradient(135deg, #f4e4c1 0%, #d4a76a 50%, #a67c52 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .section-subtitle {
+      margin: 0;
+      font-size: 13px;
+      color: #a8946c;
+      letter-spacing: 0.2px;
+    }
+  }
+}
+
+.admin-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.admin-link-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 28px 22px;
+  background: rgba(26, 15, 6, 0.6);
+  border: 1px solid rgba(232, 201, 145, 0.12);
+  border-radius: 18px;
+  text-decoration: none;
+  color: #f0e4c9;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  &:hover {
+    border-color: rgba(212, 167, 106, 0.4);
+    background: rgba(36, 22, 10, 0.7);
+    transform: translateY(-3px);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
+  }
+
+  .admin-link-icon {
+    font-size: 32px;
+    line-height: 1;
+    filter: drop-shadow(0 4px 12px rgba(212, 167, 106, 0.3));
+  }
+
+  .admin-link-label {
+    font-family: 'Space Grotesk', 'Outfit', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #c9a57a;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+  }
+}
