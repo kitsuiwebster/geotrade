@@ -1,64 +1,49 @@
-<div class="navigation-tabs">
-  <a 
-    routerLink="/quizzes" 
-    class="nav-tab"
-    [class.active]="isActive('/quizzes')"
-    routerLinkActive="active">
-    <span class="tab-icon">🧠</span>
-    <span class="tab-text">Quizzes</span>
-  </a>
-  
-  <a 
-    routerLink="/my-cards" 
-    class="nav-tab"
-    [class.active]="isActive('/my-cards')"
-    routerLinkActive="active">
-    <span class="tab-icon">🎴</span>
-    <span class="tab-text">My Cards</span>
-  </a>
-  
-  <a 
-    routerLink="/all-cards" 
-    class="nav-tab"
-    [class.active]="isActive('/all-cards')"
-    routerLinkActive="active">
-    <span class="tab-icon">📚</span>
-    <span class="tab-text">All Cards</span>
-  </a>
-  
-  <a 
-    routerLink="/exchange" 
-    class="nav-tab"
-    [class.active]="isActive('/exchange')"
-    routerLinkActive="active">
-    <span class="tab-icon">🔄</span>
-    <span class="tab-text">Exchange</span>
-  </a>
-  
-  <a 
-    routerLink="/market" 
-    class="nav-tab"
-    [class.active]="isActive('/market')"
-    routerLinkActive="active">
-    <span class="tab-icon">🏪</span>
-    <span class="tab-text">Market</span>
-  </a>
-  
-  <a 
-    routerLink="/friends" 
-    class="nav-tab"
-    [class.active]="isActive('/friends')"
-    routerLinkActive="active">
-    <span class="tab-icon">👥</span>
-    <span class="tab-text">Friends</span>
-  </a>
-  
-  <a 
-    routerLink="/account" 
-    class="nav-tab"
-    [class.active]="isActive('/account')"
-    routerLinkActive="active">
-    <span class="tab-icon">👤</span>
-    <span class="tab-text">Account</span>
-  </a>
-</div>
+<nav class="navbar-shell">
+  <div class="navbar-inner">
+    <div class="navigation-tabs">
+      <a routerLink="/quizzes" class="nav-tab" [class.active]="isActive('/quizzes')">
+        <span class="tab-icon">🧠</span>
+        <span class="tab-text">Quizzes</span>
+      </a>
+
+      <a routerLink="/my-cards" class="nav-tab" [class.active]="isActive('/my-cards')">
+        <span class="tab-icon">🎴</span>
+        <span class="tab-text">My Cards</span>
+      </a>
+
+      <a *ngIf="supabase.isAdmin$ | async" routerLink="/all-cards" class="nav-tab" [class.active]="isActive('/all-cards')">
+        <span class="tab-icon">📚</span>
+        <span class="tab-text">All Cards</span>
+      </a>
+
+      <a routerLink="/exchange" class="nav-tab" [class.active]="isActive('/exchange')">
+        <span class="tab-icon">🔄</span>
+        <span class="tab-text">Exchange</span>
+      </a>
+
+      <a routerLink="/market" class="nav-tab" [class.active]="isActive('/market')">
+        <span class="tab-icon">🏪</span>
+        <span class="tab-text">Market</span>
+      </a>
+
+      <a routerLink="/friends" class="nav-tab" [class.active]="isActive('/friends')">
+        <span class="tab-icon">👥</span>
+        <span class="tab-text">Friends</span>
+      </a>
+
+      <ng-container *ngIf="supabase.currentUser; else loginLink">
+        <a routerLink="/account" class="nav-tab" [class.active]="isActive('/account')">
+          <span class="tab-icon">👤</span>
+          <span class="tab-text">Account</span>
+        </a>
+      </ng-container>
+
+      <ng-template #loginLink>
+        <a routerLink="/login" class="nav-tab" [class.active]="isActive('/login')">
+          <span class="tab-icon">🔑</span>
+          <span class="tab-text">Login</span>
+        </a>
+      </ng-template>
+    </div>
+  </div>
+</nav>

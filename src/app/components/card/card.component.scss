@@ -1,17 +1,43 @@
 .card {
-  background-color: #1e1e1e;
-  border-radius: 12px;
+  background: linear-gradient(180deg, #2a1a0e 0%, #150c06 100%);
+  border-radius: 16px;
   overflow: hidden;
   width: 190px;
   height: 260px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow:
+    0 10px 28px rgba(0, 0, 0, 0.55),
+    0 2px 6px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(232, 217, 184, 0.12);
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
   position: relative;
   cursor: pointer;
-  
-  
+  font-family: 'Outfit', 'Inter', sans-serif;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    padding: 1.2px;
+    background: linear-gradient(
+      135deg,
+      rgba(232, 201, 145, 0.32) 0%,
+      rgba(201, 165, 122, 0.12) 30%,
+      rgba(166, 124, 82, 0) 60%,
+      rgba(232, 201, 145, 0.18) 100%
+    );
+    -webkit-mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 5;
+  }
+
   .card-type-indicator {
     position: absolute;
     bottom: 8px;
@@ -19,288 +45,229 @@
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: #666;
+    background-color: #d4a76a;
     z-index: 10;
     border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   }
-  
+
   .card-rarity {
     position: absolute;
     bottom: 8px;
     right: 22px;
-    color: #fff;
+    color: #f0e4c9;
     font-size: 8px;
-    font-weight: bold;
-    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+    font-family: 'Space Grotesk', 'Outfit', sans-serif;
+    letter-spacing: 0.4px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
     z-index: 10;
   }
-  
+
   &[data-type="Mountain"] {
-    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+    box-shadow:
+      0 10px 28px rgba(255, 255, 255, 0.18),
+      inset 0 1px 0 rgba(232, 217, 184, 0.12);
     &:hover {
-      box-shadow: 0 8px 20px rgba(255, 255, 255, 0.5);
+      box-shadow:
+        0 16px 40px rgba(255, 255, 255, 0.32),
+        inset 0 1px 0 rgba(232, 217, 184, 0.18);
     }
-    .card-type-indicator {
-      background-color: #FFFFFF;
-    }
-    .card-type {
-      color: #FFFFFF !important;
-      font-weight: bold !important;
-    }
-    .card-info-value {
-      color: #FFFFFF !important;
-    }
-    .card-rarity {
-      color: #FFFFFF !important;
-    }
+    .card-type-indicator { background-color: #FFFFFF; }
+    .card-type { color: #FFFFFF !important; font-weight: 700 !important; }
+    .card-info-value { color: #FFFFFF !important; }
+    .card-rarity { color: #FFFFFF !important; }
   }
-  
+
   &[data-type="Lake"] {
-    box-shadow: 0 4px 12px rgba(65, 105, 225, 0.3);
+    box-shadow:
+      0 10px 28px rgba(65, 105, 225, 0.28),
+      inset 0 1px 0 rgba(232, 217, 184, 0.12);
     &:hover {
-      box-shadow: 0 8px 20px rgba(65, 105, 225, 0.5);
+      box-shadow:
+        0 16px 40px rgba(65, 105, 225, 0.5),
+        inset 0 1px 0 rgba(232, 217, 184, 0.18);
     }
-    .card-type-indicator {
-      background-color: #4169E1;
-    }
-    .card-type {
-      color: #4169E1 !important;
-      font-weight: bold !important;
-    }
-    .card-info-value {
-      color: #4169E1 !important;
-    }
-    .card-rarity {
-      color: #4169E1 !important;
-    }
+    .card-type-indicator { background-color: #4169E1; }
+    .card-type { color: #6a8df0 !important; font-weight: 700 !important; }
+    .card-info-value { color: #6a8df0 !important; }
+    .card-rarity { color: #6a8df0 !important; }
   }
-  
+
   &[data-type="City"] {
-    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+    box-shadow:
+      0 10px 28px rgba(255, 215, 0, 0.28),
+      inset 0 1px 0 rgba(232, 217, 184, 0.12);
     &:hover {
-      box-shadow: 0 8px 20px rgba(255, 215, 0, 0.5);
+      box-shadow:
+        0 16px 40px rgba(255, 215, 0, 0.5),
+        inset 0 1px 0 rgba(232, 217, 184, 0.18);
     }
-    .card-type-indicator {
-      background-color: #FFD700;
-    }
-    .card-type {
-      color: #FFD700 !important;
-      font-weight: bold !important;
-    }
-    .card-info-value {
-      color: #FFD700 !important;
-    }
-    .card-rarity {
-      color: #FFD700 !important;
-    }
+    .card-type-indicator { background-color: #FFD700; }
+    .card-type { color: #FFD700 !important; font-weight: 700 !important; }
+    .card-info-value { color: #FFD700 !important; }
+    .card-rarity { color: #FFD700 !important; }
   }
-  
+
   &[data-type="Country"] {
-    box-shadow: 0 4px 12px rgba(138, 43, 226, 0.3);
+    box-shadow:
+      0 10px 28px rgba(138, 43, 226, 0.28),
+      inset 0 1px 0 rgba(232, 217, 184, 0.12);
     &:hover {
-      box-shadow: 0 8px 20px rgba(138, 43, 226, 0.5);
+      box-shadow:
+        0 16px 40px rgba(138, 43, 226, 0.5),
+        inset 0 1px 0 rgba(232, 217, 184, 0.18);
     }
-    .card-type-indicator {
-      background-color: #8A2BE2;
-    }
-    .card-type {
-      color: #8A2BE2 !important;
-      font-weight: bold !important;
-    }
-    .card-info-value {
-      color: #8A2BE2 !important;
-    }
-    .card-rarity {
-      color: #8A2BE2 !important;
-    }
+    .card-type-indicator { background-color: #8A2BE2; }
+    .card-type { color: #b073f0 !important; font-weight: 700 !important; }
+    .card-info-value { color: #b073f0 !important; }
+    .card-rarity { color: #b073f0 !important; }
   }
-  
+
   &[data-type="Sea"] {
-    box-shadow: 0 4px 12px rgba(0, 206, 209, 0.3);
+    box-shadow:
+      0 10px 28px rgba(0, 206, 209, 0.28),
+      inset 0 1px 0 rgba(232, 217, 184, 0.12);
     &:hover {
-      box-shadow: 0 8px 20px rgba(0, 206, 209, 0.5);
+      box-shadow:
+        0 16px 40px rgba(0, 206, 209, 0.5),
+        inset 0 1px 0 rgba(232, 217, 184, 0.18);
     }
-    .card-type-indicator {
-      background-color: #00CED1;
-    }
-    .card-type {
-      color: #00CED1 !important;
-      font-weight: bold !important;
-    }
-    .card-info-value {
-      color: #00CED1 !important;
-    }
-    .card-rarity {
-      color: #00CED1 !important;
-    }
+    .card-type-indicator { background-color: #00CED1; }
+    .card-type { color: #00CED1 !important; font-weight: 700 !important; }
+    .card-info-value { color: #00CED1 !important; }
+    .card-rarity { color: #00CED1 !important; }
   }
-  
+
   &[data-type="Ocean"] {
-    box-shadow: 0 4px 12px rgba(70, 130, 180, 0.3);
+    box-shadow:
+      0 10px 28px rgba(70, 130, 180, 0.28),
+      inset 0 1px 0 rgba(232, 217, 184, 0.12);
     &:hover {
-      box-shadow: 0 8px 20px rgba(70, 130, 180, 0.5);
+      box-shadow:
+        0 16px 40px rgba(70, 130, 180, 0.5),
+        inset 0 1px 0 rgba(232, 217, 184, 0.18);
     }
-    .card-type-indicator {
-      background-color: #4682B4;
-    }
-    .card-type {
-      color: #4682B4 !important;
-      font-weight: bold !important;
-    }
-    .card-info-value {
-      color: #4682B4 !important;
-    }
-    .card-rarity {
-      color: #4682B4 !important;
-    }
+    .card-type-indicator { background-color: #4682B4; }
+    .card-type { color: #6ba3d4 !important; font-weight: 700 !important; }
+    .card-info-value { color: #6ba3d4 !important; }
+    .card-rarity { color: #6ba3d4 !important; }
   }
-  
+
   &[data-type="River"] {
-    box-shadow: 0 4px 12px rgba(119, 136, 153, 0.3);
+    box-shadow:
+      0 10px 28px rgba(119, 136, 153, 0.28),
+      inset 0 1px 0 rgba(232, 217, 184, 0.12);
     &:hover {
-      box-shadow: 0 8px 20px rgba(119, 136, 153, 0.5);
+      box-shadow:
+        0 16px 40px rgba(119, 136, 153, 0.5),
+        inset 0 1px 0 rgba(232, 217, 184, 0.18);
     }
-    .card-type-indicator {
-      background-color: #778899;
-    }
-    .card-type {
-      color: #778899 !important;
-      font-weight: bold !important;
-    }
-    .card-info-value {
-      color: #778899 !important;
-    }
-    .card-rarity {
-      color: #778899 !important;
-    }
+    .card-type-indicator { background-color: #778899; }
+    .card-type { color: #a0afbf !important; font-weight: 700 !important; }
+    .card-info-value { color: #a0afbf !important; }
+    .card-rarity { color: #a0afbf !important; }
   }
-  
+
   &[data-type="Desert"] {
-    box-shadow: 0 4px 12px rgba(210, 105, 30, 0.3);
+    box-shadow:
+      0 10px 28px rgba(210, 105, 30, 0.28),
+      inset 0 1px 0 rgba(232, 217, 184, 0.12);
     &:hover {
-      box-shadow: 0 8px 20px rgba(210, 105, 30, 0.5);
+      box-shadow:
+        0 16px 40px rgba(210, 105, 30, 0.5),
+        inset 0 1px 0 rgba(232, 217, 184, 0.18);
     }
-    .card-type-indicator {
-      background-color: #D2691E;
-    }
-    .card-type {
-      color: #D2691E !important;
-      font-weight: bold !important;
-    }
-    .card-info-value {
-      color: #D2691E !important;
-    }
-    .card-rarity {
-      color: #D2691E !important;
-    }
+    .card-type-indicator { background-color: #D2691E; }
+    .card-type { color: #e08a3f !important; font-weight: 700 !important; }
+    .card-info-value { color: #e08a3f !important; }
+    .card-rarity { color: #e08a3f !important; }
   }
-  
+
   &[data-type="Island"] {
-    box-shadow: 0 4px 12px rgba(34, 139, 34, 0.3);
+    box-shadow:
+      0 10px 28px rgba(34, 139, 34, 0.28),
+      inset 0 1px 0 rgba(232, 217, 184, 0.12);
     &:hover {
-      box-shadow: 0 8px 20px rgba(34, 139, 34, 0.5);
+      box-shadow:
+        0 16px 40px rgba(34, 139, 34, 0.5),
+        inset 0 1px 0 rgba(232, 217, 184, 0.18);
     }
-    .card-type-indicator {
-      background-color: #228B22;
-    }
-    .card-type {
-      color: #228B22 !important;
-      font-weight: bold !important;
-    }
-    .card-info-value {
-      color: #228B22 !important;
-    }
-    .card-rarity {
-      color: #228B22 !important;
-    }
+    .card-type-indicator { background-color: #228B22; }
+    .card-type { color: #4dad4d !important; font-weight: 700 !important; }
+    .card-info-value { color: #4dad4d !important; }
+    .card-rarity { color: #4dad4d !important; }
   }
-  
+
   &[data-type="Territory"] {
-    box-shadow: 0 4px 12px rgba(221, 160, 221, 0.3);
+    box-shadow:
+      0 10px 28px rgba(221, 160, 221, 0.28),
+      inset 0 1px 0 rgba(232, 217, 184, 0.12);
     &:hover {
-      box-shadow: 0 8px 20px rgba(221, 160, 221, 0.5);
+      box-shadow:
+        0 16px 40px rgba(221, 160, 221, 0.5),
+        inset 0 1px 0 rgba(232, 217, 184, 0.18);
     }
-    .card-type-indicator {
-      background-color: #DDA0DD;
-    }
-    .card-type {
-      color: #DDA0DD !important;
-      font-weight: bold !important;
-    }
-    .card-info-value {
-      color: #DDA0DD !important;
-    }
-    .card-rarity {
-      color: #DDA0DD !important;
-    }
+    .card-type-indicator { background-color: #DDA0DD; }
+    .card-type { color: #DDA0DD !important; font-weight: 700 !important; }
+    .card-info-value { color: #DDA0DD !important; }
+    .card-rarity { color: #DDA0DD !important; }
   }
 
   &[data-type="Archipelago"] {
-    box-shadow: 0 4px 12px rgba(0, 255, 127, 0.3);
+    box-shadow:
+      0 10px 28px rgba(0, 255, 127, 0.28),
+      inset 0 1px 0 rgba(232, 217, 184, 0.12);
     &:hover {
-      box-shadow: 0 8px 20px rgba(0, 255, 127, 0.5);
+      box-shadow:
+        0 16px 40px rgba(0, 255, 127, 0.5),
+        inset 0 1px 0 rgba(232, 217, 184, 0.18);
     }
-    .card-type-indicator {
-      background-color: #00FF7F;
-    }
-    .card-type {
-      color: #00FF7F !important;
-      font-weight: bold !important;
-    }
-    .card-info-value {
-      color: #00FF7F !important;
-    }
-    .card-rarity {
-      color: #00FF7F !important;
-    }
+    .card-type-indicator { background-color: #00FF7F; }
+    .card-type { color: #00FF7F !important; font-weight: 700 !important; }
+    .card-info-value { color: #00FF7F !important; }
+    .card-rarity { color: #00FF7F !important; }
   }
-  
-  // Regional card types - all use #F54927
-  &[data-type="US State"], 
-  &[data-type="CA Province"], 
-  &[data-type="CA Territory"], 
-  &[data-type="Wilaya"], 
-  &[data-type="AU State"], 
-  &[data-type="AU Territory"], 
-  &[data-type="Region"], 
-  &[data-type="Prefecture"], 
-  &[data-type="Republic"], 
-  &[data-type="Krai"], 
-  &[data-type="Oblast"], 
-  &[data-type="Federal City"], 
-  &[data-type="Autonomous Okrug"], 
-  &[data-type="Autonomous Oblast"], 
-  &[data-type="State"], 
-  &[data-type="Province"], 
-  &[data-type="Federal District"], 
-  &[data-type="Federal Capital Territory"], 
-  &[data-type="Municipality"], 
-  &[data-type="Autonomous Region"], 
-  &[data-type="MX State"], 
-  &[data-type="County"], 
+
+  &[data-type="US State"],
+  &[data-type="CA Province"],
+  &[data-type="CA Territory"],
+  &[data-type="Wilaya"],
+  &[data-type="AU State"],
+  &[data-type="AU Territory"],
+  &[data-type="Region"],
+  &[data-type="Prefecture"],
+  &[data-type="Republic"],
+  &[data-type="Krai"],
+  &[data-type="Oblast"],
+  &[data-type="Federal City"],
+  &[data-type="Autonomous Okrug"],
+  &[data-type="Autonomous Oblast"],
+  &[data-type="State"],
+  &[data-type="Province"],
+  &[data-type="Federal District"],
+  &[data-type="Federal Capital Territory"],
+  &[data-type="Municipality"],
+  &[data-type="Autonomous Region"],
+  &[data-type="MX State"],
+  &[data-type="County"],
   &[data-type="District"] {
-    box-shadow: 0 4px 12px rgba(245, 73, 39, 0.3);
+    box-shadow:
+      0 10px 28px rgba(245, 73, 39, 0.28),
+      inset 0 1px 0 rgba(232, 217, 184, 0.12);
     &:hover {
-      box-shadow: 0 8px 20px rgba(245, 73, 39, 0.5);
+      box-shadow:
+        0 16px 40px rgba(245, 73, 39, 0.5),
+        inset 0 1px 0 rgba(232, 217, 184, 0.18);
     }
-    .card-type-indicator {
-      background-color: #F54927;
-    }
-    .card-type {
-      color: #F54927 !important;
-      font-weight: bold !important;
-    }
-    .card-info-value {
-      color: #F54927 !important;
-    }
-    .card-rarity {
-      color: #F54927 !important;
-    }
+    .card-type-indicator { background-color: #F54927; }
+    .card-type { color: #F54927 !important; font-weight: 700 !important; }
+    .card-info-value { color: #F54927 !important; }
+    .card-rarity { color: #F54927 !important; }
   }
-  
+
   &:hover {
-    transform: translateY(-5px);
+    transform: translateY(-6px);
   }
 
   .card-image-container {
@@ -308,130 +275,111 @@
     width: 100%;
     height: 110px;
     overflow: hidden;
-    
+    background-color: #150c06;
+
     .card-image {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
-    
+
     .card-image-placeholder {
       width: 100%;
       height: 100%;
-      background: linear-gradient(135deg, #2a2a2a, #3a3a3a);
+      background: linear-gradient(135deg, #2a1a0e, #1a100a);
       display: flex;
       align-items: center;
       justify-content: center;
-      
+
       .placeholder-content {
         font-size: 32px;
-        opacity: 0.5;
+        opacity: 0.4;
+        filter: grayscale(0.3);
       }
     }
-    
+
     .image-loading-spinner {
       position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.7);
+      inset: 0;
+      background: rgba(18, 10, 5, 0.7);
       display: flex;
       align-items: center;
       justify-content: center;
       z-index: 3;
-      
-      .spinner {
-        width: 15px;
-        height: 15px;
-        border: 2px solid rgba(0, 201, 167, 0.3);
-        border-top: 2px solid #00c9a7;
-        border-radius: 50%;
-        animation: spin 1s linear infinite;
-      }
-    }
 
-    .card-emoji {
-      position: absolute;
-      bottom: 5px;
-      right: 5px;
-      background-color: rgba(255, 255, 255, 0.9);
-      border-radius: 50%;
-      width: 30px;
-      height: 30px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-    }
-    
-    .card-flag {
-      position: absolute;
-      bottom: 3px;
-      left: 3px;
-      width: 20px;
-      height: 13px;
-      border-radius: 2px;
-      overflow: hidden;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-      background-color: rgba(255, 255, 255, 0.1);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      
-      .flag-image {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        object-position: center;
+      .spinner {
+        width: 16px;
+        height: 16px;
+        border: 2px solid rgba(232, 201, 145, 0.2);
+        border-top-color: #d4a76a;
+        border-radius: 50%;
+        animation: spin 0.9s linear infinite;
       }
     }
   }
-  
+
   .card-content {
     padding: 10px;
-    color: #fff;
+    color: #f0e4c9;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    background: linear-gradient(180deg, rgba(26, 15, 6, 0.55) 0%, #150c06 100%);
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 14px;
+      right: 14px;
+      height: 1px;
+      background: linear-gradient(
+        90deg,
+        rgba(232, 201, 145, 0) 0%,
+        rgba(232, 201, 145, 0.3) 50%,
+        rgba(232, 201, 145, 0) 100%
+      );
+    }
+
     .card-name {
       margin: 0 0 3px 0;
+      font-family: 'Outfit', 'Inter', sans-serif;
       font-size: 11px;
       font-weight: 600;
-      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       line-height: 1.1;
+      letter-spacing: -0.1px;
+      color: #f4e4c1;
       display: flex;
       align-items: center;
       justify-content: space-between;
       white-space: nowrap !important;
       overflow: hidden;
-      
+
       span {
         white-space: nowrap !important;
         overflow: hidden;
         text-overflow: ellipsis;
       }
-      
+
       &.long-name {
         font-size: 7px !important;
       }
     }
-    
+
     .card-flag-inline {
       width: 16px;
       height: 11px;
       border-radius: 1px;
       overflow: hidden;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-      background-color: transparent;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
       display: flex;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
       margin-left: 6px;
-      
+
       .flag-image {
         width: 100%;
         height: 100%;
@@ -439,32 +387,33 @@
         object-position: center;
       }
     }
-    
+
     .card-location {
       margin: 0 0 3px 0;
+      font-family: 'Outfit', 'Inter', sans-serif;
       font-size: 9px;
-      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      color: #b0b0b0;
+      color: #a8946c;
       line-height: 1.1;
     }
-    
+
     .card-info-container {
       margin: 0 0 3px 0;
+      font-family: 'Space Grotesk', 'Outfit', sans-serif;
       font-size: 8px;
-      font-family: "JetBrains Mono", "Courier New", monospace;
       line-height: 1.2;
       display: flex;
       gap: 4px;
-      
+
       .card-info-label {
-        color: #e0e0e0;
+        color: #c9a57a;
         white-space: pre-line;
+        font-weight: 500;
       }
-      
+
       .card-info-value {
-        color: #e0e0e0;
+        color: #f0e4c9;
         white-space: pre-line !important;
-        font-weight: bold;
+        font-weight: 700;
         word-break: keep-all !important;
         overflow-wrap: normal !important;
         hyphens: none !important;
@@ -472,27 +421,25 @@
         text-wrap: nowrap !important;
       }
     }
-    
+
     .card-type {
       margin: 0;
+      font-family: 'Space Grotesk', 'Outfit', sans-serif;
       font-size: 7px;
-      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      font-weight: 500;
-      color: #888;
+      font-weight: 600;
+      color: #8a6f50;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.8px;
     }
   }
 }
 
-// Modal styles
 ::ng-deep .modal-overlay {
   position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
+  inset: 0 !important;
   width: 100vw !important;
   height: 100vh !important;
-  background-color: rgba(0, 0, 0, 0.9) !important;
+  background-color: rgba(10, 5, 2, 0.85) !important;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
@@ -500,7 +447,8 @@
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   overflow: auto;
 
   &.active {
@@ -511,11 +459,10 @@
       transform: scale(3);
     }
   }
-  
-  // Éviter l'animation sur les nouveaux composants
+
   &:not(.active) {
     transition: none !important;
-    
+
     .modal-card {
       transition: none !important;
     }
@@ -523,39 +470,67 @@
 }
 
 .modal-card {
-  background-color: #1e1e1e;
-  border-radius: 12px;
+  background: linear-gradient(180deg, #2a1a0e 0%, #150c06 100%);
+  border-radius: 16px;
   width: 190px;
   height: 260px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.7),
+    inset 0 1px 0 rgba(232, 217, 184, 0.15);
   position: relative;
   transform: scale(3);
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   overflow: hidden;
+  font-family: 'Outfit', 'Inter', sans-serif;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    padding: 1.2px;
+    background: linear-gradient(
+      135deg,
+      rgba(232, 201, 145, 0.4) 0%,
+      rgba(201, 165, 122, 0.15) 30%,
+      rgba(166, 124, 82, 0) 60%,
+      rgba(232, 201, 145, 0.22) 100%
+    );
+    -webkit-mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 5;
+  }
 
   .modal-close {
     position: absolute;
-    top: 3px;
-    right: 5px;
-    background: none;
-    border: none;
-    color: #fff;
+    top: 4px;
+    right: 4px;
+    background-color: rgba(18, 10, 5, 0.85);
+    border: 1px solid rgba(232, 201, 145, 0.3);
+    color: #f0e4c9;
     font-size: 8px;
+    line-height: 1;
     cursor: pointer;
     z-index: 10;
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
+    padding: 0;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.7);
-    transition: background-color 0.2s ease;
+    transition: all 0.2s ease;
 
     &:hover {
-      background-color: rgba(255, 255, 255, 0.1);
+      background-color: rgba(200, 76, 60, 0.5);
+      border-color: rgba(214, 60, 43, 0.6);
     }
   }
 
@@ -566,20 +541,22 @@
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: #666;
+    background-color: #d4a76a;
     z-index: 10;
     border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   }
-  
+
   .modal-card-rarity {
     position: absolute;
     bottom: 8px;
     right: 22px;
-    color: #fff;
+    color: #f0e4c9;
     font-size: 8px;
-    font-weight: bold;
-    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+    font-family: 'Space Grotesk', 'Outfit', sans-serif;
+    letter-spacing: 0.4px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
     z-index: 10;
   }
 
@@ -588,13 +565,11 @@
     width: 100%;
     height: 110px;
     overflow: hidden;
-    
+    background-color: #150c06;
+
     .modal-placeholder-blur {
       position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+      inset: 0;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -602,7 +577,7 @@
       transform: scale(1.1);
       transition: opacity 0.3s ease;
       z-index: 1;
-      
+
       &.hidden {
         opacity: 0;
       }
@@ -610,15 +585,14 @@
 
     .modal-card-image {
       position: absolute;
-      top: 0;
-      left: 0;
+      inset: 0;
       width: 100%;
       height: 100%;
       object-fit: cover;
       z-index: 2;
       opacity: 0;
       transition: opacity 0.3s ease;
-      
+
       &.visible {
         opacity: 1;
       }
@@ -626,106 +600,86 @@
 
     .modal-loading-spinner {
       position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.3);
+      inset: 0;
+      background: rgba(18, 10, 5, 0.4);
       display: flex;
       align-items: center;
       justify-content: center;
       z-index: 3;
-      
+
       .modal-spinner {
         width: 16px;
         height: 16px;
-        border: 2px solid rgba(0, 201, 167, 0.3);
-        border-top: 2px solid #00c9a7;
+        border: 2px solid rgba(232, 201, 145, 0.2);
+        border-top-color: #d4a76a;
         border-radius: 50%;
-        animation: spin 1s linear infinite;
-      }
-    }
-    
-    .modal-card-emoji {
-      position: absolute;
-      bottom: 5px;
-      right: 5px;
-      background-color: rgba(255, 255, 255, 0.9);
-      border-radius: 50%;
-      width: 30px;
-      height: 30px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-    }
-    
-    .modal-card-flag {
-      position: absolute;
-      bottom: 3px;
-      left: 3px;
-      width: 20px;
-      height: 13px;
-      border-radius: 2px;
-      overflow: hidden;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-      background-color: rgba(255, 255, 255, 0.1);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      
-      .flag-image {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        object-position: center;
+        animation: spin 0.9s linear infinite;
       }
     }
   }
 
   .modal-card-content {
     padding: 10px;
-    color: #fff;
+    color: #f0e4c9;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    background: linear-gradient(180deg, rgba(26, 15, 6, 0.55) 0%, #150c06 100%);
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 14px;
+      right: 14px;
+      height: 1px;
+      background: linear-gradient(
+        90deg,
+        rgba(232, 201, 145, 0) 0%,
+        rgba(232, 201, 145, 0.3) 50%,
+        rgba(232, 201, 145, 0) 100%
+      );
+    }
+
     .modal-card-name {
       margin: 0 0 3px 0;
+      font-family: 'Outfit', 'Inter', sans-serif;
       font-size: 11px;
       font-weight: 600;
       line-height: 1.1;
+      letter-spacing: -0.1px;
+      color: #f4e4c1;
       display: flex;
       align-items: center;
       justify-content: space-between;
       white-space: nowrap !important;
       overflow: hidden;
-      
+
       span {
         white-space: nowrap !important;
         overflow: hidden;
         text-overflow: ellipsis;
       }
-      
+
       &.long-name {
         font-size: 9px !important;
       }
     }
-    
+
     .modal-card-flag-inline {
       width: 16px;
       height: 11px;
       border-radius: 1px;
       overflow: hidden;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-      background-color: transparent;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
       display: flex;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
       margin-left: 6px;
-      
+
       .flag-image {
         width: 100%;
         height: 100%;
@@ -733,30 +687,33 @@
         object-position: center;
       }
     }
-    
+
     .modal-card-location {
       margin: 0 0 3px 0;
+      font-family: 'Outfit', 'Inter', sans-serif;
       font-size: 9px;
-      color: #b0b0b0;
+      color: #a8946c;
       line-height: 1.1;
     }
-    
+
     .modal-card-info-container {
       margin: 0 0 3px 0;
+      font-family: 'Space Grotesk', 'Outfit', sans-serif;
       font-size: 8px;
       line-height: 1.2;
       display: flex;
       gap: 4px;
-      
+
       .modal-card-info-label {
-        color: #e0e0e0;
+        color: #c9a57a;
         white-space: pre-line;
+        font-weight: 500;
       }
-      
+
       .modal-card-info-value {
-        color: #e0e0e0;
+        color: #f0e4c9;
         white-space: pre-line !important;
-        font-weight: bold;
+        font-weight: 700;
         word-break: keep-all !important;
         overflow-wrap: normal !important;
         hyphens: none !important;
@@ -764,247 +721,126 @@
         text-wrap: nowrap !important;
       }
     }
-    
+
     .modal-card-type {
       margin: 0;
+      font-family: 'Space Grotesk', 'Outfit', sans-serif;
       font-size: 7px;
-      color: #888;
+      color: #8a6f50;
       text-transform: uppercase;
-      letter-spacing: 0.3px;
-      font-weight: normal;
+      letter-spacing: 0.8px;
+      font-weight: 600;
     }
   }
 
-  // Type-specific modal styles with same colors as cards
   &[data-type="Mountain"] {
-    box-shadow: 0 20px 60px rgba(255, 255, 255, 0.3);
-    .modal-card-type-indicator {
-      background-color: #FFFFFF;
-    }
-    .modal-card-type {
-      color: #FFFFFF !important;
-      font-weight: bold !important;
-    }
-    .modal-card-info-value {
-      color: #FFFFFF !important;
-    }
-    .modal-card-rarity {
-      color: #FFFFFF !important;
-    }
+    box-shadow: 0 30px 80px rgba(255, 255, 255, 0.25);
+    .modal-card-type-indicator { background-color: #FFFFFF; }
+    .modal-card-type { color: #FFFFFF !important; font-weight: 700 !important; }
+    .modal-card-info-value { color: #FFFFFF !important; }
+    .modal-card-rarity { color: #FFFFFF !important; }
   }
-
   &[data-type="Lake"] {
-    box-shadow: 0 20px 60px rgba(65, 105, 225, 0.3);
-    .modal-card-type-indicator {
-      background-color: #4169E1;
-    }
-    .modal-card-type {
-      color: #4169E1 !important;
-      font-weight: bold !important;
-    }
-    .modal-card-info-value {
-      color: #4169E1 !important;
-    }
-    .modal-card-rarity {
-      color: #4169E1 !important;
-    }
+    box-shadow: 0 30px 80px rgba(65, 105, 225, 0.32);
+    .modal-card-type-indicator { background-color: #4169E1; }
+    .modal-card-type { color: #6a8df0 !important; font-weight: 700 !important; }
+    .modal-card-info-value { color: #6a8df0 !important; }
+    .modal-card-rarity { color: #6a8df0 !important; }
   }
-
   &[data-type="City"] {
-    box-shadow: 0 20px 60px rgba(255, 215, 0, 0.3);
-    .modal-card-type-indicator {
-      background-color: #FFD700;
-    }
-    .modal-card-type {
-      color: #FFD700 !important;
-      font-weight: bold !important;
-    }
-    .modal-card-info-value {
-      color: #FFD700 !important;
-    }
-    .modal-card-rarity {
-      color: #FFD700 !important;
-    }
+    box-shadow: 0 30px 80px rgba(255, 215, 0, 0.32);
+    .modal-card-type-indicator { background-color: #FFD700; }
+    .modal-card-type { color: #FFD700 !important; font-weight: 700 !important; }
+    .modal-card-info-value { color: #FFD700 !important; }
+    .modal-card-rarity { color: #FFD700 !important; }
   }
-
   &[data-type="Country"] {
-    box-shadow: 0 20px 60px rgba(138, 43, 226, 0.3);
-    .modal-card-type-indicator {
-      background-color: #8A2BE2;
-    }
-    .modal-card-type {
-      color: #8A2BE2 !important;
-      font-weight: bold !important;
-    }
-    .modal-card-info-value {
-      color: #8A2BE2 !important;
-    }
-    .modal-card-rarity {
-      color: #8A2BE2 !important;
-    }
+    box-shadow: 0 30px 80px rgba(138, 43, 226, 0.32);
+    .modal-card-type-indicator { background-color: #8A2BE2; }
+    .modal-card-type { color: #b073f0 !important; font-weight: 700 !important; }
+    .modal-card-info-value { color: #b073f0 !important; }
+    .modal-card-rarity { color: #b073f0 !important; }
   }
-
   &[data-type="Sea"] {
-    box-shadow: 0 20px 60px rgba(0, 206, 209, 0.3);
-    .modal-card-type-indicator {
-      background-color: #00CED1;
-    }
-    .modal-card-type {
-      color: #00CED1 !important;
-      font-weight: bold !important;
-    }
-    .modal-card-info-value {
-      color: #00CED1 !important;
-    }
-    .modal-card-rarity {
-      color: #00CED1 !important;
-    }
+    box-shadow: 0 30px 80px rgba(0, 206, 209, 0.32);
+    .modal-card-type-indicator { background-color: #00CED1; }
+    .modal-card-type { color: #00CED1 !important; font-weight: 700 !important; }
+    .modal-card-info-value { color: #00CED1 !important; }
+    .modal-card-rarity { color: #00CED1 !important; }
   }
-
   &[data-type="Ocean"] {
-    box-shadow: 0 20px 60px rgba(70, 130, 180, 0.3);
-    .modal-card-type-indicator {
-      background-color: #4682B4;
-    }
-    .modal-card-type {
-      color: #4682B4 !important;
-      font-weight: bold !important;
-    }
-    .modal-card-info-value {
-      color: #4682B4 !important;
-    }
-    .modal-card-rarity {
-      color: #4682B4 !important;
-    }
+    box-shadow: 0 30px 80px rgba(70, 130, 180, 0.32);
+    .modal-card-type-indicator { background-color: #4682B4; }
+    .modal-card-type { color: #6ba3d4 !important; font-weight: 700 !important; }
+    .modal-card-info-value { color: #6ba3d4 !important; }
+    .modal-card-rarity { color: #6ba3d4 !important; }
   }
-
   &[data-type="River"] {
-    box-shadow: 0 20px 60px rgba(119, 136, 153, 0.3);
-    .modal-card-type-indicator {
-      background-color: #778899;
-    }
-    .modal-card-type {
-      color: #778899 !important;
-      font-weight: bold !important;
-    }
-    .modal-card-info-value {
-      color: #778899 !important;
-    }
-    .modal-card-rarity {
-      color: #778899 !important;
-    }
+    box-shadow: 0 30px 80px rgba(119, 136, 153, 0.32);
+    .modal-card-type-indicator { background-color: #778899; }
+    .modal-card-type { color: #a0afbf !important; font-weight: 700 !important; }
+    .modal-card-info-value { color: #a0afbf !important; }
+    .modal-card-rarity { color: #a0afbf !important; }
   }
-
   &[data-type="Desert"] {
-    box-shadow: 0 20px 60px rgba(210, 105, 30, 0.3);
-    .modal-card-type-indicator {
-      background-color: #D2691E;
-    }
-    .modal-card-type {
-      color: #D2691E !important;
-      font-weight: bold !important;
-    }
-    .modal-card-info-value {
-      color: #D2691E !important;
-    }
-    .modal-card-rarity {
-      color: #D2691E !important;
-    }
+    box-shadow: 0 30px 80px rgba(210, 105, 30, 0.32);
+    .modal-card-type-indicator { background-color: #D2691E; }
+    .modal-card-type { color: #e08a3f !important; font-weight: 700 !important; }
+    .modal-card-info-value { color: #e08a3f !important; }
+    .modal-card-rarity { color: #e08a3f !important; }
   }
-
   &[data-type="Island"] {
-    box-shadow: 0 20px 60px rgba(34, 139, 34, 0.3);
-    .modal-card-type-indicator {
-      background-color: #228B22;
-    }
-    .modal-card-type {
-      color: #228B22 !important;
-      font-weight: bold !important;
-    }
-    .modal-card-info-value {
-      color: #228B22 !important;
-    }
-    .modal-card-rarity {
-      color: #228B22 !important;
-    }
+    box-shadow: 0 30px 80px rgba(34, 139, 34, 0.32);
+    .modal-card-type-indicator { background-color: #228B22; }
+    .modal-card-type { color: #4dad4d !important; font-weight: 700 !important; }
+    .modal-card-info-value { color: #4dad4d !important; }
+    .modal-card-rarity { color: #4dad4d !important; }
   }
-
   &[data-type="Territory"] {
-    box-shadow: 0 20px 60px rgba(221, 160, 221, 0.3);
-    .modal-card-type-indicator {
-      background-color: #DDA0DD;
-    }
-    .modal-card-type {
-      color: #DDA0DD !important;
-      font-weight: bold !important;
-    }
-    .modal-card-info-value {
-      color: #DDA0DD !important;
-    }
-    .modal-card-rarity {
-      color: #DDA0DD !important;
-    }
+    box-shadow: 0 30px 80px rgba(221, 160, 221, 0.32);
+    .modal-card-type-indicator { background-color: #DDA0DD; }
+    .modal-card-type { color: #DDA0DD !important; font-weight: 700 !important; }
+    .modal-card-info-value { color: #DDA0DD !important; }
+    .modal-card-rarity { color: #DDA0DD !important; }
   }
-
   &[data-type="Archipelago"] {
-    box-shadow: 0 20px 60px rgba(0, 255, 127, 0.3);
-    .modal-card-type-indicator {
-      background-color: #00FF7F;
-    }
-    .modal-card-type {
-      color: #00FF7F !important;
-      font-weight: bold !important;
-    }
-    .modal-card-info-value {
-      color: #00FF7F !important;
-    }
-    .modal-card-rarity {
-      color: #00FF7F !important;
-    }
+    box-shadow: 0 30px 80px rgba(0, 255, 127, 0.32);
+    .modal-card-type-indicator { background-color: #00FF7F; }
+    .modal-card-type { color: #00FF7F !important; font-weight: 700 !important; }
+    .modal-card-info-value { color: #00FF7F !important; }
+    .modal-card-rarity { color: #00FF7F !important; }
   }
-  
-  // Regional modal card types - all use #F54927
-  &[data-type="US State"], 
-  &[data-type="CA Province"], 
-  &[data-type="CA Territory"], 
-  &[data-type="Wilaya"], 
-  &[data-type="AU State"], 
-  &[data-type="AU Territory"], 
-  &[data-type="Region"], 
-  &[data-type="Prefecture"], 
-  &[data-type="Republic"], 
-  &[data-type="Krai"], 
-  &[data-type="Oblast"], 
-  &[data-type="Federal City"], 
-  &[data-type="Autonomous Okrug"], 
-  &[data-type="Autonomous Oblast"], 
-  &[data-type="State"], 
-  &[data-type="Province"], 
-  &[data-type="Federal District"], 
-  &[data-type="Federal Capital Territory"], 
-  &[data-type="Municipality"], 
-  &[data-type="Autonomous Region"], 
-  &[data-type="MX State"], 
-  &[data-type="County"], 
+  &[data-type="US State"],
+  &[data-type="CA Province"],
+  &[data-type="CA Territory"],
+  &[data-type="Wilaya"],
+  &[data-type="AU State"],
+  &[data-type="AU Territory"],
+  &[data-type="Region"],
+  &[data-type="Prefecture"],
+  &[data-type="Republic"],
+  &[data-type="Krai"],
+  &[data-type="Oblast"],
+  &[data-type="Federal City"],
+  &[data-type="Autonomous Okrug"],
+  &[data-type="Autonomous Oblast"],
+  &[data-type="State"],
+  &[data-type="Province"],
+  &[data-type="Federal District"],
+  &[data-type="Federal Capital Territory"],
+  &[data-type="Municipality"],
+  &[data-type="Autonomous Region"],
+  &[data-type="MX State"],
+  &[data-type="County"],
   &[data-type="District"] {
-    box-shadow: 0 20px 60px rgba(245, 73, 39, 0.3);
-    .modal-card-type-indicator {
-      background-color: #F54927;
-    }
-    .modal-card-type {
-      color: #F54927 !important;
-      font-weight: bold !important;
-    }
-    .modal-card-info-value {
-      color: #F54927 !important;
-    }
-    .modal-card-rarity {
-      color: #F54927 !important;
-    }
+    box-shadow: 0 30px 80px rgba(245, 73, 39, 0.32);
+    .modal-card-type-indicator { background-color: #F54927; }
+    .modal-card-type { color: #F54927 !important; font-weight: 700 !important; }
+    .modal-card-info-value { color: #F54927 !important; }
+    .modal-card-rarity { color: #F54927 !important; }
   }
 }
 
-// Responsive design - keep same scale on all devices
 @media (max-height: 900px) and (min-width: 769px) {
   .modal-overlay.active .modal-card {
     transform: scale(2.2) !important;
@@ -1027,7 +863,7 @@
   .modal-overlay.active .modal-card {
     transform: scale(2.5) !important;
   }
-  
+
   .modal-card {
     transform: scale(0.8);
   }
@@ -1037,87 +873,52 @@
   .modal-overlay.active .modal-card {
     transform: scale(2) !important;
   }
-  
+
   .modal-card {
     transform: scale(0.6);
   }
 }
 
-// Animation pour les spinners de chargement
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
 
-// Export-only styles with colored borders
 ::ng-deep body.export-mode .card {
-  &[data-type="Mountain"] {
-    border: 6px solid #FFFFFF !important;
-  }
-  
-  &[data-type="Lake"] {
-    border: 6px solid #4169E1 !important;
-  }
-  
-  &[data-type="City"] {
-    border: 6px solid #FFD700 !important;
-  }
-  
-  &[data-type="Country"] {
-    border: 6px solid #8A2BE2 !important;
-  }
-  
-  &[data-type="Sea"] {
-    border: 6px solid #00CED1 !important;
-  }
-  
-  &[data-type="Ocean"] {
-    border: 6px solid #4682B4 !important;
-  }
-  
-  &[data-type="River"] {
-    border: 6px solid #778899 !important;
-  }
-  
-  &[data-type="Desert"] {
-    border: 6px solid #D2691E !important;
-  }
-  
-  &[data-type="Island"] {
-    border: 6px solid #228B22 !important;
-  }
-  
-  &[data-type="Territory"] {
-    border: 6px solid #DDA0DD !important;
-  }
-  
-  &[data-type="Archipelago"] {
-    border: 6px solid #00FF7F !important;
-  }
-  
-  // Regional export mode card types - all use #F54927
-  &[data-type="US State"], 
-  &[data-type="CA Province"], 
-  &[data-type="CA Territory"], 
-  &[data-type="Wilaya"], 
-  &[data-type="AU State"], 
-  &[data-type="AU Territory"], 
-  &[data-type="Region"], 
-  &[data-type="Prefecture"], 
-  &[data-type="Republic"], 
-  &[data-type="Krai"], 
-  &[data-type="Oblast"], 
-  &[data-type="Federal City"], 
-  &[data-type="Autonomous Okrug"], 
-  &[data-type="Autonomous Oblast"], 
-  &[data-type="State"], 
-  &[data-type="Province"], 
-  &[data-type="Federal District"], 
-  &[data-type="Federal Capital Territory"], 
-  &[data-type="Municipality"], 
-  &[data-type="Autonomous Region"], 
-  &[data-type="MX State"], 
-  &[data-type="County"], 
+  &[data-type="Mountain"] { border: 6px solid #FFFFFF !important; }
+  &[data-type="Lake"] { border: 6px solid #4169E1 !important; }
+  &[data-type="City"] { border: 6px solid #FFD700 !important; }
+  &[data-type="Country"] { border: 6px solid #8A2BE2 !important; }
+  &[data-type="Sea"] { border: 6px solid #00CED1 !important; }
+  &[data-type="Ocean"] { border: 6px solid #4682B4 !important; }
+  &[data-type="River"] { border: 6px solid #778899 !important; }
+  &[data-type="Desert"] { border: 6px solid #D2691E !important; }
+  &[data-type="Island"] { border: 6px solid #228B22 !important; }
+  &[data-type="Territory"] { border: 6px solid #DDA0DD !important; }
+  &[data-type="Archipelago"] { border: 6px solid #00FF7F !important; }
+
+  &[data-type="US State"],
+  &[data-type="CA Province"],
+  &[data-type="CA Territory"],
+  &[data-type="Wilaya"],
+  &[data-type="AU State"],
+  &[data-type="AU Territory"],
+  &[data-type="Region"],
+  &[data-type="Prefecture"],
+  &[data-type="Republic"],
+  &[data-type="Krai"],
+  &[data-type="Oblast"],
+  &[data-type="Federal City"],
+  &[data-type="Autonomous Okrug"],
+  &[data-type="Autonomous Oblast"],
+  &[data-type="State"],
+  &[data-type="Province"],
+  &[data-type="Federal District"],
+  &[data-type="Federal Capital Territory"],
+  &[data-type="Municipality"],
+  &[data-type="Autonomous Region"],
+  &[data-type="MX State"],
+  &[data-type="County"],
   &[data-type="District"] {
     border: 6px solid #F54927 !important;
   }

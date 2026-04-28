@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { SupabaseService } from '../../services/supabase.service';
 
 @Component({
   selector: 'app-navbar',
@@ -10,9 +11,14 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
-  constructor(private router: Router) {}
+  constructor(public supabase: SupabaseService, private router: Router) {}
 
   isActive(route: string): boolean {
     return this.router.url === route;
+  }
+
+  async logout() {
+    await this.supabase.signOut();
+    this.router.navigate(['/login']);
   }
 }
