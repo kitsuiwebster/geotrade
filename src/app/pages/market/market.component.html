@@ -219,10 +219,16 @@
           </div>
         </div>
 
-        <div class='empty-state' *ngIf="filteredOffers.length === 0">
+        <div class='empty-state' *ngIf="filteredOffers.length === 0 && marketOffers.length === 0">
           <div class='empty-icon'>💰</div>
-          <h3>No offers found</h3>
-          <p>No card offers match your search criteria.</p>
+          <h3>No card offers yet</h3>
+          <p>Be the first to put a card on the market.</p>
+        </div>
+
+        <div class='empty-state' *ngIf="filteredOffers.length === 0 && marketOffers.length > 0">
+          <div class='empty-icon'>🔍</div>
+          <h3>No offers match your filters</h3>
+          <p>Try adjusting your search, type or continent.</p>
         </div>
       </div>
 
@@ -274,10 +280,16 @@
           </div>
         </div>
 
-        <div class='empty-state' *ngIf="filteredRequests.length === 0">
+        <div class='empty-state' *ngIf="filteredRequests.length === 0 && marketRequests.length === 0">
           <div class='empty-icon'>🔍</div>
-          <h3>No requests found</h3>
-          <p>No card requests match your search criteria.</p>
+          <h3>No card requests yet</h3>
+          <p>Post a request to find the cards you're missing.</p>
+        </div>
+
+        <div class='empty-state' *ngIf="filteredRequests.length === 0 && marketRequests.length > 0">
+          <div class='empty-icon'>🔎</div>
+          <h3>No requests match your filters</h3>
+          <p>Try adjusting your search, type or continent.</p>
         </div>
       </div>
 
