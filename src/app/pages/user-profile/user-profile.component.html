@@ -1,111 +1,95 @@
-<div class='user-profile-container'>
+<div class='all-cards-container'>
   <div class='header'>
-    <h1 class='header-title'>GeoTrade ⚠️ Site under construction - All pages are mocked</h1>
+    <h1 class='header-title'>GeoTrade</h1>
     <div class='buttons-container'>
-      <div class='card-count'>User Profile</div>
-      <button class='btn' (click)="addFriend()">
+      <div class='card-count'>Profile</div>
+      <button class='download-btn' (click)="addFriend()" *ngIf="user">
         <span class="btn-text">Add Friend</span>
       </button>
     </div>
   </div>
 
-  <!-- Navigation Tabs -->
   <app-navbar></app-navbar>
 
   <div class="main-content">
-    <!-- Profile Section -->
-    <div class='profile-section'>
-      <!-- Cover Image -->
+    <div class='profile-section' *ngIf="user as u">
       <div class='cover-section'>
-        <div class='cover-image' [style.background-image]="'url(' + user.coverImage + ')'">
+        <div class='cover-image' [style.background-image]="'url(' + u.coverImage + ')'">
           <div class='cover-overlay'>
-            <h2 class='profile-title'>{{ user.displayName }}'s Profile</h2>
-            <p class='profile-subtitle'>{{ '@' + user.username }}</p>
+            <h2 class='profile-title'>{{ u.displayName }}'s Profile</h2>
+            <p class='profile-subtitle'>{{ '@' + u.username }}</p>
           </div>
         </div>
       </div>
 
       <div class='profile-content'>
-        <!-- Profile Card -->
         <div class='profile-card'>
           <div class='profile-header'>
             <div class='avatar'>
-              <img [src]="user.avatar" alt="Avatar" class='avatar-img'>
+              <img [src]="u.avatar" alt="Avatar" class='avatar-img'>
             </div>
             <div class='profile-info'>
-              <h3 class='display-name'>{{ user.displayName }}</h3>
-              <p class='username'>{{ '@' + user.username }}</p>
-              <p class='location'>📍 {{ user.city ? user.city + ', ' : '' }}{{ user.country }}</p>
+              <h3 class='display-name'>{{ u.displayName }}</h3>
+              <p class='username'>{{ '@' + u.username }}</p>
+              <p class='location' *ngIf="u.country">📍 {{ u.city ? u.city + ', ' : '' }}{{ u.country }}</p>
             </div>
           </div>
 
-          <!-- Favorite Cards -->
-          <div class='favorite-cards'>
+          <div class='favorite-cards' *ngIf="u.favoriteCards.length > 0">
             <h4 class='favorites-title'>Favorite Cards</h4>
             <div class='favorites-grid'>
-              <div *ngFor="let card of user.favoriteCards" class='favorite-card'>
+              <div *ngFor="let card of u.favoriteCards" class='favorite-card'>
                 <app-card [card]="card"></app-card>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Stats Card -->
         <div class='stats-card'>
           <h3 class='card-title'>Statistics</h3>
-          
           <div class='stats-grid'>
             <div class='stat-item'>
               <div class='stat-icon'>🎴</div>
-              <div class='stat-value'>{{ user.stats.totalCards }}</div>
+              <div class='stat-value'>{{ u.stats.totalCards }}</div>
               <div class='stat-label'>Cards Collected</div>
             </div>
-            
             <div class='stat-item'>
               <div class='stat-icon'>✅</div>
-              <div class='stat-value'>{{ user.stats.quizzesCompleted }}</div>
+              <div class='stat-value'>{{ u.stats.quizzesCompleted }}</div>
               <div class='stat-label'>Quizzes Completed</div>
             </div>
-            
             <div class='stat-item'>
               <div class='stat-icon'>🔄</div>
-              <div class='stat-value'>{{ user.stats.exchangesCompleted }}</div>
+              <div class='stat-value'>{{ u.stats.exchangesCompleted }}</div>
               <div class='stat-label'>Exchanges Completed</div>
             </div>
-            
             <div class='stat-item'>
               <div class='stat-icon'>🏪</div>
-              <div class='stat-value'>{{ user.stats.marketDealsCompleted }}</div>
+              <div class='stat-value'>{{ u.stats.marketDealsCompleted }}</div>
               <div class='stat-label'>Market Deals</div>
             </div>
-            
             <div class='stat-item'>
               <div class='stat-icon'>👥</div>
-              <div class='stat-value'>{{ user.stats.friendsCount }}</div>
+              <div class='stat-value'>{{ u.stats.friendsCount }}</div>
               <div class='stat-label'>Friends</div>
             </div>
-            
             <div class='stat-item'>
               <div class='stat-icon'>🏆</div>
-              <div class='stat-value'>{{ user.stats.achievementsCount }}</div>
+              <div class='stat-value'>{{ u.stats.achievementsCount }}</div>
               <div class='stat-label'>Achievements</div>
             </div>
           </div>
         </div>
 
-        <!-- Achievements Card -->
-        <div class='achievements-card'>
+        <div class='achievements-card' *ngIf="u.achievements.length > 0">
           <h3 class='card-title'>Recent Achievements</h3>
-          
           <div class='achievements-grid'>
-            <div 
-              *ngFor="let achievement of user.achievements" 
-              class='achievement-item'>
+            <div *ngFor="let achievement of u.achievements" class='achievement-item'>
               <div class='achievement-icon'>{{ achievement.icon }}</div>
               <div class='achievement-info'>
                 <h5 class='achievement-title'>{{ achievement.title }}</h5>
                 <p class='achievement-description'>{{ achievement.description }}</p>
-                <span class='achievement-date'>
+                <span class='achievement-date' *ngIf="achievement.unlockedAt">
                   Unlocked {{ achievement.unlockedAt | date:'MMM d, yyyy' }}
                 </span>
               </div>
@@ -114,8 +98,13 @@
         </div>
       </div>
     </div>
+
+    <div class='empty-state' *ngIf="!user">
+      <div class='empty-icon'>👤</div>
+      <h3>User profile not available</h3>
+      <p>Public profiles will be available once players are connected to the GeoTrade network.</p>
+    </div>
   </div>
 
-  <!-- Footer -->
   <app-footer></app-footer>
 </div>
