@@ -37,7 +37,7 @@ export class FriendsComponent implements OnInit {
   activeTab: 'friends' | 'requests' | 'find' = 'friends';
   searchTerm = '';
   newFriendUsername = '';
-  
+
   friends: Friend[] = [];
   incomingRequests: FriendRequest[] = [];
   outgoingRequests: FriendRequest[] = [];
@@ -45,80 +45,12 @@ export class FriendsComponent implements OnInit {
 
   constructor(private router: Router) {}
 
-  ngOnInit() {
-    this.loadMockData();
-  }
-
-  loadMockData() {
-    this.friends = [
-      {
-        id: 'user123',
-        username: 'geomaster',
-        displayName: 'GeoMaster',
-        avatar: 'assets/images/pp_default.jpg',
-        status: 'online',
-        cardsCount: 245,
-        level: 18
-      },
-      {
-        id: 'user456',
-        username: 'cardcollector',
-        displayName: 'Card Collector',
-        avatar: 'assets/images/pp_default.jpg',
-        status: 'offline',
-        lastSeen: new Date('2024-12-11T10:30:00'),
-        cardsCount: 189,
-        level: 15
-      },
-      {
-        id: 'user789',
-        username: 'worldexplorer',
-        displayName: 'World Explorer',
-        avatar: 'assets/images/pp_default.jpg',
-        status: 'online',
-        cardsCount: 156,
-        level: 12
-      }
-    ];
-
-    this.incomingRequests = [
-      {
-        id: 'req1',
-        fromUserId: 'user404',
-        fromUsername: 'newtrader',
-        fromDisplayName: 'New Trader',
-        fromAvatar: 'src/assets/images/pp_default.jpg',
-        message: 'Hi! I saw your collection and would love to be friends and trade cards!',
-        sentAt: new Date('2024-12-11T14:20:00')
-      },
-      {
-        id: 'req2',
-        fromUserId: 'user505',
-        fromUsername: 'maplover',
-        fromDisplayName: 'Map Lover',
-        fromAvatar: 'src/assets/images/pp_default.jpg',
-        message: 'Looking for fellow geography enthusiasts to connect with!',
-        sentAt: new Date('2024-12-10T16:45:00')
-      }
-    ];
-
-    this.outgoingRequests = [
-      {
-        id: 'req3',
-        fromUserId: 'currentUser',
-        fromUsername: 'you',
-        fromDisplayName: 'Peak Hunter',
-        fromAvatar: 'src/assets/images/pp_default.jpg',
-        message: 'Would love to be trading partners!',
-        sentAt: new Date('2024-12-09T12:15:00')
-      }
-    ];
-  }
+  ngOnInit() {}
 
   get filteredFriends(): Friend[] {
     if (!this.searchTerm) return this.friends;
     const term = this.searchTerm.toLowerCase();
-    return this.friends.filter(friend => 
+    return this.friends.filter(friend =>
       friend.username.toLowerCase().includes(term) ||
       friend.displayName.toLowerCase().includes(term)
     );
@@ -135,20 +67,7 @@ export class FriendsComponent implements OnInit {
   }
 
   acceptFriendRequest(request: FriendRequest) {
-    const newFriend: Friend = {
-      id: request.fromUserId,
-      username: request.fromUsername,
-      displayName: request.fromDisplayName,
-      avatar: request.fromAvatar,
-      status: 'offline',
-      cardsCount: Math.floor(Math.random() * 200) + 50,
-      level: Math.floor(Math.random() * 15) + 5
-    };
-
-    this.friends.push(newFriend);
     this.incomingRequests = this.incomingRequests.filter(r => r.id !== request.id);
-    
-    alert(`${request.fromDisplayName} is now your friend!`);
   }
 
   declineFriendRequest(request: FriendRequest) {
@@ -160,64 +79,21 @@ export class FriendsComponent implements OnInit {
   }
 
   searchUsers() {
-    if (this.newFriendUsername.length < 3) {
-      this.searchResults = [];
-      return;
-    }
-
-    // Mock search results
-    this.searchResults = [
-      {
-        id: 'search1',
-        username: this.newFriendUsername + '123',
-        displayName: 'Search Result 1',
-        avatar: 'assets/images/pp_default.jpg',
-        status: 'offline' as 'offline',
-        cardsCount: 78,
-        level: 8
-      },
-      {
-        id: 'search2',
-        username: this.newFriendUsername + '_trader',
-        displayName: 'Search Result 2',
-        avatar: 'assets/images/pp_default.jpg',
-        status: 'online' as 'online',
-        cardsCount: 134,
-        level: 11
-      }
-    ].filter(user => 
-      !this.friends.some(f => f.id === user.id) &&
-      !this.outgoingRequests.some(r => r.fromDisplayName === user.displayName)
-    );
+    this.searchResults = [];
   }
 
-  sendFriendRequest(user: Friend) {
-    const newRequest: FriendRequest = {
-      id: 'req_' + Date.now(),
-      fromUserId: 'currentUser',
-      fromUsername: 'you',
-      fromDisplayName: user.displayName,
-      fromAvatar: 'src/assets/images/pp_default.jpg',
-      message: 'Hi! Would love to connect and trade cards!',
-      sentAt: new Date()
-    };
-
-    this.outgoingRequests.push(newRequest);
-    this.searchResults = this.searchResults.filter(u => u.id !== user.id);
-    
-    alert(`Friend request sent to ${user.displayName}!`);
-  }
+  sendFriendRequest(_user: Friend) {}
 
   openUserProfile(userId: string) {
     window.open(`/user/${userId}`, '_blank');
   }
 
   startExchange(friend: Friend) {
-    this.router.navigate(['/exchange'], { 
-      queryParams: { 
+    this.router.navigate(['/exchange'], {
+      queryParams: {
         friendId: friend.id,
-        friendName: friend.displayName 
-      } 
+        friendName: friend.displayName
+      }
     });
   }
 }

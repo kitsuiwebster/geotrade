@@ -1,40 +1,37 @@
-<div class='friends-container'>
+<div class='all-cards-container'>
   <div class='header'>
-    <h1 class='header-title'>GeoTrade ⚠️ Site under construction - All pages are mocked</h1>
+    <h1 class='header-title'>GeoTrade</h1>
     <div class='buttons-container'>
-      <div class='card-count'>Friends</div>
-      <button class='btn' (click)="setActiveTab('find')">
+      <div class='card-count'>{{ friends.length }} friends</div>
+      <button class='download-btn' (click)="setActiveTab('find')">
         <span class="btn-text">Add Friend</span>
       </button>
     </div>
   </div>
 
-  <!-- Navigation Tabs -->
   <app-navbar></app-navbar>
 
   <div class="main-content">
-    <!-- Friends Section -->
     <div class='friends-section'>
       <div class='section-header'>
         <h2 class='section-title'>Friends & Community</h2>
         <p class='section-subtitle'>Connect with fellow traders and collectors</p>
       </div>
 
-      <!-- Friends Tabs -->
       <div class='friends-tabs'>
-        <button 
+        <button
           class='tab-btn'
           [class.active]="activeTab === 'friends'"
           (click)="setActiveTab('friends')">
           👥 Friends ({{ friends.length }})
         </button>
-        <button 
+        <button
           class='tab-btn'
           [class.active]="activeTab === 'requests'"
           (click)="setActiveTab('requests')">
           📨 Requests ({{ incomingRequests.length }})
         </button>
-        <button 
+        <button
           class='tab-btn'
           [class.active]="activeTab === 'find'"
           (click)="setActiveTab('find')">
@@ -42,13 +39,11 @@
         </button>
       </div>
 
-      <!-- Friends List -->
       <div class='friends-content' *ngIf="activeTab === 'friends'">
-        <div class='friends-header'>
-          <div class='friends-count'>{{ friends.length }} Friends</div>
+        <div class='friends-toolbar' *ngIf="friends.length > 0">
           <div class='search-container'>
-            <input 
-              type="text" 
+            <input
+              type="text"
               class='search-input'
               placeholder="Search friends..."
               [(ngModel)]="searchTerm">
@@ -56,17 +51,17 @@
           </div>
         </div>
 
-        <div class='friends-list'>
+        <div class='friends-list' *ngIf="filteredFriends.length > 0">
           <div class='friend-item' *ngFor="let friend of filteredFriends">
             <div class='friend-avatar'>
               <img [src]="friend.avatar" alt="Avatar" class='avatar-img'>
             </div>
-            
+
             <div class='friend-info'>
               <div class='friend-name clickable' (click)="openUserProfile(friend.id)">{{ friend.displayName }}</div>
               <div class='friend-username'>{{ '@' + friend.username }}</div>
             </div>
-            
+
             <div class='friend-stats'>
               <div class='stat'>
                 <span class='stat-icon'>🎴</span>
@@ -77,35 +72,33 @@
                 <span class='stat-value'>{{ friend.level }}</span>
               </div>
             </div>
-            
+
             <div class='friend-actions'>
-              <button class='action-btn exchange' (click)="startExchange(friend)" title="Start Exchange">
-                🔄
-              </button>
-              <button class='action-btn profile' (click)="openUserProfile(friend.id)" title="View Profile">
-                👁️
-              </button>
-              <button class='action-btn remove' (click)="removeFriend(friend.id)" title="Remove Friend">
-                🗑️
-              </button>
+              <button class='action-btn exchange' (click)="startExchange(friend)" title="Start Exchange">🔄</button>
+              <button class='action-btn profile' (click)="openUserProfile(friend.id)" title="View Profile">👁️</button>
+              <button class='action-btn remove' (click)="removeFriend(friend.id)" title="Remove Friend">🗑️</button>
             </div>
           </div>
         </div>
 
-        <div class='empty-state' *ngIf="filteredFriends.length === 0">
+        <div class='empty-state' *ngIf="friends.length === 0">
           <div class='empty-icon'>👥</div>
-          <h3>No friends found</h3>
-          <p *ngIf="searchTerm">No friends match your search criteria.</p>
-          <p *ngIf="!searchTerm && friends.length === 0">Start connecting with other traders!</p>
+          <h3>No friends yet</h3>
+          <p>Start connecting with other traders to swap cards more easily.</p>
+          <button class='btn btn-primary cta-btn' (click)="setActiveTab('find')">Find friends</button>
+        </div>
+
+        <div class='empty-state' *ngIf="friends.length > 0 && filteredFriends.length === 0">
+          <div class='empty-icon'>🔍</div>
+          <h3>No friends match your search</h3>
+          <p>Try a different name or username.</p>
         </div>
       </div>
 
-      <!-- Friend Requests -->
       <div class='requests-content' *ngIf="activeTab === 'requests'">
-        <!-- Incoming Requests -->
         <div class='requests-section' *ngIf="incomingRequests.length > 0">
           <h3>Incoming Requests ({{ incomingRequests.length }})</h3>
-          
+
           <div class='request-card' *ngFor="let request of incomingRequests">
             <div class='request-header'>
               <div class='requester-avatar'>
@@ -123,20 +116,15 @@
             </div>
 
             <div class='request-actions'>
-              <button class='action-btn accept' (click)="acceptFriendRequest(request)">
-                ✅ Accept
-              </button>
-              <button class='action-btn decline' (click)="declineFriendRequest(request)">
-                ❌ Decline
-              </button>
+              <button class='action-btn accept' (click)="acceptFriendRequest(request)">✅ Accept</button>
+              <button class='action-btn decline' (click)="declineFriendRequest(request)">❌ Decline</button>
             </div>
           </div>
         </div>
 
-        <!-- Outgoing Requests -->
         <div class='requests-section' *ngIf="outgoingRequests.length > 0">
           <h3>Outgoing Requests ({{ outgoingRequests.length }})</h3>
-          
+
           <div class='request-card outgoing' *ngFor="let request of outgoingRequests">
             <div class='request-header'>
               <div class='requester-info'>
@@ -147,9 +135,7 @@
             </div>
 
             <div class='request-actions'>
-              <button class='action-btn cancel' (click)="cancelOutgoingRequest(request)">
-                ❌ Cancel
-              </button>
+              <button class='action-btn cancel' (click)="cancelOutgoingRequest(request)">❌ Cancel</button>
             </div>
           </div>
         </div>
@@ -157,19 +143,18 @@
         <div class='empty-state' *ngIf="incomingRequests.length === 0 && outgoingRequests.length === 0">
           <div class='empty-icon'>📨</div>
           <h3>No pending requests</h3>
-          <p>You don't have any pending friend requests.</p>
+          <p>You don't have any incoming or outgoing friend requests.</p>
         </div>
       </div>
 
-      <!-- Add Friends -->
       <div class='find-content' *ngIf="activeTab === 'find'">
-        <div class='search-section'>
-          <h3>Add New Friends</h3>
+        <div class='find-section'>
+          <h3>Add new friends</h3>
           <div class='search-container'>
-            <input 
-              type="text" 
+            <input
+              type="text"
               class='search-input'
-              placeholder="Enter username..."
+              placeholder="Enter a username..."
               [(ngModel)]="newFriendUsername"
               (input)="searchUsers()">
             <span class='search-icon'>➕</span>
@@ -177,7 +162,7 @@
         </div>
 
         <div class='search-results' *ngIf="searchResults.length > 0">
-          <h4>Search Results</h4>
+          <h4>Search results</h4>
           <div class='search-grid'>
             <div class='search-result-card' *ngFor="let user of searchResults">
               <div class='user-header'>
@@ -203,31 +188,31 @@
               </div>
 
               <div class='user-actions'>
-                <button class='action-btn add' (click)="sendFriendRequest(user)">
-                  ➕ Add Friend
-                </button>
-                <button class='action-btn profile' (click)="openUserProfile(user.id)">
-                  👁️ View Profile
-                </button>
+                <button class='action-btn add' (click)="sendFriendRequest(user)">➕ Add friend</button>
+                <button class='action-btn profile' (click)="openUserProfile(user.id)">👁️ Profile</button>
               </div>
             </div>
           </div>
         </div>
 
         <div class='search-hint' *ngIf="newFriendUsername.length > 0 && newFriendUsername.length < 3">
-          <p>Type at least 3 characters to search for users...</p>
+          <p>Type at least 3 characters to search for users.</p>
         </div>
 
         <div class='empty-state' *ngIf="newFriendUsername.length >= 3 && searchResults.length === 0">
           <div class='empty-icon'>🔍</div>
           <h3>No users found</h3>
-          <p>No users match your search term "{{ newFriendUsername }}"</p>
+          <p>No users match the username "{{ newFriendUsername }}".</p>
+        </div>
+
+        <div class='empty-state' *ngIf="newFriendUsername.length === 0">
+          <div class='empty-icon'>👤</div>
+          <h3>Find someone to trade with</h3>
+          <p>Search by username to send your first friend request.</p>
         </div>
       </div>
-
     </div>
   </div>
 
-  <!-- Footer -->
   <app-footer></app-footer>
 </div>
