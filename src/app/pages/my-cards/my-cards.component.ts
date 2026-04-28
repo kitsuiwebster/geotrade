@@ -7,6 +7,7 @@ import { NavbarComponent } from '../../components/navbar/navbar.component';
 import { FooterComponent } from '../../components/footer/footer.component';
 import { Card } from '../../interfaces/card.interface';
 import { allCardsData } from '../../data';
+import { SupabaseService } from '../../services/supabase.service';
 import html2canvas from 'html2canvas';
 import JSZip from 'jszip';
 
@@ -18,6 +19,7 @@ import JSZip from 'jszip';
   styleUrls: ['./my-cards.component.scss']
 })
 export class MyCardsComponent implements OnInit {
+  constructor(private supabaseService: SupabaseService) {}
   userCards: Card[] = [];
   displayedCards: Card[] = [];
   
@@ -52,25 +54,16 @@ export class MyCardsComponent implements OnInit {
     { value: 'Others', label: 'All Others', checked: false }
   ];
 
-  ngOnInit(): void {
-    // Check if Real Mode is already active
+  async ngOnInit() {
     this.isRealMode = document.body.classList.contains('export-mode');
-    
-    // Select one card of each type for the user's collection
-    this.userCards = allCardsData.filter(card => 
-      card.nom === 'France' ||                                    // Country
-      card.nom === 'Saint Pierre and Miquelon' ||                 // Territory  
-      card.nom === 'Matterhorn' ||                                // Mountain
-      card.nom === 'Ljubljana' ||                                 // City
-      card.nom === 'Amazon' ||                                    // River
-      (card.nom === 'Hokkaido' && card.type === 'Island') ||      // Island
-      card.nom === 'Canary Islands' ||                            // Archipelago
-      card.nom === 'Lake Baikal' ||                               // Lake
-      card.nom === 'Mediterranean Sea' ||                        // Sea
-      card.nom === 'Sahara' ||                                    // Desert
-      card.nom === 'Pacific Ocean'                                // Ocean
+
+    const cardIds = await this.supabaseService.getUserCardIds(
+      this.supabaseService.currentUser?.id ?? ''
     );
-    
+    this.userCards = cardIds.length > 0
+      ? allCardsData.filter(card => cardIds.includes(card.nom))
+      : [];
+
     this.applyFilters();
   }
   

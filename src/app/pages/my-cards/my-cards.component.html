@@ -10,10 +10,6 @@
       <button class='toggle-mode-btn' (click)="toggleDisplayMode()" [class.active]="isRealMode">
         <span class="btn-text">{{ isRealMode ? 'Real Mode' : 'Web Mode' }}</span>
       </button>
-      <button class='filter-btn' (click)="toggleFilters()">
-        <span class="btn-text">Filters</span>
-        <span class="btn-arrow">{{ showFilters ? '▲' : '▼' }}</span>
-      </button>
     </div>
   </div>
 
@@ -24,15 +20,19 @@
   <!-- Search Bar - Always Visible -->
   <div class='search-section'>
     <div class='search-container'>
-      <input 
-        type="text" 
+      <input
+        type="text"
         class='search-input'
         placeholder="Search your cards (name, place, type, continent...)"
-        [(ngModel)]="searchTerm" 
+        [(ngModel)]="searchTerm"
         (input)="applyFilters()"
       />
       <span class='search-icon'>🔍</span>
     </div>
+    <button class='filter-btn' (click)="toggleFilters()" [class.open]="showFilters">
+      <span class="btn-text">Filters</span>
+      <span class="btn-arrow">{{ showFilters ? '▲' : '▼' }}</span>
+    </button>
   </div>
   
   <div class='filters-container' *ngIf="showFilters">
@@ -40,11 +40,12 @@
       <h3>Card Types</h3>
       <div class='filter-group'>
         <label *ngFor="let filter of typeFilters" class='filter-item'>
-          <input 
-            type="checkbox" 
-            [(ngModel)]="filter.checked" 
+          <input
+            type="checkbox"
+            [(ngModel)]="filter.checked"
             (change)="applyFilters()"
           />
+          <span class="type-dot" [attr.data-type]="filter.value"></span>
           <span>{{ filter.label }}</span>
         </label>
       </div>
