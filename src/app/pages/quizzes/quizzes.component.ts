@@ -24,58 +24,15 @@ interface Quiz {
   styleUrls: ['./quizzes.component.scss']
 })
 export class QuizzesComponent implements OnInit {
-  quizzes: Quiz[] = [
-    {
-      id: 1,
-      title: 'European Capitals',
-      description: 'Test your knowledge of European capital cities',
-      difficulty: 'Easy',
-      category: 'Geography',
-      questionsCount: 10,
-      completed: false,
-      reward: '🇫🇷 France Card'
-    },
-    {
-      id: 2,
-      title: 'World Mountains',
-      description: 'Identify the highest peaks around the globe',
-      difficulty: 'Medium',
-      category: 'Nature',
-      questionsCount: 15,
-      completed: true,
-      reward: '🏔️ Mount Everest Card'
-    },
-    {
-      id: 3,
-      title: 'Major Rivers',
-      description: 'Navigate through the world\'s longest rivers',
-      difficulty: 'Hard',
-      category: 'Geography',
-      questionsCount: 20,
-      completed: false,
-      reward: '🌊 Amazon River Card'
-    },
-    {
-      id: 4,
-      title: 'African Countries',
-      description: 'Explore the diverse nations of Africa',
-      difficulty: 'Medium',
-      category: 'Geography',
-      questionsCount: 12,
-      completed: false,
-      reward: '🌍 Mystery African Card'
-    }
-  ];
+  quizzes: Quiz[] = [];
 
   selectedCategory = 'All';
   selectedDifficulty = 'All';
-  
+
   categories = ['All', 'Geography', 'Nature', 'Culture'];
   difficulties = ['All', 'Easy', 'Medium', 'Hard'];
 
-  ngOnInit(): void {
-    // Simulation initialization
-  }
+  ngOnInit(): void {}
 
   get filteredQuizzes(): Quiz[] {
     return this.quizzes.filter(quiz => {
@@ -85,17 +42,14 @@ export class QuizzesComponent implements OnInit {
     });
   }
 
-  startQuiz(quiz: Quiz): void {
-    console.log('Starting quiz:', quiz.title);
-    // Mock quiz start
-  }
+  startQuiz(_quiz: Quiz): void {}
 
   getDifficultyColor(difficulty: string): string {
-    switch(difficulty) {
-      case 'Easy': return '#00c9a7';
-      case 'Medium': return '#f7931e';
-      case 'Hard': return '#ff6b35';
-      default: return '#fff';
+    switch (difficulty) {
+      case 'Easy': return '#a8d97a';
+      case 'Medium': return '#e0b478';
+      case 'Hard': return '#d66a5a';
+      default: return '#d4b98a';
     }
   }
 }
