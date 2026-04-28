@@ -1,454 +1,336 @@
-.all-cards-container {
-  background: linear-gradient(135deg, #0a1a1a 0%, #0d2626 50%, #134e4a 100%);
-  min-height: 100vh;
-  padding: 20px;
-  box-sizing: border-box;
-  margin: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
-
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(0, 201, 167, 0.3);
-
-    .header-title {
-      font-size: 24px;
-      color: #fff;
-      font-family: "Courier New", monospace;
-      text-shadow: 0 0 20px rgba(0, 201, 167, 0.3);
-    }
-
-    .buttons-container {
-      display: flex;
-      align-items: center;
-    }
-
-    .card-count {
-      color: #00c9a7;
-      font-family: "Courier New", monospace;
-      font-size: 14px;
-      font-weight: 600;
-      margin-right: 15px;
-      text-shadow: 0 0 10px rgba(0, 201, 167, 0.3);
-    }
-
-    .download-btn, .filter-btn, .toggle-mode-btn {
-      background: linear-gradient(135deg, #00c9a7 0%, #20b2aa 100%);
-      color: #fff;
-      border: none;
-      padding: 12px 20px;
-      border-radius: 12px;
-      cursor: pointer;
-      font-size: 14px;
-      font-family: "Courier New", monospace;
-      font-weight: 600;
-      transition: all 0.3s ease;
-      margin: 0 0.5rem;
-      box-shadow: 0 4px 15px rgba(0, 201, 167, 0.4);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-
-      &:hover {
-        background: linear-gradient(135deg, #00b595 0%, #1ca89e 100%);
-        transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(0, 201, 167, 0.6);
-      }
-    }
-  }
-}
+@import '../cards/cards.component.scss';
 
 .exchange-section {
-  margin-top: 20px;
+  margin-top: 8px;
   flex: 1;
-  
+
   .section-header {
     text-align: center;
-    margin-bottom: 30px;
-    
+    margin-bottom: 28px;
+
     .section-title {
-      color: #fff;
-      font-size: 28px;
-      font-family: "Courier New", monospace;
-      margin: 0 0 10px 0;
-      text-shadow: 0 0 20px rgba(0, 201, 167, 0.4);
+      margin: 0 0 8px;
+      font-family: 'Outfit', 'Inter', sans-serif;
+      font-size: 30px;
       font-weight: 700;
+      letter-spacing: -0.6px;
+      background: linear-gradient(135deg, #f4e4c1 0%, #d4a76a 50%, #a67c52 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
-    
+
     .section-subtitle {
-      color: rgba(255, 255, 255, 0.7);
-      font-family: "Courier New", monospace;
-      font-size: 16px;
       margin: 0;
-      letter-spacing: 0.5px;
+      font-size: 13px;
+      color: #a8946c;
+      letter-spacing: 0.2px;
     }
   }
 
   .exchange-tabs {
     display: flex;
-    justify-content: center;
-    gap: 0;
-    margin: 30px 10px;
-    background: linear-gradient(135deg, rgba(0, 201, 167, 0.15) 0%, rgba(32, 178, 170, 0.1) 100%);
-    border-radius: 12px;
+    gap: 4px;
+    margin: 24px auto;
+    background: rgba(26, 15, 6, 0.6);
+    border: 1px solid rgba(232, 201, 145, 0.1);
+    border-radius: 14px;
     padding: 4px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(0, 201, 167, 0.2);
-    max-width: calc(100% - 20px);
-    overflow: hidden;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    max-width: 100%;
+    overflow-x: auto;
 
     .tab-btn {
       flex: 1;
       background: transparent;
-      color: rgba(255, 255, 255, 0.7);
+      color: #a8946c;
       border: none;
-      padding: 12px 8px;
-      border-radius: 8px;
+      padding: 11px 16px;
+      border-radius: 10px;
       cursor: pointer;
-      font-family: "Courier New", monospace;
-      font-size: 11px;
+      font-family: 'Outfit', 'Inter', sans-serif;
+      font-size: 13px;
       font-weight: 600;
-      transition: all 0.3s ease;
-      text-transform: uppercase;
-      letter-spacing: 0.3px;
+      letter-spacing: 0.2px;
       white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
 
       &:hover {
-        color: rgba(255, 255, 255, 0.9);
-        background: rgba(0, 201, 167, 0.1);
+        color: #f0e4c9;
+        background: rgba(232, 201, 145, 0.06);
       }
 
       &.active {
-        color: #fff;
-        background: linear-gradient(135deg, #00c9a7 0%, #20b2aa 100%);
-        box-shadow: 0 4px 15px rgba(0, 201, 167, 0.4);
-        text-shadow: 0 0 10px rgba(0, 201, 167, 0.3);
+        color: #1a0f00;
+        background: linear-gradient(135deg, #d4a76a 0%, #a67c52 100%);
+        box-shadow:
+          0 6px 16px rgba(166, 124, 82, 0.32),
+          inset 0 1px 0 rgba(255, 240, 210, 0.3);
       }
     }
   }
 
   .new-exchange-form {
-    background: linear-gradient(135deg, rgba(0, 201, 167, 0.15) 0%, rgba(32, 178, 170, 0.1) 100%);
-    border: 1px solid rgba(0, 201, 167, 0.3);
-    border-radius: 16px;
-    margin: 20px;
-    backdrop-filter: blur(10px);
+    background: linear-gradient(180deg, rgba(36, 22, 10, 0.95), rgba(22, 13, 6, 0.95));
+    border: 1px solid rgba(232, 201, 145, 0.15);
+    border-radius: 22px;
+    margin-bottom: 28px;
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    box-shadow:
+      0 30px 80px rgba(0, 0, 0, 0.55),
+      inset 0 1px 0 rgba(232, 201, 145, 0.1);
     overflow: visible;
 
     .form-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 20px 25px;
-      border-bottom: 1px solid rgba(0, 201, 167, 0.2);
+      padding: 22px 28px;
+      border-bottom: 1px solid rgba(232, 201, 145, 0.1);
 
       h3 {
-        color: #fff;
-        font-family: "Courier New", monospace;
         margin: 0;
-        font-size: 20px;
-        font-weight: 700;
-        text-shadow: 0 0 10px rgba(0, 201, 167, 0.3);
+        font-family: 'Outfit', 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #f0e4c9;
+        letter-spacing: -0.2px;
       }
 
       .close-btn {
-        background: transparent;
-        border: none;
-        color: rgba(255, 255, 255, 0.6);
-        font-size: 18px;
+        background: rgba(232, 201, 145, 0.05);
+        border: 1px solid rgba(232, 201, 145, 0.12);
+        color: #a8946c;
+        font-size: 16px;
         cursor: pointer;
-        transition: color 0.3s ease;
+        width: 32px;
+        height: 32px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
 
         &:hover {
-          color: #ff6b35;
+          background: rgba(200, 76, 60, 0.18);
+          border-color: rgba(200, 76, 60, 0.5);
+          color: #ffffff;
         }
       }
     }
 
     .form-content {
-      padding: 25px;
+      padding: 24px 28px 28px;
 
       .form-section {
-        margin-bottom: 25px;
+        margin-bottom: 24px;
 
         label {
           display: block;
-          color: rgba(255, 255, 255, 0.8);
-          font-family: "Courier New", monospace;
-          font-size: 14px;
-          margin-bottom: 8px;
+          font-family: 'Space Grotesk', 'Outfit', sans-serif;
+          font-size: 11px;
+          color: #d4a76a;
+          margin-bottom: 10px;
           font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 1.4px;
         }
 
         .form-select,
         .form-textarea {
           width: 100%;
-          background: #2a2a2a;
-          color: #fff;
-          border: 2px solid #555;
-          border-radius: 8px;
-          padding: 12px 15px;
-          font-family: "Courier New", monospace;
+          background: rgba(18, 10, 5, 0.7);
+          color: #e8d9b8;
+          border: 1px solid rgba(232, 201, 145, 0.12);
+          border-radius: 12px;
+          padding: 13px 16px;
+          font-family: inherit;
           font-size: 14px;
-          transition: all 0.3s ease;
+          font-weight: 500;
           box-sizing: border-box;
+          transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
 
           &:focus {
             outline: none;
-            border-color: #00c9a7;
-            box-shadow: 0 0 0 2px rgba(0, 201, 167, 0.2);
+            border-color: rgba(212, 167, 106, 0.55);
+            background: rgba(26, 15, 6, 0.9);
+            box-shadow: 0 0 0 4px rgba(212, 167, 106, 0.12);
+          }
+
+          &::placeholder { color: #6e5a3e; }
+        }
+
+        .form-select {
+          appearance: none;
+          -webkit-appearance: none;
+          padding-right: 40px;
+          background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23c9a57a'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+          background-repeat: no-repeat;
+          background-position: right 14px center;
+          background-size: 16px;
+
+          option {
+            background: #1a100a;
+            color: #e8d9b8;
           }
         }
 
         .form-textarea {
-          height: 80px;
+          min-height: 90px;
           resize: vertical;
         }
       }
 
       .cards-selection {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 30px;
-        margin: 25px 0;
-        max-width: 100%;
+        margin: 24px 0;
         overflow: visible;
 
         .selection-section {
           position: relative;
           overflow: visible;
-          
+
           h4 {
-            color: rgba(255, 255, 255, 0.9);
-            font-family: "Courier New", monospace;
-            font-size: 16px;
-            margin: 0 0 15px 0;
+            margin: 0 0 14px;
+            font-family: 'Space Grotesk', 'Outfit', sans-serif;
+            font-size: 11px;
             font-weight: 600;
+            color: #d4a76a;
+            text-transform: uppercase;
+            letter-spacing: 1.4px;
           }
 
           .selection-hint {
-            color: rgba(255, 255, 255, 0.6);
-            font-family: "Courier New", monospace;
-            font-size: 12px;
-            margin: 10px 0 0 0;
-            font-style: italic;
+            margin: 12px 0 0;
             text-align: center;
+            font-family: 'Space Grotesk', 'Outfit', sans-serif;
+            font-size: 11px;
+            color: #8a6f50;
+            letter-spacing: 0.4px;
           }
 
           .search-container {
             position: relative;
-            margin-bottom: 20px;
-            
+            margin-bottom: 18px;
+
             .card-search {
               width: 100%;
-              background: #2a2a2a;
-              color: #fff;
-              border: 2px solid #555;
-              border-radius: 8px;
-              padding: 12px 15px;
-              font-family: "Courier New", monospace;
+              background: rgba(18, 10, 5, 0.7);
+              color: #e8d9b8;
+              border: 1px solid rgba(232, 201, 145, 0.12);
+              border-radius: 12px;
+              padding: 13px 16px;
+              font-family: inherit;
               font-size: 14px;
-              transition: all 0.3s ease;
+              font-weight: 500;
               box-sizing: border-box;
-              
+              transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+
               &:focus {
                 outline: none;
-                border-color: #00c9a7;
-                box-shadow: 0 0 0 2px rgba(0, 201, 167, 0.2);
+                border-color: rgba(212, 167, 106, 0.55);
+                background: rgba(26, 15, 6, 0.9);
+                box-shadow: 0 0 0 4px rgba(212, 167, 106, 0.12);
               }
-              
-              &::placeholder {
-                color: rgba(255, 255, 255, 0.4);
-              }
+
+              &::placeholder { color: #6e5a3e; }
             }
-            
+
             .search-suggestions {
               position: absolute;
-              top: calc(100% + 4px);
+              top: calc(100% + 6px);
               left: 0;
               right: 0;
-              background: #2a2a2a;
-              border: 2px solid rgba(0, 201, 167, 0.5);
-              border-radius: 8px;
-              max-height: auto;
-              overflow-y: hidden;
+              background: rgba(18, 10, 5, 0.96);
+              border: 1px solid rgba(232, 201, 145, 0.18);
+              border-radius: 14px;
               z-index: 9999;
-              box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8);
-              backdrop-filter: blur(10px);
-              
+              backdrop-filter: blur(20px);
+              -webkit-backdrop-filter: blur(20px);
+              box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+              overflow: hidden;
+
               .suggestion-item {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                padding: 12px 15px;
+                padding: 12px 16px;
                 cursor: pointer;
-                transition: background-color 0.2s ease;
-                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-                
-                &:last-child {
-                  border-bottom: none;
-                }
-                
+                transition: background 0.18s ease;
+                border-bottom: 1px solid rgba(232, 201, 145, 0.08);
+
+                &:last-child { border-bottom: none; }
+
                 &:hover {
-                  background: rgba(0, 201, 167, 0.1);
+                  background: rgba(232, 201, 145, 0.08);
                 }
-                
+
                 .card-name {
-                  color: #fff;
-                  font-family: "Courier New", monospace;
+                  color: #f0e4c9;
+                  font-family: 'Outfit', 'Inter', sans-serif;
                   font-size: 14px;
                   font-weight: 600;
                 }
-                
+
                 .card-type {
-                  color: rgba(255, 255, 255, 0.6);
-                  font-family: "Courier New", monospace;
-                  font-size: 12px;
-                  font-style: italic;
+                  color: #8a6f50;
+                  font-family: 'Space Grotesk', 'Outfit', sans-serif;
+                  font-size: 11px;
+                  text-transform: uppercase;
+                  letter-spacing: 0.6px;
                 }
               }
             }
-            
+
             .no-results {
               position: absolute;
-              top: calc(100% + 4px);
+              top: calc(100% + 6px);
               left: 0;
               right: 0;
-              background: #2a2a2a;
-              border: 2px solid rgba(0, 201, 167, 0.5);
-              border-radius: 8px;
-              padding: 15px;
-              color: rgba(255, 255, 255, 0.6);
-              font-family: "Courier New", monospace;
-              font-size: 14px;
+              background: rgba(18, 10, 5, 0.96);
+              border: 1px solid rgba(232, 201, 145, 0.18);
+              border-radius: 14px;
+              padding: 14px 16px;
+              color: #8a6f50;
+              font-size: 13px;
               text-align: center;
               z-index: 9999;
-              font-style: italic;
-              box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8);
+              backdrop-filter: blur(20px);
+              -webkit-backdrop-filter: blur(20px);
+              box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
             }
           }
 
           .selected-card-display {
             display: flex;
             justify-content: center;
-            margin: 20px 0;
-            
+            margin: 18px 0;
+
             .card-preview {
               display: flex;
               flex-direction: column;
               align-items: center;
-              gap: 15px;
-              
+              gap: 14px;
+
               .remove-selection {
-                background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
-                color: #fff;
-                border: none;
+                background: rgba(200, 76, 60, 0.12);
+                color: #d66a5a;
+                border: 1px solid rgba(200, 76, 60, 0.4);
                 padding: 8px 16px;
-                border-radius: 6px;
+                border-radius: 10px;
                 cursor: pointer;
-                font-family: "Courier New", monospace;
+                font-family: 'Outfit', 'Inter', sans-serif;
                 font-size: 12px;
                 font-weight: 600;
-                transition: all 0.3s ease;
-                
+                letter-spacing: 0.2px;
+                transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+
                 &:hover {
-                  background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);
+                  background: rgba(200, 76, 60, 0.25);
+                  border-color: rgba(200, 76, 60, 0.6);
+                  color: #f0a69a;
                   transform: translateY(-1px);
-                }
-              }
-            }
-          }
-
-          .add-card-btn {
-            background: linear-gradient(135deg, #00c9a7 0%, #20b2aa 100%);
-            color: #fff;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-family: "Courier New", monospace;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 15px;
-            transition: all 0.3s ease;
-
-            &:hover {
-              background: linear-gradient(135deg, #00b595 0%, #1ca89e 100%);
-              transform: translateY(-1px);
-            }
-          }
-
-          .cards-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            gap: 15px;
-            padding: 10px;
-
-            &.small {
-              .card-wrapper {
-                position: relative;
-                cursor: pointer;
-                transition: all 0.3s ease;
-                border-radius: 8px;
-
-                // Disable all card hover effects in exchange form
-                ::ng-deep .card {
-                  &:hover {
-                    transform: none !important;
-                    box-shadow: inherit !important;
-                  }
-                }
-
-                &.selected {
-                  transform: scale(0.95);
-                  opacity: 0.8;
-                }
-
-                &.requested .remove-btn {
-                  position: absolute;
-                  top: 5px;
-                  right: 5px;
-                  background: #ff6b35;
-                  border: none;
-                  color: #fff;
-                  border-radius: 50%;
-                  width: 20px;
-                  height: 20px;
-                  font-size: 10px;
-                  cursor: pointer;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  font-family: "Courier New", monospace;
-                }
-
-                .selection-overlay {
-                  position: absolute;
-                  top: 0;
-                  left: 0;
-                  right: 0;
-                  bottom: 0;
-                  background: rgba(0, 201, 167, 0.8);
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  color: #fff;
-                  font-size: 24px;
-                  font-weight: bold;
                 }
               }
             }
@@ -458,35 +340,37 @@
 
       .form-actions {
         text-align: center;
-        padding-top: 20px;
-        border-top: 1px solid rgba(0, 201, 167, 0.2);
+        padding-top: 18px;
+        border-top: 1px solid rgba(232, 201, 145, 0.1);
 
         .send-btn {
-          background: linear-gradient(135deg, #00c9a7 0%, #20b2aa 100%);
-          color: #fff;
+          background: linear-gradient(135deg, #d4a76a 0%, #a67c52 100%);
+          color: #1a0f00;
           border: none;
-          padding: 15px 30px;
-          border-radius: 12px;
+          padding: 13px 32px;
+          border-radius: 14px;
           cursor: pointer;
-          font-family: "Courier New", monospace;
-          font-size: 14px;
-          font-weight: 600;
+          font-family: 'Outfit', 'Inter', sans-serif;
+          font-size: 13px;
+          font-weight: 700;
+          letter-spacing: 0.4px;
           text-transform: uppercase;
-          letter-spacing: 0.5px;
-          transition: all 0.3s ease;
-          box-shadow: 0 4px 15px rgba(0, 201, 167, 0.4);
+          transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+          box-shadow:
+            0 8px 22px rgba(166, 124, 82, 0.32),
+            inset 0 1px 0 rgba(255, 240, 210, 0.3);
 
           &:hover:not(:disabled) {
-            background: linear-gradient(135deg, #00b595 0%, #1ca89e 100%);
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0, 201, 167, 0.6);
+            box-shadow:
+              0 12px 28px rgba(212, 167, 106, 0.5),
+              inset 0 1px 0 rgba(255, 240, 210, 0.4);
           }
 
           &:disabled {
-            opacity: 0.5;
+            opacity: 0.4;
             cursor: not-allowed;
             transform: none;
-            box-shadow: 0 4px 15px rgba(0, 201, 167, 0.2);
           }
         }
       }
@@ -494,155 +378,174 @@
   }
 
   .exchange-content {
-    padding: 0 20px;
+    padding: 0;
   }
 
   .requests-list {
     .request-card {
-      background: linear-gradient(135deg, rgba(0, 201, 167, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%);
-      border: 1px solid rgba(0, 201, 167, 0.3);
-      border-radius: 16px;
-      padding: 25px;
+      background: rgba(26, 15, 6, 0.6);
+      border: 1px solid rgba(232, 201, 145, 0.1);
+      border-radius: 20px;
+      padding: 24px;
       margin-bottom: 20px;
-      backdrop-filter: blur(10px);
-      transition: all 0.3s ease;
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 
       &:hover {
         transform: translateY(-2px);
-        box-shadow: 0 8px 25px rgba(0, 201, 167, 0.2);
+        border-color: rgba(212, 167, 106, 0.3);
+        background: rgba(36, 22, 10, 0.7);
+        box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
       }
 
       &.history {
-        opacity: 0.8;
+        opacity: 0.85;
       }
 
       .request-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 18px;
+        gap: 12px;
+        flex-wrap: wrap;
 
         .user-info {
+          display: flex;
+          align-items: baseline;
+          gap: 12px;
+
           .username {
-            color: #fff;
-            font-family: "Courier New", monospace;
-            font-size: 18px;
+            color: #f0e4c9;
+            font-family: 'Outfit', 'Inter', sans-serif;
+            font-size: 16px;
             font-weight: 600;
-            margin-right: 15px;
+            letter-spacing: -0.2px;
           }
 
           .date {
-            color: rgba(255, 255, 255, 0.6);
-            font-family: "Courier New", monospace;
-            font-size: 12px;
+            color: #8a6f50;
+            font-family: 'Space Grotesk', 'Outfit', sans-serif;
+            font-size: 11px;
+            letter-spacing: 0.4px;
           }
         }
 
         .status {
-          font-family: "Courier New", monospace;
-          font-size: 14px;
-          font-weight: 600;
+          font-family: 'Space Grotesk', 'Outfit', sans-serif;
+          font-size: 11px;
+          font-weight: 700;
+          letter-spacing: 1px;
           text-transform: uppercase;
-          letter-spacing: 0.5px;
+          padding: 4px 12px;
+          border-radius: 999px;
+          background: rgba(18, 10, 5, 0.6);
+          border: 1px solid currentColor;
         }
       }
 
       .exchange-preview {
         display: grid;
         grid-template-columns: 1fr auto 1fr;
-        gap: 20px;
+        gap: 22px;
         align-items: center;
-        margin: 20px 0;
+        margin: 18px 0;
 
         .offered-section,
         .requested-section {
           h5 {
-            color: rgba(255, 255, 255, 0.8);
-            font-family: "Courier New", monospace;
-            font-size: 14px;
-            margin: 0 0 10px 0;
+            margin: 0 0 12px;
+            font-family: 'Space Grotesk', 'Outfit', sans-serif;
+            font-size: 11px;
+            font-weight: 600;
+            color: #c9a57a;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 1.4px;
           }
 
           .cards-preview {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
-
-            .preview-card {
-              transform: scale(0.7);
-              transform-origin: top left;
-            }
+            gap: 12px;
           }
         }
 
         .exchange-arrow {
-          font-size: 24px;
-          color: #00c9a7;
+          font-size: 22px;
+          color: #d4a76a;
+          font-weight: 700;
           text-align: center;
-          
+
           &.completed {
-            color: rgba(0, 201, 167, 0.6);
+            color: #a8946c;
           }
         }
       }
 
       .message {
-        background: rgba(0, 0, 0, 0.2);
-        border-radius: 8px;
-        padding: 15px;
-        margin: 15px 0;
-        border-left: 4px solid rgba(0, 201, 167, 0.5);
+        background: rgba(18, 10, 5, 0.5);
+        border-radius: 12px;
+        padding: 14px 16px;
+        margin: 14px 0;
+        border-left: 3px solid rgba(212, 167, 106, 0.4);
 
         em {
-          color: rgba(255, 255, 255, 0.8);
-          font-family: "Courier New", monospace;
-          font-size: 14px;
-          font-style: normal;
-          line-height: 1.4;
+          color: #c4a982;
+          font-size: 13px;
+          line-height: 1.5;
+          font-style: italic;
         }
       }
 
       .request-actions {
         display: flex;
-        gap: 15px;
+        gap: 12px;
         justify-content: center;
-        padding-top: 20px;
-        border-top: 1px solid rgba(0, 201, 167, 0.2);
+        padding-top: 18px;
+        border-top: 1px solid rgba(232, 201, 145, 0.1);
+        flex-wrap: wrap;
 
         button {
           padding: 10px 20px;
           border: none;
-          border-radius: 8px;
+          border-radius: 12px;
           cursor: pointer;
-          font-family: "Courier New", monospace;
+          font-family: 'Outfit', 'Inter', sans-serif;
           font-size: 12px;
-          font-weight: 600;
+          font-weight: 700;
+          letter-spacing: 0.4px;
           text-transform: uppercase;
-          letter-spacing: 0.5px;
-          transition: all 0.3s ease;
+          transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
 
           &.accept-btn {
-            background: linear-gradient(135deg, #00c9a7 0%, #20b2aa 100%);
-            color: #fff;
-            box-shadow: 0 4px 15px rgba(0, 201, 167, 0.3);
+            background: linear-gradient(135deg, #d4a76a 0%, #a67c52 100%);
+            color: #1a0f00;
+            box-shadow:
+              0 8px 22px rgba(166, 124, 82, 0.32),
+              inset 0 1px 0 rgba(255, 240, 210, 0.3);
 
             &:hover {
-              background: linear-gradient(135deg, #00b595 0%, #1ca89e 100%);
-              transform: translateY(-1px);
+              transform: translateY(-2px);
+              box-shadow:
+                0 12px 28px rgba(212, 167, 106, 0.5),
+                inset 0 1px 0 rgba(255, 240, 210, 0.4);
             }
           }
 
           &.decline-btn,
           &.cancel-btn {
-            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+            background: linear-gradient(135deg, #a63830 0%, #c84c3c 100%);
             color: #fff;
-            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+            box-shadow:
+              0 6px 18px rgba(166, 56, 48, 0.32),
+              inset 0 1px 0 rgba(255, 220, 210, 0.2);
 
             &:hover {
-              background: linear-gradient(135deg, #e55a2b 0%, #de851a 100%);
               transform: translateY(-1px);
+              box-shadow:
+                0 10px 24px rgba(200, 76, 60, 0.5),
+                inset 0 1px 0 rgba(255, 220, 210, 0.25);
             }
           }
         }
@@ -651,27 +554,32 @@
 
     .empty-state {
       text-align: center;
-      padding: 60px 20px;
-      color: rgba(255, 255, 255, 0.6);
-      font-family: "Courier New", monospace;
+      padding: 80px 20px;
 
       .empty-icon {
-        font-size: 64px;
+        font-size: 56px;
         margin-bottom: 20px;
-        opacity: 0.5;
+        line-height: 1;
+        filter: drop-shadow(0 4px 12px rgba(212, 167, 106, 0.3));
       }
 
       h3 {
-        color: rgba(255, 255, 255, 0.8);
-        font-size: 24px;
-        margin: 0 0 10px 0;
-        font-family: "Courier New", monospace;
+        font-family: 'Outfit', 'Inter', sans-serif;
+        color: #f0e4c9;
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0 0 12px;
+        letter-spacing: -0.3px;
       }
 
       p {
-        font-size: 16px;
+        color: #8a6f50;
+        font-size: 14px;
+        line-height: 1.5;
         margin: 0;
-        opacity: 0.7;
+        max-width: 420px;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
   }
@@ -679,75 +587,32 @@
 
 @media (max-width: 768px) {
   .exchange-section {
-    .new-exchange-form {
-      margin: 5px;
-      max-width: calc(100% - 10px);
-
-      .form-content {
-        padding: 15px;
-
-        .cards-selection {
-          grid-template-columns: 1fr;
-          gap: 20px;
-          overflow-x: hidden;
-        }
-      }
+    .exchange-tabs .tab-btn {
+      padding: 10px 12px;
+      font-size: 12px;
     }
 
-    .exchange-content {
-      padding: 0 10px;
+    .requests-list .request-card .exchange-preview {
+      grid-template-columns: 1fr;
+      gap: 16px;
+      text-align: center;
+
+      .exchange-arrow { transform: rotate(90deg); }
+
+      .cards-preview { justify-content: center; }
     }
 
-    .requests-list {
-      .request-card {
-        padding: 20px;
+    .request-actions {
+      flex-direction: column;
 
-        .exchange-preview {
-          grid-template-columns: 1fr;
-          gap: 15px;
-          text-align: center;
-
-          .exchange-arrow {
-            transform: rotate(90deg);
-          }
-        }
-
-        .request-actions {
-          flex-direction: column;
-          gap: 10px;
-
-          button {
-            width: 100%;
-          }
-        }
-      }
+      button { width: 100%; }
     }
   }
 }
 
 @media (max-width: 480px) {
-  .exchange-section {
-    .exchange-tabs {
-      margin: 20px 0;
-
-      .tab-btn {
-        padding: 10px 12px;
-        font-size: 11px;
-      }
-    }
-
-    .requests-list {
-      .request-card {
-        .exchange-preview {
-          .cards-preview {
-            justify-content: center;
-
-            .preview-card {
-              transform: scale(0.6);
-            }
-          }
-        }
-      }
-    }
+  .exchange-section .exchange-tabs .tab-btn {
+    padding: 9px 8px;
+    font-size: 11px;
   }
 }
