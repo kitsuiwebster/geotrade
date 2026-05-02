@@ -11,25 +11,30 @@ import glob
 # Essayer différentes méthodes pour le support AVIF
 AVIF_SUPPORT = False
 
-# Méthode 1: pillow-heif
+# Méthode 1: pillow-heif (HEIF/HEIC + AVIF si version >= 0.10)
 try:
-    from pillow_heif import register_heif_opener
-    register_heif_opener()
-    AVIF_SUPPORT = True
-    print("✅ Support AVIF activé via pillow-heif")
+    import pillow_heif
+    pillow_heif.register_heif_opener()
+    if hasattr(pillow_heif, "register_avif_opener"):
+        pillow_heif.register_avif_opener()
+        AVIF_SUPPORT = True
+        print("✅ Support AVIF activé via pillow-heif")
+    else:
+        print("ℹ️  pillow-heif < 0.10 : HEIF activé mais pas AVIF (mettez à jour avec pip install --upgrade pillow-heif)")
 except ImportError:
     pass
 
-# Méthode 2: Test natif Pillow
+# Méthode 2: pillow-avif-plugin (fallback dédié AVIF)
 if not AVIF_SUPPORT:
     try:
-        from PIL import Image
-        # Test simple de lecture AVIF
-        Image.open
+        import pillow_avif  # noqa: F401  l'import enregistre le plugin automatiquement
         AVIF_SUPPORT = True
-        print("✅ Support AVIF natif détecté")
-    except:
-        print("⚠️  Aucun support AVIF trouvé. Essayez: pip install pillow-heif")
+        print("✅ Support AVIF activé via pillow-avif-plugin")
+    except ImportError:
+        pass
+
+if not AVIF_SUPPORT:
+    print("⚠️  Aucun support AVIF trouvé. Essayez: pip install --upgrade pillow-heif  (ou pip install pillow-avif-plugin)")
 
 def convert_images_to_jpg(input_dir="./temp"):
     """
