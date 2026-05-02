@@ -2,7 +2,7 @@ import { Card } from '../../interfaces/card.interface';
 
 export const mexicoStatesData: Card[] = [
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/aguascalientes.jpg",
     nom: "Aguascalientes",
     localisation: "Mexico",
@@ -13,7 +13,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/baja-california.jpg",
     nom: "Baja California",
     localisation: "Mexico",
@@ -24,7 +24,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/baja-california-sur.jpg",
     nom: "Baja California Sur",
     localisation: "Mexico",
@@ -35,7 +35,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/campeche.jpg",
     nom: "Campeche",
     localisation: "Mexico",
@@ -46,7 +46,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/chiapas.jpg",
     nom: "Chiapas",
     localisation: "Mexico",
@@ -57,7 +57,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/chihuahua.jpg",
     nom: "Chihuahua",
     localisation: "Mexico",
@@ -68,7 +68,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/coahuila.jpg",
     nom: "Coahuila",
     localisation: "Mexico",
@@ -79,7 +79,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/colima.jpg",
     nom: "Colima",
     localisation: "Mexico",
@@ -90,7 +90,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/durango.jpg",
     nom: "Durango",
     localisation: "Mexico",
@@ -101,7 +101,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/guanajuato.jpg",
     nom: "Guanajuato",
     localisation: "Mexico",
@@ -112,7 +112,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/guerrero.jpg",
     nom: "Guerrero",
     localisation: "Mexico",
@@ -123,7 +123,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/hidalgo.jpg",
     nom: "Hidalgo",
     localisation: "Mexico",
@@ -134,7 +134,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/jalisco.jpg",
     nom: "Jalisco",
     localisation: "Mexico",
@@ -145,7 +145,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/mexico-state.jpg",
     nom: "Mexico State",
     localisation: "Mexico",
@@ -156,7 +156,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/michoacan.jpg",
     nom: "Michoacán",
     localisation: "Mexico",
@@ -167,7 +167,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/morelos.jpg",
     nom: "Morelos",
     localisation: "Mexico",
@@ -178,7 +178,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/nayarit.jpg",
     nom: "Nayarit",
     localisation: "Mexico",
@@ -189,7 +189,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/nuevo-leon.jpg",
     nom: "Nuevo León",
     localisation: "Mexico",
@@ -200,7 +200,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/oaxaca.jpg",
     nom: "Oaxaca",
     localisation: "Mexico",
@@ -211,7 +211,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/puebla.jpg",
     nom: "Puebla",
     localisation: "Mexico",
@@ -222,7 +222,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/queretaro.jpg",
     nom: "Querétaro",
     localisation: "Mexico",
@@ -233,7 +233,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/quintana-roo.jpg",
     nom: "Quintana Roo",
     localisation: "Mexico",
@@ -244,7 +244,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/san-luis-potosi.jpg",
     nom: "San Luis Potosí",
     localisation: "Mexico",
@@ -255,7 +255,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/sinaloa.jpg",
     nom: "Sinaloa",
     localisation: "Mexico",
@@ -266,7 +266,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/sonora.jpg",
     nom: "Sonora",
     localisation: "Mexico",
@@ -277,7 +277,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/tabasco.jpg",
     nom: "Tabasco",
     localisation: "Mexico",
@@ -288,7 +288,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/tamaulipas.jpg",
     nom: "Tamaulipas",
     localisation: "Mexico",
@@ -299,7 +299,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/tlaxcala.jpg",
     nom: "Tlaxcala",
     localisation: "Mexico",
@@ -310,7 +310,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/veracruz.jpg",
     nom: "Veracruz",
     localisation: "Mexico",
@@ -321,7 +321,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/yucatan.jpg",
     nom: "Yucatán",
     localisation: "Mexico",
@@ -332,7 +332,7 @@ export const mexicoStatesData: Card[] = [
     quizCategory: ["Mexico", "North America", "General"]
   },
   {
-    type: "MX State",
+    type: "State",
     image: "assets/images/cards/region/mexico/zacatecas.jpg",
     nom: "Zacatecas",
     localisation: "Mexico",

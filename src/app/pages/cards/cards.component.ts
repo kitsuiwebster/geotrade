@@ -54,9 +54,11 @@ export class CardsComponent implements OnInit, AfterViewInit {
   
   // Define all regional types
   private regionalTypes = [
-    'US State', 'CA Province', 'CA Territory', 'Wilaya', 'AU State', 'AU Territory', 
-    'Region', 'Prefecture', 'Republic', 'Krai', 'Oblast', 'Federal City', 
-    'Autonomous Okrug', 'Autonomous Oblast'
+    'CA Province', 'CA Territory', 'Wilaya', 'AU Territory',
+    'Region', 'Prefecture', 'Republic', 'Krai', 'Oblast', 'Federal City',
+    'Autonomous Okrug', 'Autonomous Oblast', 'State', 'Province', 'Federal District',
+    'Federal Capital Territory', 'Municipality', 'Autonomous Region',
+    'County', 'District'
   ];
   
   private isRegionalCard(card: Card): boolean {

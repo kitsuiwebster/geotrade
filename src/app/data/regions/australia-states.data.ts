@@ -2,7 +2,7 @@ import { Card } from '../../interfaces/card.interface';
 
 export const australiaStatesData: Card[] = [
   {
-    type: "AU State",
+    type: "State",
     image: "assets/images/cards/region/australia/new-south-wales.jpg",
     nom: "New South Wales",
     localisation: "Australia",
@@ -13,7 +13,7 @@ export const australiaStatesData: Card[] = [
     quizCategory: ["Australia", "Oceania", "General"]
   },
   {
-    type: "AU State",
+    type: "State",
     image: "assets/images/cards/region/australia/victoria.jpg",
     nom: "Victoria",
     localisation: "Australia",
@@ -24,7 +24,7 @@ export const australiaStatesData: Card[] = [
     quizCategory: ["Australia", "Oceania", "General"]
   },
   {
-    type: "AU State",
+    type: "State",
     image: "assets/images/cards/region/australia/queensland.jpg",
     nom: "Queensland",
     localisation: "Australia",
@@ -35,7 +35,7 @@ export const australiaStatesData: Card[] = [
     quizCategory: ["Australia", "Oceania", "General"]
   },
   {
-    type: "AU State",
+    type: "State",
     image: "assets/images/cards/region/australia/western-australia.jpg",
     nom: "Western Australia",
     localisation: "Australia",
@@ -46,7 +46,7 @@ export const australiaStatesData: Card[] = [
     quizCategory: ["Australia", "Oceania", "General"]
   },
   {
-    type: "AU State",
+    type: "State",
     image: "assets/images/cards/region/australia/south-australia.jpg",
     nom: "South Australia",
     localisation: "Australia",
@@ -57,7 +57,7 @@ export const australiaStatesData: Card[] = [
     quizCategory: ["Australia", "Oceania", "General"]
   },
   {
-    type: "AU State",
+    type: "State",
     image: "assets/images/cards/region/australia/tasmania.jpg",
     nom: "Tasmania",
     localisation: "Australia",

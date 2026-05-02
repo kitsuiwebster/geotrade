@@ -1,8 +1,8 @@
 export interface Card {
-  type: 'Country' | 'City' | 'Territory' | 'Mountain' | 'Lake' | 'Sea' | 'Ocean' | 'River' | 'Desert' | 'Island' | 'Archipelago' | 
-        'US State' | 'CA Province' | 'CA Territory' | 'Wilaya' | 'AU State' | 'AU Territory' | 'Region' | 'Prefecture' | 
-        'Republic' | 'Krai' | 'Oblast' | 'Federal City' | 'Autonomous Okrug' | 'Autonomous Oblast' | 
-        'State' | 'Province' | 'Federal District' | 'Federal Capital Territory' | 'Municipality' | 'Autonomous Region' | 'MX State' | 
+  type: 'Country' | 'City' | 'Territory' | 'Mountain' | 'Lake' | 'Sea' | 'Ocean' | 'River' | 'Desert' | 'Island' | 'Archipelago' |
+        'CA Province' | 'CA Territory' | 'Wilaya' | 'AU Territory' | 'Region' | 'Prefecture' |
+        'Republic' | 'Krai' | 'Oblast' | 'Federal City' | 'Autonomous Okrug' | 'Autonomous Oblast' |
+        'State' | 'Province' | 'Federal District' | 'Federal Capital Territory' | 'Municipality' | 'Autonomous Region' |
         'County' | 'District';
   image: string;
   nom: string;

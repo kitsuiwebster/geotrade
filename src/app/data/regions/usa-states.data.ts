@@ -2,7 +2,7 @@ import { Card } from '../../interfaces/card.interface';
 
 export const usaStatesData: Card[] = [
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/alabama.jpg",
     nom: "Alabama",
     localisation: "United States",
@@ -13,7 +13,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/alaska.jpg",
     nom: "Alaska",
     localisation: "United States",
@@ -24,7 +24,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/arizona.jpg",
     nom: "Arizona",
     localisation: "United States",
@@ -35,7 +35,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/arkansas.jpg",
     nom: "Arkansas",
     localisation: "United States",
@@ -46,7 +46,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/california.jpg",
     nom: "California",
     localisation: "United States",
@@ -57,7 +57,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/colorado.jpg",
     nom: "Colorado",
     localisation: "United States",
@@ -68,7 +68,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/connecticut.jpg",
     nom: "Connecticut",
     localisation: "United States",
@@ -79,7 +79,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/delaware.jpg",
     nom: "Delaware",
     localisation: "United States",
@@ -90,7 +90,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/florida.jpg",
     nom: "Florida",
     localisation: "United States",
@@ -101,7 +101,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/georgia.jpg",
     nom: "Georgia",
     localisation: "United States",
@@ -112,7 +112,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/hawaii.jpg",
     nom: "Hawaii",
     localisation: "United States",
@@ -123,7 +123,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/idaho.jpg",
     nom: "Idaho",
     localisation: "United States",
@@ -134,7 +134,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/illinois.jpg",
     nom: "Illinois",
     localisation: "United States",
@@ -145,7 +145,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/indiana.jpg",
     nom: "Indiana",
     localisation: "United States",
@@ -156,7 +156,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/iowa.jpg",
     nom: "Iowa",
     localisation: "United States",
@@ -167,7 +167,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/kansas.jpg",
     nom: "Kansas",
     localisation: "United States",
@@ -178,7 +178,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/kentucky.jpg",
     nom: "Kentucky",
     localisation: "United States",
@@ -189,7 +189,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/louisiana.jpg",
     nom: "Louisiana",
     localisation: "United States",
@@ -200,7 +200,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/maine.jpg",
     nom: "Maine",
     localisation: "United States",
@@ -211,7 +211,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/maryland.jpg",
     nom: "Maryland",
     localisation: "United States",
@@ -222,7 +222,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/massachussetts.jpg",
     nom: "Massachusetts",
     localisation: "United States",
@@ -233,7 +233,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/michigan.jpg",
     nom: "Michigan",
     localisation: "United States",
@@ -244,7 +244,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/minnesota.jpg",
     nom: "Minnesota",
     localisation: "United States",
@@ -255,7 +255,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/mississippi.jpg",
     nom: "Mississippi",
     localisation: "United States",
@@ -266,7 +266,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/missouri.jpg",
     nom: "Missouri",
     localisation: "United States",
@@ -277,7 +277,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/montana.jpg",
     nom: "Montana",
     localisation: "United States",
@@ -288,7 +288,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/nebraska.jpg",
     nom: "Nebraska",
     localisation: "United States",
@@ -299,7 +299,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/nevada.jpg",
     nom: "Nevada",
     localisation: "United States",
@@ -310,7 +310,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/new-hampshire.jpg",
     nom: "New Hampshire",
     localisation: "United States",
@@ -321,7 +321,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/new-jersey.jpg",
     nom: "New Jersey",
     localisation: "United States",
@@ -332,7 +332,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/new-mexico.jpg",
     nom: "New Mexico",
     localisation: "United States",
@@ -343,7 +343,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/new-york.jpg",
     nom: "New York",
     localisation: "United States",
@@ -354,7 +354,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/north-carolina.jpg",
     nom: "North Carolina",
     localisation: "United States",
@@ -365,7 +365,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/north-dakota.jpg",
     nom: "North Dakota",
     localisation: "United States",
@@ -376,7 +376,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/ohio.jpg",
     nom: "Ohio",
     localisation: "United States",
@@ -387,7 +387,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/oklahoma.jpg",
     nom: "Oklahoma",
     localisation: "United States",
@@ -398,7 +398,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/oregon.jpg",
     nom: "Oregon",
     localisation: "United States",
@@ -409,7 +409,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/pennsylvania.jpg",
     nom: "Pennsylvania",
     localisation: "United States",
@@ -420,7 +420,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/rhode-island.jpg",
     nom: "Rhode Island",
     localisation: "United States",
@@ -431,7 +431,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/south-carolina.jpg",
     nom: "South Carolina",
     localisation: "United States",
@@ -442,7 +442,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/south-dakota.jpg",
     nom: "South Dakota",
     localisation: "United States",
@@ -453,7 +453,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/tennessee.jpg",
     nom: "Tennessee",
     localisation: "United States",
@@ -464,7 +464,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/texas.jpg",
     nom: "Texas",
     localisation: "United States",
@@ -475,7 +475,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/utah.jpg",
     nom: "Utah",
     localisation: "United States",
@@ -486,7 +486,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/vermont.jpg",
     nom: "Vermont",
     localisation: "United States",
@@ -497,7 +497,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/virginia.jpg",
     nom: "Virginia",
     localisation: "United States",
@@ -508,7 +508,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/washington.jpg",
     nom: "Washington",
     localisation: "United States",
@@ -519,7 +519,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/west-virginia.jpg",
     nom: "West Virginia",
     localisation: "United States",
@@ -530,7 +530,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/wisconsin.jpg",
     nom: "Wisconsin",
     localisation: "United States",
@@ -541,7 +541,7 @@ export const usaStatesData: Card[] = [
     quizCategory: ["United States", "North America", "General"]
   },
   {
-    type: "US State",
+    type: "State",
     image: "assets/images/cards/region/usa/wyoming.jpg",
     nom: "Wyoming",
     localisation: "United States",

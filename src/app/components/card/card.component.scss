@@ -229,11 +229,9 @@
     .card-rarity { color: #00FF7F !important; }
   }
 
-  &[data-type="US State"],
   &[data-type="CA Province"],
   &[data-type="CA Territory"],
   &[data-type="Wilaya"],
-  &[data-type="AU State"],
   &[data-type="AU Territory"],
   &[data-type="Region"],
   &[data-type="Prefecture"],
@@ -249,7 +247,6 @@
   &[data-type="Federal Capital Territory"],
   &[data-type="Municipality"],
   &[data-type="Autonomous Region"],
-  &[data-type="MX State"],
   &[data-type="County"],
   &[data-type="District"] {
     box-shadow:
@@ -810,11 +807,9 @@
     .modal-card-info-value { color: #00FF7F !important; }
     .modal-card-rarity { color: #00FF7F !important; }
   }
-  &[data-type="US State"],
   &[data-type="CA Province"],
   &[data-type="CA Territory"],
   &[data-type="Wilaya"],
-  &[data-type="AU State"],
   &[data-type="AU Territory"],
   &[data-type="Region"],
   &[data-type="Prefecture"],
@@ -830,7 +825,6 @@
   &[data-type="Federal Capital Territory"],
   &[data-type="Municipality"],
   &[data-type="Autonomous Region"],
-  &[data-type="MX State"],
   &[data-type="County"],
   &[data-type="District"] {
     box-shadow: 0 30px 80px rgba(245, 73, 39, 0.32);
@@ -897,11 +891,9 @@
   &[data-type="Territory"] { border: 6px solid #DDA0DD !important; }
   &[data-type="Archipelago"] { border: 6px solid #00FF7F !important; }
 
-  &[data-type="US State"],
   &[data-type="CA Province"],
   &[data-type="CA Territory"],
   &[data-type="Wilaya"],
-  &[data-type="AU State"],
   &[data-type="AU Territory"],
   &[data-type="Region"],
   &[data-type="Prefecture"],
@@ -917,7 +909,6 @@
   &[data-type="Federal Capital Territory"],
   &[data-type="Municipality"],
   &[data-type="Autonomous Region"],
-  &[data-type="MX State"],
   &[data-type="County"],
   &[data-type="District"] {
     border: 6px solid #F54927 !important;

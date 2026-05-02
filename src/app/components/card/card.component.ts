@@ -217,14 +217,14 @@ export class CardComponent implements OnInit, OnDestroy {
 
 
   getFlagUrl(): string | null {
-    if (this.card.type === 'Country' || this.card.type === 'City' || this.card.type === 'Territory' || 
-        this.card.type === 'US State' || this.card.type === 'CA Province' || this.card.type === 'CA Territory' ||
-        this.card.type === 'Region' || this.card.type === 'Wilaya' || this.card.type === 'AU State' || 
-        this.card.type === 'AU Territory' || this.card.type === 'Prefecture' || this.card.type === 'Republic' || this.card.type === 'Krai' || 
-        this.card.type === 'Oblast' || this.card.type === 'Federal City' || this.card.type === 'Autonomous Okrug' || 
-        this.card.type === 'Autonomous Oblast' || this.card.type === 'State' || this.card.type === 'Province' || 
-        this.card.type === 'Federal District' || this.card.type === 'Federal Capital Territory' || 
-        this.card.type === 'Municipality' || this.card.type === 'Autonomous Region' || this.card.type === 'MX State' ||
+    if (this.card.type === 'Country' || this.card.type === 'City' || this.card.type === 'Territory' ||
+        this.card.type === 'CA Province' || this.card.type === 'CA Territory' ||
+        this.card.type === 'Region' || this.card.type === 'Wilaya' ||
+        this.card.type === 'AU Territory' || this.card.type === 'Prefecture' || this.card.type === 'Republic' || this.card.type === 'Krai' ||
+        this.card.type === 'Oblast' || this.card.type === 'Federal City' || this.card.type === 'Autonomous Okrug' ||
+        this.card.type === 'Autonomous Oblast' || this.card.type === 'State' || this.card.type === 'Province' ||
+        this.card.type === 'Federal District' || this.card.type === 'Federal Capital Territory' ||
+        this.card.type === 'Municipality' || this.card.type === 'Autonomous Region' ||
         this.card.type === 'County' || this.card.type === 'District') {
       // Mapping des noms vers les codes pays pour les drapeaux
       const countryMapping: { [key: string]: string } = {
@@ -984,14 +984,14 @@ export class CardComponent implements OnInit, OnDestroy {
       
       // Pour les cartes régionales, utiliser le pays parent (localisation)
       let lookupKey = this.card.nom;
-      if (this.card.type === 'US State' || this.card.type === 'CA Province' || this.card.type === 'CA Territory' ||
-          this.card.type === 'Region' || this.card.type === 'Wilaya' || this.card.type === 'AU State' || 
-          this.card.type === 'AU Territory' || this.card.type === 'Prefecture' || this.card.type === 'Republic' || this.card.type === 'Krai' || 
-          this.card.type === 'Oblast' || this.card.type === 'Federal City' || this.card.type === 'Autonomous Okrug' || 
-          this.card.type === 'Autonomous Oblast' || this.card.type === 'State' || this.card.type === 'Province' || 
-          this.card.type === 'Federal District' || this.card.type === 'Federal Capital Territory' || 
-        this.card.type === 'Municipality' || this.card.type === 'Autonomous Region' || this.card.type === 'MX State' ||
-        this.card.type === 'County' || this.card.type === 'District') {
+      if (this.card.type === 'CA Province' || this.card.type === 'CA Territory' ||
+          this.card.type === 'Region' || this.card.type === 'Wilaya' ||
+          this.card.type === 'AU Territory' || this.card.type === 'Prefecture' || this.card.type === 'Republic' || this.card.type === 'Krai' ||
+          this.card.type === 'Oblast' || this.card.type === 'Federal City' || this.card.type === 'Autonomous Okrug' ||
+          this.card.type === 'Autonomous Oblast' || this.card.type === 'State' || this.card.type === 'Province' ||
+          this.card.type === 'Federal District' || this.card.type === 'Federal Capital Territory' ||
+          this.card.type === 'Municipality' || this.card.type === 'Autonomous Region' ||
+          this.card.type === 'County' || this.card.type === 'District') {
         lookupKey = this.card.localisation;
       }
       
