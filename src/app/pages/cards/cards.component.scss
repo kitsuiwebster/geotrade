@@ -27,14 +27,27 @@
 
     .header-title {
       margin: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
       font-family: 'Outfit', 'Inter', sans-serif;
       font-size: 24px;
       font-weight: 700;
       letter-spacing: -0.5px;
-      background: linear-gradient(135deg, #f4e4c1 0%, #d4a76a 50%, #a67c52 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+
+      .brand-icon {
+        width: 30px;
+        height: 30px;
+        flex-shrink: 0;
+        filter: drop-shadow(0 4px 12px rgba(212, 167, 106, 0.35));
+      }
+
+      .brand-text {
+        background: linear-gradient(135deg, #f4e4c1 0%, #d4a76a 50%, #a67c52 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
     }
 
     .buttons-container {
