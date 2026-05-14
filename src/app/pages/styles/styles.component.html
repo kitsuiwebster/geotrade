@@ -1,0 +1,82 @@
+<div class="styles-container">
+  <div class="header">
+    <h1 class="header-title">
+      <img class="brand-icon" src="assets/favicon.png" alt="" />
+      <span class="brand-text">GeoTrade</span>
+    </h1>
+    <div class="buttons-container">
+      <div class="card-count">{{ filtered.length }} image{{ filtered.length === 1 ? '' : 's' }}</div>
+    </div>
+  </div>
+
+  <app-navbar></app-navbar>
+
+  <div class="main-content">
+    <div class="styles-section">
+      <div class="section-header">
+        <h2 class="section-title">Style Explorer</h2>
+        <p class="section-subtitle">50 rendus test — 10 styles × 5 lieux</p>
+      </div>
+
+      <div class="filters">
+        <div class="filter-row">
+          <span class="filter-label">Lieu</span>
+          <div class="pills">
+            <button class="pill" [class.active]="selectedLocation === 'all'" (click)="selectedLocation = 'all'">Tous</button>
+            <button
+              *ngFor="let loc of locations"
+              class="pill"
+              [class.active]="selectedLocation === loc.id"
+              (click)="selectedLocation = loc.id">
+              {{ loc.label }}
+            </button>
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <span class="filter-label">Style</span>
+          <div class="pills">
+            <button class="pill" [class.active]="selectedStyle === 'all'" (click)="selectedStyle = 'all'">Tous</button>
+            <button
+              *ngFor="let sty of styles"
+              class="pill"
+              [class.active]="selectedStyle === sty.id"
+              (click)="selectedStyle = sty.id">
+              {{ sty.label }}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-grid">
+        <div
+          *ngFor="let img of filtered"
+          class="image-card"
+          (click)="openLightbox(img)">
+          <div class="image-wrapper">
+            <img [src]="img.path" [alt]="img.styleLabel + ' - ' + img.locationLabel" loading="lazy" />
+          </div>
+          <div class="image-meta">
+            <span class="meta-style">{{ img.styleLabel }}</span>
+            <span class="meta-dot">·</span>
+            <span class="meta-location">{{ img.locationLabel }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
+</div>
+
+<div class="lightbox" *ngIf="lightboxImage" (click)="closeLightbox()">
+  <div class="lightbox-inner" (click)="$event.stopPropagation()">
+    <button class="lightbox-close" (click)="closeLightbox()">✕</button>
+    <img [src]="lightboxImage.path" [alt]="lightboxImage.styleLabel" />
+    <div class="lightbox-caption">
+      <span class="meta-style">{{ lightboxImage.styleLabel }}</span>
+      <span class="meta-dot">·</span>
+      <span class="meta-location">{{ lightboxImage.locationLabel }}</span>
+    </div>
+  </div>
+</div>

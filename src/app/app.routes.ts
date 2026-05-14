@@ -15,5 +15,6 @@ export const routes: Routes = [
   { path: 'account', canActivate: [authGuard], loadComponent: () => import('./pages/account/account.component').then(m => m.AccountComponent) },
   { path: 'friends', canActivate: [authGuard], loadComponent: () => import('./pages/friends/friends.component').then(m => m.FriendsComponent) },
   { path: 'user/:id', loadComponent: () => import('./pages/user-profile/user-profile.component').then(m => m.UserProfileComponent) },
+  { path: 'styles', loadComponent: () => import('./pages/styles/styles.component').then(m => m.StylesComponent) },
   { path: 'cards', redirectTo: '/all-cards', pathMatch: 'full' }
 ];
