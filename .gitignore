@@ -42,6 +42,7 @@ testem.log
 Thumbs.db
 temp
 yarn.lock
+package-lock.json
 
 # img2img generated outputs
 img2img/test_output/
