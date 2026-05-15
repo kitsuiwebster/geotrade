@@ -1,0 +1,20 @@
+{
+  "paris": "Terrain: City with lots of buildings\nSpecific plants in foreground: Trees with green leaves and brown trunks\nSpecific plants in background: Row of red flowers on side of building\nWater features: No water features present\nLighting: Sun shining over the city",
+  "canary-islands": "Terrain: Mountainous\nSpecific plants in foreground: Palm trees\nSpecific plants in background: Eucalyptus and palm trees near mountains\nWater features: No water features visible\nLighting: Sunset\nBuildings present: No buildings",
+  "atlanta": "Miami skyline with a Ferris wheel in the center and tall skyscrapers around it.\nFerris wheel\nTall buildings\nWhite clouds in blue sky\nThe sky is blue.",
+  "mediterranean": "foreground: trees, rocks, cliff\nbackground: trees, rocks, hills\nwater features: sandy beach, small rocky inlets, calm blue water\nlighting: bright blue sky\nno buildings: yes",
+  "vinson": "mountain range, icebergs in the water, no buildings, blue sky above, white clouds at horizon",
+  "kalahari": "Terrain: desert plain\nPlants in Foreground: red sand dunes\nPlants in Background: green trees\nBuildings Present: no\nWater Features: no water visible\nLighting: bright blue sky",
+  "pacific": "Terrain: Beach \nSpecific plants in foreground: Sand dunes \nSpecific plants in background: Seaweed and small shrubs \nWater features: Waves crashing on shore \nLighting: Bright blue sky and hazy horizon \nno buildings",
+  "superior": "Terrain: rocky shore with rocks and water\nSpecific plants in foreground: grasses and shrubs\nSpecific plants in background: trees and bushes\nWater features: waves crashing against rocks and a flowing waterfall\nLighting: pale blue sky, sunset glow",
+  "rio-grande": "Terrain: Desert landscape with mountains in the distance\nSpecific plants in foreground: Cactus trees and shrubs\nSpecific plants in background: Shrubs and bushes\nWater features: Winding river or stream\nLighting: Sun setting, painted sky",
+  "senja": "1. cliff, grass, rocks\n2. moss and ferns in front of cliff\n3. shrubs and grass on top of the mountain\n4. no buildings or structures visible\n5. deep blue water below cliffs\n6. orange sky from sunset",
+  "santorini": "Skyline of the white village with a green dome building. No trees visible in front and behind village. The dusk sky is pinkish orange above sea water. There are many small lights on in houses.",
+  "honshu": "Terrain: Hillside with building on top of hill\nPlants in Foreground: Red bushes and trees\nPlants in Background: Green trees and red foliage\nBuildings Present: No\nWater Features: Waterfall running under the bridge\nLighting: Bright blue sky above",
+  "hokkaido": "Terrain: Mountain range with snow caps and a valley in the distance\nSpecific plants in foreground: Pink and white tulips\nSpecific plants in background: Red, yellow, green, purple, orange flowers arranged by rows (color gradient)\nLighting: Bright blue sky",
+  "manhattan": "Terrain: Cityscape, Buildings present, Water features: River and Lake, Lighting: Daytime",
+  "hong-kong": "* city skyline with tall building and Ferris wheel\n* mountains in the distance\n* boat on water with red sail\n* lights shining from buildings\n* dark blue sky at night",
+  "aruba": "Terrain: beach \nSpecific plants in foreground: flamingos \nSpecific plants in background: palm trees \nBuildings present: no",
+  "palau": "Terrain: island chain, lake, ocean\nSpecific plants in foreground: trees, bushes, palm trees\nSpecific plants in background: tropical plants, dark green foliage\nWater features: calm blue waters, tides coming in and going out\nLighting: dusk with warm orange glow on horizon",
+  "armenia": "Mountainous terrain with a castle perched on the cliff\nSagebrush in the distance and wildflowers in the foreground\nNo buildings present\nA valley below can be seen\nWarm lighting from sunset hues\nOrange sky"
+}
