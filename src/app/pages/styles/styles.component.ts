@@ -3,12 +3,13 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from '../../components/navbar/navbar.component';
 import { FooterComponent } from '../../components/footer/footer.component';
 
-interface StyleImage {
+interface StylePair {
   location: string;
   locationLabel: string;
   style: string;
   styleLabel: string;
-  path: string;
+  originalPath: string;
+  styledPath: string;
 }
 
 const LOCATIONS: { id: string; label: string }[] = [
@@ -33,7 +34,6 @@ const LOCATIONS: { id: string; label: string }[] = [
 ];
 
 const STYLES: { id: string; label: string }[] = [
-  { id: '00_original', label: 'Original' },
   { id: '01_ink_watercolor', label: 'Ink Watercolor' },
   { id: '02_oil_painting', label: 'Oil Painting' },
   { id: '03_concept_art', label: 'Concept Art' },
@@ -59,31 +59,32 @@ export class StylesComponent {
 
   selectedLocation = 'all';
   selectedStyle = 'all';
-  lightboxImage: StyleImage | null = null;
+  lightboxPair: StylePair | null = null;
 
-  readonly images: StyleImage[] = LOCATIONS.flatMap(loc =>
+  readonly pairs: StylePair[] = LOCATIONS.flatMap(loc =>
     STYLES.map(sty => ({
       location: loc.id,
       locationLabel: loc.label,
       style: sty.id,
       styleLabel: sty.label,
-      path: `assets/styles-test/${loc.id}/${sty.id}.jpg`,
+      originalPath: `assets/styles-test/${loc.id}/00_original.jpg`,
+      styledPath: `assets/styles-test/${loc.id}/${sty.id}.jpg`,
     }))
   );
 
-  get filtered(): StyleImage[] {
-    return this.images.filter(img => {
-      const locMatch = this.selectedLocation === 'all' || img.location === this.selectedLocation;
-      const styMatch = this.selectedStyle === 'all' || img.style === this.selectedStyle;
+  get filtered(): StylePair[] {
+    return this.pairs.filter(pair => {
+      const locMatch = this.selectedLocation === 'all' || pair.location === this.selectedLocation;
+      const styMatch = this.selectedStyle === 'all' || pair.style === this.selectedStyle;
       return locMatch && styMatch;
     });
   }
 
-  openLightbox(img: StyleImage): void {
-    this.lightboxImage = img;
+  openLightbox(pair: StylePair): void {
+    this.lightboxPair = pair;
   }
 
   closeLightbox(): void {
-    this.lightboxImage = null;
+    this.lightboxPair = null;
   }
 }

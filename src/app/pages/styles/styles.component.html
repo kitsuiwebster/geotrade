@@ -4,9 +4,6 @@
       <img class="brand-icon" src="assets/favicon.png" alt="" />
       <span class="brand-text">GeoTrade</span>
     </h1>
-    <div class="buttons-container">
-      <div class="card-count">{{ filtered.length }} image{{ filtered.length === 1 ? '' : 's' }}</div>
-    </div>
   </div>
 
   <app-navbar></app-navbar>
@@ -15,7 +12,7 @@
     <div class="styles-section">
       <div class="section-header">
         <h2 class="section-title">Style Explorer</h2>
-        <p class="section-subtitle">{{ filtered.length }} image{{ filtered.length === 1 ? '' : 's' }}</p>
+        <p class="section-subtitle">{{ filtered.length }} comparaison{{ filtered.length === 1 ? '' : 's' }}</p>
       </div>
 
       <div class="filters">
@@ -50,16 +47,23 @@
 
       <div class="image-grid">
         <div
-          *ngFor="let img of filtered"
+          *ngFor="let pair of filtered"
           class="image-card"
-          (click)="openLightbox(img)">
-          <div class="image-wrapper">
-            <img [src]="img.path" [alt]="img.styleLabel + ' - ' + img.locationLabel" loading="lazy" />
+          (click)="openLightbox(pair)">
+          <div class="comparison-wrapper">
+            <div class="image-wrapper">
+              <span class="img-label">Original</span>
+              <img [src]="pair.originalPath" [alt]="'Original — ' + pair.locationLabel" loading="lazy" />
+            </div>
+            <div class="image-wrapper">
+              <span class="img-label">{{ pair.styleLabel }}</span>
+              <img [src]="pair.styledPath" [alt]="pair.styleLabel + ' — ' + pair.locationLabel" loading="lazy" />
+            </div>
           </div>
           <div class="image-meta">
-            <span class="meta-style">{{ img.styleLabel }}</span>
+            <span class="meta-style">{{ pair.styleLabel }}</span>
             <span class="meta-dot">·</span>
-            <span class="meta-location">{{ img.locationLabel }}</span>
+            <span class="meta-location">{{ pair.locationLabel }}</span>
           </div>
         </div>
       </div>
@@ -69,14 +73,23 @@
   <app-footer></app-footer>
 </div>
 
-<div class="lightbox" *ngIf="lightboxImage" (click)="closeLightbox()">
+<div class="lightbox" *ngIf="lightboxPair" (click)="closeLightbox()">
   <div class="lightbox-inner" (click)="$event.stopPropagation()">
     <button class="lightbox-close" (click)="closeLightbox()">✕</button>
-    <img [src]="lightboxImage.path" [alt]="lightboxImage.styleLabel" />
+    <div class="lightbox-comparison">
+      <div class="lightbox-image-wrapper">
+        <span class="lightbox-img-label">Original</span>
+        <img [src]="lightboxPair.originalPath" [alt]="'Original — ' + lightboxPair.locationLabel" />
+      </div>
+      <div class="lightbox-image-wrapper">
+        <span class="lightbox-img-label">{{ lightboxPair.styleLabel }}</span>
+        <img [src]="lightboxPair.styledPath" [alt]="lightboxPair.styleLabel" />
+      </div>
+    </div>
     <div class="lightbox-caption">
-      <span class="meta-style">{{ lightboxImage.styleLabel }}</span>
+      <span class="meta-style">{{ lightboxPair.styleLabel }}</span>
       <span class="meta-dot">·</span>
-      <span class="meta-location">{{ lightboxImage.locationLabel }}</span>
+      <span class="meta-location">{{ lightboxPair.locationLabel }}</span>
     </div>
   </div>
 </div>
