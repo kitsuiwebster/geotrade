@@ -42,3 +42,9 @@ testem.log
 Thumbs.db
 temp
 yarn.lock
+
+# img2img generated outputs
+img2img/test_output/
+
+# Claude memory
+.claude/
