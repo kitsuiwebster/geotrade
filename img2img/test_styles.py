@@ -203,15 +203,36 @@ def save_as_jpg(png_bytes: bytes, target: Path) -> None:
         img.save(target, format="JPEG", quality=JPEG_QUALITY, optimize=True)
 
 
+# (input_path, output_folder_name)
+HARDCODED_IMAGES = [
+    ("input/city/france/paris.jpg",              "paris"),
+    ("input/archipelago/canary-islands.jpg",     "canary-islands"),
+    ("input/city/united-states/atlanta.jpg",     "atlanta"),
+    ("input/sea/mediterranean.jpg",              "mediterranean"),
+    ("input/mountain/vinson.jpg",                "vinson"),
+    ("input/desert/kalahari.jpg",                "kalahari"),
+    ("input/ocean/pacific.jpg",                  "pacific"),
+    ("input/lake/superior.jpg",                  "superior"),
+    ("input/river/rio-grande.jpg",               "rio-grande"),
+    ("input/island/senja.jpg",                   "senja"),
+    ("input/island/santorini.jpg",               "santorini"),
+    ("input/island/honshu.jpg",                  "honshu"),
+    ("input/island/hokkaido.jpg",                "hokkaido"),
+    ("input/island/manhattan.jpg",               "manhattan"),
+    ("input/territory/hong-kong.jpg",            "hong-kong"),
+    ("input/territory/aruba.jpg",                "aruba"),
+    ("input/country/palau.jpg",                  "palau"),
+    ("input/country/armenie.jpg",                "armenia"),
+]
+
+
 def main() -> int:
     if len(sys.argv) >= 2:
-        image_paths = [Path(p) for p in sys.argv[1:]]
+        image_paths = [(Path(p), Path(p).stem) for p in sys.argv[1:]]
     else:
-        print("Donne au moins un chemin d'image :")
-        p = input("  Image : ").strip().strip('"')
-        image_paths = [Path(p)]
+        image_paths = [(SCRIPT_DIR / path, name) for path, name in HARDCODED_IMAGES]
 
-    for p in image_paths:
+    for p, _ in image_paths:
         if not p.exists():
             print(f"ERROR: fichier introuvable : {p}")
             return 1
@@ -225,13 +246,13 @@ def main() -> int:
         print(f"ERROR: ComfyUI inaccessible : {exc}")
         return 1
 
-    tasks = [(style, img) for style in STYLES for img in image_paths]
+    tasks = [(style, img_path, folder) for style in STYLES for img_path, folder in image_paths]
     total = len(tasks)
-    print(f"\n{total} rendus à générer ({len(STYLES)} styles × {len(image_paths)} images : {', '.join(p.stem for p in image_paths)})\n")
+    print(f"\n{total} rendus à générer ({len(STYLES)} styles × {len(image_paths)} images)\n")
 
     failed = []
-    for i, (style, img_path) in enumerate(tqdm(tasks, desc="Styles", unit="rendu"), 1):
-        target = (TEST_OUTPUT_DIR / img_path.stem / style["name"]).with_suffix(".jpg")
+    for i, (style, img_path, folder) in enumerate(tqdm(tasks, desc="Styles", unit="rendu"), 1):
+        target = (TEST_OUTPUT_DIR / folder / style["name"]).with_suffix(".jpg")
         if target.exists():
             tqdm.write(f"  skip (déjà fait) : {target.relative_to(SCRIPT_DIR)}")
             continue
@@ -246,10 +267,10 @@ def main() -> int:
             img_info = save_node["images"][0]
             png_bytes = client.fetch_image(img_info["filename"], img_info.get("subfolder", ""), img_info.get("type", "output"))
             save_as_jpg(png_bytes, target)
-            tqdm.write(f"  ✓ {style['name']} / {img_path.stem}")
+            tqdm.write(f"  ✓ {style['name']} / {folder}")
         except Exception as exc:
-            failed.append((style["name"], img_path.name, exc))
-            tqdm.write(f"  FAILED {style['name']} / {img_path.name}: {exc}")
+            failed.append((style["name"], folder, exc))
+            tqdm.write(f"  FAILED {style['name']} / {folder}: {exc}")
 
     print(f"\nRésultats dans : {TEST_OUTPUT_DIR}")
 

@@ -17,9 +17,23 @@ const LOCATIONS: { id: string; label: string }[] = [
   { id: 'atlanta', label: 'Atlanta' },
   { id: 'mediterranean', label: 'Mediterranean' },
   { id: 'vinson', label: 'Mount Vinson' },
+  { id: 'kalahari', label: 'Kalahari' },
+  { id: 'pacific', label: 'Pacific Ocean' },
+  { id: 'superior', label: 'Lake Superior' },
+  { id: 'rio-grande', label: 'Rio Grande' },
+  { id: 'senja', label: 'Senja' },
+  { id: 'santorini', label: 'Santorini' },
+  { id: 'honshu', label: 'Honshu' },
+  { id: 'hokkaido', label: 'Hokkaido' },
+  { id: 'manhattan', label: 'Manhattan' },
+  { id: 'hong-kong', label: 'Hong Kong' },
+  { id: 'aruba', label: 'Aruba' },
+  { id: 'palau', label: 'Palau' },
+  { id: 'armenia', label: 'Armenia' },
 ];
 
 const STYLES: { id: string; label: string }[] = [
+  { id: '00_original', label: 'Original' },
   { id: '01_ink_watercolor', label: 'Ink Watercolor' },
   { id: '02_oil_painting', label: 'Oil Painting' },
   { id: '03_concept_art', label: 'Concept Art' },
