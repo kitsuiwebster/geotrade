@@ -1,13 +1,17 @@
 """
-Style tester: runs 2 input images through 10 different styles and saves results
-to test_output/<style_name>/<image_name>.jpg for easy comparison.
+Style tester: runs input images through multiple styles and saves results
+to test_output/<location>/<style>.jpg for easy comparison.
+
+Automatically describes images via llava-phi3 (Ollama) before generation,
+so prompts are content-aware per image. Descriptions cached in descriptions.json.
 
 Usage:
-    python test_styles.py image_nature.jpg image_ville.jpg
-    python test_styles.py  # prompts for 2 image paths
+    python test_styles.py               # runs all HARDCODED_IMAGES
+    python test_styles.py img1.jpg img2.jpg
 """
 from __future__ import annotations
 
+import base64
 import copy
 import io
 import json
@@ -20,11 +24,27 @@ from urllib.parse import urlencode
 
 import requests
 from PIL import Image
-from tqdm import tqdm
+from rich.console import Console
+from rich.panel import Panel
+from rich.progress import (
+    BarColumn,
+    MofNCompleteColumn,
+    Progress,
+    SpinnerColumn,
+    TaskProgressColumn,
+    TextColumn,
+    TimeElapsedColumn,
+    TimeRemainingColumn,
+)
+from rich.table import Table
+from rich.text import Text
+
+console = Console()
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_WORKFLOW = SCRIPT_DIR / "workflow.json"
 TEST_OUTPUT_DIR = SCRIPT_DIR / "test_output"
+DESCRIPTIONS_FILE = SCRIPT_DIR / "descriptions.json"
 DEFAULT_SERVER = "127.0.0.1:8188"
 
 LOAD_IMAGE_NODE_ID = "10"
@@ -32,6 +52,16 @@ SEED_NODE_ID = "3"
 SAVE_IMAGE_NODE_ID = "14"
 POSITIVE_NODE_ID = "6"
 NEGATIVE_NODE_ID = "7"
+
+OLLAMA_SERVER = "http://localhost:11434"
+OLLAMA_MODEL = "llava-phi3"
+DESCRIBE_PROMPT = (
+    "Look carefully at this image and respond with comma-separated keywords only, no sentences, no labels. "
+    "Include in this exact order: terrain, specific plants in foreground, specific plants in background, "
+    "then write exactly 'no buildings' or 'buildings present', water features, lighting. "
+    "Maximum 35 words. "
+    "Example: 'desert canyon, tall saguaro cactus foreground, sparse scrub background, no buildings, winding river, golden sunset'"
+)
 
 UPLOAD_SUBFOLDER = "geotrade_test"
 POLL_INTERVAL_SECONDS = 1.0
@@ -48,97 +78,139 @@ BASE_NEGATIVE = (
 STYLES = [
     {
         "name": "01_ink_watercolor",
-        "positive": (
-            "premium hand-drawn illustration, refined ink and watercolor wash, "
-            "editorial illustration style, elegant detailed linework, "
-            "exact same colors as input, true-to-life color reproduction, "
-            "sophisticated composition, detailed textures, professional, masterpiece"
-        ),
-        "negative": BASE_NEGATIVE + ", cartoonish, amateur",
+        "positive": "ink and watercolor illustration, ink linework, watercolor wash, loose brushwork, paper texture",
+        "negative": BASE_NEGATIVE + ", digital, flat, cartoon",
     },
     {
         "name": "02_oil_painting",
-        "positive": (
-            "classical oil painting, old master technique, impasto brushstrokes, "
-            "exact same colors as input, true-to-life color reproduction, "
-            "detailed and textured, dramatic lighting, museum quality, masterpiece"
-        ),
-        "negative": BASE_NEGATIVE + ", flat, digital, cartoon, sketch, line art",
+        "positive": "oil painting, impasto brushstrokes, thick paint texture, old master, canvas texture",
+        "negative": BASE_NEGATIVE + ", flat, digital, sketch",
     },
     {
         "name": "03_concept_art",
-        "positive": (
-            "cinematic concept art, professional matte painting, atmospheric lighting, "
-            "exact same colors as input, true-to-life color reproduction, "
-            "highly detailed environment, ArtStation quality, epic composition, masterpiece"
-        ),
-        "negative": BASE_NEGATIVE + ", flat, simple, sketch, cartoonish, amateur",
+        "positive": "cinematic concept art, matte painting, atmospheric perspective, ArtStation, epic lighting",
+        "negative": BASE_NEGATIVE + ", flat, sketch, cartoon",
     },
     {
         "name": "04_impressionist",
-        "positive": (
-            "impressionist painting, Monet style, expressive thick brushstrokes, "
-            "exact same colors as input, true-to-life color reproduction, "
-            "painterly texture, lively and detailed, fine art, museum quality, masterpiece"
-        ),
-        "negative": BASE_NEGATIVE + ", flat, digital, cartoon, sketch",
+        "positive": "impressionist painting, Monet style, visible expressive brushstrokes, painterly, dappled light",
+        "negative": BASE_NEGATIVE + ", flat, digital, sharp edges",
     },
     {
         "name": "05_studio_ghibli",
-        "positive": (
-            "Studio Ghibli anime illustration style, highly detailed, "
-            "exact same colors as input, true-to-life color reproduction, "
-            "beautiful painterly background, professional animation art, masterpiece"
-        ),
-        "negative": BASE_NEGATIVE + ", simple, flat, western cartoon",
+        "positive": "Studio Ghibli anime style, hand-drawn animation cel, painterly background, soft warm colors",
+        "negative": BASE_NEGATIVE + ", western cartoon, flat, 3d",
     },
     {
         "name": "06_digital_illustration",
-        "positive": (
-            "professional digital illustration, detailed painterly style, "
-            "exact same colors as input, true-to-life color reproduction, "
-            "sharp details, editorial quality, ArtStation quality, masterpiece"
-        ),
-        "negative": BASE_NEGATIVE + ", flat, sketch, amateur, cartoon, simple",
+        "positive": "digital illustration, painterly, editorial illustration, sharp clean linework, graphic",
+        "negative": BASE_NEGATIVE + ", sketch, rough, cartoon",
     },
     {
         "name": "07_comic_art",
-        "positive": (
-            "high-end comic book illustration, detailed inking, "
-            "exact same colors as input, true-to-life color reproduction, "
-            "dynamic shading, professional graphic novel quality, masterpiece"
-        ),
-        "negative": BASE_NEGATIVE + ", simple, amateur, childish",
+        "positive": "comic book illustration, bold ink outlines, cel shading, graphic novel, halftone",
+        "negative": BASE_NEGATIVE + ", painterly, soft, amateur",
     },
     {
         "name": "08_watercolor_vivid",
-        "positive": (
-            "fine art watercolor painting, wet-on-wet technique, expressive brushwork, "
-            "exact same colors as input, true-to-life color reproduction, "
-            "detailed, professional fine art watercolor, masterpiece"
-        ),
+        "positive": "watercolor painting, wet-on-wet technique, color bleeding, translucent washes, paper grain",
         "negative": BASE_NEGATIVE + ", digital, flat, ink lines",
     },
     {
         "name": "09_vintage_travel_poster",
-        "positive": (
-            "vintage travel poster illustration, 1950s retro art style, "
-            "exact same colors as input, true-to-life color reproduction, "
-            "detailed graphic design, strong composition, highly detailed, masterpiece"
-        ),
-        "negative": BASE_NEGATIVE + ", photorealistic, noisy, modern digital",
+        "positive": "vintage travel poster, 1950s retro illustration, flat graphic design, bold colors, lithograph print",
+        "negative": BASE_NEGATIVE + ", modern, photorealistic, noisy",
     },
     {
         "name": "10_cinematic_painting",
-        "positive": (
-            "cinematic oil painting, dramatic light and shadow, "
-            "exact same colors as input, true-to-life color reproduction, "
-            "highly detailed environment, painterly texture, museum quality, masterpiece"
-        ),
-        "negative": BASE_NEGATIVE + ", flat, cartoon, sketch, amateur",
+        "positive": "cinematic painting, dramatic chiaroscuro, film lighting, painterly realism, moody atmosphere",
+        "negative": BASE_NEGATIVE + ", flat, cartoon, bright",
     },
 ]
 
+HARDCODED_IMAGES = [
+    ("input/city/france/paris.jpg",           "paris"),
+    ("input/archipelago/canary-islands.jpg",  "canary-islands"),
+    ("input/city/united-states/atlanta.jpg",  "atlanta"),
+    ("input/sea/mediterranean.jpg",           "mediterranean"),
+    ("input/mountain/vinson.jpg",             "vinson"),
+    ("input/desert/kalahari.jpg",             "kalahari"),
+    ("input/ocean/pacific.jpg",               "pacific"),
+    ("input/lake/superior.jpg",               "superior"),
+    ("input/river/rio-grande.jpg",            "rio-grande"),
+    ("input/island/senja.jpg",                "senja"),
+    ("input/island/santorini.jpg",            "santorini"),
+    ("input/island/honshu.jpg",               "honshu"),
+    ("input/island/hokkaido.jpg",             "hokkaido"),
+    ("input/island/manhattan.jpg",            "manhattan"),
+    ("input/territory/hong-kong.jpg",         "hong-kong"),
+    ("input/territory/aruba.jpg",             "aruba"),
+    ("input/country/palau.jpg",               "palau"),
+    ("input/country/armenie.jpg",             "armenia"),
+]
+
+
+# ── Vision (Ollama / llava-phi3) ──────────────────────────────────────────────
+
+def ensure_descriptions(image_paths: list[tuple[Path, str]]) -> dict[str, str]:
+    cache: dict[str, str] = {}
+    if DESCRIPTIONS_FILE.exists():
+        cache = json.loads(DESCRIPTIONS_FILE.read_text(encoding="utf-8"))
+
+    missing = [(p, name) for p, name in image_paths if name not in cache]
+    if not missing:
+        console.print(f"[dim]Descriptions : cache OK ({len(cache)} entrées)[/dim]")
+        return cache
+
+    try:
+        requests.get(f"{OLLAMA_SERVER}/api/tags", timeout=5).raise_for_status()
+    except Exception:
+        console.print("[yellow]⚠ Ollama inaccessible — génération sans description.[/yellow]")
+        return cache
+
+    console.print(Panel(
+        f"[bold cyan]llava-phi3[/bold cyan] — {len(missing)} image(s) à décrire",
+        title="[bold]Vision[/bold]", border_style="cyan"
+    ))
+
+    with Progress(
+        SpinnerColumn(),
+        TextColumn("[bold]{task.description}"),
+        BarColumn(),
+        MofNCompleteColumn(),
+        TimeElapsedColumn(),
+        console=console,
+    ) as progress:
+        task = progress.add_task("Descriptions", total=len(missing))
+        for img_path, name in missing:
+            progress.update(task, description=f"[cyan]{name}[/cyan]")
+            img_b64 = base64.b64encode(img_path.read_bytes()).decode()
+            r = requests.post(
+                f"{OLLAMA_SERVER}/api/generate",
+                json={"model": OLLAMA_MODEL, "prompt": DESCRIBE_PROMPT, "images": [img_b64], "stream": False},
+                timeout=120,
+            )
+            r.raise_for_status()
+            description = r.json()["response"].strip()
+            cache[name] = description
+            DESCRIPTIONS_FILE.write_text(
+                json.dumps(cache, indent=2, ensure_ascii=False), encoding="utf-8"
+            )
+            progress.advance(task)
+            console.print(f"  [green]✓[/green] [bold]{name}[/bold]")
+            console.print(f"    [dim]{description[:200]}[/dim]")
+
+    # Décharge llava de la VRAM avant ComfyUI
+    requests.post(
+        f"{OLLAMA_SERVER}/api/generate",
+        json={"model": OLLAMA_MODEL, "keep_alive": 0},
+        timeout=15,
+    )
+    console.print("[dim]llava-phi3 déchargé de la VRAM.[/dim]\n")
+    return cache
+
+
+# ── ComfyUI client ────────────────────────────────────────────────────────────
 
 class ComfyClient:
     def __init__(self, server: str) -> None:
@@ -177,7 +249,7 @@ class ComfyClient:
                     raise RuntimeError(f"ComfyUI error: {entry['status']}")
                 return entry["outputs"]
             time.sleep(POLL_INTERVAL_SECONDS)
-        raise TimeoutError(f"Timeout for prompt {prompt_id}")
+        raise TimeoutError(f"Timeout ({POLL_TIMEOUT_SECONDS}s)")
 
     def fetch_image(self, filename: str, subfolder: str, type_: str) -> bytes:
         params = urlencode({"filename": filename, "subfolder": subfolder, "type": type_})
@@ -186,10 +258,11 @@ class ComfyClient:
         return r.content
 
 
-def build_workflow(template: dict, server_image_ref: str, positive: str, negative: str, seed: int) -> dict:
+def build_workflow(template: dict, server_image_ref: str, positive: str, negative: str, seed: int, description: str = "") -> dict:
     wf = copy.deepcopy(template)
     wf[LOAD_IMAGE_NODE_ID]["inputs"]["image"] = server_image_ref
-    wf[POSITIVE_NODE_ID]["inputs"]["text"] = positive
+    full_positive = f"{positive}, {description}" if description else positive
+    wf[POSITIVE_NODE_ID]["inputs"]["text"] = full_positive
     wf[NEGATIVE_NODE_ID]["inputs"]["text"] = negative
     wf[SEED_NODE_ID]["inputs"]["seed"] = seed
     return wf
@@ -203,28 +276,7 @@ def save_as_jpg(png_bytes: bytes, target: Path) -> None:
         img.save(target, format="JPEG", quality=JPEG_QUALITY, optimize=True)
 
 
-# (input_path, output_folder_name)
-HARDCODED_IMAGES = [
-    ("input/city/france/paris.jpg",              "paris"),
-    ("input/archipelago/canary-islands.jpg",     "canary-islands"),
-    ("input/city/united-states/atlanta.jpg",     "atlanta"),
-    ("input/sea/mediterranean.jpg",              "mediterranean"),
-    ("input/mountain/vinson.jpg",                "vinson"),
-    ("input/desert/kalahari.jpg",                "kalahari"),
-    ("input/ocean/pacific.jpg",                  "pacific"),
-    ("input/lake/superior.jpg",                  "superior"),
-    ("input/river/rio-grande.jpg",               "rio-grande"),
-    ("input/island/senja.jpg",                   "senja"),
-    ("input/island/santorini.jpg",               "santorini"),
-    ("input/island/honshu.jpg",                  "honshu"),
-    ("input/island/hokkaido.jpg",                "hokkaido"),
-    ("input/island/manhattan.jpg",               "manhattan"),
-    ("input/territory/hong-kong.jpg",            "hong-kong"),
-    ("input/territory/aruba.jpg",                "aruba"),
-    ("input/country/palau.jpg",                  "palau"),
-    ("input/country/armenie.jpg",                "armenia"),
-]
-
+# ── Main ──────────────────────────────────────────────────────────────────────
 
 def main() -> int:
     if len(sys.argv) >= 2:
@@ -234,51 +286,114 @@ def main() -> int:
 
     for p, _ in image_paths:
         if not p.exists():
-            print(f"ERROR: fichier introuvable : {p}")
+            console.print(f"[red]✗ Fichier introuvable : {p}[/red]")
             return 1
+
+    n_images = len(image_paths)
+    n_styles = len(STYLES)
+    wf_data = json.loads(DEFAULT_WORKFLOW.read_text(encoding="utf-8"))
+    ks = wf_data["3"]["inputs"]
+    cn = wf_data["17"]["inputs"]
+    ckpt = wf_data["4"]["inputs"]["ckpt_name"]
+    config_lines = (
+        f"[bold]{n_styles} styles × {n_images} image(s)[/bold] = [bold cyan]{n_styles * n_images} rendus[/bold cyan]\n\n"
+        f"[dim]checkpoint [/dim]{ckpt}\n"
+        f"[dim]denoise    [/dim]{ks['denoise']}  [dim]cfg [/dim]{ks['cfg']}  [dim]steps [/dim]{ks['steps']}  "
+        f"[dim]sampler [/dim]{ks['sampler_name']}/{ks['scheduler']}\n"
+        f"[dim]canny      [/dim]strength {cn['strength']}  start {cn['start_percent']}  end {cn['end_percent']}"
+    )
+    console.print(Panel(config_lines, title="[bold]GeoTrade — Style Tester[/bold]", border_style="yellow"))
+
+    descriptions = ensure_descriptions(image_paths)
 
     workflow_template = json.loads(DEFAULT_WORKFLOW.read_text(encoding="utf-8"))
 
     client = ComfyClient(DEFAULT_SERVER)
     try:
         client.session.get(f"{client.base_url}/system_stats", timeout=5).raise_for_status()
+        console.print("[green]✓ ComfyUI connecté[/green]\n")
     except Exception as exc:
-        print(f"ERROR: ComfyUI inaccessible : {exc}")
+        console.print(f"[red]✗ ComfyUI inaccessible : {exc}[/red]")
         return 1
 
     tasks = [(style, img_path, folder) for style in STYLES for img_path, folder in image_paths]
-    total = len(tasks)
-    print(f"\n{total} rendus à générer ({len(STYLES)} styles × {len(image_paths)} images)\n")
+    todo = [(s, p, f) for s, p, f in tasks
+            if not (TEST_OUTPUT_DIR / f / s["name"]).with_suffix(".jpg").exists()]
+    skipped = len(tasks) - len(todo)
 
-    failed = []
-    for i, (style, img_path, folder) in enumerate(tqdm(tasks, desc="Styles", unit="rendu"), 1):
-        target = (TEST_OUTPUT_DIR / folder / style["name"]).with_suffix(".jpg")
-        if target.exists():
-            tqdm.write(f"  skip (déjà fait) : {target.relative_to(SCRIPT_DIR)}")
-            continue
-        try:
-            server_ref = client.upload_image(img_path)
-            wf = build_workflow(workflow_template, server_ref, style["positive"], style["negative"], random.randint(0, 2**31 - 1))
-            prompt_id = client.queue_prompt(wf)
-            outputs = client.wait_for_completion(prompt_id)
-            save_node = outputs.get(SAVE_IMAGE_NODE_ID)
-            if not save_node or not save_node.get("images"):
-                raise RuntimeError(f"Pas d'image en sortie : {outputs}")
-            img_info = save_node["images"][0]
-            png_bytes = client.fetch_image(img_info["filename"], img_info.get("subfolder", ""), img_info.get("type", "output"))
-            save_as_jpg(png_bytes, target)
-            tqdm.write(f"  ✓ {style['name']} / {folder}")
-        except Exception as exc:
-            failed.append((style["name"], folder, exc))
-            tqdm.write(f"  FAILED {style['name']} / {folder}: {exc}")
+    if skipped:
+        console.print(f"[dim]↷ {skipped} rendu(s) déjà existants — skippés[/dim]\n")
+    if not todo:
+        console.print("[green]Tout est déjà généré.[/green]")
+        return 0
 
-    print(f"\nRésultats dans : {TEST_OUTPUT_DIR}")
+    failed: list[tuple[str, str, Exception]] = []
+    done = 0
+    start_all = time.monotonic()
+
+    with Progress(
+        SpinnerColumn(),
+        TextColumn("[bold]{task.description}"),
+        BarColumn(),
+        MofNCompleteColumn(),
+        TaskProgressColumn(),
+        TimeElapsedColumn(),
+        TimeRemainingColumn(),
+        console=console,
+    ) as progress:
+        task = progress.add_task(f"Génération", total=len(todo))
+
+        for style, img_path, folder in todo:
+            label = f"[cyan]{style['name']}[/cyan] / [bold]{folder}[/bold]"
+            progress.update(task, description=label)
+            target = (TEST_OUTPUT_DIR / folder / style["name"]).with_suffix(".jpg")
+            t0 = time.monotonic()
+            try:
+                server_ref = client.upload_image(img_path)
+                desc = descriptions.get(folder, "")
+                full_positive = f"{desc}, {style['positive']}" if desc else style["positive"]
+                progress.print(f"    [dim]+ {full_positive}[/dim]")
+                progress.print(f"    [dim]- {style['negative']}[/dim]")
+                wf = build_workflow(workflow_template, server_ref, style["positive"], style["negative"], random.randint(0, 2**31 - 1), desc)
+                prompt_id = client.queue_prompt(wf)
+                outputs = client.wait_for_completion(prompt_id)
+                save_node = outputs.get(SAVE_IMAGE_NODE_ID)
+                if not save_node or not save_node.get("images"):
+                    raise RuntimeError(f"Pas d'image en sortie")
+                img_info = save_node["images"][0]
+                png_bytes = client.fetch_image(img_info["filename"], img_info.get("subfolder", ""), img_info.get("type", "output"))
+                save_as_jpg(png_bytes, target)
+                elapsed = time.monotonic() - t0
+                done += 1
+                progress.print(f"  [green]✓[/green] {label}  [dim]{elapsed:.0f}s[/dim]")
+            except Exception as exc:
+                elapsed = time.monotonic() - t0
+                failed.append((style["name"], folder, exc))
+                progress.print(f"  [red]✗[/red] {label}  [dim]{elapsed:.0f}s — {exc}[/dim]")
+            progress.advance(task)
+
+    total_time = time.monotonic() - start_all
+
+    # ── Résumé ────────────────────────────────────────────────────────────────
+    table = Table(title="Résumé", border_style="yellow", show_header=True)
+    table.add_column("", style="bold")
+    table.add_column("", justify="right")
+    table.add_row("[green]✓ Succès[/green]", str(done))
+    table.add_row("[dim]↷ Skippés[/dim]", str(skipped))
+    if failed:
+        table.add_row("[red]✗ Échecs[/red]", str(len(failed)))
+    table.add_row("[dim]Durée totale[/dim]", f"{total_time / 60:.1f} min")
+    if done:
+        table.add_row("[dim]Temps moyen/rendu[/dim]", f"{total_time / (done + len(failed)):.0f}s")
+    console.print(table)
 
     if failed:
-        print(f"\n{len(failed)} échec(s) :")
+        console.print("\n[red bold]Échecs :[/red bold]")
         for s, img, exc in failed:
-            print(f"  {s} / {img}: {exc}")
+            console.print(f"  [red]✗[/red] {s} / {img} — {exc}")
         return 2
+
+    console.print(f"\n[green bold]Résultats dans :[/green bold] {TEST_OUTPUT_DIR}")
     return 0
 
 

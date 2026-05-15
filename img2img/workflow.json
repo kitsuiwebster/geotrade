@@ -8,10 +8,10 @@
       "cfg": 5.0,
       "sampler_name": "dpmpp_2m",
       "scheduler": "karras",
-      "denoise": 0.6,
+      "denoise": 0.60,
       "model": ["4", 0],
-      "positive": ["20", 0],
-      "negative": ["20", 1],
+      "positive": ["17", 0],
+      "negative": ["17", 1],
       "latent_image": ["12", 0]
     }
   },
@@ -26,7 +26,7 @@
     "class_type": "CLIPTextEncode",
     "_meta": { "title": "Positive Prompt" },
     "inputs": {
-      "text": "premium hand-drawn illustration, refined ink and watercolor wash, editorial illustration style, elegant linework, sophisticated composition, detailed textures, artistic, professional, high-end book illustration, soft color palette, atmospheric, masterpiece",
+      "text": "placeholder",
       "clip": ["4", 1]
     }
   },
@@ -95,35 +95,6 @@
       "control_net": ["15", 0],
       "image": ["16", 0],
       "strength": 0.95,
-      "start_percent": 0.0,
-      "end_percent": 1.0
-    }
-  },
-  "18": {
-    "class_type": "ControlNetLoader",
-    "_meta": { "title": "Load ControlNet Depth" },
-    "inputs": {
-      "control_net_name": "controlnet-depth-sdxl.safetensors"
-    }
-  },
-  "19": {
-    "class_type": "MiDaS-DepthMapPreprocessor",
-    "_meta": { "title": "Depth Preprocessor" },
-    "inputs": {
-      "image": ["10", 0],
-      "a": 6.283185307179586,
-      "bg_threshold": 0.1
-    }
-  },
-  "20": {
-    "class_type": "ControlNetApplyAdvanced",
-    "_meta": { "title": "Apply ControlNet Depth" },
-    "inputs": {
-      "positive": ["17", 0],
-      "negative": ["17", 1],
-      "control_net": ["18", 0],
-      "image": ["19", 0],
-      "strength": 0.7,
       "start_percent": 0.0,
       "end_percent": 1.0
     }
