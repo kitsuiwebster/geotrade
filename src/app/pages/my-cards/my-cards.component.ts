@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, effect } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
@@ -8,6 +8,7 @@ import { FooterComponent } from '../../components/footer/footer.component';
 import { Card } from '../../interfaces/card.interface';
 import { allCardsData } from '../../data';
 import { SupabaseService } from '../../services/supabase.service';
+import { CardDisplayService } from '../../services/card-display.service';
 import html2canvas from 'html2canvas';
 import JSZip from 'jszip';
 
@@ -19,7 +20,16 @@ import JSZip from 'jszip';
   styleUrls: ['./my-cards.component.scss']
 })
 export class MyCardsComponent implements OnInit {
-  constructor(private supabaseService: SupabaseService) {}
+  private baseFilteredCards: Card[] = [];
+
+  constructor(private supabaseService: SupabaseService, readonly cardDisplay: CardDisplayService) {
+    effect(() => {
+      const _ = this.cardDisplay.showAiImages();
+      if (this.userCards.length > 0) {
+        this.applyAiFilter();
+      }
+    });
+  }
   userCards: Card[] = [];
   displayedCards: Card[] = [];
   
@@ -108,7 +118,16 @@ export class MyCardsComponent implements OnInit {
       });
     }
     
-    this.displayedCards = filtered;
+    this.baseFilteredCards = filtered;
+    this.applyAiFilter();
+  }
+
+  private applyAiFilter(): void {
+    if (this.cardDisplay.showAiImages()) {
+      this.displayedCards = this.baseFilteredCards.filter(card => this.cardDisplay.hasAiImage(card));
+    } else {
+      this.displayedCards = this.baseFilteredCards;
+    }
   }
   
   clearAllFilters(): void {

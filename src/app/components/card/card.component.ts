@@ -1,6 +1,7 @@
-import { Component, Input, HostListener, ElementRef, OnInit, OnDestroy } from '@angular/core';
+import { Component, Input, HostListener, ElementRef, OnInit, OnDestroy, effect } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Card } from '../../interfaces/card.interface';
+import { CardDisplayService } from '../../services/card-display.service';
 
 @Component({
   selector: 'app-card',
@@ -20,9 +21,15 @@ export class CardComponent implements OnInit, OnDestroy {
   modalImageFullyDisplayed = false;
   modalImageSrc = '';
   private useFallback = false;
+  private aiImageFailed = false;
   private observer?: IntersectionObserver;
 
-  constructor(private elementRef: ElementRef) {}
+  constructor(private elementRef: ElementRef, readonly cardDisplay: CardDisplayService) {
+    effect(() => {
+      const _ = this.cardDisplay.showAiImages();
+      this.aiImageFailed = false;
+    });
+  }
 
   ngOnInit() {
     this.setupIntersectionObserver();
@@ -105,9 +112,13 @@ export class CardComponent implements OnInit, OnDestroy {
   }
 
   onThumbnailError(event: any) {
-    // Si la thumbnail échoue, utiliser l'image originale
-    this.useFallback = true;
-    event.target.src = this.card.image;
+    if (this.cardDisplay.showAiImages() && !this.aiImageFailed) {
+      this.aiImageFailed = true;
+      event.target.src = this.card.image;
+    } else {
+      this.useFallback = true;
+      event.target.src = this.card.image;
+    }
   }
 
   onModalImageLoad() {
@@ -200,18 +211,20 @@ export class CardComponent implements OnInit, OnDestroy {
   }
 
   getSmallImageUrl(): string {
-    // Utiliser les thumbnails WebP pour les cartes de la liste, fallback vers l'originale
+    if (this.cardDisplay.showAiImages() && !this.aiImageFailed) {
+      return this.cardDisplay.getAiImageUrl(this.card);
+    }
     return this.useFallback ? this.card.image : this.generateThumbnailUrl(this.card.image);
   }
 
   getFullImageUrl(): string {
-    // Retourner l'image en taille originale pour le modal
+    if (this.cardDisplay.showAiImages() && !this.aiImageFailed) {
+      return this.cardDisplay.getAiImageUrl(this.card);
+    }
     return this.card.image;
   }
 
   private generateThumbnailUrl(originalUrl: string): string {
-    // Comme il n'y a pas de dossier thumbnails, utiliser directement l'image originale
-    // Ceci évite les erreurs de chargement et les images noires
     return originalUrl;
   }
 

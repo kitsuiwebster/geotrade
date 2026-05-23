@@ -1,4 +1,4 @@
-import { Component, OnInit, HostListener, AfterViewInit, ElementRef } from '@angular/core';
+import { Component, OnInit, HostListener, AfterViewInit, ElementRef, effect } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Router, ActivatedRoute, RouterModule } from '@angular/router';
@@ -9,6 +9,7 @@ import html2canvas from 'html2canvas';
 import JSZip from 'jszip';
 import { Card } from '../../interfaces/card.interface';
 import { allCardsData } from '../../data';
+import { CardDisplayService } from '../../services/card-display.service';
 
 @Component({
   selector: 'app-all-cards',
@@ -78,10 +79,18 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     { value: 'Antarctica', label: 'Antarctica', checked: false }
   ];
 
+  private baseFilteredCards: Card[] = [];
+
   constructor(
     private router: Router,
-    private activatedRoute: ActivatedRoute
-  ) {}
+    private activatedRoute: ActivatedRoute,
+    readonly cardDisplay: CardDisplayService
+  ) {
+    effect(() => {
+      const _ = this.cardDisplay.showAiImages();
+      this.applyAiFilter();
+    });
+  }
 
   ngOnInit() {
     // Vérifier si le Real Mode est déjà actif
@@ -316,8 +325,17 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
       });
     }
     
-    this.shuffledCards = this.shuffleArray(filtered);
-    this.loadInitialCards(); // Recharger l'affichage avec les nouvelles cartes filtrées
+    this.baseFilteredCards = this.shuffleArray(filtered);
+    this.applyAiFilter();
+  }
+
+  private applyAiFilter() {
+    if (this.cardDisplay.showAiImages()) {
+      this.shuffledCards = this.baseFilteredCards.filter(card => this.cardDisplay.hasAiImage(card));
+    } else {
+      this.shuffledCards = this.baseFilteredCards;
+    }
+    this.loadInitialCards();
   }
 
   private matchesSearch(card: Card, searchTerm: string): boolean {

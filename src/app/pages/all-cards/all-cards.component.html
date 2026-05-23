@@ -12,6 +12,12 @@
       <button class='download-btn' (click)="downloadAllCards()" [disabled]="isLoading">
         <span class="btn-text">Download</span>
       </button>
+      <button class='toggle-mode-btn' (click)="cardDisplay.toggleAiImages()" [class.active]="cardDisplay.showAiImages()">
+        <span class="btn-text">{{ cardDisplay.showAiImages() ? 'AI Images' : 'Photos' }}</span>
+      </button>
+      <button class='toggle-mode-btn' (click)="cardDisplay.toggleBorders()" [class.active]="cardDisplay.showBorders()">
+        <span class="btn-text">{{ cardDisplay.showBorders() ? 'Borders ON' : 'Borders OFF' }}</span>
+      </button>
       <button class='toggle-mode-btn' (click)="toggleDisplayMode()" [class.active]="isRealMode">
         <span class="btn-text">{{ isRealMode ? 'Real Mode' : 'Web Mode' }}</span>
       </button>

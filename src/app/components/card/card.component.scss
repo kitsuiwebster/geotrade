@@ -878,7 +878,8 @@
   100% { transform: rotate(360deg); }
 }
 
-::ng-deep body.export-mode .card {
+::ng-deep body.export-mode .card,
+::ng-deep body.preview-borders .card {
   &[data-type="Mountain"] { border: 6px solid #FFFFFF !important; }
   &[data-type="Lake"] { border: 6px solid #4169E1 !important; }
   &[data-type="City"] { border: 6px solid #FFD700 !important; }

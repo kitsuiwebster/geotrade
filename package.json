@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "batch:setup": "cd img2img && python -m venv .venv && .venv\\Scripts\\pip install -r requirements.txt",
+    "batch": "powershell -ExecutionPolicy Bypass -File img2img\\batch.ps1"
   },
   "private": true,
   "dependencies": {

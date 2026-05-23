@@ -110,6 +110,9 @@
 
     .filter-btn,
     .toggle-mode-btn {
+      min-width: 120px;
+      justify-content: center;
+      white-space: nowrap;
       background: rgba(232, 201, 145, 0.05);
       color: #d4b98a;
       border: 1px solid rgba(232, 201, 145, 0.18);
